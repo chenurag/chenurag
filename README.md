@@ -320,7 +320,7 @@ Cybersecurity and technology content focused on security, Linux, AI, and experim
 
 <br><br>
 
-<img src="https://raw.githubusercontent.com/Chenurag/Chenurag/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake">
+<img src="https://raw.githubusercontent.com/chenurag/chenurag/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake">
 
 <br><br>
 
@@ -328,7 +328,7 @@ Cybersecurity and technology content focused on security, Linux, AI, and experim
 
 <br><br>
 
-<a href="https://github.com/Chenurag">
+<a href="https://github.com/chenurag">
 <img src="https://img.shields.io/badge/🐍_VIEW_GITHUB_ACTIVITY-050505?style=for-the-badge&logo=github&logoColor=00FF9D">
 </a>
 
@@ -338,21 +338,21 @@ Cybersecurity and technology content focused on security, Linux, AI, and experim
 
 📈 GITHUB COMMAND CENTER
 
-<div align="center"><a href="https://github.com/Chenura?tab=repositories">
+<div align="center"><a href="https://github.com/chenurag?tab=repositories">
 <img src="https://img.shields.io/badge/▣_REPOSITORIES-050505?style=for-the-badge&logo=github&logoColor=00FF9D">
-</a><a href="https://github.com/Chenura?tab=projects">
+</a><a href="https://github.com/chenurag?tab=projects">
 <img src="https://img.shields.io/badge/◆_PROJECTS-050505?style=for-the-badge&logo=github&logoColor=00FFFF">
-</a><a href="https://github.com/Chenura?tab=stars">
+</a><a href="https://github.com/chenurag?tab=stars">
 <img src="https://img.shields.io/badge/★_STARRED-050505?style=for-the-badge&logo=github&logoColor=FFD700">
 </a><br><br>
 
-<img src="https://github-readme-stats.vercel.app/api?username=Chenura&show_icons=true&theme=chartreuse-dark&hide_border=true&count_private=true" width="48%" alt="GitHub Stats"><img src="https://github-readme-streak-stats.herokuapp.com/?user=Chenura&theme=dark&hide_border=true" width="48%" alt="GitHub Streak"><br><br>
+<img src="https://github-readme-stats.vercel.app/api?username=chenurag&show_icons=true&theme=chartreuse-dark&hide_border=true&count_private=true" width="48%" alt="GitHub Stats"><img src="https://github-readme-streak-stats.herokuapp.com/?user=chenurag&theme=dark&hide_border=true" width="48%" alt="GitHub Streak"><br><br>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Chenura&layout=compact&theme=chartreuse-dark&hide_border=true" width="42%" alt="Top Languages"></div>---
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=chenurag&layout=compact&theme=chartreuse-dark&hide_border=true" width="42%" alt="Top Languages"></div>---
 
 🏆 ACHIEVEMENT CORE
 
-<div align="center"><img src="https://github-profile-trophy.vercel.app/?username=Chenura&theme=matrix&no-frame=true&no-bg=true&margin-w=10&row=2" alt="GitHub Trophies"></div>---
+<div align="center"><img src="https://github-profile-trophy.vercel.app/?username=chenurag&theme=matrix&no-frame=true&no-bg=true&margin-w=10&row=2" alt="GitHub Trophies"></div>---
 
 👽 ALIEN LEVEL SYSTEM
 
