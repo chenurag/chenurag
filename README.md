@@ -453,7 +453,7 @@ STATUS: ONLINE 👽
 <img src="https://img.shields.io/badge/◉_GITHUB-EXPLORE_MY_CODE-050505?style=for-the-badge&logo=github&logoColor=00FF9D" alt="GitHub">
 </a><a href="https://www.linkedin.com/">
 <img src="https://img.shields.io/badge/◆_LINKEDIN-CONNECT_WITH_ME-050505?style=for-the-badge&logo=linkedin&logoColor=00FFFF" alt="LinkedIn">
-</a><a href="https://www.youtube.com/@CyberTubeLK">
+</a><a href="https://www.youtube.com/@sbchenu">
 <img src="https://img.shields.io/badge/▶_SHADOWBEAST-WATCH_CHANNEL-050505?style=for-the-badge&logo=youtube&logoColor=FF003C" alt="ShadowBeast">
 </a><a href="https://chenura.github.io/">
 <img src="https://img.shields.io/badge/◈_PORTFOLIO-VISIT_WEBSITE-050505?style=for-the-badge&logo=googlechrome&logoColor=00FF9D" alt="Portfolio">
