@@ -348,11 +348,31 @@ Cybersecurity and technology content focused on security, Linux, AI, and experim
 
 <img src="https://github-readme-stats.vercel.app/api?username=chenurag&show_icons=true&theme=chartreuse-dark&hide_border=true&count_private=true" width="48%" alt="GitHub Stats"><img src="https://github-readme-streak-stats.herokuapp.com/?user=chenurag&theme=dark&hide_border=true" width="48%" alt="GitHub Streak"><br><br>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=chenurag&layout=compact&theme=chartreuse-dark&hide_border=true" width="42%" alt="Top Languages"></div>---
+## 📊 GitHub Stats
 
-🏆 ACHIEVEMENT CORE
+<div align="center">
 
-<div align="center"><img src="https://github-profile-trophy.vercel.app/?username=chenurag&theme=matrix&no-frame=true&no-bg=true&margin-w=10&row=2" alt="GitHub Trophies"></div>---
+<img src="https://github-readme-stats.shion.dev/api?username=chenurag&theme=chartreuse-dark&hide_border=false&include_all_commits=true&count_private=true&show_icons=true&rank_icon=github&border_radius=10&border_color=00ff41&title_color=00ff41&icon_color=39ff14&text_color=ccffcc&bg_color=000000" alt="GitHub Stats" width="49%"/>
+<img src="https://streak-stats.demolab.com/?user=chenurag&theme=dark&hide_border=false&border_radius=10&border=00ff41&ring=00ff41&fire=39ff14&currStreakLabel=00ff41&background=000000&stroke=00ff41&sideLabels=00cc33&dates=009922&currStreakNum=ffffff&sideNums=ffffff" alt="GitHub Streak" width="49%"/>
+
+<br/><br/>
+
+<img src="https://github-readme-stats.shion.dev/api/top-langs/?username=chenurag&theme=chartreuse-dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact&langs_count=12&border_radius=10&border_color=00ff41&title_color=00ff41&text_color=ccffcc&bg_color=000000" alt="Top Languages" width="40%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=chenurag&theme=react-dark&hide_border=false&area=true&area_color=00ff41&color=00ff41&line=39ff14&point=ffffff&bg_color=000000&border_color=00ff41&custom_title=Contribution+Activity&radius=6" alt="Activity Graph" width="58%"/>
+
+</div>
+
+---
+
+## 🏆 Trophies
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=chenurag&theme=matrix&no-frame=false&no-bg=false&margin-w=6&column=7&title=Stars,Followers,Commits,PR,Issues,Repos,MultipleLang"/>
+
+</div>
+
+
 
 👽 ALIEN LEVEL SYSTEM
 
