@@ -346,7 +346,6 @@ Cybersecurity and technology content focused on security, Linux, AI, and experim
 <img src="https://img.shields.io/badge/★_STARRED-050505?style=for-the-badge&logo=github&logoColor=FFD700">
 </a><br><br>
 
-<img src="https://github-readme-stats.vercel.app/api?username=chenurag&show_icons=true&theme=chartreuse-dark&hide_border=true&count_private=true" width="48%" alt="GitHub Stats"><img src="https://github-readme-streak-stats.herokuapp.com/?user=chenurag&theme=dark&hide_border=true" width="48%" alt="GitHub Streak"><br><br>
 
 ## 📊 GitHub Stats
 
