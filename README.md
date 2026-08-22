@@ -312,11 +312,29 @@ Cybersecurity and technology content focused on security, Linux, AI, and experim
 
 🐍 CONTRIBUTION SNAKE
 
-<div align="center"><img src="https://raw.githubusercontent.com/Chenura/Chenura/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake"><br><br>
+# 🐍 **CONTRIBUTION SNAKE**
 
-<a href="https://github.com/Chenura">
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=24&duration=1200&pause=300&color=00FF9D&center=true&vCenter=true&width=850&height=60&lines=CONTRIBUTION+SYSTEM+ONLINE;SNAKE+PROTOCOL+ACTIVATED;TRACKING+GITHUB+ACTIVITY...;ALIEN+CONTRIBUTIONS+DETECTED" alt="Snake Protocol">
+
+<br><br>
+
+<img src="https://raw.githubusercontent.com/Chenurag/Chenurag/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake">
+
+<br><br>
+
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=18&duration=1000&pause=300&color=00FFFF&center=true&vCenter=true&width=700&height=45&lines=CONSUMING+CONTRIBUTIONS...;SYSTEM+ACTIVITY+DETECTED;SHADOW+NETWORK+SYNCED" alt="Snake Status">
+
+<br><br>
+
+<a href="https://github.com/Chenurag">
 <img src="https://img.shields.io/badge/🐍_VIEW_GITHUB_ACTIVITY-050505?style=for-the-badge&logo=github&logoColor=00FF9D">
-</a></div>---
+</a>
+
+</div>
+
+---
 
 📈 GITHUB COMMAND CENTER
 
