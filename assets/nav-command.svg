@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 100" width="100%" height="auto">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#040412"/><stop offset="50%" stop-color="#06061c"/><stop offset="100%" stop-color="#040412"/>
+    </linearGradient>
+    <filter id="g" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      @keyframes blink {0%,100%{opacity:1}50%{opacity:0}}
+      @keyframes pulse {0%,100%{opacity:0.6}50%{opacity:1}}
+      @keyframes breathe {0%,100%{opacity:0.3}50%{opacity:0.7}}
+      @keyframes scan {0%{transform:translateX(-1200px)}100%{transform:translateX(1200px)}}
+      @keyframes wave {0%,100%{transform:translateY(0)}25%{transform:translateY(-4px)}75%{transform:translateY(2px)}}
+      @keyframes glow-pulse {0%,100%{filter:drop-shadow(0 0 3px #00ff88)}50%{filter:drop-shadow(0 0 12px #00ff88)}}
+      
+      .blk{animation:blink 0.8s step-end infinite}
+      .p1{animation:pulse 2s ease-in-out infinite}
+      .br{animation:breathe 3s ease-in-out infinite}
+      .sc{animation:scan 4s linear infinite}
+      .w1{animation:wave 2s ease-in-out infinite}
+      .w2{animation:wave 2.5s ease-in-out 0.3s infinite}
+      .w3{animation:wave 1.8s ease-in-out 0.6s infinite}
+      .gp{animation:glow-pulse 2s ease-in-out infinite}
+    </style>
+  </defs>
+
+  <rect width="1200" height="100" fill="url(#bg)" rx="6"/>
+  <rect x="1" y="1" width="1198" height="98" rx="6" fill="none" stroke="#00ff88" stroke-width="0.5" opacity="0.2"/>
+  
+  <!-- Scan line -->
+  <rect width="1200" height="1" fill="#00ff88" opacity="0.08" class="sc"/>
+
+  <!-- Navigation items as interactive-style panels -->
+  <g transform="translate(8, 12)">
+    <!-- Profile -->
+    <rect x="0" y="0" width="150" height="28" rx="4" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.8"/>
+    <circle cx="15" cy="14" r="3" fill="#00ff88" class="gp" filter="url(#g)"/>
+    <text x="24" y="18" font-family="monospace" font-size="9" fill="#00ff88" font-weight="bold">SYS::PROFILE</text>
+    
+    <!-- Tech -->
+    <rect x="158" y="0" width="145" height="28" rx="4" fill="#0a0a1e" stroke="#00ffff" stroke-width="0.8"/>
+    <circle cx="173" cy="14" r="3" fill="#00ffff" class="p1"/>
+    <text x="182" y="18" font-family="monospace" font-size="9" fill="#00ffff" font-weight="bold">SYS::TECH_CORE</text>
+    
+    <!-- Arsenal -->
+    <rect x="311" y="0" width="145" height="28" rx="4" fill="#0a0a1e" stroke="#ff003c" stroke-width="0.8"/>
+    <circle cx="326" cy="14" r="3" fill="#ff003c" class="gp" filter="url(#g)"/>
+    <text x="335" y="18" font-family="monospace" font-size="9" fill="#ff003c" font-weight="bold">SYS::ARSENAL</text>
+    
+    <!-- Lab -->
+    <rect x="464" y="0" width="130" height="28" rx="4" fill="#0a0a1e" stroke="#9d00ff" stroke-width="0.8"/>
+    <circle cx="479" cy="14" r="3" fill="#9d00ff" class="p1"/>
+    <text x="488" y="18" font-family="monospace" font-size="9" fill="#9d00ff" font-weight="bold">SYS::LAB</text>
+    
+    <!-- AI -->
+    <rect x="602" y="0" width="130" height="28" rx="4" fill="#0a0a1e" stroke="#00ffff" stroke-width="0.8"/>
+    <text x="617" y="18" font-family="monospace" font-size="9" fill="#00ffff" font-weight="bold">SYS::AI_CORE</text>
+    
+    <!-- Projects -->
+    <rect x="740" y="0" width="140" height="28" rx="4" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.8"/>
+    <text x="755" y="18" font-family="monospace" font-size="9" fill="#00ff88" font-weight="bold">SYS::PROJECTS</text>
+    
+    <!-- GitHub -->
+    <rect x="888" y="0" width="140" height="28" rx="4" fill="#0a0a1e" stroke="#00ffff" stroke-width="0.8"/>
+    <text x="903" y="18" font-family="monospace" font-size="9" fill="#00ffff" font-weight="bold">SYS::ANALYTICS</text>
+    
+    <!-- Active cursor -->
+    <rect x="1036" y="0" width="140" height="28" rx="4" fill="#0a1a0a" stroke="#00ff88" stroke-width="1.2"/>
+    <circle cx="1051" cy="14" r="4" fill="#00ff88" class="gp" filter="url(#g)"/>
+    <text x="1061" y="18" font-family="monospace" font-size="9" fill="#00ff88" font-weight="bold" class="blk">▊ ACTIVE</text>
+  </g>
+
+  <!-- Bottom indicator line -->
+  <line x1="8" y1="48" x2="1148" y2="48" stroke="#00ff88" stroke-width="0.3" opacity="0.1"/>
+  
+  <!-- Stats row -->
+  <g transform="translate(8, 54)">
+    <text x="0" y="14" font-family="monospace" font-size="8" fill="#555">
+      <tspan fill="#888">ALIEN VISITORS:</tspan>
+      <tspan fill="#00ff88" class="p1"> 0047</tspan>
+    </text>
+    <text x="220" y="14" font-family="monospace" font-size="8" fill="#555">
+      <tspan fill="#888">FOLLOWERS:</tspan>
+      <tspan fill="#00ffff" class="br"> 0000</tspan>
+    </text>
+    <text x="440" y="14" font-family="monospace" font-size="8" fill="#555">
+      <tspan fill="#888">REPOS:</tspan>
+      <tspan fill="#00ff88"> 0004</tspan>
+    </text>
+    <text x="660" y="14" font-family="monospace" font-size="8" fill="#555">
+      <tspan fill="#888">COMMITS:</tspan>
+      <tspan fill="#00ffff" class="p1"> 0034</tspan>
+    </text>
+    <text x="880" y="14" font-family="monospace" font-size="8" fill="#555">
+      <tspan fill="#888">STATUS:</tspan>
+      <tspan fill="#00ff88" class="gp"> ● ONLINE</tspan>
+    </text>
+  </g>
+
+  <!-- Cursor blink at bottom right -->
+  <text x="1170" y="85" font-family="monospace" font-size="8" fill="#00ff88" opacity="0.3" class="blk">_</text>
+</svg>

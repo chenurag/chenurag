@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" height="auto">
+  <defs>
+    <filter id="g"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <linearGradient id="pg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#00ff88"/><stop offset="100%" stop-color="#00ddaa"/></linearGradient>
+    <linearGradient id="redg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#ff003c"/><stop offset="100%" stop-color="#cc0022"/></linearGradient>
+    <style>
+      @keyframes p1{0%,100%{opacity:0.4;filter:drop-shadow(0 0 3px #00ff88)}50%{opacity:1;filter:drop-shadow(0 0 14px #00ff88)}}
+      @keyframes p2{0%,100%{opacity:0.3}50%{opacity:0.9}}
+      @keyframes p3{0%,100%{filter:drop-shadow(0 0 4px #00ffff)}50%{filter:drop-shadow(0 0 20px #00ffff)}}
+      @keyframes p4{0%,100%{opacity:0.2;r:3}50%{opacity:0.8;r:5}}
+      @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
+      @keyframes breathe{0%,100%{opacity:0.5}50%{opacity:0.2}}
+      @keyframes scan{0%{transform:translateY(-320px)}100%{transform:translateY(320px)}}
+      @keyframes fill-w{0%{width:0}100%{width:100%}}
+      @keyframes flick{0%,100%{opacity:0.98}1%{opacity:0.1}3%{opacity:0.98}7%{opacity:0.4}10%{opacity:0.98}}
+      
+      .p1{animation:p1 2.5s ease-in-out infinite}
+      .p2{animation:p2 3s ease-in-out infinite}
+      .p3{animation:p3 2s ease-in-out infinite}
+      .p4{animation:p4 2s ease-out infinite;transform-origin:0 0}
+      .blk{animation:blink 0.8s step-end infinite}
+      .br{animation:breathe 4s ease-in-out infinite}
+      .sc{animation:scan 5s linear infinite}
+      .fk{animation:flick 6s infinite}
+      .bar1{animation:fill-w 1.5s ease-out 0.2s both}
+      .bar2{animation:fill-w 1.5s ease-out 0.4s both}
+      .bar3{animation:fill-w 1.5s ease-out 0.6s both}
+      .bar4{animation:fill-w 1.5s ease-out 0.8s both}
+      .bar5{animation:fill-w 1.5s ease-out 1.0s both}
+    </style>
+  </defs>
+
+  <rect width="1200" height="320" fill="#03030e" rx="8"/>
+  <rect x="1" y="1" width="1198" height="318" rx="8" fill="none" stroke="#00ff88" stroke-width="0.5" opacity="0.15"/>
+  <rect class="sc" width="1200" height="1" fill="#00ff88" opacity="0.06"/>
+  <rect class="fk" width="1200" height="320" fill="#000" opacity="0.015" pointer-events="none"/>
+
+  <text x="600" y="28" font-family="monospace" font-size="11" fill="#00ff88" text-anchor="middle" letter-spacing="2" opacity="0.7">📡 ACTIVE SENSOR FEED — REAL-TIME TELEMETRY</text>
+  
+  <!-- Column headers -->
+  <g transform="translate(20, 45)" font-family="monospace" font-size="8" fill="#666">
+    <text x="0" y="0">SENSOR</text>
+    <text x="180" y="0">SIGNAL PROCESSING</text>
+    <text x="580" y="0">STATUS</text>
+    <text x="750" y="0">THREAT LVL</text>
+    <text x="920" y="0">UPTIME</text>
+  </g>
+  <line x1="20" y1="52" x2="1170" y2="52" stroke="#00ff88" stroke-width="0.3" opacity="0.1"/>
+
+  <!-- Row template function -->
+  <!-- Row 1: Cybersecurity -->
+  <g transform="translate(20, 65)">
+    <line x1="0" y1="32" x2="1160" y2="32" stroke="#00ff88" stroke-width="0.15" opacity="0.05"/>
+    <text x="0" y="16" font-family="monospace" font-size="11">🔐 <tspan fill="#00ff88" font-weight="bold">Cybersecurity</tspan></text>
+    <text x="180" y="16" font-family="monospace" font-size="8" fill="#888">SOC · Threat Analysis · Ethical Hacking · Forensics</text>
+    <rect x="580" y="6" width="70" height="16" rx="3" fill="#0a1a0a" stroke="#00ff88" stroke-width="0.5"/>
+    <circle cx="591" cy="14" r="3" fill="#00ff88" class="p1"/>
+    <text x="600" y="18" font-family="monospace" font-size="8" fill="#00ff88" class="p1">ONLINE</text>
+    <text x="750" y="16" font-family="monospace" font-size="8" fill="#00ff88">LOW</text>
+    <rect x="920" y="6" width="40" height="6" rx="2" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.3"/>
+    <rect x="920" y="6" width="36" height="6" rx="2" fill="url(#pg)" class="bar1"/>
+    <text x="970" y="16" font-family="monospace" font-size="8" fill="#555">97d</text>
+  </g>
+
+  <!-- Row 2: Linux -->
+  <g transform="translate(20, 102)">
+    <line x1="0" y1="32" x2="1160" y2="32" stroke="#00ff88" stroke-width="0.15" opacity="0.05"/>
+    <text x="0" y="16" font-family="monospace" font-size="11">🐧 <tspan fill="#00ff88" font-weight="bold">Linux</tspan></text>
+    <text x="180" y="16" font-family="monospace" font-size="8" fill="#888">Kali · Ubuntu · Arch · Debian · Proxmox · Hardening</text>
+    <rect x="580" y="6" width="70" height="16" rx="3" fill="#0a1a0a" stroke="#00ff88" stroke-width="0.5"/>
+    <circle cx="591" cy="14" r="3" fill="#00ff88" class="p2"/>
+    <text x="600" y="18" font-family="monospace" font-size="8" fill="#00ff88">ONLINE</text>
+    <text x="750" y="16" font-family="monospace" font-size="8" fill="#00ff88">LOW</text>
+    <rect x="920" y="6" width="40" height="6" rx="2" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.3"/>
+    <rect x="920" y="6" width="38" height="6" rx="2" fill="url(#pg)" class="bar2"/>
+    <text x="970" y="16" font-family="monospace" font-size="8" fill="#555">97d</text>
+  </g>
+
+  <!-- Row 3: Networking -->
+  <g transform="translate(20, 139)">
+    <text x="0" y="16" font-family="monospace" font-size="11">🌐 <tspan fill="#00ffff" font-weight="bold">Networking</tspan></text>
+    <text x="180" y="16" font-family="monospace" font-size="8" fill="#888">TCP/IP · DNS · Traffic Analysis · IDS/IPS · SDN</text>
+    <rect x="580" y="6" width="70" height="16" rx="3" fill="#0a0a1a" stroke="#00ffff" stroke-width="0.5"/>
+    <circle cx="591" cy="14" r="3" fill="#00ffff" class="p3"/>
+    <text x="600" y="18" font-family="monospace" font-size="8" fill="#00ffff" class="p3">ONLINE</text>
+    <text x="750" y="16" font-family="monospace" font-size="8" fill="#00ff88">LOW</text>
+    <rect x="920" y="6" width="40" height="6" rx="2" fill="#0a0a1e" stroke="#00ffff" stroke-width="0.3"/>
+    <rect x="920" y="6" width="36" height="6" rx="2" fill="#00ffff" class="bar3"/>
+    <text x="970" y="16" font-family="monospace" font-size="8" fill="#555">97d</text>
+  </g>
+
+  <!-- Row 4: Python -->
+  <g transform="translate(20, 176)">
+    <text x="0" y="16" font-family="monospace" font-size="11">🐍 <tspan fill="#00ffff" font-weight="bold">Python</tspan></text>
+    <text x="180" y="16" font-family="monospace" font-size="8" fill="#888">Security Automation · Tool Development · AI Integration</text>
+    <rect x="580" y="6" width="80" height="16" rx="3" fill="#0a0a1a" stroke="#00ffff" stroke-width="0.5"/>
+    <circle cx="591" cy="14" r="3" fill="#00ffff" class="p2"/>
+    <text x="600" y="18" font-family="monospace" font-size="8" fill="#00ffff" class="br">EXPANDING</text>
+    <text x="750" y="16" font-family="monospace" font-size="8" fill="#555">—</text>
+    <rect x="920" y="6" width="40" height="6" rx="2" fill="#0a0a1e" stroke="#00ffff" stroke-width="0.3"/>
+    <rect x="920" y="6" width="28" height="6" rx="2" fill="#00ffff" class="bar4"/>
+    <text x="970" y="16" font-family="monospace" font-size="8" fill="#555">70d</text>
+  </g>
+
+  <!-- Row 5: AI -->
+  <g transform="translate(20, 213)">
+    <text x="0" y="16" font-family="monospace" font-size="11">🤖 <tspan fill="#9d00ff" font-weight="bold">AI/ML</tspan></text>
+    <text x="180" y="16" font-family="monospace" font-size="8" fill="#888">Ollama · Whisper · LangChain · Local LLMs</text>
+    <rect x="580" y="6" width="80" height="16" rx="3" fill="#0a0a1a" stroke="#9d00ff" stroke-width="0.5"/>
+    <circle cx="591" cy="14" r="3" fill="#9d00ff" class="p2"/>
+    <text x="600" y="18" font-family="monospace" font-size="8" fill="#9d00ff" class="br">RESEARCH</text>
+    <text x="750" y="16" font-family="monospace" font-size="8" fill="#555">—</text>
+    <rect x="920" y="6" width="40" height="6" rx="2" fill="#0a0a1e" stroke="#9d00ff" stroke-width="0.3"/>
+    <rect x="920" y="6" width="22" height="6" rx="2" fill="#9d00ff" class="bar5"/>
+    <text x="970" y="16" font-family="monospace" font-size="8" fill="#555">45d</text>
+  </g>
+
+  <!-- Row 6: OSINT -->
+  <g transform="translate(20, 250)">
+    <text x="0" y="16" font-family="monospace" font-size="11">🕵️ <tfill="#00ff88" font-weight="bold">OSINT</tspan></text>
+    <text x="180" y="16" font-family="monospace" font-size="8" fill="#888">Recon-ng · Maltego · Shodan · Intel Gathering</text>
+    <rect x="580" y="6" width="80" height="16" rx="3" fill="#0a0a1a" stroke="#00ff88" stroke-width="0.5"/>
+    <circle cx="591" cy="14" r="3" fill="#00ff88" class="p2"/>
+    <text x="600" y="18" font-family="monospace" font-size="8" fill="#00ff88" class="br">EXPANDING</text>
+    <text x="750" y="16" font-family="monospace" font-size="8" fill="#555">—</text>
+    <rect x="920" y="6" width="40" height="6" rx="2" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.3"/>
+    <rect x="920" y="6" width="26" height="6" rx="2" fill="#00ff88" class="bar4"/>
+    <text x="970" y="16" font-family="monospace" font-size="8" fill="#555">60d</text>
+  </g>
+
+  <!-- Row 7: SOC -->
+  <g transform="translate(20, 287)">
+    <text x="0" y="16" font-family="monospace" font-size="11">🛡️ <tspan fill="#ff6600" font-weight="bold">SOC</tspan></text>
+    <text x="180" y="16" font-family="monospace" font-size="8" fill="#888">Wazuh · Splunk · Log Analysis · Incident Response</text>
+    <rect x="580" y="6" width="80" height="16" rx="3" fill="#0a1a0a" stroke="#ff6600" stroke-width="0.5"/>
+    <circle cx="591" cy="14" r="3" fill="#ff6600" class="blk"/>
+    <text x="600" y="18" font-family="monospace" font-size="8" fill="#ff6600">TRAINING</text>
+    <text x="750" y="16" font-family="monospace" font-size="8" fill="#555">—</text>
+    <rect x="920" y="6" width="40" height="6" rx="2" fill="#0a0a1e" stroke="#ff6600" stroke-width="0.3"/>
+    <rect x="920" y="6" width="16" height="6" rx="2" fill="#ff6600" class="bar3"/>
+    <text x="970" y="16" font-family="monospace" font-size="8" fill="#555">30d</text>
+  </g>
+</svg>

@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 160" width="100%" height="auto">
+  <defs>
+    <filter id="g"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      @keyframes p1{0%,100%{opacity:0.5;filter:drop-shadow(0 0 3px)}50%{opacity:1;filter:drop-shadow(0 0 12px)}}
+      @keyframes p2{0%,100%{opacity:0.4}50%{opacity:0.9}}
+      @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
+      @keyframes breathe{0%,100%{opacity:0.4}50%{opacity:0.8}}
+      @keyframes scan{0%{transform:translateX(-1200px)}100%{transform:translateX(1200px)}}
+      @keyframes flick{0%,100%{opacity:0.97}3%{opacity:0.1}5%{opacity:0.97}9%{opacity:0.4}11%{opacity:0.97}}
+      @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+      @keyframes spin{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+      
+      .p1{animation:p1 2s ease-in-out infinite}
+      .p2{animation:p2 3s ease-in-out infinite}
+      .blk{animation:blink 0.7s step-end infinite}
+      .br{animation:breathe 4s ease-in-out infinite}
+      .sc{animation:scan 5s linear infinite}
+      .fk{animation:flick 8s infinite}
+      .fl{animation:float 3s ease-in-out infinite}
+      .sp{animation:spin 6s linear infinite;transform-origin:0 0}
+    </style>
+  </defs>
+
+  <rect width="1200" height="160" fill="#03030e" rx="8"/>
+  <rect x="1" y="1" width="1198" height="158" rx="8" fill="none" stroke="#00ff88" stroke-width="0.5" opacity="0.1"/>
+  <rect class="sc" width="1200" height="1" fill="#00ff88" opacity="0.04"/>
+  <rect class="fk" width="1200" height="160" fill="#000" opacity="0.012" pointer-events="none"/>
+
+  <text x="600" y="22" font-family="monospace" font-size="10" fill="#00ff88" text-anchor="middle" letter-spacing="2" opacity="0.6">🔥 ACTIVE LEARNING VECTOR — CURRENT RESEARCH</text>
+
+  <!-- Learning badges as animated panels -->
+  <g transform="translate(12, 35)">
+    <rect x="0" y="0" width="160" height="38" rx="4" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.8" class="fl"/>
+    <circle cx="12" cy="19" r="4" fill="#00ff88" class="p1" filter="url(#g)"/>
+    <text x="24" y="16" font-family="monospace" font-size="9" fill="#00ff88" font-weight="bold">🐧 ADV Linux</text>
+    <text x="24" y="30" font-family="monospace" font-size="7" fill="#666">Kernel · Hardening</text>
+  </g>
+  <g transform="translate(182, 35)">
+    <rect x="0" y="0" width="160" height="38" rx="4" fill="#0a0a1e" stroke="#00ffff" stroke-width="0.8" class="fl"/>
+    <circle cx="12" cy="19" r="4" fill="#00ffff" class="p2"/>
+    <text x="24" y="16" font-family="monospace" font-size="9" fill="#00ffff" font-weight="bold">🌐 Net Defense</text>
+    <text x="24" y="30" font-family="monospace" font-size="7" fill="#666">IDS/IPS · Firewalls</text>
+  </g>
+  <g transform="translate(352, 35)">
+    <rect x="0" y="0" width="160" height="38" rx="4" fill="#0a0a1e" stroke="#ff003c" stroke-width="0.8" class="fl"/>
+    <circle cx="12" cy="19" r="4" fill="#ff003c" class="p1" filter="url(#g)"/>
+    <text x="24" y="16" font-family="monospace" font-size="9" fill="#ff6666" font-weight="bold">☠️ Eth Hacking</text>
+    <text x="24" y="30" font-family="monospace" font-size="7" fill="#666">CTF · Exploitation</text>
+  </g>
+  <g transform="translate(522, 35)">
+    <rect x="0" y="0" width="160" height="38" rx="4" fill="#0a0a1e" stroke="#9d00ff" stroke-width="0.8" class="fl"/>
+    <circle cx="12" cy="19" r="4" fill="#9d00ff" class="p2"/>
+    <text x="24" y="16" font-family="monospace" font-size="9" fill="#9d00ff" font-weight="bold">🤖 AI Eng.</text>
+    <text x="24" y="30" font-family="monospace" font-size="7" fill="#666">LLM · Automation</text>
+  </g>
+  <g transform="translate(692, 35)">
+    <rect x="0" y="0" width="160" height="38" rx="4" fill="#0a0a1e" stroke="#00ffff" stroke-width="0.8" class="fl"/>
+    <circle cx="12" cy="19" r="4" fill="#00ffff" class="p1" filter="url(#g)"/>
+    <text x="24" y="16" font-family="monospace" font-size="9" fill="#00ffff" font-weight="bold">☁️ Cloud Sec</text>
+    <text x="24" y="30" font-family="monospace" font-size="7" fill="#666">AWS · Docker</text>
+  </g>
+  <g transform="translate(862, 35)">
+    <rect x="0" y="0" width="160" height="38" rx="4" fill="#0a0a1e" stroke="#ff6600" stroke-width="0.8" class="fl"/>
+    <circle cx="12" cy="19" r="4" fill="#ff6600" class="blk"/>
+    <text x="24" y="16" font-family="monospace" font-size="9" fill="#ff6600" font-weight="bold">🔬 Forensics</text>
+    <text x="24" y="30" font-family="monospace" font-size="7" fill="#666">Memory · Disk</text>
+  </g>
+
+  <!-- Learning intensity meter -->
+  <g transform="translate(12, 88)">
+    <text x="0" y="12" font-family="monospace" font-size="8" fill="#555">LEARNING INTENSITY</text>
+    <rect x="0" y="18" width="1166" height="8" rx="4" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.3" opacity="0.5"/>
+    <rect x="0" y="18" width="980" height="8" rx="4" fill="url(#g)">
+      <animate attributeName="width" values="980;920;1010;960;980" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;0.6;0.9;0.7;0.8" dur="3s" repeatCount="indefinite"/>
+    </rect>
+    <text x="1176" y="25" font-family="monospace" font-size="8" fill="#00ff88" class="br">
+      <tspan><animate attributeName="values" values="84;79;87;82;84" dur="3s" repeatCount="indefinite"/>84</tspan>%
+    </text>
+  </g>
+
+  <!-- Current focus area -->
+  <g transform="translate(12, 105)">
+    <rect x="0" y="0" width="1166" height="44" rx="4" fill="#060618" stroke="#00ff88" stroke-width="0.4" opacity="0.25"/>
+    <text x="15" y="16" font-family="monospace" font-size="8" fill="#555">CURRENT FOCUS</text>
+    <text x="15" y="33" font-family="monospace" font-size="9" fill="#00ff88" class="p1">
+      🎯 Penetration Testing Methodology — Mastering the PTES Framework
+    </text>
+    <text x="1010" y="16" font-family="monospace" font-size="8" fill="#555">ETA: <tspan fill="#00ffff">4 weeks</tspan></text>
+    <text x="1010" y="33" font-family="monospace" font-size="8" fill="#555">PRIORITY: <tspan fill="#ff003c">HIGH</tspan></text>
+  </g>
+</svg>
