@@ -411,8 +411,8 @@
 
 [![GitHub Snake](https://raw.githubusercontent.com/chenurag/chenurag/output/github-contribution-grid-snake-dark.svg)](https://github.com/chenurag)
 
-[![GitHub Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=chenurag&show_icons=true&count_private=true&hide_border=true&bg_color=FFFFFF&title_color=00ff88&icon_color=00ffff&text_color=aaa&include_all_commits=false)](https://github.com/chenurag)
-[![GitHub Streak](https://streak-stats.demolab.com/?user=chenurag&hide_border=true&background=FFFFFF&stroke=00ff88&ring=00ff88&fire=ff003c&currStreakLabel=00ffff&sideNums=888&sideLabels=555&dates=555)](https://git.io/streak-stats)
+[![GitHub Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=chenurag&show_icons=true&count_private=true&hide_border=true&bg_color=020020c&title_color=00ff88&icon_color=00ffff&text_color=aaa&include_all_commits=false)](https://github.com/chenurag)
+[![GitHub Streak](https://streak-stats.demolab.com/?user=chenurag&hide_border=true&background=020020c&stroke=00ff88&ring=00ff88&fire=ff003c&currStreakLabel=00ffff&sideNums=888&sideLabels=555&dates=555)](https://git.io/streak-stats)
 
 [![Top Languages](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=chenurag&layout=compact&hide_border=true&bg_color=02020c&title_color=00ff88&text_color=aaa)](https://github.com/chenurag)
 [![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=chenurag&bg_color=02020c&color=00ff88&line=00ffff&point=00ff88&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
