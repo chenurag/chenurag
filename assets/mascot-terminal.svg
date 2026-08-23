@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" width="100%" height="auto">
+  <defs><filter id="g"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      @keyframes typeWriter1{0%{width:0}100%{width:100%}}
+      @keyframes typeWriter2{0%{width:0}100%{width:75%}}
+      @keyframes cursor{0%,100%{opacity:1}50%{opacity:0}}
+      @keyframes pulse{0%,100%{filter:drop-shadow(0 0 4px)}50%{filter:drop-shadow(0 0 12px)}}
+      @keyframes breathe{0%,100%{opacity:0.3}50%{opacity:0.7}}
+      @keyframes scan{0%{transform:translateX(-1200px)}100%{transform:translateX(1200px)}}
+      @keyframes flick{0%,100%{opacity:0.96}2%{opacity:0.2}4%{opacity:0.96}}
+      @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+      .tw{overflow:hidden;white-space:nowrap;animation:typeWriter1 2.5s steps(40) 0.3s both}
+      .tw2{overflow:hidden;white-space:nowrap;animation:typeWriter2 2s steps(30) 1.5s both}
+      .blk{animation:cursor 0.8s step-end infinite}.p1{animation:pulse 2s ease-in-out infinite}
+      .br{animation:breathe 4s ease-in-out infinite}.sc{animation:scan 4s linear infinite}
+      .fk{animation:flick 7s infinite}.fl{animation:float 3s ease-in-out infinite}
+    </style>
+  </defs>
+  <rect width="1200" height="200" fill="#02020c" rx="8"/>
+  <rect x="1" y="1" width="1198" height="198" rx="8" fill="none" stroke="#00ff88" stroke-width="0.5" opacity="0.12"/>
+  <rect class="sc" width="1200" height="1" fill="#00ff88" opacity="0.04"/>
+  <rect class="fk" width="1200" height="200" fill="#000" opacity="0.01" pointer-events="none"/>
+  <text x="600" y="22" font-family="monospace" font-size="10" fill="#00ff88" text-anchor="middle" letter-spacing="2" opacity="0.6">👾 SHADOWBEAST MATRIX — CYCLING INTERFACE</text>
+
+  <!-- Mascot / Avatar -->
+  <g transform="translate(100, 105)" class="fl">
+    <circle cx="0" cy="0" r="45" fill="#0a1a0a" stroke="#00ff88" stroke-width="2" class="p1" filter="url(#g)"/>
+    <text x="0" y="10" font-family="monospace" font-size="40" fill="#00ff88" text-anchor="middle">👽</text>
+    <circle cx="45" cy="-35" r="4" fill="none" stroke="#00ff88" class="p1" filter="url(#g)"/>
+    <circle cx="45" cy="-35" r="2" fill="#00ff88" class="blk"/>
+  </g>
+
+  <!-- Terminal window -->
+  <g transform="translate(200, 30)">
+    <rect x="0" y="0" width="960" height="155" rx="8" fill="#030312" stroke="#00ff88" stroke-width="0.8" opacity="0.4"/>
+    <rect x="0" y="0" width="960" height="28" rx="8" fill="#04041a"/>
+    <rect x="0" y="22" width="960" height="6" fill="#030312"/>
+    <circle cx="20" cy="14" r="5" fill="#ff003c" opacity="0.6"/>
+    <circle cx="35" cy="14" r="5" fill="#ff9900" opacity="0.6"/>
+    <circle cx="50" cy="14" r="5" fill="#00ff88" opacity="0.6"/>
+    <text x="480" y="18" font-family="monospace" font-size="9" fill="#00ff88" text-anchor="middle" opacity="0.4">shadow@beast:~/SYSTEM$</text>
+
+    <!-- Typewriter lines --><g transform="translate(20, 50)" font-family="monospace">
+      <text x="0" y="0" font-size="9" fill="#00ffff">shadow@beast <tspan fill="#555">:~$</tspan> <tspan fill="#fff">./status --live</tspan></text>
+      <text x="0" y="22" font-size="9" fill="#00ff88">  ✓ System online · 47d uptime</text>
+      <text x="0" y="40" font-size="9" fill="#00ff88">  ✓ AI core operational</text>
+      <text x="0" y="58" font-size="9" fill="#00ff88">  ✓ Network secured · 0 threats</text>
+      <text x="0" y="76" font-size="9" fill="#00ff88">  ✓ 49 weapons in arsenal</text>
+      <text x="0" y="94" font-size="9" fill="#00ff88">  ✓ Shadow network synchronized</text>
+      <text x="0" y="118" font-size="9" fill="#00ffff">shadow@beast <tspan fill="#555">:~$</tspan> <tspan fill="#fff" class="tw">./shadowbeast --max-anim --all-svgs</tspan></text>
+      <text x="350" y="118" font-size="9" fill="#00ff88" class="blk">▊</text>
+      <text x="0" y="140" font-size="9" fill="#00ff88" class="tw2">  ✓ 41 animated SVGs loaded · 0 errors</text>
+    </g>
+  </g>
+
+  <!-- Bottom badge -->
+  <text x="600" y="188" font-family="monospace" font-size="8" fill="#555" text-anchor="middle">SHADOWBEAST MATRIX v4.5 — EVOLVING CONTINUOUSLY</text>
+</svg>

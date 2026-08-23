@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" width="100%" height="auto">
+  <defs><filter id="g"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      @keyframes sweep{0%{stroke-dashoffset:628}100%{stroke-dashoffset:var(--s)}}
+      @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
+      @keyframes pulse{0%,100%{filter:drop-shadow(0 0 3px)}50%{filter:drop-shadow(0 0 12px)}}
+      @keyframes breathe{0%,100%{opacity:0.4}50%{opacity:0.8}}
+      @keyframes scan{0%{transform:translateX(-1200px)}100%{transform:translateX(1200px)}}
+      @keyframes flick{0%,100%{opacity:0.96}2%{opacity:0.2}4%{opacity:0.96}}
+      .sw1{--s:440;stroke-dasharray:628;stroke-dashoffset:628;animation:sweep 2s ease-out 0.2s forwards}
+      .sw2{--s:314;stroke-dasharray:628;stroke-dashoffset:628;animation:sweep 2s ease-out 0.4s forwards}
+      .sw3{--s:180;stroke-dasharray:628;stroke-dashoffset:628;animation:sweep 2s ease-out 0.6s forwards}
+      .blk{animation:blink 0.8s step-end infinite}.p1{animation:pulse 2s ease-in-out infinite}
+      .br{animation:breathe 4s ease-in-out infinite}.sc{animation:scan 4s linear infinite}.fk{animation:flick 7s infinite}
+    </style>
+  </defs>
+  <rect width="1200" height="220" fill="#02020c" rx="8"/>
+  <rect x="1" y="1" width="1198" height="218" rx="8" fill="none" stroke="#00ff88" stroke-width="0.5" opacity="0.12"/>
+  <rect class="sc" width="1200" height="1" fill="#00ff88" opacity="0.04"/>
+  <rect class="fk" width="1200" height="220" fill="#000" opacity="0.01" pointer-events="none"/>
+  <text x="600" y="22" font-family="monospace" font-size="10" fill="#00ff88" text-anchor="middle" letter-spacing="2" opacity="0.6">⏰ DAILY CYCLE — 24H OPERATIONS TIMELINE</text>
+
+  <!-- Clock face --><g transform="translate(130, 125)">
+    <circle cx="0" cy="0" r="70" fill="#040416" stroke="#00ff88" stroke-width="1" opacity="0.4"/>
+    <circle cx="0" cy="0" r="58" fill="none" stroke="#00ff88" stroke-width="0.3" opacity="0.15"/>
+    <circle cx="0" cy="0" r="44" fill="none" stroke="#00ff88" stroke-width="0.3" opacity="0.1"/>
+    <circle cx="0" cy="0" r="30" fill="none" stroke="#00ff88" stroke-width="0.3" opacity="0.08"/>
+
+    <!-- Hour markers --><g font-family="monospace" font-size="8" fill="#888">
+      <text x="0" y="-48" text-anchor="middle">00</text><text x="35" y="-20" text-anchor="middle">04</text>
+      <text x="48" y="4" text-anchor="middle">08</text><text x="35" y="28" text-anchor="middle">12</text>
+      <text x="0" y="55" text-anchor="middle">16</text><text x="-35" y="28" text-anchor="middle">20</text>
+    </g>
+
+    <!-- Activity segments (sweeping arcs) -->
+    <circle cx="0" cy="0" r="70" fill="none" stroke="#00ff88" stroke-width="8" class="sw1" stroke-linecap="round" transform="rotate(-90)"/>
+    <circle cx="0" cy="0" r="70" fill="none" stroke="#9d00ff" stroke-width="6" class="sw2" stroke-linecap="round" transform="rotate(-90)" stroke-dashoffset="440"/>
+    <circle cx="0" cy="0" r="70" fill="none" stroke="#ff6600" stroke-width="4" class="sw3" stroke-linecap="round" transform="rotate(-90)" stroke-dashoffset="754"/>
+
+    <!-- Center -->
+    <circle cx="0" cy="0" r="12" fill="#0a1a0a" stroke="#00ff88" stroke-width="1" class="p1"/>
+    <text x="0" y="4" font-family="monospace" font-size="12" fill="#00ff88" text-anchor="middle" class="p1">⚡</text>
+  </g>
+
+  <!-- Legend -->
+  <g transform="translate(40, 30)">
+    <rect x="0" y="0" width="12" height="12" rx="3" fill="#00ff88" opacity="0.6"/><text x="18" y="10" font-family="monospace" font-size="9" fill="#00ff88">STUDY / LAB</text>
+    <rect x="150" y="0" width="12" height="12" rx="3" fill="#9d00ff" opacity="0.6"/><text x="168" y="10" font-family="monospace" font-size="9" fill="#9d00ff">RESEARCH</text>
+    <rect x="300" y="0" width="12" height="12" rx="3" fill="#ff6600" opacity="0.6"/><text x="318" y="10" font-family="monospace" font-size="9" fill="#ff6600">BREAK / REST</text>
+  </g>
+
+  <!-- Activity cards right side -->
+  <g transform="translate(280, 50)">
+    <rect x="0" y="0" width="400" height="72" rx="6" fill="#040416" stroke="#00ff88" stroke-width="0.5"/>
+    <text x="15" y="20" font-family="monospace" font-size="10" fill="#00ff88" font-weight="bold">🌅 MORNING CYCLE</text>
+    <text x="15" y="38" font-family="monospace" font-size="9" fill="#888">04:00-08:00 CTF Labs · TryHackMe</text>
+    <text x="15" y="54" font-family="monospace" font-size="9" fill="#888">08:00-12:00 Linux Admin · Networking</text>
+    <circle cx="385" cy="15" r="3" fill="#00ff88" class="blk"/>
+  </g>
+  <g transform="translate(280, 135)">
+    <rect x="0" y="0" width="400" height="72" rx="6" fill="#040416" stroke="#00ffff" stroke-width="0.5"/>
+    <text x="15" y="20" font-family="monospace" font-size="10" fill="#00ffff" font-weight="bold">🌙 NIGHT CYCLE</text>
+    <text x="15" y="38" font-family="monospace" font-size="9" fill="#888">20:00-00:00 Exploit Dev · CTF</text>
+    <text x="15" y="54" font-family="monospace" font-size="9" fill="#888">00:00-04:00 AI Ops · Automations</text>
+    <circle cx="385" cy="15" r="3" fill="#00ffff" class="blk"/>
+  </g>
+
+  <!-- Right side: current time -->
+  <g transform="translate(830, 55)">
+    <rect x="0" y="0" width="340" height="60" rx="6" fill="#040416" stroke="#00ff88" stroke-width="0.5"/>
+    <text x="15" y="20" font-family="monospace" font-size="10" fill="#888">CURRENT CYCLE</text>
+    <text x="15" y="46" font-family="monospace" font-size="18" fill="#00ff88" class="p1">14:32:47</text>
+    <text x="170" y="46" font-family="monospace" font-size="11" fill="#00ffff" class="br">ACTIVE PHASE</text>
+    <circle cx="325" cy="15" r="3" fill="#00ff88" class="blk"/>
+  </g>
+  <g transform="translate(830, 130)">
+    <rect x="0" y="0" width="340" height="60" rx="6" fill="#040416" stroke="#00ffff" stroke-width="0.5"/>
+    <text x="15" y="20" font-family="monospace" font-size="10" fill="#888">PRODUCTIVITY METER</text>
+    <rect x="15" y="32" width="280" height="8" rx="4" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.3"/>
+    <rect x="15" y="32" width="230" height="8" rx="4" fill="url(#g)" opacity="0.7"><animate attributeName="width" values="0;230" dur="2s" fill="freeze"/></rect>
+    <text x="300" y="40" font-family="monospace" font-size="10" fill="#00ff88" class="p1">82%</text>
+    <circle cx="325" cy="15" r="3" fill="#00ffff" class="blk"/>
+  </g>
+</svg>

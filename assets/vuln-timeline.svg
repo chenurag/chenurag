@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" width="100%" height="auto">
+  <defs><filter id="g"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      @keyframes reveal{0%{width:0}100%{width:var(--w)}}
+      @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}@keyframes pulse{0%,100%{opacity:0.5;filter:drop-shadow(0 0 4px)}50%{opacity:1;filter:drop-shadow(0 0 14px)}}
+      @keyframes breathe{0%,100%{opacity:0.4}50%{opacity:0.8}}@keyframes scan{0%{transform:translateX(-1200px)}100%{transform:translateX(1200px)}}
+      @keyframes flick{0%,100%{opacity:0.96}2%{opacity:0.2}4%{opacity:0.96}}
+      .rv1{--w:360px;animation:reveal 2s ease-out 0.2s both}.rv2{--w:300px;animation:reveal 2s ease-out 0.4s both}
+      .rv3{--w:400px;animation:reveal 2s ease-out 0.6s both}.rv4{--w:240px;animation:reveal 2s ease-out 0.8s both}
+      .rv5{--w:180px;animation:reveal 2s ease-out 1.0s both}.rv6{--w:120px;animation:reveal 2s ease-out 1.2s both}
+      .blk{animation:blink 0.8s step-end infinite}.p1{animation:pulse 2s ease-in-out infinite}
+      .br{animation:breathe 4s ease-in-out infinite}.sc{animation:scan 4s linear infinite}.fk{animation:flick 7s infinite}
+    </style>
+  </defs>
+  <rect width="1200" height="200" fill="#02020c" rx="8"/>
+  <rect x="1" y="1" width="1198" height="198" rx="8" fill="none" stroke="#00ff88" stroke-width="0.5" opacity="0.12"/>
+  <rect class="sc" width="1200" height="1" fill="#00ff88" opacity="0.04"/>
+  <rect class="fk" width="1200" height="200" fill="#000" opacity="0.01" pointer-events="none"/>
+  <text x="600" y="22" font-family="monospace" font-size="10" fill="#00ff88" text-anchor="middle" letter-spacing="2" opacity="0.6">📋 VULNERABILITY TIMELINE — CVE RESEARCH &amp; PATCH HISTORY</text>
+
+  <!-- Timeline spine --><g transform="translate(50, 80)">
+    <line x1="0" y1="0" x2="1100" y2="0" stroke="#00ff88" stroke-width="0.3" opacity="0.15"/>
+    <line x1="0" y1="0" x2="1100" y2="0" stroke="#00ff88" stroke-width="1.5" stroke-dasharray="8 12" class="p1"/>
+
+    <!-- CVE entries -->
+    <g transform="translate(40, 0)">
+      <rect x="-8" y="-3" width="16" height="6" rx="3" fill="#ff003c" class="p1"/>
+      <rect x="-65" y="-45" width="130" height="30" rx="4" fill="#0a0a1e" stroke="#ff003c" stroke-width="0.5"/>
+      <text x="-45" y="-35" font-family="monospace" font-size="7" fill="#ff6666" font-weight="bold">CVE-2026-1247</text>
+      <text x="-45" y="-23" font-family="monospace" font-size="6" fill="#888">Apache Struts RCE</text>
+    </g>
+    <g transform="translate(200, 0)">
+      <rect x="-8" y="-3" width="16" height="6" rx="3" fill="#ff003c" class="p1"/>
+      <rect x="-65" y="-45" width="130" height="30" rx="4" fill="#0a0a1e" stroke="#ff003c" stroke-width="0.5"/>
+      <text x="-45" y="-35" font-family="monospace" font-size="7" fill="#ff6666" font-weight="bold">CVE-2026-4521</text>
+      <text x="-45" y="-23" font-family="monospace" font-size="6" fill="#888">OpenSSH Vuln</text>
+    </g>
+    <g transform="translate(380, 0)">
+      <rect x="-8" y="-3" width="16" height="6" rx="3" fill="#ff6600" class="p1"/>
+      <rect x="-65" y="-45" width="130" height="30" rx="4" fill="#0a0a1e" stroke="#ff6600" stroke-width="0.5"/>
+      <text x="-45" y="-35" font-family="monospace" font-size="7" fill="#ff9900" font-weight="bold">CVE-2026-8902</text>
+      <text x="-45" y="-23" font-family="monospace" font-size="6" fill="#888">Linux Kernel PrivEsc</text>
+    </g>
+    <g transform="translate(560, 0)">
+      <rect x="-8" y="-3" width="16" height="6" rx="3" fill="#9d00ff" class="p1"/>
+      <rect x="-65" y="-45" width="130" height="30" rx="4" fill="#0a0a1e" stroke="#9d00ff" stroke-width="0.5"/>
+      <text x="-45" y="-35" font-family="monospace" font-size="7" fill="#9d00ff" font-weight="bold">CVE-2026-2105</text>
+      <text x="-45" y="-23" font-family="monospace" font-size="6" fill="#888">Chrome V8 Exploit</text>
+    </g>
+    <g transform="translate(740, 0)">
+      <rect x="-8" y="-3" width="16" height="6" rx="3" fill="#00ffff" class="p1"/>
+      <rect x="-65" y="-45" width="130" height="30" rx="4" fill="#0a0a1e" stroke="#00ffff" stroke-width="0.5"/>
+      <text x="-45" y="-35" font-family="monospace" font-size="7" fill="#00ffff" font-weight="bold">CVE-2026-3371</text>
+      <text x="-45" y="-23" font-family="monospace" font-size="6" fill="#888">Docker Escape</text>
+    </g>
+    <g transform="translate(920, 0)">
+      <rect x="-8" y="-3" width="16" height="6" rx="3" fill="#00ff88" class="p1"/>
+      <rect x="-65" y="-45" width="130" height="30" rx="4" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.5"/>
+      <text x="-45" y="-35" font-family="monospace" font-size="7" fill="#00ff88" font-weight="bold">PATCHED</text>
+      <text x="-45" y="-23" font-family="monospace" font-size="6" fill="#888">All Systems Hardened</text>
+    </g>
+  </g>
+
+  <!-- Bottom stats -->
+  <g transform="translate(30, 150)">
+    <rect x="0" y="0" width="360" height="36" rx="6" fill="#040416" stroke="#00ff88" stroke-width="0.5"/>
+    <text x="15" y="15" font-family="monospace" font-size="9" fill="#888">CVEs ANALYZED</text>
+    <text x="15" y="30" font-family="monospace" font-size="11" fill="#00ff88" class="p1">
+      <tspan><animate attributeName="values" values="0;10;20;30;40;50" dur="3s" fill="freeze"/>50</tspan>+
+    </text>
+    <circle cx="345" cy="10" r="3" fill="#00ff88" class="blk"/>
+  </g>
+  <g transform="translate(410, 150)">
+    <rect x="0" y="0" width="360" height="36" rx="6" fill="#040416" stroke="#00ffff" stroke-width="0.5"/>
+    <text x="15" y="15" font-family="monospace" font-size="9" fill="#888">PATCHES DEPLOYED</text>
+    <text x="15" y="30" font-family="monospace" font-size="11" fill="#00ffff" class="br">
+      <tspan><animate attributeName="values" values="0;5;10;15;20;25" dur="3s" fill="freeze"/>25</tspan>+
+    </text>
+    <circle cx="345" cy="10" r="3" fill="#00ffff" class="blk"/>
+  </g>
+  <g transform="translate(790, 150)">
+    <rect x="0" y="0" width="380" height="36" rx="6" fill="#040416" stroke="#00ff88" stroke-width="0.5"/>
+    <text x="15" y="15" font-family="monospace" font-size="9" fill="#888">HARDENING STATUS</text>
+    <text x="15" y="30" font-family="monospace" font-size="11" fill="#00ff88" class="p1">● SYSTEMS SECURE</text>
+    <circle cx="360" cy="10" r="3" fill="#00ff88" class="blk"/>
+  </g>
+</svg>

@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" width="100%" height="auto">
+  <defs><filter id="g"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      @keyframes flick{0%,100%{opacity:0.96}2%{opacity:0.15}4%{opacity:0.96}7%{opacity:0.4}9%{opacity:0.96}}
+      @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
+      @keyframes pulse{0%,100%{opacity:0.5;filter:drop-shadow(0 0 5px)}50%{opacity:1;filter:drop-shadow(0 0 18px)}}
+      @keyframes breathe{0%,100%{opacity:0.3}50%{opacity:0.7}}
+      @keyframes scan{0%{transform:translateY(-220px)}100%{transform:translateY(220px)}}
+      @keyframes dotMove{0%{transform:translateX(0)}100%{transform:translateX(200px)}}
+      .fk{animation:flick 5s infinite}.fk{animation:flick 5s infinite}
+      .blk{animation:blink 0.8s step-end infinite}.p1{animation:pulse 2s ease-in-out infinite}
+      .br{animation:breathe 4s ease-in-out infinite}.sc{animation:scan 5s linear infinite}
+    </style>
+  </defs>
+  <rect width="1200" height="220" fill="#02020c" rx="8"/>
+  <rect x="1" y="1" width="1198" height="218" rx="8" fill="none" stroke="#00ff88" stroke-width="0.5" opacity="0.12"/>
+  <rect class="sc" width="1200" height="1" fill="#00ff88" opacity="0.03"/>
+  <rect class="fk" width="1200" height="220" fill="#000" opacity="0.01" pointer-events="none"/>
+  <text x="600" y="22" font-family="monospace" font-size="10" fill="#00ff88" text-anchor="middle" letter-spacing="2" opacity="0.6">⚔️ BATTLE STATIONS — CYBER WAR ROOM</text>
+
+  <!-- Central display --><g transform="translate(600, 120)">
+    <rect x="-280" y="-90" width="560" height="180" rx="8" fill="#03030e" stroke="#00ff88" stroke-width="0.8" opacity="0.5"/>
+    <!-- Corner brackets -->
+    <path d="M-270,-80 L-250,-80 L-250,-80" fill="none" stroke="#00ff88" stroke-width="2"/>
+    <path d="M-270,-80 L-270,-60" fill="none" stroke="#00ff88" stroke-width="2"/>
+    <path d="M270,-80 L250,-80" fill="none" stroke="#00ff88" stroke-width="2"/>
+    <path d="M270,-80 L270,-60" fill="none" stroke="#00ff88" stroke-width="2"/>
+    <path d="M-270,80 L-250,80" fill="none" stroke="#00ff88" stroke-width="2"/>
+    <path d="M-270,80 L-270,60" fill="none" stroke="#00ff88" stroke-width="2"/>
+    <path d="M270,80 L250,80" fill="none" stroke="#00ff88" stroke-width="2"/>
+    <path d="M270,80 L270,60" fill="none" stroke="#00ff88" stroke-width="2"/>
+
+    <text x="0" y="-60" font-family="monospace" font-size="13" fill="#00ff88" text-anchor="middle" letter-spacing="4" class="br">CYBER COMMAND</text>
+    <text x="0" y="-35" font-family="monospace" font-size="9" fill="#888" text-anchor="middle">SHADOWBEAST OPERATIONS CENTER</text>
+    <line x1="-150" y1="-25" x2="150" y2="-25" stroke="#00ff88" stroke-width="0.3" opacity="0.2"/>
+
+    <!-- Status columns -->
+    <g transform="translate(-230, -10)">
+      <circle cx="0" cy="5" r="3" fill="#ff003c" class="blk"/><text x="10" y="9" font-family="monospace" font-size="8" fill="#888">THREAT:</text><text x="70" y="9" font-family="monospace" font-size="8" fill="#ff003c" class="blk">LOW</text>
+      <circle cx="0" cy="22" r="3" fill="#00ff88" class="p1"/><text x="10" y="26" font-family="monospace" font-size="8" fill="#888">DEFENSE:</text><text x="70" y="26" font-family="monospace" font-size="8" fill="#00ff88">ACTIVE</text>
+      <circle cx="0" cy="39" r="3" fill="#00ffff" class="blk"/><text x="10" y="43" font-family="monospace" font-size="8" fill="#888">SIGNAL:</text><text x="70" y="43" font-family="monospace" font-size="8" fill="#00ffff">STRONG</text>
+    </g>
+    <g transform="translate(30, -10)">
+      <text x="0" y="9" font-family="monospace" font-size="8" fill="#888">COMMS:</text><text x="50" y="9" font-family="monospace" font-size="8" fill="#00ff88" class="p1">SECURE</text>
+      <text x="0" y="26" font-family="monospace" font-size="8" fill="#888">NODES:</text><text x="50" y="26" font-family="monospace" font-size="8" fill="#00ffff">7 ONLINE</text>
+      <text x="0" y="43" font-family="monospace" font-size="8" fill="#888">POWER:</text><text x="50" y="43" font-family="monospace" font-size="8" fill="#00ff88">100%</text>
+    </g>
+
+    <!-- Center pulse -->
+    <circle cx="0" cy="35" r="30" fill="none" stroke="#00ff88" stroke-width="0.5" opacity="0.3"><animate attributeName="r" values="20;35;20" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="0" cy="35" r="15" fill="none" stroke="#00ffff" stroke-width="0.5" opacity="0.2"><animate attributeName="r" values="10;25;10" dur="3s" repeatCount="indefinite"/></circle>
+    <text x="0" y="40" font-family="monospace" font-size="24" fill="#00ff88" text-anchor="middle" class="p1">⚔️</text>
+  </g>
+
+  <!-- Readiness dials -->
+  <g transform="translate(60, 70)">
+    <circle cx="0" cy="0" r="25" fill="none" stroke="#112" stroke-width="6"/>
+    <circle cx="0" cy="0" r="25" fill="none" stroke="#ff003c" stroke-width="6" stroke-linecap="round" stroke-dasharray="100" stroke-dashoffset="30" transform="rotate(-90)"/>
+    <text x="0" y="4" font-family="monospace" font-size="11" fill="#ff003c" text-anchor="middle" font-weight="bold">92%</text>
+    <text x="0" y="38" font-family="monospace" font-size="7" fill="#888" text-anchor="middle">READINESS</text>
+  </g>
+  <g transform="translate(160, 70)">
+    <circle cx="0" cy="0" r="25" fill="none" stroke="#112" stroke-width="6"/>
+    <circle cx="0" cy="0" r="25" fill="none" stroke="#00ff88" stroke-width="6" stroke-linecap="round" stroke-dasharray="100" stroke-dashoffset="28" transform="rotate(-90)"/>
+    <text x="0" y="4" font-family="monospace" font-size="11" fill="#00ff88" text-anchor="middle" font-weight="bold">95%</text>
+    <text x="0" y="38" font-family="monospace" font-size="7" fill="#888" text-anchor="middle">MORALE</text>
+  </g>
+  <g transform="translate(970, 70)">
+    <circle cx="0" cy="0" r="25" fill="none" stroke="#112" stroke-width="6"/>
+    <circle cx="0" cy="0" r="25" fill="none" stroke="#00ffff" stroke-width="6" stroke-linecap="round" stroke-dasharray="100" stroke-dashoffset="35" transform="rotate(-90)"/>
+    <text x="0" y="4" font-family="monospace" font-size="11" fill="#00ffff" text-anchor="middle" font-weight="bold">88%</text>
+    <text x="0" y="38" font-family="monospace" font-size="7" fill="#888" text-anchor="middle">EFFICIENCY</text>
+  </g>
+  <g transform="translate(1070, 70)">
+    <circle cx="0" cy="0" r="25" fill="none" stroke="#112" stroke-width="6"/>
+    <circle cx="0" cy="0" r="25" fill="none" stroke="#9d00ff" stroke-width="6" stroke-linecap="round" stroke-dasharray="100" stroke-dashoffset="45" transform="rotate(-90)"/>
+    <text x="0" y="4" font-family="monospace" font-size="11" fill="#9d00ff" text-anchor="middle" font-weight="bold">78%</text>
+    <text x="0" y="38" font-family="monospace" font-size="7" fill="#888" text-anchor="middle">ACCURACY</text>
+  </g>
+</svg>

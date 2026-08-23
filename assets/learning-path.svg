@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" width="100%" height="auto">
+  <defs><filter id="g"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      @keyframes revealLine{0%{stroke-dashoffset:2000}100%{stroke-dashoffset:0}}
+      @keyframes nodePulse{0%,100%{r:4;opacity:0.7}50%{r:7;opacity:1}}
+      @keyframes glowRing{0%{r:4;opacity:0.6}100%{r:18;opacity:0}}
+      @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
+      @keyframes breathe{0%,100%{opacity:0.4}50%{opacity:0.8}}
+      @keyframes scan{0%{transform:translateX(-1200px)}100%{transform:translateX(1200px)}}
+      @keyframes flick{0%,100%{opacity:0.96}2%{opacity:0.2}4%{opacity:0.96}}
+      .rl{stroke-dasharray:2000;stroke-dashoffset:2000;animation:revealLine 2.5s ease-out 0.3s both}
+      .rl2{stroke-dasharray:2000;stroke-dashoffset:2000;animation:revealLine 2.5s ease-out 0.6s both}
+      .np{animation:nodePulse 2s ease-in-out infinite;transform-origin:0 0}
+      .gr{animation:glowRing 2s ease-out infinite;transform-origin:0 0}
+      .blk{animation:blink 0.8s step-end infinite}.br{animation:breathe 4s ease-in-out infinite}
+      .sc{animation:scan 4s linear infinite}.fk{animation:flick 7s infinite}
+    </style>
+  </defs>
+  <rect width="1200" height="200" fill="#02020c" rx="8"/>
+  <rect x="1" y="1" width="1198" height="198" rx="8" fill="none" stroke="#00ff88" stroke-width="0.5" opacity="0.12"/>
+  <rect class="sc" width="1200" height="1" fill="#00ff88" opacity="0.04"/>
+  <rect class="fk" width="1200" height="200" fill="#000" opacity="0.01" pointer-events="none"/>
+  <text x="600" y="22" font-family="monospace" font-size="10" fill="#00ff88" text-anchor="middle" letter-spacing="2" opacity="0.6">🗺️ LEARNING PATHWAY — SKILL ACQUISITION JOURNEY</text>
+
+  <!-- Path spine -->
+  <g transform="translate(50, 100)">
+    <line x1="0" y1="0" x2="1100" y2="0" stroke="#00ff88" stroke-width="0.5" opacity="0.15"/>
+    <line x1="0" y1="0" x2="1100" y2="0" stroke="#00ff88" stroke-width="2" class="rl"/>
+
+    <!-- Node 1: Fundamentals --><g transform="translate(50, 0)">
+      <circle cx="0" cy="0" r="4" fill="#00ff88" class="np" filter="url(#g)"/><circle cx="0" cy="0" r="4" fill="none" stroke="#00ff88" class="gr"/>
+      <rect x="-30" y="12" width="130" height="30" rx="4" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.6"/>
+      <text x="-15" y="22" font-family="monospace" font-size="7" fill="#00ff88">🟢</text>
+      <text x="5" y="22" font-family="monospace" font-size="8" fill="#888">Linux</text>
+      <text x="-15" y="35" font-family="monospace" font-size="6" fill="#555">FUNDAMENTALS</text>
+      <text x="70" y="22" font-family="monospace" font-size="8" fill="#00ff88" class="br">90%</text>
+    </g>
+    <!-- Connector--><line x1="100" y1="0" x2="160" y2="0" stroke="#00ff88" stroke-width="1" class="rl" opacity="0.5"/>
+
+    <!-- Node 2: Networking --><g transform="translate(160, 0)">
+      <circle cx="0" cy="0" r="4" fill="#00ffff" class="np" filter="url(#g)"/><circle cx="0" cy="0" r="4" fill="none" stroke="#00ffff" class="gr"/>
+      <rect x="-30" y="12" width="130" height="30" rx="4" fill="#0a0a1e" stroke="#00ffff" stroke-width="0.6"/>
+      <text x="-15" y="22" font-family="monospace" font-size="7" fill="#00ffff">🌐</text>
+      <text x="5" y="22" font-family="monospace" font-size="8" fill="#888">Network</text>
+      <text x="-15" y="35" font-family="monospace" font-size="6" fill="#555">TCP/IP · DNS</text>
+      <text x="70" y="22" font-family="monospace" font-size="8" fill="#00ffff" class="br">85%</text>
+    </g>
+    <line x1="210" y1="0" x2="270" y2="0" stroke="#00ffff" stroke-width="1" class="rl" opacity="0.5"/>
+
+    <!-- Node 3: Pentest --><g transform="translate(270, 0)">
+      <circle cx="0" cy="0" r="4" fill="#ff003c" class="np" filter="url(#g)"/><circle cx="0" cy="0" r="4" fill="none" stroke="#ff003c" class="gr"/>
+      <rect x="-30" y="12" width="130" height="30" rx="4" fill="#0a0a1e" stroke="#ff003c" stroke-width="0.6"/>
+      <text x="-15" y="22" font-family="monospace" font-size="7" fill="#ff6666">☠️</text>
+      <text x="5" y="22" font-family="monospace" font-size="8" fill="#888">Pentest</text>
+      <text x="-15" y="35" font-family="monospace" font-size="6" fill="#555">ETHICAL HACKING</text>
+      <text x="70" y="22" font-family="monospace" font-size="8" fill="#ff003c">75%</text>
+    </g>
+    <line x1="320" y1="0" x2="380" y2="0" stroke="#ff003c" stroke-width="1" class="rl" opacity="0.5"/>
+
+    <!-- Node 4: SOC --><g transform="translate(380, 0)">
+      <circle cx="0" cy="0" r="4" fill="#ff6600" class="np" filter="url(#g)"/><circle cx="0" cy="0" r="4" fill="none" stroke="#ff6600" class="gr"/>
+      <rect x="-30" y="12" width="130" height="30" rx="4" fill="#0a0a1e" stroke="#ff6600" stroke-width="0.6"/>
+      <text x="-15" y="22" font-family="monospace" font-size="7" fill="#ff9900">🛡️</text>
+      <text x="5" y="22" font-family="monospace" font-size="8" fill="#888">SOC</text>
+      <text x="-15" y="35" font-family="monospace" font-size="6" fill="#555">SIEM · LOGS</text>
+      <text x="70" y="22" font-family="monospace" font-size="8" fill="#ff6600">70%</text>
+    </g>
+    <line x1="430" y1="0" x2="490" y2="0" stroke="#ff6600" stroke-width="1" class="rl" opacity="0.5"/>
+
+    <!-- Node 5: Forensics --><g transform="translate(490, 0)">
+      <circle cx="0" cy="0" r="4" fill="#9d00ff" class="np" filter="url(#g)"/><circle cx="0" cy="0" r="4" fill="none" stroke="#9d00ff" class="gr"/>
+      <rect x="-30" y="12" width="130" height="30" rx="4" fill="#0a0a1e" stroke="#9d00ff" stroke-width="0.6"/>
+      <text x="-15" y="22" font-family="monospace" font-size="7" fill="#9d00ff">🔬</text>
+      <text x="5" y="22" font-family="monospace" font-size="8" fill="#888">Forensics</text>
+      <text x="-15" y="35" font-family="monospace" font-size="6" fill="#555">DIGITAL</text>
+      <text x="70" y="22" font-family="monospace" font-size="8" fill="#9d00ff">65%</text>
+    </g>
+    <line x1="540" y1="0" x2="600" y2="0" stroke="#9d00ff" stroke-width="1" class="rl" opacity="0.5"/>
+
+    <!-- Node 6: Cloud --><g transform="translate(600, 0)">
+      <circle cx="0" cy="0" r="4" fill="#00ffff" class="np" filter="url(#g)"/><circle cx="0" cy="0" r="4" fill="none" stroke="#00ffff" class="gr"/>
+      <rect x="-30" y="12" width="130" height="30" rx="4" fill="#0a0a1e" stroke="#00ffff" stroke-width="0.6"/>
+      <text x="-15" y="22" font-family="monospace" font-size="7" fill="#00ffff">☁️</text>
+      <text x="5" y="22" font-family="monospace" font-size="8" fill="#888">Cloud</text>
+      <text x="-15" y="35" font-family="monospace" font-size="6" fill="#555">AWS · IAM</text>
+      <text x="70" y="22" font-family="monospace" font-size="8" fill="#00ffff">55%</text>
+    </g>
+    <line x1="650" y1="0" x2="710" y2="0" stroke="#00ffff" stroke-width="1" class="rl" opacity="0.5"/>
+
+    <!-- Node 7: Malware --><g transform="translate(710, 0)">
+      <circle cx="0" cy="0" r="4" fill="#ff003c" class="np" filter="url(#g)"/><circle cx="0" cy="0" r="4" fill="none" stroke="#ff003c" class="gr"/>
+      <rect x="-30" y="12" width="130" height="30" rx="4" fill="#0a0a1e" stroke="#ff003c" stroke-width="0.6"/>
+      <text x="-15" y="22" font-family="monospace" font-size="7" fill="#ff6666">🦠</text>
+      <text x="5" y="22" font-family="monospace" font-size="8" fill="#888">Malware</text>
+      <text x="-15" y="35" font-family="monospace" font-size="6" fill="#555">REVERSING</text>
+      <text x="70" y="22" font-family="monospace" font-size="8" fill="#ff003c">45%</text>
+    </g>
+    <line x1="760" y1="0" x2="820" y2="0" stroke="#ff003c" stroke-width="1" class="rl" opacity="0.5"/>
+
+    <!-- Node 8: AI Sec --><g transform="translate(820, 0)">
+      <circle cx="0" cy="0" r="4" fill="#9d00ff" class="np" filter="url(#g)"/><circle cx="0" cy="0" r="4" fill="none" stroke="#9d00ff" class="gr"/>
+      <rect x="-30" y="12" width="130" height="30" rx="4" fill="#0a0a1e" stroke="#9d00ff" stroke-width="0.6"/>
+      <text x="-15" y="22" font-family="monospace" font-size="7" fill="#9d00ff">🤖</text>
+      <text x="5" y="22" font-family="monospace" font-size="8" fill="#888">AI Sec</text>
+      <text x="-15" y="35" font-family="monospace" font-size="6" fill="#555">ML THREATS</text>
+      <text x="70" y="22" font-family="monospace" font-size="8" fill="#9d00ff">35%</text>
+    </g>
+    <line x1="870" y1="0" x2="930" y2="0" stroke="#9d00ff" stroke-width="1" class="rl" opacity="0.5"/>
+
+    <!-- Node 9: Engineer--><g transform="translate(930, 0)">
+      <circle cx="0" cy="0" r="5" fill="#ffd700" class="np" filter="url(#g)"/><circle cx="0" cy="0" r="5" fill="none" stroke="#ffd700" class="gr"/>
+      <rect x="-30" y="12" width="130" height="30" rx="4" fill="#0a1a0a" stroke="#ffd700" stroke-width="1"/>
+      <text x="-15" y="22" font-family="monospace" font-size="7" fill="#ffd700">🏆</text>
+      <text x="5" y="22" font-family="monospace" font-size="8" fill="#ffd700">Engineer</text>
+      <text x="-15" y="35" font-family="monospace" font-size="6" fill="#888">CYBERSEC</text>
+      <text x="70" y="22" font-family="monospace" font-size="8" fill="#ffd700" class="blk">GOAL</text>
+    </g>
+  </g>
+
+  <!-- Current position indicator -->
+  <g transform="translate(300, 130)">
+    <rect x="-60" y="0" width="120" height="18" rx="4" fill="#0a1a0a" stroke="#00ff88" stroke-width="0.8" class="p1"/>
+    <text x="0" y="13" font-family="monospace" font-size="8" fill="#00ff88" text-anchor="middle" class="blk">◀ YOU ARE HERE</text>
+  </g>
+</svg>

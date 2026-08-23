@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" width="100%" height="auto">
+  <defs><filter id="g"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      @keyframes float{0%,100%{transform:translateY(0) translateX(0)}25%{transform:translateY(-12px) translateX(6px)}50%{transform:translateY(-5px) translateX(-8px)}75%{transform:translateY(-18px) translateX(4px)}}
+      @keyframes float2{0%,100%{transform:translateY(0) translateX(0)}33%{transform:translateY(-10px) translateX(-10px)}66%{transform:translateY(-6px) translateX(8px)}}
+      @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}@keyframes pulse{0%,100%{filter:drop-shadow(0 0 4px)}50%{filter:drop-shadow(0 0 15px)}}
+      @keyframes breathe{0%,100%{opacity:0.4}50%{opacity:0.8}}@keyframes scan{0%{transform:translateX(-1200px)}100%{transform:translateX(1200px)}}
+      @keyframes flick{0%,100%{opacity:0.96}2%{opacity:0.2}4%{opacity:0.96}}
+      .fl{animation:float 5s ease-in-out infinite}.fl2{animation:float2 6s ease-in-out 1s infinite}
+      .fl3{animation:float 7s ease-in-out 2s infinite}.fl4{animation:float2 5.5s ease-in-out 0.5s infinite}
+      .fl5{animation:float 6.5s ease-in-out 1.5s infinite}.fl6{animation:float2 4.5s ease-in-out 0.3s infinite}
+      .blk{animation:blink 0.8s step-end infinite}.p1{animation:pulse 2s ease-in-out infinite}
+      .br{animation:breathe 4s ease-in-out infinite}.sc{animation:scan 4s linear infinite}.fk{animation:flick 7s infinite}
+    </style>
+  </defs>
+  <rect width="1200" height="220" fill="#02020c" rx="8"/>
+  <rect x="1" y="1" width="1198" height="218" rx="8" fill="none" stroke="#00ff88" stroke-width="0.5" opacity="0.12"/>
+  <rect class="sc" width="1200" height="1" fill="#00ff88" opacity="0.04"/>
+  <rect class="fk" width="1200" height="220" fill="#000" opacity="0.01" pointer-events="none"/>
+  <text x="600" y="22" font-family="monospace" font-size="10" fill="#00ff88" text-anchor="middle" letter-spacing="2" opacity="0.6">☁️ TECHNOLOGY STACK — FLOATING CLOUD</text>
+
+  <!-- Floating tech tags -->
+  <g transform="translate(600, 120)">
+    <!-- Line 1 -->
+    <rect x="-480" y="-70" width="90" height="30" rx="6" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.6" class="fl"/><text x="-435" y="-51" font-family="monospace" font-size="11" fill="#00ff88" text-anchor="middle" class="p1">Python</text>
+    <rect x="-370" y="-80" width="90" height="30" rx="6" fill="#0a0a1e" stroke="#00ffff" stroke-width="0.6" class="fl2"/><text x="-325" y="-61" font-family="monospace" font-size="11" fill="#00ffff" text-anchor="middle">Bash</text>
+    <rect x="-260" y="-70" width="100" height="30" rx="6" fill="#0a0a1e" stroke="#ff003c" stroke-width="0.6" class="fl3"/><text x="-210" y="-51" font-family="monospace" font-size="11" fill="#ff6666" text-anchor="middle">Nmap</text>
+    <rect x="-140" y="-85" width="110" height="30" rx="6" fill="#0a0a1e" stroke="#9d00ff" stroke-width="0.6" class="fl4"/><text x="-85" y="-66" font-family="monospace" font-size="11" fill="#9d00ff" text-anchor="middle">Wireshark</text>
+    <rect x="-10" y="-75" width="120" height="30" rx="6" fill="#0a0a1e" stroke="#ff6600" stroke-width="0.6" class="fl5"/><text x="50" y="-56" font-family="monospace" font-size="11" fill="#ff9900" text-anchor="middle">Metasploit</text>
+    <rect x="130" y="-80" width="110" height="30" rx="6" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.6" class="fl6"/><text x="185" y="-61" font-family="monospace" font-size="11" fill="#00ff88" text-anchor="middle">Kali Linux</text>
+    <rect x="260" y="-70" width="110" height="30" rx="6" fill="#0a0a1e" stroke="#00ffff" stroke-width="0.6" class="fl"/><text x="315" y="-51" font-family="monospace" font-size="11" fill="#00ffff" text-anchor="middle">Docker</text>
+    <rect x="390" y="-80" width="90" height="30" rx="6" fill="#0a0a1e" stroke="#9d00ff" stroke-width="0.6" class="fl2"/><text x="435" y="-61" font-family="monospace" font-size="11" fill="#9d00ff" text-anchor="middle">Ollama</text>
+    
+    <!-- Line 2 -->
+    <rect x="-450" y="-30" width="100" height="30" rx="6" fill="#0a0a1e" stroke="#ff6600" stroke-width="0.6" class="fl3"/><text x="-400" y="-11" font-family="monospace" font-size="11" fill="#ff9900" text-anchor="middle">Burp Suite</text>
+    <rect x="-330" y="-40" width="90" height="30" rx="6" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.6" class="fl4"/><text x="-285" y="-21" font-family="monospace" font-size="11" fill="#00ff88" text-anchor="middle">Snort</text>
+    <rect x="-220" y="-30" width="90" height="30" rx="6" fill="#0a0a1e" stroke="#00ffff" stroke-width="0.6" class="fl5"/><text x="-175" y="-11" font-family="monospace" font-size="11" fill="#00ffff" text-anchor="middle">Git</text>
+    <rect x="-110" y="-45" width="110" height="30" rx="6" fill="#0a0a1e" stroke="#9d00ff" stroke-width="0.6" class="fl6"/><text x="-55" y="-26" font-family="monospace" font-size="11" fill="#9d00ff" text-anchor="middle">LangChain</text>
+    <rect x="20" y="-35" width="100" height="30" rx="6" fill="#0a0a1e" stroke="#ff003c" stroke-width="0.6" class="fl"/><text x="70" y="-16" font-family="monospace" font-size="11" fill="#ff6666" text-anchor="middle">Hashcat</text>
+    <rect x="140" y="-40" width="100" height="30" rx="6" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.6" class="fl2"/><text x="190" y="-21" font-family="monospace" font-size="11" fill="#00ff88" text-anchor="middle">Whisper</text>
+    <rect x="260" y="-30" width="100" height="30" rx="6" fill="#0a0a1e" stroke="#00ffff" stroke-width="0.6" class="fl3"/><text x="310" y="-11" font-family="monospace" font-size="11" fill="#00ffff" text-anchor="middle">Wazuh</text>
+    <rect x="380" y="-40" width="110" height="30" rx="6" fill="#0a0a1e" stroke="#ff6600" stroke-width="0.6" class="fl4"/><text x="435" y="-21" font-family="monospace" font-size="11" fill="#ff9900" text-anchor="middle">VirtualBox</text>
+  </g>
+
+  <!-- Bottom count -->
+  <g transform="translate(30, 188)">
+    <rect x="0" y="0" width="1140" height="22" rx="4" fill="#060618" stroke="#00ff88" stroke-width="0.4" opacity="0.3"/>
+    <text x="15" y="15" font-family="monospace" font-size="9" fill="#555">TECHNOLOGIES: <tspan fill="#00ff88" class="p1">16 ACTIVE</tspan></text>
+    <text x="350" y="15" font-family="monospace" font-size="9" fill="#555">STACK UPDATED: <tspan fill="#00ffff" class="br">AUTOMATIC</tspan></text>
+    <text x="700" y="15" font-family="monospace" font-size="9" fill="#555">PROFICIENCY: <tspan fill="#00ff88">INTERMEDIATE+</tspan></text>
+    <circle cx="1105" cy="10" r="3" fill="#00ff88" class="blk"/>
+  </g>
+</svg>
