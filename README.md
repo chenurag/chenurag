@@ -111,19 +111,16 @@
 <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=chenurag&theme=chartreuse-dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact&langs_count=12&border_radius=10&border_color=00ff41&title_color=00ff41&text_color=ccffcc&bg_color=000000" alt="Top Languages" width="39%">
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=chenurag&theme=react-dark&hide_border=false&area=true&area_color=00ff41&color=00ff41&line=39ff14&point=ffffff&bg_color=000000&border_color=00ff41&custom_title=Contribution+Activity&radius=6" alt="Activity Graph" width="59%">
 
-<br><br>
+<div align="center">
 
 <img src="https://github-profile-trophy.vercel.app/?username=chenurag&theme=matrix&no-frame=false&no-bg=false&margin-w=6&column=7&title=Stars,Followers,Commits,PR,Issues,Repos,MultipleLang" alt="Trophies">
 
-<br><br>
-
-<pre>
-▣ CURRENT: LEVEL 87
-  ═══════════════════════════════════════════════════════════════════════════░░░░░░░░  87%
-  NEXT:    CYBER ARCHITECT (Lv 80) → ALIEN OVERLORD (Lv 100)
-</pre>
-
 </div>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/level-system.svg">
+  <img src="assets/level-system.svg" alt="Level System Progress Tracker" width="100%">
+</picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/terminal-session.svg">
