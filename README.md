@@ -1,26 +1,26 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-matrix.svg">
-  <img src="assets/hero-matrix.svg" alt="SHADOWBEAST System HUD" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-matrix-v2.svg">
+  <img src="assets/hero-matrix-v2.svg" alt="SHADOWBEAST Quantum HUD" width="100%">
 </picture>
 
 <br>
 
 <pre>
-╔══════════════════════════════════════════════════════════════════════════╗
-║  👽 ALIEN PROTOCOL :: CHENURA GAJANAYAKE                              ║
-║  ─────────────────────────────────────────────────────────────────────  ║
-║  CLASS: CYBERSECURITY ENGINEER (IN TRAINING)    STATUS: ● ONLINE       ║
-║  ROLE:  SOC ANALYST • ETHICAL HACKER            ACCESS: ALIEN LEVEL    ║
-║  FOCUS: LINUX • NETWORKING • PYTHON • AI        MISSION: SECURE THE    ║
-║         THREAT INTEL • OSINT • CLOUD                    DIGITAL DOMAIN ║
-║  ─────────────────────────────────────────────────────────────────────  ║
-║  [████████████████████████████████████████████████████████░░░░] 87%     ║
-╚══════════════════════════════════════════════════════════════════════════╝
+╔══════════════════════════════════════════════════════════════════════════════════╗
+║  👽 NEXUS CORE :: CHENURA GAJANAYAKE                                            ║
+║  ─────────────────────────────────────────────────────────────────────────────  ║
+║  CLASS: CYBERSECURITY ENGINEER (TRAINING)    STATUS: ● ONLINE  ● OPERATIONAL   ║
+║  ROLE:  SOC ANALYST • ETHICAL HACKER         ACCESS: ALIEN LEVEL  ● GRANTED   ║
+║  FOCUS: LINUX • NETWORKING • PYTHON • AI     MISSION: SECURE THE DIGITAL DOMAIN║
+║         THREAT INTEL • OSINT • CLOUD FORENSICS                                  ║
+║  ─────────────────────────────────────────────────────────────────────────────  ║
+║  [██████████████████████████████████████████████████████████████████░░░░] 89%    ║
+╚══════════════════════════════════════════════════════════════════════════════════╝
 </pre>
 
 ---
 
-## 🛰️ QUANTUM NAVIGATION — MAINFRAME ACCESS
+## 🛰️ QUANTUM COMMAND — MAINFRAME ACCESS
 
 <div align="center">
 
@@ -43,14 +43,13 @@
 <img src="https://img.shields.io/badge/SYS::PROJECTS-0D1117?style=for-the-badge&logo=githubactions&logoColor=00FF9D&labelColor=050505">
 </a>
 <a href="#-github-command-center">
-<img src="https://img.shields.io/badge/SYS::STATISTICS-0D1117?style=for-the-badge&logo=githubpages&logoColor=00FFFF&labelColor=050505">
+<img src="https://img.shields.io/badge/SYS::ANALYTICS-0D1117?style=for-the-badge&logo=githubpages&logoColor=00FFFF&labelColor=050505">
 </a>
 
 <br><br>
 
 <img src="https://komarev.com/ghpvc/?username=Chenura&style=flat-square&color=00ff9d&label=ALIEN+VISITORS&base=0" alt="Visitors">
 <img src="https://img.shields.io/github/followers/chenurag?style=flat-square&logo=github&label=FOLLOWERS&color=00FF9D" alt="Followers">
-<img src="https://img.shields.io/youtube/channel/subscribers/UC?style=flat-square&logo=youtube&label=YOUTUBE&color=FF003C" alt="YouTube">
 
 </div>
 
@@ -61,36 +60,43 @@
 <pre>
 CORE DIRECTIVE:  LEARN  →  BUILD  →  TEST  →  UNDERSTAND  →  DEFEND  →  AUTOMATE
 SECONDARY:       DISCOVER → ENUMERATE → ANALYZE → EXPLOIT → PATCH → HARDEN  
-TERTIARY:        RESEARCH → DEVELOP → DEPLOY → MONITOR → ITERATE
+TERTIARY:        RESEARCH → DEVELOP → DEPLOY → MONITOR → ITERATE → EVOLVE
 </pre>
 
-> **`INIT SEQUENCE: SHADOWBEAST PROTOCOL v3.0`**
+> **`INIT SEQUENCE: SHADOWBEAST PROTOCOL v4.0`**
 >
-> Welcome to my digital operations center. I'm **Chenura Gajanayake** — a cybersecurity undergraduate from Sri Lanka operating at the intersection of offensive security, Linux engineering, AI automation, and threat intelligence. I reverse systems to understand their failure modes, then re-harden them.
+> Welcome to my digital operations center. I'm **Chenura Gajanayake** — a cybersecurity
+> undergraduate from Sri Lanka operating at the intersection of offensive security,
+> Linux engineering, AI automation, and threat intelligence. I reverse systems to
+> understand their failure modes, then re-harden them. I don't just use technology;
+> I disassemble it, comprehend every layer, and engineer stronger defenses.
 >
-> **Philosophy:** *You can't defend what you don't understand. You can't break what you haven't rebuilt.*
+> **Philosophy:** *"You can't defend what you don't understand. You can't break
+> what you haven't rebuilt."*
 
 ### 📡 ACTIVE SENSOR FEED
 
-| Sensor | Signal Processing | Status |
-|-------|------------------|--------|
-| 🔐 **Cybersecurity** | SOC Operations · Threat Analysis · Ethical Hacking · Forensics | 🟢 ONLINE |
-| 🐧 **Linux** | Kali · Ubuntu · Arch · Debian · Proxmox · System Hardening | 🟢 ONLINE |
-| 🌐 **Networking** | TCP/IP Stack · DNS · Traffic Analysis · IDS/IPS · SDN | 🟢 ONLINE |
-| 🐍 **Python** | Security Automation · Tool Development · AI Integration | 🔵 EXPANDING |
-| 🤖 **AI/ML** | Ollama · Whisper · LangChain · Local LLM Inference | 🟡 RESEARCH |
-| 🕵️ **OSINT** | Recon-ng · Maltego · Shodan · Google Dorking · Intel Gathering | 🔵 EXPANDING |
-| 🛡️ **SOC** | SIEM (Wazuh/Splunk) · Log Analysis · Incident Response | 🟠 TRAINING |
-| 🔬 **Forensics** | Autopsy · Volatility · File Carving · Memory Analysis | 🟡 RESEARCH |
-| ☁️ **Cloud** | AWS · Docker · Container Security · IAM Policy | 🟣 EXPLORING |
+<pre>
+SENSOR              SIGNAL PROCESSING                          STATUS          THREAT LVL
+────────────────────────────────────────────────────────────────────────────────────────────
+🔐 Cybersecurity     SOC · Threat Analysis · Ethical Hacking   🟢 ONLINE        LOW
+🐧 Linux             Kali · Ubuntu · Arch · Proxmox · Hardening 🟢 ONLINE        LOW
+🌐 Networking        TCP/IP · DNS · Traffic Analysis · IDS/IPS  🟢 ONLINE        LOW
+🐍 Python            Security Automation · Tool Dev · AI        🔵 EXPANDING     —
+🤖 AI/ML             Ollama · Whisper · LangChain · LLMs        🟡 RESEARCH      —
+🕵️ OSINT             Recon-ng · Maltego · Shodan · Intel        🔵 EXPANDING     —
+🛡️ SOC               Wazuh · Splunk · Log Analysis · IR         🟠 TRAINING      —
+🔬 Forensics         Autopsy · Volatility · File Carving        🟡 RESEARCH      —
+☁️ Cloud             AWS · Docker · Container Sec · IAM         🟣 EXPLORING     —
+</pre>
 
 ---
 
 ## 🧬 TECHNOLOGY DNA — CORE ARCHITECTURE
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/skills-gauge.svg">
-  <img src="assets/skills-gauge.svg" alt="Skills Proficiency Matrix" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/skills-matrix-v2.svg">
+  <img src="assets/skills-matrix-v2.svg" alt="Skills Proficiency Matrix" width="100%">
 </picture>
 
 ### 🖥️ LANGUAGES & RUNTIMES
@@ -108,7 +114,7 @@ TERTIARY:        RESEARCH → DEVELOP → DEPLOY → MONITOR → ITERATE
 <img src="https://img.shields.io/badge/YAML-CB171E?style=for-the-badge&logo=yaml&logoColor=white">
 <img src="https://img.shields.io/badge/Regex-000000?style=for-the-badge&logo=regex&logoColor=00FF00">
 
-### 🐧 PLATFORMS
+### 🐧 PLATFORMS & ENVIRONMENTS
 
 <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black">
 <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white">
@@ -118,7 +124,7 @@ TERTIARY:        RESEARCH → DEVELOP → DEPLOY → MONITOR → ITERATE
 <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white">
 <img src="https://img.shields.io/badge/Proxmox-E57000?style=for-the-badge&logo=proxmox&logoColor=white">
 
-### 🔧 ENGINEERING STACK
+### 🔧 ENGINEERING & DEVOPS
 
 <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
 <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
@@ -136,78 +142,87 @@ TERTIARY:        RESEARCH → DEVELOP → DEPLOY → MONITOR → ITERATE
 ## ☠️ CYBERSECURITY ARSENAL — WEAPONS & COUNTERMEASURES
 
 <pre>
-┌──────────────────────────────────────────────────────────────────────────────────┐
-│                         SHADOWBEAST — SECURITY MATRIX                            │
-├─────────────────┬──────────────────────┬──────────────────────┬─────────────────┤
-│    RECONNAISSANCE│    EXPLOITATION     │     DEFENSE          │    ANALYSIS      │
-├─────────────────┼──────────────────────┼──────────────────────┼─────────────────┤
-│  Nmap           │  Metasploit          │  Snort IDS           │  Wireshark       │
-│  Recon-ng       │  Hydra               │  Suricata            │  Tcpdump         │
-│  theHarvester   │  John the Ripper     │  Wazuh SIEM          │  Burp Suite      │
-│  Shodan         │  Hashcat             │  Osquery             │  Autopsy         │
-│  Amass          │  SQLMap              │  Fail2ban            │  Volatility      │
-│  Sublist3r      │  Searchsploit        │  RKHunter            │  Binwalk         │
-│  Maltego        │  BetterCAP           │  Lynis               │  Steghide        │
-│  Masscan        │  Responder           │  AppArmor            │  DNSChef         │
-└─────────────────┴──────────────────────┴──────────────────────┴─────────────────┘
+┌───────────────────────────────────────────────────────────────────────────────────────────────┐
+│                              SHADOWBEAST — FULL SECURITY MATRIX                                │
+├──────────────────┬───────────────────────┬───────────────────────┬───────────────────────────┤
+│   RECONNAISSANCE │    EXPLOITATION        │     DEFENSE           │     ANALYSIS              │
+├──────────────────┼───────────────────────┼───────────────────────┼───────────────────────────┤
+│  Nmap            │  Metasploit Framework  │  Snort IDS            │  Wireshark                │
+│  Masscan         │  Empire / Covenant     │  Suricata IPS          │  Tcpdump                  │
+│  Recon-ng        │  Cobalt Strike         │  Wazuh SIEM            │  Burp Suite Professional  │
+│  theHarvester    │  Hydra                 │  Osquery               │  OWASP ZAP                │
+│  Shodan          │  John the Ripper       │  Wazuh FIM             │  Autopsy                  │
+│  Amass           │  Hashcat               │  Fail2ban              │  Volatility               │
+│  Sublist3r       │  SQLMap                │  RKHunter / Chkrootkit │  Binwalk                  │
+│  Maltego         │  Searchsploit          │  Lynis                 │  Steghide                 │
+│  SpiderFoot      │  BetterCAP             │  AppArmor / SELinux    │  Foremost                 │
+│  DNSRecon        │  Responder            │  ClamAV                │  Bulk Extractor           │
+│  WhatWeb         │  Gobuster              │  AIDE                  │  YARA                     │
+│  FFUF            │  Burp Intruder         │  Tripwire              │  PE-Bear / CFF Explorer   │
+└──────────────────┴───────────────────────┴───────────────────────┴───────────────────────────┘
 </pre>
 
-### 🔬 CAPABILITIES MATRIX
+### 🔬 CAPABILITIES MATRIX — PROFICIENCY DETAIL
 
-| Domain | Tools & Methodologies | Proficiency |
-|-------|---------------------|:----------:|
-| **Network Recon & Mapping** | Nmap, Masscan, Zmap, Wireshark, tcpdump, BetterCAP, Netcat | `██████████` 95% |
-| **Vulnerability Assessment** | OpenVAS, Nikto, Nessus, Burp Scanner, OWASP ZAP, Nuclei | `████████░░` 80% |
-| **Web Application Testing** | Burp Suite, OWASP Top 10, XSS, SQLi, CSRF, SSRF, API Security | `████████░░` 80% |
-| **Exploitation & Post-Exploit** | Metasploit, Searchsploit, Custom Payloads, PE, Lateral Movement | `███████░░░` 70% |
-| **SOC / SIEM Operations** | Wazuh, Splunk, ELK Stack, Log Analysis, Incident Response Playbooks | `███████░░░` 70% |
-| **Digital Forensics & IR** | Autopsy, Volatility, Binwalk, Steghide, File Carving, Timeline Analysis | `███████░░░` 70% |
-| **OSINT & Threat Intelligence** | Maltego, Recon-ng, theHarvester, Google Dorking, Shodan, CVE Research | `████████░░` 80% |
-| **Linux Hardening & Audit** | SELinux, AppArmor, Auditd, Lynis, CIS Benchmarks, Chkrootkit | `██████████` 90% |
-| **Password Cracking** | Hashcat, John the Ripper, Hydra, Medusa, Crunch, Rules-Based | `███████░░░` 70% |
-| **Wireless Security** | Aircrack-ng, Kismet, Reaver, Wifite, WPA/WPA2 Analysis | `██████░░░░` 60% |
-| **Cloud Security** | AWS IAM, Docker Security, Container Scanning, Secret Detection | `█████░░░░░` 50% |
-| **Malware Analysis** | Static Analysis, PE Structure, YARA Rules, Sandboxing | `█████░░░░░` 50% |
+<pre>
+DOMAIN                          TOOLS & METHODOLOGIES                          PROFICIENCY
+──────────────────────────────────────────────────────────────────────────────────────────────────
+Network Recon & Mapping         Nmap, Masscan, Zmap, Wireshark, tcpdump        ██████████ 95%
+Vulnerability Assessment        OpenVAS, Nikto, Nessus, Nuclei, OWASP ZAP      ████████░░ 80%
+Web Application Testing         Burp Suite, OWASP Top 10, XSS, SQLi, API Sec   ████████░░ 80%
+Exploitation & Post-Exploit     Metasploit, PE, Lateral Movement, Persistence  ███████░░░ 70%
+SOC / SIEM Operations           Wazuh, Splunk, ELK, Log Analysis, IR Playbooks ███████░░░ 70%
+Digital Forensics & IR          Autopsy, Volatility, File Carving, Timeline     ███████░░░ 70%
+OSINT & Threat Intelligence     Maltego, Recon-ng, Shodan, Google Dorking       ████████░░ 80%
+Linux Hardening & Audit         SELinux, AppArmor, Lynis, CIS Benchmarks        ██████████ 90%
+Password Cracking               Hashcat, John, Hydra, Rules-Based, Mask Attack  ███████░░░ 70%
+Wireless Security               Aircrack-ng, Kismet, Reaver, WPA/WPA2 Analysis  ██████░░░░ 60%
+Cloud Security                  AWS IAM, Docker, Container Scanning, Secrets    █████░░░░░ 50%
+Malware Analysis                Static Analysis, YARA, PE-Carving, Sandboxing   █████░░░░░ 50%
+</pre>
 
 ---
 
-## 🧪 SHADOW LAB — CLOSED-LOOP RANGE
+## 🧪 SHADOW LAB — CLOSED-LOOP CYBER RANGE
 
-> *Virtual cyber range for adversarial simulation, security research, and defensive playbook development. All testing conducted exclusively against authorized environments.*
+> *Isolated virtual range for adversarial simulation, security research, and defensive playbook development. All testing conducted exclusively against authorized environments.*
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/network-topo.svg">
-  <img src="assets/network-topo.svg" alt="Shadow Lab Network Topology" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/network-topo-v2.svg">
+  <img src="assets/network-topo-v2.svg" alt="Shadow Lab Network Topology" width="100%">
 </picture>
 
 <pre>
-┌────────────────────────────────────────────────────────────────────────────────┐
-│                          SHADOW LAB — OPERATIONAL DIVISIONS                     │
-├──────────────┬──────────────────┬─────────────────────┬────────────────────────┤
-│  OFFENSIVE   │   DEFENSIVE      │    RESEARCH          │    TRAINING            │
-├──────────────┼──────────────────┼─────────────────────┼────────────────────────┤
-│  Kali Linux  │  Wazuh SIEM      │  Ollama AI Suite    │  TryHackMe (THM)       │
-│  Parrot OS   │  Snort IDS       │  Whisper STT        │  HackTheBox (HTB)      │
-│  Metasploit  │  Suricata IPS    │  LangChain Agents   │  VulnHub               │
-│  Burp Suite  │  Osquery         │  Custom Toolchain   │  DVWA / Juice Shop     │
-│  Nmap Suite  │  Grafana/Prom    │  Local LLM Deploy   │  PicoCTF / OverTheWire │
-│  Responder   │  Fail2ban        │  Python Automation  │  Offensive Security    │
-│  Empire/C2   │  Wireshark       │  Data Pipeline      │  HTB Academy           │
-└──────────────┴──────────────────┴─────────────────────┴────────────────────────┘
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│                                  SHADOW LAB — OPERATIONAL DIVISIONS                                  │
+├────────────────┬───────────────────┬──────────────────────┬────────────────────────────────────────┤
+│  OFFENSIVE     │   DEFENSIVE       │    RESEARCH          │    TRAINING                            │
+├────────────────┼───────────────────┼──────────────────────┼────────────────────────────────────────┤
+│  Kali Linux    │  Wazuh SIEM       │  Ollama AI Suite     │  TryHackMe (THM)                       │
+│  Parrot OS     │  Snort IDS        │  Whisper STT         │  HackTheBox (HTB)                      │
+│  Metasploit    │  Suricata IPS     │  LangChain Agents    │  VulnHub                               │
+│  Burp Suite    │  Osquery          │  Custom Toolchain    │  DVWA / Juice Shop                     │
+│  Nmap Suite    │  Grafana/Prom     │  Local LLM Deploy    │  PicoCTF / OverTheWire / Bandit        │
+│  Responder     │  Fail2ban         │  Python Automation   │  Offensive Security / PWK              │
+│  Empire/C2     │  Wireshark        │  RAG Pipeline        │  HTB Academy / CPTS                    │
+│  Covenant      │  AIDE             │  Fine-Tuning         │  SANS / SEC504 (Prep)                  │
+└────────────────┴───────────────────┴──────────────────────┴────────────────────────────────────────┘
 </pre>
 
 ### 📦 LAB COMPONENT CATALOG
 
-| Class | Systems | Purpose |
-|------|---------|---------|
-| 🖥️ **Hypervisor** | VirtualBox, Proxmox VE | VM orchestration, snapshots, isolated networking |
-| 🐧 **Attack Platform** | Kali Linux, Parrot OS | Offensive security, tool suite, custom scripts |
-| 🎯 **Target VMs** | Metasploitable, DVWA, VulnHub, Windows AD Lab, Ubuntu Server | Vulnerability testing & exploitation practice |
-| 📡 **Network Lab** | pfSense, OPNsense, Open vSwitch, GNS3 (planned) | Routing, firewalls, network segmentation |
-| ☠️ **Exploitation Rack** | Metasploit, Empire, Covenant, Cobalt Strike, Hydra, SQLMap | Full kill-chain simulation |
-| 🛡️ **Defense Stack** | Snort, Suricata, Wazuh, osquery, Fail2ban, RKHunter, ClamAV | IDS/IPS, EDR, monitoring, compliance |
-| 🔬 **Forensics Bench** | Autopsy, Volatility, Binwalk, Foremost, Bulk Extractor | Disk/memory analysis, data recovery |
-| 🤖 **AI Operations** | Ollama, Whisper, LangChain, Python, GPT4All | Security automation, analysis, assistance |
+<pre>
+CLASS           SYSTEMS                                                         PURPOSE
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+🖥️ Hypervisor   VirtualBox, Proxmox VE                                          VM orchestration & management
+🐧 Attack Plat  Kali Linux, Parrot OS                                           Offensive security operations
+🎯 Target VMs   Metasploitable, DVWA, VulnHub, Win AD Lab, Ubuntu               Vulnerability testing & exploitation
+📡 Network Lab  pfSense, OPNsense, Open vSwitch, GNS3                            Routing, firewalls, segmentation
+☠️ Exploit Rack Metasploit, Empire, Covenant, Hydra, SQLMap, Responder          Full kill-chain simulation
+🛡️ Defense      Snort, Suricata, Wazuh, Osquery, Fail2ban, ClamAV               IDS/IPS, EDR, monitoring, compliance
+🔬 Forensics    Autopsy, Volatility, Binwalk, Foremost, Bulk Extractor          Disk/memory analysis
+🤖 AI Ops       Ollama, Whisper, LangChain, Python, GPT4All, RAG                Security automation & analysis
+</pre>
 
 ---
 
@@ -243,83 +258,35 @@ TERTIARY:        RESEARCH → DEVELOP → DEPLOY → MONITOR → ITERATE
 
 ### 🔭 AI APPLICATIONS — DEPLOYMENT STATUS
 
-| Application | Stack | Status |
-|------------|-------|--------|
-| **Log Analysis Engine** | LLM-powered SIEM log parsing, anomaly scoring, alert enrichment | 🟢 OPERATIONAL |
-| **Threat Intelligence** | CVE monitoring, threat feed aggregation, IOC extraction, context enrichment | 🟢 OPERATIONAL |
-| **Security Automation** | Cron-driven playbooks, automated triage, report generation, Slack/Teams alerts | 🟢 OPERATIONAL |
-| **Voice-Controlled Lab** | Whisper → Ollama → shell execution — hands-free security ops | 🔵 DEVELOPMENT |
-| **CTF AI Assistant** | Challenge analysis, hint generation, technique identification (non-answer) | 🟡 EXPERIMENTAL |
-| **Malware Analysis** | Static PE analysis, YARA generation, behavior classification, sandbox automation | 🟣 RESEARCH |
-
----
-
-## 📡 NETWORK OPERATIONS — DEFENSE IN DEPTH
-
 <pre>
-                              ☁️ INTERNET — UNTRUSTED ZONE
-                                   │
-                                   ▼
-                            ┌──────────┐
-                            │  🔥 FW   │  EDGE FIREWALL — DROP ALL DENY DEFAULT
-                            │          │  📜 POLICY: ACCEPT ESTABLISHED, ALLOW 443/80
-                            └────┬─────┘
-                                   │
-                                   ▼
-                            ┌──────────┐
-                            │  🔀 RTR  │  CORE ROUTER — TRAFFIC ORCHESTRATION
-                            │          │  🌐 192.168.1.0/24 · NAT · OSPF · DHCP
-                            └────┬─────┘
-                                   │
-                                   ▼
-                            ┌──────────┐
-                            │  ⬡ SW   │  LAYER 2 SWITCH — DISTRIBUTION
-                            │         │  🔗 VLANs (10,20,30) · STP · Port Sec
-                            └────┬─────┘
-                                   │
-             ┌────────────────────┼────────────────────┐
-             ▼                    ▼                    ▼
-        ┌──────────┐        ┌──────────┐        ┌──────────┐
-        │ 🖥️      │        │ 💻       │        │ 📦       │
-        │ SERVER   │        │ PC       │        │ LAB VM   │
-        │ PRESENCE │        │ KALI     │        │ TARGETS  │
-        │ Linux    │        │ DEV/ADMIN│        │ VULNHUB  │
-        └────┬─────┘        └────┬─────┘        └────┬─────┘
-             └──────────────────┼────────────────────┘
-                                ▼
-                         ┌──────────┐
-                         │  📊 SOC  │  SECURITY OPERATIONS CENTER
-                         │          │  Wazuh · Grafana · Log Aggregation
-                         └──────────┘
+APPLICATION                     STACK                                                          STATUS
+──────────────────────────────────────────────────────────────────────────────────────────────────────────
+Log Analysis Engine             LLM-powered SIEM log parsing, anomaly scoring, enrichment       🟢 OPERATIONAL
+Threat Intelligence             CVE monitoring, threat feeds, IOC extraction, context           🟢 OPERATIONAL
+Security Automation             Cron-driven playbooks, automated triage, report generation       🟢 OPERATIONAL
+Voice-Controlled Lab             Whisper → Ollama → shell execution — hands-free security ops     🔵 DEVELOPMENT
+CTF AI Assistant                Challenge analysis, hint generation, technique identification     🟡 EXPERIMENTAL
+Malware Analysis                Static PE analysis, YARA generation, sandbox automation          🟣 RESEARCH
 </pre>
-
-### 🌐 NETWORK SKILLS
-
-| Layer | Protocols & Technologies |
-|------|------------------------|
-| 🌐 **Core Protocols** | TCP/IP, UDP, DNS, DHCP, HTTP/HTTPS, TLS/SSL, ARP, ICMP, SNMP, SMTP |
-| 🔀 **Routing & Switching** | OSPF, BGP (basic), VLANs, STP, EtherChannel, ACLs, NAT/PAT, Subnetting/VLSM |
-| 📡 **Monitoring & Analysis** | Wireshark, tcpdump, NetFlow/sFlow, Ntopng, Zabbix, Grafana, Loki, Prometheus |
-| 🛡️ **Network Security** | iptables/nftables, pfSense, Snort/Suricata rules, VPNs (WireGuard, OpenVPN), Network Segmentation |
 
 ---
 
 ## 🧠 OPERATIONAL DOCTRINE — SECURITY TENETS
 
 <pre>
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                         SHADOWBEAST — OPERATIONAL TENETS                    │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                             │
-│  I.   LEARN THE SYSTEM      — Master every layer before attempting defense  │
-│  II.  BREAK ASSUMPTIONS     — Edge cases are vulnerabilities; attack models │
-│  III. BUILD THE DEFENSE     — Applied practice, not just theory             │
-│  IV.  AUTOMATE EVERYTHING   — Scripts iterate flawlessly; humans don't      │
-│  V.   DOCUMENT RELENTLESSLY — Unwritten knowledge is lost knowledge         │
-│  VI.  SHARE THE KNOWLEDGE   — Security grows stronger through distribution  │
-│  VII. NEVER STOP LEARNING   — The threat landscape evolves every 24 hours   │
-│                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│                                   SHADOWBEAST — OPERATIONAL TENETS                                       │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│                                                                                                         │
+│  I.   LEARN THE SYSTEM      — Master every layer before attempting defense                              │
+│  II.  BREAK ASSUMPTIONS     — Edge cases are vulnerabilities; attack your own models                    │
+│  III. BUILD THE DEFENSE     — Theory without applied practice is philosophy                             │
+│  IV.  AUTOMATE EVERYTHING   — Scripts iterate flawlessly; humans make mistakes                          │
+│  V.   DOCUMENT RELENTLESSLY — Unwritten knowledge is lost knowledge                                     │
+│  VI.  SHARE THE KNOWLEDGE   — Security grows stronger through distribution                              │
+│  VII. NEVER STOP LEARNING   — The threat landscape evolves every 24 hours                               │
+│                                                                                                         │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────┘
 </pre>
 
 ---
@@ -329,16 +296,18 @@ TERTIARY:        RESEARCH → DEVELOP → DEPLOY → MONITOR → ITERATE
 ### 🤖 **ShadowAssistant** — AI-Powered Security Operations
 > **STATUS:** DEPLOYED v0.4 · **LOCATION:** `~/shadow-assistant/`
 >
-> Autonomous voice-controlled security AI — combines Whisper speech recognition, Ollama LLM inference, and system command execution for hands-free security operations.
-
-**Stack:** `Python` · `Whisper` · `Ollama` · `LangChain` · `Bash` · `Custom Toolchain`
+> Autonomous voice-controlled security AI — combines Whisper speech recognition,
+> Ollama LLM inference, and system command execution for hands-free security ops.
+>
+> **Stack:** Python · Whisper · Ollama · LangChain · Bash · Custom Toolchain
 
 ### 🛡️ **Cybersecurity Learning Platform**
 > **STATUS:** CONTINUOUS INTEGRATION · **SCOPE:** Full Kill Chain
 >
-> Complete personal cybersecurity ecosystem — structured labs, playbooks, knowledge base, toolchains covering the entire attack-to-defense spectrum.
-
-**Coverage:** Networking · Linux · Ethical Hacking · Web Security · SOC Operations · Forensics · AI/ML
+> Complete personal cybersecurity ecosystem — structured labs, playbooks, knowledge
+> base, and toolchains covering the entire attack-to-defense spectrum.
+>
+> **Coverage:** Networking · Linux · Ethical Hacking · Web Security · SOC · Forensics · AI
 
 ### 👽 **ShadowBeast (YouTube)**
 > **STATUS:** ACTIVE · **CHANNEL:** `@sbchenu`
@@ -389,13 +358,13 @@ TERTIARY:        RESEARCH → DEVELOP → DEPLOY → MONITOR → ITERATE
 <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=chenurag&theme=chartreuse-dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact&langs_count=12&border_radius=10&border_color=00ff41&title_color=00ff41&text_color=ccffcc&bg_color=000000" alt="Top Languages" width="39%">
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=chenurag&theme=react-dark&hide_border=false&area=true&area_color=00ff41&color=00ff41&line=39ff14&point=ffffff&bg_color=000000&border_color=00ff41&custom_title=Contribution+Activity&radius=6" alt="Activity Graph" width="59%">
 
-<br><br>
+</div>
 
 ### 🏆 ACHIEVEMENT UNLOCKS
 
+<div align="center">
 <img src="https://github-profile-trophy.vercel.app/?username=chenurag&theme=matrix&no-frame=false&no-bg=false&margin-w=6&column=7&title=Stars,Followers,Commits,PR,Issues,Repos,MultipleLang">
-
-<br>
+</div>
 
 ### 👽 LEVEL SYSTEM — PROGRESS TRACKER
 
@@ -417,41 +386,18 @@ TERTIARY:        RESEARCH → DEVELOP → DEPLOY → MONITOR → ITERATE
 
 <pre>
 ▣ CURRENT: LEVEL 87
-  ═══════════════════════════════════════════════════════════════════░░░░░░  87%
+  ═══════════════════════════════════════════════════════════════════════════════════░░░░░░  87%
   NEXT:    CYBER ARCHITECT (Lv 80) → ALIEN OVERLORD (Lv 100)
 </pre>
 
-</div>
-
 ---
 
-## 🎯 STRATEGIC ROADMAP — 2026–2030
+## 🎯 STRATEGIC ROADMAP — 2026 → 2030
 
-<pre>
-YEAR  │  PHASE                     │  KEY MILESTONES                          │  STATUS
-══════╪════════════════════════════╪═══════════════════════════════════════════╪══════════
-2026  │  FOUNDATIONS               │  Linux & Networking Mastery              │ 🟢 COMPLETE
-      │                            │  Ethical Hacking Fundamentals            │ 🟢 COMPLETE
-      │                            │  Programming (Python/Bash/C/C++)         │ 🟢 COMPLETE
-      │                            │  SOC Operations — Baseline               │ 🔄 PROGRESS
-──────┼────────────────────────────┼───────────────────────────────────────────┼──────────
-2027  │  SPECIALIZATION            │  SOC & Digital Forensics                 │ 🔜 QUEUED
-      │                            │  Web Security & Bug Bounty               │ 🔜 QUEUED
-      │                            │  Security Automation Pipeline             │ 🔜 QUEUED
-      │                            │  CTF Competition Circuit                  │ 🔜 QUEUED
-──────┼────────────────────────────┼───────────────────────────────────────────┼──────────
-2028  │  ADVANCED ENGINEERING      │  Security Engineering (App/Network)      │ 🔜 QUEUED
-      │                            │  Cloud Security (AWS/GCP)                │ 🔜 QUEUED
-      │                            │  AI Security & ML Threat Detection       │ 🔜 QUEUED
-      │                            │  Malware Analysis & Reverse Engineering   │ 🔜 QUEUED
-──────┼────────────────────────────┼───────────────────────────────────────────┼──────────
-2029  │  MASTERY & RESEARCH        │  Advanced Security Research               │ 🔜 QUEUED
-      │                            │  Security Architecture & Design           │ 🔜 QUEUED
-      │                            │  Open Source Security Tooling              │ 🔜 QUEUED
-      │                            │  Client/Consulting Operations              │ 🔜 QUEUED
-──────┼────────────────────────────┼───────────────────────────────────────────┼──────────
-2030  │  COMMAND                   │  ──►  CYBERSECURITY ENGINEER             │ 🎯 TARGET
-</pre>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/roadmap-timeline.svg">
+  <img src="assets/roadmap-timeline.svg" alt="Strategic Roadmap" width="100%">
+</picture>
 
 ---
 
@@ -460,22 +406,25 @@ YEAR  │  PHASE                     │  KEY MILESTONES                        
 <div align="center">
 
 <a href="#-technology-dna">
-<img src="https://img.shields.io/badge/🐧_ADVANCED_LINUX-050505?style=for-the-badge&logoColor=00FF9D" alt="Advanced Linux">
+<img src="https://img.shields.io/badge/🐧_ADVANCED_LINUX-050505?style=for-the-badge&logoColor=00FF9D">
 </a>
 <a href="#-network-operations">
-<img src="https://img.shields.io/badge/🌐_NETWORK_DEFENSE-050505?style=for-the-badge&logoColor=00FFFF" alt="Network Defense">
+<img src="https://img.shields.io/badge/🌐_NETWORK_DEFENSE-050505?style=for-the-badge&logoColor=00FFFF">
 </a>
 <a href="#-cybersecurity-arsenal">
-<img src="https://img.shields.io/badge/☠_ETHICAL_HACKING-050505?style=for-the-badge&logoColor=FF003C" alt="Ethical Hacking">
+<img src="https://img.shields.io/badge/☠_ETHICAL_HACKING-050505?style=for-the-badge&logoColor=FF003C">
 </a>
 <a href="#-ai--cybersecurity">
-<img src="https://img.shields.io/badge/🤖_AI_ENGINEERING-050505?style=for-the-badge&logoColor=9D00FF" alt="AI Engineering">
+<img src="https://img.shields.io/badge/🤖_AI_ENGINEERING-050505?style=for-the-badge&logoColor=9D00FF">
 </a>
 <a href="#-strategic-roadmap">
-<img src="https://img.shields.io/badge/☁_CLOUD_SECURITY-050505?style=for-the-badge&logoColor=00FFFF" alt="Cloud Security">
+<img src="https://img.shields.io/badge/☁_CLOUD_SECURITY-050505?style=for-the-badge&logoColor=00FFFF">
 </a>
 <a href="#-shadow-lab">
-<img src="https://img.shields.io/badge/🔬_DIGITAL_FORENSICS-050505?style=for-the-badge&logoColor=FF6600" alt="Digital Forensics">
+<img src="https://img.shields.io/badge/🔬_DIGITAL_FORENSICS-050505?style=for-the-badge&logoColor=FF6600">
+</a>
+<a href="#-cybersecurity-arsenal">
+<img src="https://img.shields.io/badge/⚡_MALWARE_ANALYSIS-050505?style=for-the-badge&logoColor=FF003C">
 </a>
 
 </div>
@@ -485,38 +434,44 @@ YEAR  │  PHASE                     │  KEY MILESTONES                        
 ## 🧑‍💻 TERMINAL SESSION — INTERACTIVE SHELL
 
 <pre>
-shadow@beast:~$ ./shadowbeast --identify --verbose
+shadow@beast:~$ ./shadowbeast --identify --verbose --full-manifest
 
-╔══════════════════════════════════════════════════════════╗
-║           SHADOWBEAST — SYSTEM IDENTIFICATION            ║
-╠══════════════════════════════════════════════════════════╣
-║  OPERATOR:        Chenura Gajanayake                    ║
-║  ALIAS:           ShadowBeast                           ║
-║  SECTOR:          Cybersecurity Engineering              ║
-║  LOCATION:        Sri Lanka                             ║
-║  STATUS:          ● ONLINE — FULLY OPERATIONAL          ║
-╚══════════════════════════════════════════════════════════╝
+╔══════════════════════════════════════════════════════════════════════╗
+║                   SHADOWBEAST — SYSTEM IDENTIFICATION               ║
+╠══════════════════════════════════════════════════════════════════════╣
+║  OPERATOR:        Chenura Gajanayake                                ║
+║  ALIAS:           ShadowBeast                                       ║
+║  SECTOR:          Cybersecurity Engineering — Full Spectrum          ║
+║  LOCATION:        Sri Lanka                                         ║
+║  STATUS:          ● ONLINE — FULLY OPERATIONAL — COMBAT EFFECTIVE   ║
+╚══════════════════════════════════════════════════════════════════════╝
 
-[+] Loading security modules ................... COMPLETE
-[+] Establishing defense perimeters ........... COMPLETE
-[+] Initializing AI core ...................... OPERATIONAL
-[+] Synchronizing shadow network .............. ACTIVE
-[+] Running diagnostic suite .................. PASSED
+[+] Loading security modules ..................... 100% COMPLETE
+[+] Establishing defense perimeters ............. 100% COMPLETE
+[+] Initializing AI core ........................ OPERATIONAL
+[+] Synchronizing shadow network ................ ACTIVE
+[+] Running full diagnostic suite ............... ALL PASSED
 
 shadow@beast:~$ cat /etc/shadowbeast/manifest.os
 
 MISSION:  Secure the digital galaxy, one system at a time.
-APPROACH: Understand → Break → Rebuild → Automate → Repeat
+APPROACH: Understand → Reverse Engineer → Rebuild → Automate → Repeat
 PHILOSOPHY: "Don't just use the system. Understand the system."
 CREED:    "Learn the system. Break the assumptions. Build the defense."
+PRINCIPLE: "You can't defend what you don't understand. You can't break
+            what you haven't rebuilt."
 
-shadow@beast:~$ ./shadowbeast --threat-assessment
+shadow@beast:~$ ./shadowbeast --threat-assessment --full
 
-[•] Current threat level:    LOW
-[•] Defense posture:         STRONG — MULTI-LAYER
-[•] Learning trajectory:     ACCELERATED
-[•] System integrity:        100% — ALL SYSTEMS NOMINAL
-[•] Mission readiness:       COMBAT EFFECTIVE
+[•] Global threat level:        LOW — ELEVATED MONITORING
+[•] Local defense posture:      STRONG — MULTI-LAYER DEFENSE IN DEPTH
+[•] AI integrity:               100% — ALL CORES OPERATIONAL
+[•] Network security:           HARDENED — FIREWALL ACTIVE — IDS ENGAGED
+[•] Learning trajectory:        ACCELERATED — 3 NEW SKILLS THIS MONTH
+[•] System integrity:           NOMINAL — ZERO COMPROMISES DETECTED
+[•] Mission readiness:          COMBAT EFFECTIVE — FULL SPECTRUM
+[•] Shadow protocol:            ACTIVE — NETWORK SYNCED
+[•] Alien access level:         GRANTED — LEVEL 87 OF 100
 
 shadow@beast:~$ _
 </pre>
@@ -543,18 +498,19 @@ shadow@beast:~$ _
 <br><br>
 
 <pre>
-╔══════════════════════════════════════════════════════════════════════════╗
-║                                                                          ║
-║                    ///  SHADOW NETWORK :: ONLINE  \\\                     ║
-║                                                                          ║
-║          ACCESS: GRANTED          PROTOCOL: ALIEN LEVEL                  ║
-║                                                                          ║
-║                LEARN  •  BUILD  •  SECURE  •  REPEAT                    ║
-║                                                                          ║
-║                 >>>  SEE YOU IN THE NEXT SYSTEM  <<<                     ║
-║                                                                          ║
-║                                       👽                                 ║
-╚══════════════════════════════════════════════════════════════════════════╝
+╔══════════════════════════════════════════════════════════════════════════════════╗
+║                                                                                  ║
+║                       ///  SHADOW NETWORK :: ONLINE  \\\                          ║
+║                                                                                  ║
+║                ACCESS: GRANTED          PROTOCOL: ALIEN LEVEL                    ║
+║                STATUS: ONLINE           INTEGRITY: 100%                          ║
+║                                                                                  ║
+║                   LEARN  •  BUILD  •  SECURE  •  REPEAT                         ║
+║                                                                                  ║
+║                    >>>  SEE YOU IN THE NEXT SYSTEM  <<<                          ║
+║                                                                                  ║
+║                                                👽                                ║
+╚══════════════════════════════════════════════════════════════════════════════════╝
 </pre>
 
 <br>
@@ -574,11 +530,11 @@ shadow@beast:~$ _
 👽 **SHADOWBEAST** — CYBERSECURITY · TECHNOLOGY · AI · RESEARCH
 
 <pre>
-████████████████████████████████████████████████████████████████████████████
-█  SYSTEM STATUS  :  ●  O N L I N E     //  SHADOW PROTOCOL : ACTIVE     █
-█  DEFENSE MATRIX :  ▣  E N G A G E D   //  AI CORE         : ONLINE     █
-█  SHADOW NETWORK :  ⊞  S Y N C E D     //  ALIEN ACCESS    : GRANTED    █
-████████████████████████████████████████████████████████████████████████████
+████████████████████████████████████████████████████████████████████████████████████
+█  SYSTEM STATUS   :  ●  O N L I N E   //  SHADOW PROTOCOL : A C T I V E        █
+█  DEFENSE MATRIX  :  ▣  E N G A G E D //  AI CORE         : O N L I N E        █
+█  SHADOW NETWORK  :  ⊞  S Y N C E D   //  ALIEN ACCESS    : G R A N T E D      █
+████████████████████████████████████████████████████████████████████████████████████
 </pre>
 
 <br>
@@ -606,12 +562,17 @@ shadow@beast:~$ _
 <summary><b>📜 SESSION LOG — TRANSCRIPT ARCHIVE</b></summary>
 
 <pre>
+[2026-08-23]  v4.0  GOD_MODE_2 — hero-matrix-v2 (3D cube + audio viz + dual radar
+               + starfield + hex grid), skills-matrix-v2 (spinning orbit rings),
+               roadmap-timeline (animated nodes + data flow), network-topo-v2
+               (packet animation everywhere). Zero copy-paste buttons.
 [2026-08-23]  v3.0  GOD_MODE — hero-matrix.svg, zero copy buttons, full arsenal
 [2026-08-23]  v2.0  NEXUS — Animated HUD, skills gauge, network topology
 [2026-08-22]  v1.0  INIT — Shadow Network established, snake workflow activated
 
-◆ NEXT UPGRADE: 4D holographic profile viz / live contribution dashboard
-◆ SYSTEM CONTINUOUSLY EVOLVING — STAY TUNED
+◆ NEXT UPGRADE:  LIVE CONTRIBUTION DASHBOARD / REALTIME METRICS FEED
+◆ SYSTEM CONTINUOUSLY EVOLVING — STAY TUNED, FELLOW TRAVELER
+◆ LATEST COMMIT:  83db57f → Current: git push pending
 </pre>
 
 </details>

@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="100%" height="auto">
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="line-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#00ff88"/><stop offset="30%" stop-color="#00ffff"/>
+      <stop offset="70%" stop-color="#00ff88"/><stop offset="100%" stop-color="#00ffff"/>
+    </linearGradient>
+    <style>
+      @keyframes pulse-node { 0%, 100% { r: 6; filter: drop-shadow(0 0 4px #00ff88); } 50% { r: 10; filter: drop-shadow(0 0 16px #00ff88); } }
+      @keyframes pulse-node2 { 0%, 100% { r: 5; filter: drop-shadow(0 0 3px #00ffff); } 50% { r: 9; filter: drop-shadow(0 0 14px #00ffff); } }
+      @keyframes pulse-node3 { 0%, 100% { r: 4; filter: drop-shadow(0 0 2px #ff6600); } 50% { r: 8; filter: drop-shadow(0 0 12px #ff6600); } }
+      @keyframes pulse-ring { 0% { r: 6; opacity: 0.6; } 100% { r: 30; opacity: 0; } }
+      @keyframes pulse-ring2 { 0% { r: 8; opacity: 0.4; } 100% { r: 40; opacity: 0; } }
+      @keyframes flow-right { 0% { stroke-dashoffset: 600; } 100% { stroke-dashoffset: 0; } }
+      @keyframes flow-blip { 0% { transform: translateX(0); opacity: 0; } 10% { opacity: 1; } 90% { opacity: 1; } 100% { transform: translateX(950px); opacity: 0; } }
+      @keyframes flow-blip-rev { 0% { transform: translateX(950px); opacity: 0; } 10% { opacity: 1; } 90% { opacity: 0.5; } 100% { transform: translateX(0); opacity: 0; } }
+      @keyframes spin-slow { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+      @keyframes glow-pulse { 0%, 100% { opacity: 0.5; filter: drop-shadow(0 0 5px #00ff88); } 50% { opacity: 1; filter: drop-shadow(0 0 20px #00ff88); } }
+      @keyframes fade-text { 0% { opacity: 0; transform: translateY(10px); } 100% { opacity: 1; transform: translateY(0); } }
+      @keyframes blink-cursor { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+
+      .pn1 { animation: pulse-node 2s ease-in-out infinite; }
+      .pn2 { animation: pulse-node2 2.5s ease-in-out 0.5s infinite; }
+      .pn3 { animation: pulse-node3 3s ease-in-out 1s infinite; }
+      .pg1 { animation: pulse-ring 2s ease-out infinite; }
+      .pg2 { animation: pulse-ring2 3s ease-out 0.5s infinite; }
+      .flow { stroke-dasharray: 1200; stroke-dashoffset: 1200; animation: flow-right 3s ease-out 0.5s both; }
+      .blip { animation: flow-blip 3s linear infinite; }
+      .blip-rev { animation: flow-blip-rev 4s linear infinite; }
+      .ss1 { animation: spin-slow 10s linear infinite; transform-origin: 0 0; }
+      .gp { animation: glow-pulse 2s ease-in-out infinite; }
+      .blk { animation: blink-cursor 1s step-end infinite; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="600" fill="#03030e" rx="8"/>
+  <rect x="2" y="2" width="1196" height="596" rx="8" fill="none" stroke="#00ff88" stroke-width="0.5" opacity="0.2"/>
+
+  <text x="600" y="30" font-family="monospace" font-size="12" fill="#00ff88" text-anchor="middle" letter-spacing="3" opacity="0.6">🎯 STRATEGIC ROADMAP :: 2026 — 2030</text>
+  <line x1="40" y1="38" x2="1160" y2="38" stroke="#00ff88" stroke-width="0.5" opacity="0.15"/>
+
+  <!-- Main timeline spine -->
+  <line x1="125" y1="80" x2="125" y2="540" stroke="url(#line-grad)" stroke-width="2" class="flow"/>
+  <line x1="125" y1="80" x2="125" y2="540" stroke="#00ff88" stroke-width="0.5" opacity="0.1"/>
+
+  <!-- Animated data flowing along the timeline -->
+  <circle cx="125" cy="80" fill="#00ff88" r="3" class="blip" filter="url(#glow)"/>
+  <circle cx="125" cy="540" fill="#00ffff" r="3" class="blip-rev" filter="url(#glow)"/>
+
+  <!-- ===== 2026 ===== -->
+  <g>
+    <!-- Timeline node -->
+    <circle cx="125" cy="140" r="6" fill="#00ff88" class="pn1" filter="url(#glow)"/>
+    <circle cx="125" cy="140" r="6" fill="none" stroke="#00ff88" class="pg1"/>
+    <circle cx="125" cy="140" r="6" fill="none" stroke="#00ffff" class="pg2"/>
+    
+    <!-- Year label -->
+    <rect x="80" y="110" width="90" height="24" rx="4" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.5"/>
+    <text x="125" y="126" font-family="monospace" font-size="12" fill="#00ff88" text-anchor="middle" font-weight="bold">2026</text>
+    
+    <!-- Content card -->
+    <rect x="250" y="105" width="880" height="55" rx="6" fill="#060618" stroke="#00ff88" stroke-width="0.5" opacity="0.3"/>
+    <rect x="250" y="105" width="4" height="55" rx="2" fill="#00ff88"/>
+    <text x="270" y="122" font-family="monospace" font-size="11" fill="#00ff88" font-weight="bold">PHASE: FOUNDATIONS</text>
+    <text x="270" y="138" font-family="monospace" font-size="9" fill="#888">Linux &amp; Networking Mastery · Ethical Hacking · Python/Bash/C/C++ · SOC Baseline</text>
+    <text x="1100" y="130" font-family="monospace" font-size="10" fill="#00ff88" class="blk">COMPLETE</text>
+    <line x1="270" y1="143" x2="1120" y2="143" stroke="#00ff88" stroke-width="0.3" opacity="0.1"/>
+    <text x="270" y="155" font-family="monospace" font-size="8" fill="#444">Progress: ████████████████████████████████████░░░░░ 87%</text>
+
+    <!-- Connection line -->
+    <line x1="131" y1="140" x2="250" y2="132" stroke="#00ff88" stroke-width="0.8" class="ds1" opacity="0.4"/>
+  </g>
+
+  <!-- ===== 2027 ===== -->
+  <g>
+    <circle cx="125" cy="230" r="5" fill="#00ffff" class="pn2" filter="url(#glow)"/>
+    <circle cx="125" cy="230" r="5" fill="none" stroke="#00ffff" class="pg1"/>
+    
+    <rect x="80" y="200" width="90" height="24" rx="4" fill="#0a0a1e" stroke="#00ffff" stroke-width="0.5"/>
+    <text x="125" y="216" font-family="monospace" font-size="12" fill="#00ffff" text-anchor="middle" font-weight="bold">2027</text>
+    
+    <rect x="250" y="195" width="880" height="55" rx="6" fill="#060618" stroke="#00ffff" stroke-width="0.5" opacity="0.3"/>
+    <rect x="250" y="195" width="4" height="55" rx="2" fill="#00ffff"/>
+    <text x="270" y="212" font-family="monospace" font-size="11" fill="#00ffff" font-weight="bold">PHASE: SPECIALIZATION</text>
+    <text x="270" y="228" font-family="monospace" font-size="9" fill="#888">SOC &amp; Digital Forensics · Web Security &amp; Bug Bounty · Security Automation · CTF</text>
+    <text x="1100" y="220" font-family="monospace" font-size="10" fill="#ff9900" class="blk">QUEUED</text>
+
+    <line x1="131" y1="230" x2="250" y2="222" stroke="#00ffff" stroke-width="0.8" opacity="0.4"/>
+  </g>
+
+  <!-- ===== 2028 ===== -->
+  <g>
+    <circle cx="125" cy="320" r="5" fill="#ff6600" class="pn3" filter="url(#glow)"/>
+    <circle cx="125" cy="320" r="5" fill="none" stroke="#ff6600" class="pg1"/>
+    
+    <rect x="80" y="290" width="90" height="24" rx="4" fill="#0a0a1e" stroke="#ff6600" stroke-width="0.5"/>
+    <text x="125" y="306" font-family="monospace" font-size="12" fill="#ff6600" text-anchor="middle" font-weight="bold">2028</text>
+    
+    <rect x="250" y="285" width="880" height="55" rx="6" fill="#060618" stroke="#ff6600" stroke-width="0.5" opacity="0.3"/>
+    <rect x="250" y="285" width="4" height="55" rx="2" fill="#ff6600"/>
+    <text x="270" y="302" font-family="monospace" font-size="11" fill="#ff6600" font-weight="bold">PHASE: ADVANCED ENGINEERING</text>
+    <text x="270" y="318" font-family="monospace" font-size="9" fill="#888">Security Engineering · Cloud Security (AWS/GCP) · AI Security &amp; Threat Detection · Malware Analysis</text>
+    <text x="1100" y="310" font-family="monospace" font-size="10" fill="#ff9900" class="blk">QUEUED</text>
+
+    <line x1="131" y1="320" x2="250" y2="312" stroke="#ff6600" stroke-width="0.8" opacity="0.4"/>
+  </g>
+
+  <!-- ===== 2029 ===== -->
+  <g>
+    <circle cx="125" cy="410" r="5" fill="#9d00ff" class="pn2" filter="url(#glow)"/>
+    <circle cx="125" cy="410" r="5" fill="none" stroke="#9d00ff" class="pg1"/>
+    
+    <rect x="80" y="380" width="90" height="24" rx="4" fill="#0a0a1e" stroke="#9d00ff" stroke-width="0.5"/>
+    <text x="125" y="396" font-family="monospace" font-size="12" fill="#9d00ff" text-anchor="middle" font-weight="bold">2029</text>
+    
+    <rect x="250" y="375" width="880" height="55" rx="6" fill="#060618" stroke="#9d00ff" stroke-width="0.5" opacity="0.3"/>
+    <rect x="250" y="375" width="4" height="55" rx="2" fill="#9d00ff"/>
+    <text x="270" y="392" font-family="monospace" font-size="11" fill="#9d00ff" font-weight="bold">PHASE: MASTERY &amp; RESEARCH</text>
+    <text x="270" y="408" font-family="monospace" font-size="9" fill="#888">Security Research · Architecture &amp; Design · Open Source Tooling · Consulting Operations</text>
+    <text x="1100" y="400" font-family="monospace" font-size="10" fill="#ff9900" class="blk">QUEUED</text>
+
+    <line x1="131" y1="410" x2="250" y2="402" stroke="#9d00ff" stroke-width="0.8" opacity="0.4"/>
+  </g>
+
+  <!-- ===== 2030 ===== -->
+  <g>
+    <circle cx="125" cy="500" r="8" fill="#00ff88" class="gp" filter="url(#glow)"/>
+    <circle cx="125" cy="500" r="8" fill="none" stroke="#00ff88" class="pg2"/>
+    <circle cx="125" cy="500" r="8" fill="none" stroke="#00ffff" class="pg1"/>
+    
+    <rect x="70" y="488" width="110" height="24" rx="4" fill="#0a1a0a" stroke="#00ff88" stroke-width="1.2"/>
+    <text x="125" y="504" font-family="monospace" font-size="12" fill="#00ff88" text-anchor="middle" font-weight="bold" class="gp">2030</text>
+    
+    <rect x="250" y="470" width="880" height="55" rx="6" fill="#0a1a0a" stroke="#00ff88" stroke-width="1" opacity="0.5"/>
+    <rect x="250" y="470" width="4" height="55" rx="2" fill="#00ff88"/>
+    <text x="270" y="487" font-family="monospace" font-size="11" fill="#00ff88" font-weight="bold">🏆 MISSION COMPLETE: CYBERSECURITY ENGINEER</text>
+    <text x="270" y="503" font-family="monospace" font-size="9" fill="#888">Target Acquired · All Systems Go · Shadow Network Fully Established</text>
+    <text x="1100" y="497" font-family="monospace" font-size="10" fill="#00ff88" class="blk">🎯 TARGET</text>
+
+    <line x1="131" y1="500" x2="250" y2="497" stroke="#00ff88" stroke-width="1.2" opacity="0.6"/>
+  </g>
+
+  <!-- Current position indicator on timeline -->
+  <g transform="translate(125, 140)">
+    <text x="-5" y="-15" font-family="monospace" font-size="8" fill="#00ff88" text-anchor="middle" class="blk">◀ YOU ARE HERE</text>
+  </g>
+
+  <!-- Bottom status bar -->
+  <rect x="40" y="555" width="1120" height="30" rx="4" fill="#060618" stroke="#00ff88" stroke-width="0.5" opacity="0.2"/>
+  <text x="60" y="574" font-family="monospace" font-size="9" fill="#666">ROADMAP STATUS: <tspan fill="#00ff88">ON TRACK</tspan> · NEXT MILESTONE: <tspan fill="#00ffff">SOC SPECIALIZATION</tspan> · ETA: <tspan fill="#ff6600">2027 Q1</tspan></text>
+  <text x="1060" y="574" font-family="monospace" font-size="8" fill="#666">UPDATED: <tspan fill="#888">2026-08-23</tspan></text>
+</svg>

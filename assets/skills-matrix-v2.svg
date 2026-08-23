@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" width="100%" height="auto">
+  <defs>
+    <filter id="glow-g" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#00ff88"/><stop offset="100%" stop-color="#00ddaa"/></linearGradient>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#00ffff"/><stop offset="100%" stop-color="#0088ff"/></linearGradient>
+    <linearGradient id="g3" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#ff6600"/><stop offset="100%" stop-color="#ff003c"/></linearGradient>
+    <linearGradient id="g4" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#9d00ff"/><stop offset="100%" stop-color="#6600ff"/></linearGradient>
+    <linearGradient id="g5" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#ffff00"/><stop offset="100%" stop-color="#ff9900"/></linearGradient>
+    <style>
+      @keyframes spin-cw { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+      @keyframes spin-ccw { 0% { transform: rotate(360deg); } 100% { transform: rotate(0deg); } }
+      @keyframes pulse-1 { 0%, 100% { opacity: 0.5; } 50% { opacity: 1; } }
+      @keyframes pulse-2 { 0%, 100% { opacity: 0.3; } 50% { opacity: 0.9; } }
+      @keyframes pulse-3 { 0%, 100% { filter: drop-shadow(0 0 3px #00ff88); } 50% { filter: drop-shadow(0 0 15px #00ff88); } }
+      @keyframes float-a { 0%, 100% { transform: translate(0,0); } 50% { transform: translate(-8px,12px); } }
+      @keyframes float-b { 0%, 100% { transform: translate(0,0); } 50% { transform: translate(10px,-10px); } }
+      @keyframes float-c { 0%, 100% { transform: translate(0,0); } 50% { transform: translate(-12px,-8px); } }
+      @keyframes float-d { 0%, 100% { transform: translate(0,0); } 50% { transform: translate(14px,6px); } }
+      @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+      @keyframes fill-ring { 0% { stroke-dasharray: 0 283; } 100% { stroke-dasharray: 255 28; } }
+      @keyframes fill-ring2 { 0% { stroke-dasharray: 0 283; } 100% { stroke-dasharray: 226 57; } }
+      @keyframes fill-ring3 { 0% { stroke-dasharray: 0 283; } 100% { stroke-dasharray: 198 85; } }
+      @keyframes fill-ring4 { 0% { stroke-dasharray: 0 283; } 100% { stroke-dasharray: 170 113; } }
+      @keyframes fill-ring5 { 0% { stroke-dasharray: 0 283; } 100% { stroke-dasharray: 141 142; } }
+      @keyframes expand { 0% { r: 5; opacity: 0.6; } 100% { r: 35; opacity: 0; } }
+      @keyframes orbit-1 { 0% { transform: rotate(0deg) translateX(55px) rotate(0deg); } 100% { transform: rotate(360deg) translateX(55px) rotate(-360deg); } }
+      @keyframes orbit-2 { 0% { transform: rotate(120deg) translateX(70px) rotate(-120deg); } 100% { transform: rotate(480deg) translateX(70px) rotate(-480deg); } }
+      @keyframes orbit-3 { 0% { transform: rotate(240deg) translateX(60px) rotate(-240deg); } 100% { transform: rotate(600deg) translateX(60px) rotate(-600deg); } }
+
+      .sp-cw { animation: spin-cw 8s linear infinite; }
+      .sp-ccw { animation: spin-ccw 10s linear infinite; }
+      .sp-cw-fast { animation: spin-cw 4s linear infinite; }
+      .p1 { animation: pulse-1 2s ease-in-out infinite; }
+      .p2 { animation: pulse-2 3s ease-in-out infinite; }
+      .p3 { animation: pulse-3 2.5s ease-in-out infinite; }
+      .fl1 { animation: float-a 5s ease-in-out infinite; }
+      .fl2 { animation: float-b 6s ease-in-out 1s infinite; }
+      .fl3 { animation: float-c 7s ease-in-out 0.5s infinite; }
+      .fl4 { animation: float-d 4s ease-in-out 1.5s infinite; }
+      .bl1 { animation: blink 1s step-end infinite; }
+      .fg1 { stroke: url(#g1); stroke-dasharray: 283; stroke-dashoffset: 283; animation: fill-ring 2s ease-out 0.3s forwards; }
+      .fg2 { stroke: url(#g2); stroke-dasharray: 283; stroke-dashoffset: 283; animation: fill-ring2 2s ease-out 0.5s forwards; }
+      .fg3 { stroke: url(#g3); stroke-dasharray: 283; stroke-dashoffset: 283; animation: fill-ring3 2s ease-out 0.7s forwards; }
+      .fg4 { stroke: url(#g4); stroke-dasharray: 283; stroke-dashoffset: 283; animation: fill-ring4 2s ease-out 0.9s forwards; }
+      .fg5 { stroke: url(#g5); stroke-dasharray: 283; stroke-dashoffset: 283; animation: fill-ring5 2s ease-out 1.1s forwards; }
+      .expand { animation: expand 3s ease-out infinite; }
+      .os1 { animation: orbit-1 6s linear infinite; }
+      .os2 { animation: orbit-2 8s linear infinite; }
+      .os3 { animation: orbit-3 10s linear infinite; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="520" fill="#03030e" rx="8"/>
+  <rect x="2" y="2" width="1196" height="516" rx="8" fill="none" stroke="#00ff88" stroke-width="0.5" opacity="0.2"/>
+
+  <text x="600" y="35" font-family="monospace" font-size="12" fill="#00ff88" text-anchor="middle" letter-spacing="3" opacity="0.6">⚡ SKILL PROFICIENCY :: ANIMATED RADIAL MATRIX</text>
+  <line x1="40" y1="45" x2="1160" y2="45" stroke="#00ff88" stroke-width="0.5" opacity="0.15"/>
+
+  <!-- Linux Ring -->
+  <g transform="translate(130, 310)">
+    <!-- Background ring -->
+    <circle cx="0" cy="0" r="45" fill="none" stroke="#112" stroke-width="16"/>
+    <!-- Fill ring -->
+    <circle cx="0" cy="0" r="45" fill="none" stroke-width="16" stroke-linecap="round" class="fg1" transform="rotate(-90)"/>
+    <!-- Inner orbit particles -->
+    <circle cx="0" cy="0" r="2" fill="#00ff88" class="os1" filter="url(#glow-g)"/>
+    <circle cx="0" cy="0" r="1.5" fill="#00ffff" class="os2"/>
+    <circle cx="0" cy="0" r="1" fill="#00ff88" class="os3"/>
+    <!-- Label -->
+    <text x="0" y="5" font-family="monospace" font-size="20" fill="#00ff88" text-anchor="middle" font-weight="bold">90</text>
+    <text x="30" y="0" font-family="monospace" font-size="9" fill="#00ff88" text-anchor="middle">%</text>
+    <text x="0" y="65" font-family="monospace" font-size="14" fill="#00ff88" text-anchor="middle">🐧 LINUX</text>
+    <circle cx="0" cy="0" r="53" fill="none" stroke="#00ff88" stroke-width="0.3" opacity="0.15" class="sp-ccw" stroke-dasharray="4 6"/>
+    <!-- Status dot -->
+    <circle cx="50" cy="-50" r="4" fill="#00ff88" class="p3" filter="url(#glow-g)"/>
+  </g>
+
+  <!-- Networking Ring -->
+  <g transform="translate(340, 310)">
+    <circle cx="0" cy="0" r="45" fill="none" stroke="#112" stroke-width="16"/>
+    <circle cx="0" cy="0" r="45" fill="none" stroke-width="16" stroke-linecap="round" class="fg2" transform="rotate(-90)"/>
+    <circle cx="0" cy="0" r="2" fill="#00ffff" class="os1" filter="url(#glow-g)"/>
+    <text x="0" y="5" font-family="monospace" font-size="20" fill="#00ffff" text-anchor="middle" font-weight="bold">80</text>
+    <text x="30" y="0" font-family="monospace" font-size="9" fill="#00ffff" text-anchor="middle">%</text>
+    <text x="0" y="65" font-family="monospace" font-size="14" fill="#00ffff" text-anchor="middle">🌐 NETWORK</text>
+    <circle cx="0" cy="0" r="53" fill="none" stroke="#00ffff" stroke-width="0.3" opacity="0.15" class="sp-cw" stroke-dasharray="4 6"/>
+    <circle cx="50" cy="-50" r="4" fill="#00ffff" class="p3" filter="url(#glow-g)"/>
+  </g>
+
+  <!-- Security Ring -->
+  <g transform="translate(550, 310)">
+    <circle cx="0" cy="0" r="45" fill="none" stroke="#112" stroke-width="16"/>
+    <circle cx="0" cy="0" r="45" fill="none" stroke-width="16" stroke-linecap="round" class="fg3" transform="rotate(-90)"/>
+    <circle cx="0" cy="0" r="2" fill="#ff6600" class="os1" filter="url(#glow-g)"/>
+    <text x="0" y="5" font-family="monospace" font-size="20" fill="#ff6600" text-anchor="middle" font-weight="bold">70</text>
+    <text x="30" y="0" font-family="monospace" font-size="9" fill="#ff6600" text-anchor="middle">%</text>
+    <text x="0" y="65" font-family="monospace" font-size="14" fill="#ff6600" text-anchor="middle">🔐 SECURITY</text>
+    <circle cx="0" cy="0" r="53" fill="none" stroke="#ff6600" stroke-width="0.3" opacity="0.15" class="sp-ccw" stroke-dasharray="4 6"/>
+    <circle cx="50" cy="-50" r="4" fill="#ff6600" class="p3" filter="url(#glow-g)"/>
+  </g>
+
+  <!-- AI Ring -->
+  <g transform="translate(760, 310)">
+    <circle cx="0" cy="0" r="45" fill="none" stroke="#112" stroke-width="16"/>
+    <circle cx="0" cy="0" r="45" fill="none" stroke-width="16" stroke-linecap="round" class="fg4" transform="rotate(-90)"/>
+    <circle cx="0" cy="0" r="2" fill="#9d00ff" class="os1" filter="url(#glow-g)"/>
+    <text x="0" y="5" font-family="monospace" font-size="20" fill="#9d00ff" text-anchor="middle" font-weight="bold">60</text>
+    <text x="30" y="0" font-family="monospace" font-size="9" fill="#9d00ff" text-anchor="middle">%</text>
+    <text x="0" y="65" font-family="monospace" font-size="14" fill="#9d00ff" text-anchor="middle">🤖 AI</text>
+    <circle cx="0" cy="0" r="53" fill="none" stroke="#9d00ff" stroke-width="0.3" opacity="0.15" class="sp-cw" stroke-dasharray="4 6"/>
+    <circle cx="50" cy="-50" r="4" fill="#9d00ff" class="p3" filter="url(#glow-g)"/>
+  </g>
+
+  <!-- Cloud Ring -->
+  <g transform="translate(970, 310)">
+    <circle cx="0" cy="0" r="45" fill="none" stroke="#112" stroke-width="16"/>
+    <circle cx="0" cy="0" r="45" fill="none" stroke-width="16" stroke-linecap="round" class="fg5" transform="rotate(-90)"/>
+    <circle cx="0" cy="0" r="2" fill="#ff9900" class="os1" filter="url(#glow-g)"/>
+    <text x="0" y="5" font-family="monospace" font-size="20" fill="#ff9900" text-anchor="middle" font-weight="bold">50</text>
+    <text x="30" y="0" font-family="monospace" font-size="9" fill="#ff9900" text-anchor="middle">%</text>
+    <text x="0" y="65" font-family="monospace" font-size="14" fill="#ff9900" text-anchor="middle">☁️ CLOUD</text>
+    <circle cx="0" cy="0" r="53" fill="none" stroke="#ff9900" stroke-width="0.3" opacity="0.15" class="sp-ccw" stroke-dasharray="4 6"/>
+    <circle cx="50" cy="-50" r="4" fill="#ff9900" class="p3" filter="url(#glow-g)"/>
+  </g>
+
+  <!-- Bottom stats bar -->
+  <rect x="40" y="430" width="1120" height="55" rx="4" fill="#060618" stroke="#00ff88" stroke-width="0.5" opacity="0.25"/>
+  <text x="60" y="453" font-family="monospace" font-size="10" fill="#00ff88" opacity="0.5">SKILL VERIFICATION :: REAL-TIME MONITOR</text>
+
+  <!-- Progress indicators -->
+  <g class="bl1" transform="translate(60, 463)">
+    <circle cx="0" cy="0" r="3" fill="#00ff88"/>
+    <text x="10" y="4" font-family="monospace" font-size="9" fill="#666">CORE :: <tspan fill="#00ff88">ESTABLISHED</tspan></text>
+  </g>
+  <g class="p2" transform="translate(240, 463)">
+    <circle cx="0" cy="0" r="3" fill="#00ffff"/>
+    <text x="10" y="4" font-family="monospace" font-size="9" fill="#666">ADVANCED :: <tspan fill="#00ffff">IN PROGRESS</tspan></text>
+  </g>
+  <g class="p1" transform="translate(480, 463)">
+    <circle cx="0" cy="0" r="3" fill="#ff6600"/>
+    <text x="10" y="4" font-family="monospace" font-size="9" fill="#666">SPECIALIZED :: <tspan fill="#ff6600">ACTIVE</tspan></text>
+  </g>
+  <g class="p2" transform="translate(730, 463)">
+    <circle cx="0" cy="0" r="3" fill="#9d00ff"/>
+    <text x="10" y="4" font-family="monospace" font-size="9" fill="#666">EXPLORING :: <tspan fill="#9d00ff">ONLINE</tspan></text>
+  </g>
+  <g class="bl1" transform="translate(960, 463)">
+    <circle cx="0" cy="0" r="3" fill="#ff9900"/>
+    <text x="10" y="4" font-family="monospace" font-size="9" fill="#666">LEARNING :: <tspan fill="#ff9900">ACTIVE</tspan></text>
+  </g>
+
+  <!-- Scan line -->
+  <rect width="1200" height="1" fill="#00ff88" opacity="0.05" class="p1"/>
+</svg>
