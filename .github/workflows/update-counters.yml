@@ -1,0 +1,36 @@
+name: Update Live Counters
+
+on:
+  schedule:
+    - cron: "0 * * * *"  # Every hour
+  workflow_dispatch:      # Manual trigger
+  push:
+    branches: [main]
+
+jobs:
+  update-counters:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Generate live counter SVG
+        run: python3 .github/scripts/generate-counters.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Validate XML
+        run: python3 -c "import xml.etree.ElementTree as ET; ET.parse('counter-dashboard.svg'); print('XML valid')"
+
+      - name: Commit updated counters
+        run: |
+          git config user.name "chenurag"
+          git config user.email "97651192+chenurag@users.noreply.github.com"
+          git add counter-dashboard.svg
+          if git diff --cached --quiet; then
+            echo "No changes — counters up to date"
+          else
+            git commit -m "⚡ auto-update counters: $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
