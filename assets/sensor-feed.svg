@@ -117,7 +117,7 @@
 
   <!-- Row 6: OSINT -->
   <g transform="translate(20, 250)">
-    <text x="0" y="16" font-family="monospace" font-size="11">🕵️ <tfill="#00ff88" font-weight="bold">OSINT</tspan></text>
+    <text x="0" y="16" font-family="monospace" font-size="11">🕵️ <tspan fill="#00ff88" font-weight="bold">OSINT</tspan></text>
     <text x="180" y="16" font-family="monospace" font-size="8" fill="#888">Recon-ng · Maltego · Shodan · Intel Gathering</text>
     <rect x="580" y="6" width="80" height="16" rx="3" fill="#0a0a1a" stroke="#00ff88" stroke-width="0.5"/>
     <circle cx="591" cy="14" r="3" fill="#00ff88" class="p2"/>
