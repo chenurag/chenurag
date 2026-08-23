@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 180" width="100%" height="auto">
+  <defs>
+    <filter id="g"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      @keyframes countUp{from{opacity:0}to{opacity:1}}
+      @keyframes pulse{0%,100%{opacity:0.6;filter:drop-shadow(0 0 4px)}50%{opacity:1;filter:drop-shadow(0 0 14px)}}
+      @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
+      @keyframes breathe{0%,100%{opacity:0.4}50%{opacity:0.8}}
+      @keyframes scan{0%{transform:translateX(-1200px)}100%{transform:translateX(1200px)}}
+      @keyframes flick{0%,100%{opacity:0.96}2%{opacity:0.2}4%{opacity:0.96}}
+      @keyframes growRing{0%{r:10;opacity:0.5}100%{r:45;opacity:0}}
+      @keyframes ticker{0%{transform:translateX(0)}100%{transform:translateX(-600px)}}
+      
+      .p1{animation:pulse 2s ease-in-out infinite}
+      .blk{animation:blink 0.8s step-end infinite}
+      .br{animation:breathe 4s ease-in-out infinite}
+      .sc{animation:scan 4s linear infinite}
+      .fk{animation:flick 7s infinite}
+      .gr{animation:growRing 2.5s ease-out infinite}
+    </style>
+  </defs>
+
+  <rect width="1200" height="180" fill="#02020c" rx="8"/>
+  <rect x="1" y="1" width="1198" height="178" rx="8" fill="none" stroke="#00ff88" stroke-width="0.5" opacity="0.12"/>
+  <rect class="sc" width="1200" height="1" fill="#00ff88" opacity="0.04"/>
+  <rect class="fk" width="1200" height="180" fill="#000" opacity="0.01" pointer-events="none"/>
+
+  <text x="600" y="22" font-family="monospace" font-size="10" fill="#00ff88" text-anchor="middle" letter-spacing="2" opacity="0.6">🔢 OPERATION COUNTERS — LIVE METRICS</text>
+
+  <!-- Counter cards -->
+  <g transform="translate(30, 42)">
+    <!-- REPOS -->
+    <rect x="0" y="0" width="215" height="80" rx="6" fill="#040416" stroke="#00ff88" stroke-width="0.6"/>
+    <circle cx="25" cy="25" r="12" fill="none" stroke="#00ff88" stroke-width="2" opacity="0.6"/>
+    <circle cx="25" cy="25" r="6" fill="#00ff88" class="p1" filter="url(#g)"/>
+    <text x="42" y="30" font-family="monospace" font-size="9" fill="#888">REPOSITORIES</text>
+    <text x="15" y="62" font-family="monospace" font-size="26" fill="#00ff88" font-weight="bold" class="p1">
+      <tspan><animate attributeName="values" values="0;1;2;3;4" dur="2s" fill="freeze"/>4</tspan>
+    </text>
+    <circle cx="200" cy="20" r="4" fill="none" stroke="#00ff88" class="gr"/>
+
+    <!-- COMMITS -->
+    <rect x="235" y="0" width="215" height="80" rx="6" fill="#040416" stroke="#00ffff" stroke-width="0.6"/>
+    <circle cx="260" cy="25" r="12" fill="none" stroke="#00ffff" stroke-width="2" opacity="0.6"/>
+    <circle cx="260" cy="25" r="6" fill="#00ffff" class="p1" filter="url(#g)"/>
+    <text x="277" y="30" font-family="monospace" font-size="9" fill="#888">COMMITS</text>
+    <text x="250" y="62" font-family="monospace" font-size="26" fill="#00ffff" font-weight="bold" class="p1">
+      <tspan><animate attributeName="values" values="0;10;20;30;38" dur="2.5s" fill="freeze"/>38</tspan>
+    </text>
+    <circle cx="435" cy="20" r="4" fill="none" stroke="#00ffff" class="gr"/>
+
+    <!-- PULL REQUESTS -->
+    <rect x="470" y="0" width="215" height="80" rx="6" fill="#040416" stroke="#9d00ff" stroke-width="0.6"/>
+    <circle cx="495" cy="25" r="12" fill="none" stroke="#9d00ff" stroke-width="2" opacity="0.6"/>
+    <circle cx="495" cy="25" r="6" fill="#9d00ff" class="p1" filter="url(#g)"/>
+    <text x="512" y="30" font-family="monospace" font-size="9" fill="#888">PRs MERGED</text>
+    <text x="485" y="62" font-family="monospace" font-size="26" fill="#9d00ff" font-weight="bold" class="p1">
+      <tspan><animate attributeName="values" values="0;3;5;7;9" dur="2.5s" fill="freeze"/>9</tspan>
+    </text>
+    <circle cx="670" cy="20" r="4" fill="none" stroke="#9d00ff" class="gr"/>
+
+    <!-- VISITORS -->
+    <rect x="705" y="0" width="215" height="80" rx="6" fill="#040416" stroke="#ff6600" stroke-width="0.6"/>
+    <circle cx="730" cy="25" r="12" fill="none" stroke="#ff6600" stroke-width="2" opacity="0.6"/>
+    <circle cx="730" cy="25" r="6" fill="#ff6600" class="p1" filter="url(#g)"/>
+    <text x="747" y="30" font-family="monospace" font-size="9" fill="#888">ALIEN VISITORS</text>
+    <text x="720" y="62" font-family="monospace" font-size="26" fill="#ff6600" font-weight="bold" class="p1">
+      <tspan><animate attributeName="values" values="0;1000;2000;3000;4062" dur="3s" fill="freeze"/>4,062</tspan>
+    </text>
+    <circle cx="905" cy="20" r="4" fill="none" stroke="#ff6600" class="gr"/>
+
+    <!-- UPTIME -->
+    <rect x="940" y="0" width="230" height="80" rx="6" fill="#040416" stroke="#ff003c" stroke-width="0.6"/>
+    <circle cx="965" cy="25" r="12" fill="none" stroke="#ff003c" stroke-width="2" opacity="0.6"/>
+    <circle cx="965" cy="25" r="6" fill="#ff003c" class="blk" filter="url(#g)"/>
+    <text x="982" y="30" font-family="monospace" font-size="9" fill="#888">OPERATIONS UPTIME</text>
+    <text x="955" y="62" font-family="monospace" font-size="26" fill="#ff003c" font-weight="bold" class="blk">99.9%</text>
+    <circle cx="1155" cy="20" r="4" fill="none" stroke="#ff003c" class="gr"/>
+  </g>
+
+  <!-- Bottom status -->
+  <g transform="translate(30, 138)">
+    <rect x="0" y="0" width="1140" height="30" rx="4" fill="#060618" stroke="#00ff88" stroke-width="0.4" opacity="0.3"/>
+    <text x="15" y="19" font-family="monospace" font-size="9" fill="#555">COUNTERS REFRESH: <tspan fill="#00ff88" class="br">AUTOMATIC</tspan></text>
+    <text x="350" y="19" font-family="monospace" font-size="9" fill="#555">DATA SOURCE: <tspan fill="#00ffff">GITHUB API</tspan></text>
+    <text x="700" y="19" font-family="monospace" font-size="9" fill="#555">LAST PULL: <tspan fill="#00ff88">JUST NOW</tspan></text>
+    <circle cx="1105" cy="14" r="3" fill="#00ff88" class="blk"/>
+  </g>
+</svg>

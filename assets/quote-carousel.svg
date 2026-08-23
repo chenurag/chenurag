@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" width="100%" height="auto">
+  <defs>
+    <filter id="g"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      @keyframes fade1{0%,20%{opacity:1}25%,95%{opacity:0}100%{opacity:0}}
+      @keyframes fade2{0%,20%{opacity:0}25%,45%{opacity:1}50%,95%{opacity:0}100%{opacity:0}}
+      @keyframes fade3{0%,45%{opacity:0}50%,70%{opacity:1}75%,95%{opacity:0}100%{opacity:0}}
+      @keyframes fade4{0%,70%{opacity:0}75%,100%{opacity:1}}
+      @keyframes pulse{0%,100%{opacity:0.5;filter:drop-shadow(0 0 4px #00ff88)}50%{opacity:1;filter:drop-shadow(0 0 14px #00ff88)}}
+      @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
+      @keyframes breathe{0%,100%{opacity:0.3}50%{opacity:0.7}}
+      @keyframes scan{0%{transform:translateX(-1200px)}100%{transform:translateX(1200px)}}
+      @keyframes flick{0%,100%{opacity:0.96}2%{opacity:0.2}4%{opacity:0.96}}
+
+      .q1{animation:fade1 16s infinite}
+      .q2{animation:fade2 16s infinite}
+      .q3{animation:fade3 16s infinite}
+      .q4{animation:fade4 16s infinite}
+      .p1{animation:pulse 2s ease-in-out infinite}
+      .blk{animation:blink 0.8s step-end infinite}
+      .br{animation:breathe 4s ease-in-out infinite}
+      .sc{animation:scan 4s linear infinite}
+      .fk{animation:flick 7s infinite}
+    </style>
+  </defs>
+
+  <rect width="1200" height="120" fill="#02020c" rx="8"/>
+  <rect x="1" y="1" width="1198" height="118" rx="8" fill="none" stroke="#00ff88" stroke-width="0.5" opacity="0.12"/>
+  <rect class="sc" width="1200" height="1" fill="#00ff88" opacity="0.04"/>
+  <rect class="fk" width="1200" height="120" fill="#000" opacity="0.01" pointer-events="none"/>
+
+  <!-- Quote 1 -->
+  <g class="q1">
+    <text x="55" y="55" font-family="'Courier New',monospace" font-size="14" fill="#00ff88" font-style="italic">
+      "Learn the system. Break the assumptions. Build the defense."
+    </text>
+    <text x="55" y="80" font-family="monospace" font-size="10" fill="#666">— SHADOWBEAST CREED</text>
+    <circle cx="35" cy="50" r="4" fill="#00ff88" class="p1" filter="url(#g)"/>
+  </g>
+
+  <!-- Quote 2 -->
+  <g class="q2">
+    <text x="55" y="55" font-family="'Courier New',monospace" font-size="14" fill="#00ffff" font-style="italic">
+      "You can't defend what you don't understand. You can't break what you haven't rebuilt."
+    </text>
+    <text x="55" y="80" font-family="monospace" font-size="10" fill="#666">— OPERATIONAL PRINCIPLE</text>
+    <circle cx="35" cy="50" r="4" fill="#00ffff" class="p1" filter="url(#g)"/>
+  </g>
+
+  <!-- Quote 3 -->
+  <g class="q3">
+    <text x="55" y="55" font-family="'Courier New',monospace" font-size="14" fill="#ff6666" font-style="italic">
+      "Security is not a product, but a process. The process never ends."
+    </text>
+    <text x="55" y="80" font-family="monospace" font-size="10" fill="#666">— SECURITY DOCTRINE</text>
+    <circle cx="35" cy="50" r="4" fill="#ff003c" class="p1" filter="url(#g)"/>
+  </g>
+
+  <!-- Quote 4 -->
+  <g class="q4">
+    <text x="55" y="55" font-family="'Courier New',monospace" font-size="14" fill="#9d00ff" font-style="italic">
+      "Don't just use the system. Understand the system."
+    </text>
+    <text x="55" y="80" font-family="monospace" font-size="10" fill="#666">— MISSION STATEMENT</text>
+    <circle cx="35" cy="50" r="4" fill="#9d00ff" class="p1" filter="url(#g)"/>
+  </g>
+
+  <!-- Rotating dots indicator -->
+  <g transform="translate(600, 100)">
+    <circle cx="-40" cy="0" r="3" fill="#00ff88" class="blk"/>
+    <circle cx="-20" cy="0" r="3" fill="#00ffff" class="blk" style="animation-delay:4s"/>
+    <circle cx="0" cy="0" r="3" fill="#ff003c" class="blk" style="animation-delay:8s"/>
+    <circle cx="20" cy="0" r="3" fill="#9d00ff" class="blk" style="animation-delay:12s"/>
+  </g>
+</svg>

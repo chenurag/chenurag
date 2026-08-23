@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" width="100%" height="auto">
+  <defs>
+    <filter id="g"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      @keyframes scrollUp{0%{transform:translateY(0)}100%{transform:translateY(-400px)}}
+      @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
+      @keyframes breathe{0%,100%{opacity:0.4}50%{opacity:0.8}}
+      @keyframes scan{0%{transform:translateX(-1200px)}100%{transform:translateX(1200px)}}
+      @keyframes flick{0%,100%{opacity:0.96}2%{opacity:0.2}4%{opacity:0.96}}@keyframes newLine{0%{opacity:0}100%{opacity:1}}
+      
+      .blk{animation:blink 0.8s step-end infinite}
+      .br{animation:breathe 4s ease-in-out infinite}
+      .sc{animation:scan 4s linear infinite}
+      .fk{animation:flick 7s infinite}
+      .su{animation:scrollUp 20s linear infinite}
+    </style>
+  </defs>
+
+  <rect width="1200" height="220" fill="#02020c" rx="8"/>
+  <rect x="1" y="1" width="1198" height="218" rx="8" fill="none" stroke="#00ff88" stroke-width="0.5" opacity="0.12"/>
+  <rect class="sc" width="1200" height="1" fill="#00ff88" opacity="0.04"/>
+  <rect class="fk" width="1200" height="220" fill="#000" opacity="0.01" pointer-events="none"/>
+
+  <rect x="0" y="0" width="80" height="220" rx="8" fill="#04041a"/>
+  <text x="12" y="22" font-family="monospace" font-size="8" fill="#ff003c" class="blk">● LIVE</text>
+  <text x="12" y="40" font-family="monospace" font-size="8" fill="#555">EVENT</text>
+  <text x="12" y="55" font-family="monospace" font-size="8" fill="#555">LOG</text>
+
+  <g clip-path="url(#logClip)">
+    <defs><clipPath id="logClip"><rect x="80" y="5" width="1120" height="210"/></clipPath></defs>
+    <g class="su" font-family="monospace" font-size="10">
+      <text x="95" y="22" fill="#888">[2026-08-23 14:32] SYSTEM PROFILE UPDATED ✓</text>
+      <text x="95" y="40" fill="#888">[2026-08-23 14:31] SKILL MATRIX RECALIBRATED ✓</text>
+      <text x="95" y="58" fill="#888">[2026-08-23 14:30] ARSENAL VERIFIED: 49 TOOLS ONLINE ✓</text>
+      <text x="95" y="76" fill="#00ff88">[2026-08-23 14:28] README MD UPGRADED: EVERY SVG v4.2 ✓</text>
+      <text x="95" y="94" fill="#888">[2026-08-23 13:00] GITHUB CONTRIBUTION SNAKE SYNCED ✓</text>
+      <text x="95" y="112" fill="#888">[2026-08-23 12:45] AI CORE HEALTHY: OLLAMA ONLINE ✓</text>
+      <text x="95" y="130" fill="#00ffff">[2026-08-23 12:00] SHADOW NETWORK SYNCHRONIZED ✓</text>
+      <text x="95" y="148" fill="#888">[2026-08-23 11:30] BOOT SEQUENCE COMPLETED ✓</text>
+      <text x="95" y="166" fill="#888">[2026-08-23 10:15] THREAT SCAN: CLEAN - NO ISSUES ✓</text>
+      <text x="95" y="184" fill="#ff6600">[2026-08-23 09:00] LEARNING VECTOR UPDATED: PTES ✓</text>
+      <text x="95" y="202" fill="#888">[2026-08-23 08:00] NIGHTLY LAB SESSION COMPLETE ✓</text>
+      <text x="95" y="220" fill="#888">[2026-08-23 06:00] NETWORK MONITORING STANDBY ✓</text>
+      <text x="95" y="238" fill="#00ff88">[2026-08-22 23:30] LAB ENVIRONMENT: CTF PRACTICE ✓</text>
+      <text x="95" y="256" fill="#888">[2026-08-22 22:00] BURP SUITE RESEARCH SESSION ✓</text>
+      <text x="95" y="274" fill="#888">[2026-08-22 20:00] WAZUH DASHBOARD UPDATED ✓</text>
+      <text x="95" y="292" fill="#888">[2026-08-22 18:00] LINUX HARDENING COMPLETED ✓</text>
+      <text x="95" y="310" fill="#00ffff">[2026-08-22 16:00] NEW CVE RESEARCH CATALOGUED ✓</text>
+      <text x="95" y="328" fill="#888">[2026-08-22 14:00] AI TRAINING DATA UPDATED ✓</text>
+      <text x="95" y="346" fill="#888">[2026-08-22 12:00] OSINT RECON SCRIPTS OPTIMIZED ✓</text>
+      <text x="95" y="364" fill="#ff003c">[2026-08-22 10:00] FIREWALL RULES AUDIT: PASSED ✓</text>
+      <text x="95" y="382" fill="#888">[2026-08-22 08:00] SYSTEM MAINTENANCE COMPLETE ✓</text>
+      <text x="95" y="400" fill="#888">[2026-08-22 06:00] SHADOW NETWORK NIGHT CYCLE ✓</text>
+    </g>
+  </g>
+</svg>

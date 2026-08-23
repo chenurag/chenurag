@@ -33,6 +33,13 @@
 
 <br>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/boot-sequence.svg">
+  <img src="assets/boot-sequence.svg" alt="Boot Sequence" width="100%">
+</picture>
+
+<br>
+
 > **`INIT SEQUENCE: SHADOWBEAST PROTOCOL v4.0`**
 >
 > Welcome to my digital operations center. I'm **Chenura Gajanayake** — a cybersecurity
@@ -86,6 +93,20 @@
 <br>
 
 <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/live-ticker.svg">
+  <img src="assets/live-ticker.svg" alt="Live Feed Ticker" width="100%">
+</picture>
+
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-heatmap.svg">
+  <img src="assets/activity-heatmap.svg" alt="Activity Heatmap" width="100%">
+</picture>
+
+<br>
+
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/snake-wrapper.svg">
   <img src="assets/snake-wrapper.svg" alt="Contribution Snake Activity Feed" width="100%">
 </picture>
@@ -111,7 +132,7 @@
 <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=chenurag&theme=chartreuse-dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact&langs_count=12&border_radius=10&border_color=00ff41&title_color=00ff41&text_color=ccffcc&bg_color=000000" alt="Top Languages" width="39%">
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=chenurag&theme=react-dark&hide_border=false&area=true&area_color=00ff41&color=00ff41&line=39ff14&point=ffffff&bg_color=000000&border_color=00ff41&custom_title=Contribution+Activity&radius=6" alt="Activity Graph" width="59%">
 
-<div align="center">
+<br><br>
 
 <img src="https://github-profile-trophy.vercel.app/?username=chenurag&theme=matrix&no-frame=false&no-bg=false&margin-w=6&column=7&title=Stars,Followers,Commits,PR,Issues,Repos,MultipleLang" alt="Trophies">
 
@@ -121,6 +142,22 @@
   <source media="(prefers-color-scheme: dark)" srcset="assets/level-system.svg">
   <img src="assets/level-system.svg" alt="Level System Progress Tracker" width="100%">
 </picture>
+
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/counter-dashboard.svg">
+  <img src="assets/counter-dashboard.svg" alt="Operation Counters" width="100%">
+</picture>
+
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/tech-radar-chart.svg">
+  <img src="assets/tech-radar-chart.svg" alt="Skill Radar Chart" width="100%">
+</picture>
+
+<br>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/terminal-session.svg">
@@ -137,6 +174,27 @@
 <br>
 
 <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/location-ping.svg">
+  <img src="assets/location-ping.svg" alt="Operations Base Location" width="100%">
+</picture>
+
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/quote-carousel.svg">
+  <img src="assets/quote-carousel.svg" alt="Quote Carousel" width="100%">
+</picture>
+
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/incident-log.svg">
+  <img src="assets/incident-log.svg" alt="Live Event Log" width="100%">
+</picture>
+
+<br>
+
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/final-transmission.svg">
   <img src="assets/final-transmission.svg" alt="Final Transmission" width="100%">
 </picture>
@@ -147,18 +205,19 @@
 <summary><b>📜 SESSION LOG — TRANSCRIPT ARCHIVE</b></summary>
 
 <pre>
-[2026-08-23]  v4.2  EVERY_SVG — 18 animated SVGs across every README section.
-               Remaining static content converted: core-directives, terminal-session,
-               ai-pipeline, github-stats-frame, snake-wrapper, access-portal.
-               Zero code fences. Zero copy buttons.
-[2026-08-23]  v4.1  MAX_ANIM — 10 animated SVGs, nav/sensor/arsenal/projects/learn/transmission
+[2026-08-23]  v4.3  MORE_ANIM — 8 new SVGs: boot-sequence, live-ticker, activity-heatmap,
+               counter-dashboard, tech-radar-chart, location-ping, quote-carousel, incident-log.
+               25 total animated SVGs across every README section.
+[2026-08-23]  v4.2  EVERY_SVG — 17 animated SVGs, every section converted
+[2026-08-23]  v4.1  MAX_ANIM — 10 animated SVGs
 [2026-08-23]  v4.0  GOD_MODE_2 — hero-matrix-v2, skills-matrix-v2, roadmap-timeline, network-topo-v2
 [2026-08-23]  v3.0  GOD_MODE — hero-matrix.svg, zero copy buttons
 [2026-08-23]  v2.0  NEXUS — Animated HUD, skills gauge, network topology
 [2026-08-22]  v1.0  INIT — Shadow Network established
 
-◆ TOTAL ANIMATED SECTIONS: 18
-◆ EVOLVING CONTINUOUSLY — NEXT: LIVE CONTRIBUTION STREAM
+◆ TOTAL ANIMATED SECTIONS: 25
+◆ 38 COMMITS TODAY — EVOLVING CONTINUOUSLY
+◆ SYSTEM :: ONLINE — SHADOW PROTOCOL :: ACTIVE
 </pre>
 
 </details>

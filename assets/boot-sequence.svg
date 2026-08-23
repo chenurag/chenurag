@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" width="100%" height="auto">
+  <defs>
+    <filter id="g"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
+      @keyframes breathe{0%,100%{opacity:0.5}50%{opacity:0.8}}
+      @keyframes scan{0%{transform:translateX(-1200px)}100%{transform:translateX(1200px)}}
+      @keyframes flick{0%,100%{opacity:0.96}2%{opacity:0.2}4%{opacity:0.96}8%{opacity:0.5}10%{opacity:0.96}}
+      @keyframes lineIn{0%{opacity:0;transform:translateX(-15px)}100%{opacity:1;transform:translateX(0)}}
+      @keyframes cursor{0%,100%{opacity:1}50%{opacity:0}}
+      @keyframes progbar{0%{width:0}100%{width:100%}}
+      
+      .blk{animation:blink 0.8s step-end infinite}
+      .br{animation:breathe 4s ease-in-out infinite}
+      .sc{animation:scan 4s linear infinite}
+      .fk{animation:flick 7s infinite}
+      .li1{animation:lineIn 0.4s ease-out 0.3s both}
+      .li2{animation:lineIn 0.4s ease-out 0.8s both}
+      .li3{animation:lineIn 0.4s ease-out 1.3s both}
+      .li4{animation:lineIn 0.4s ease-out 1.8s both}
+      .li5{animation:lineIn 0.4s ease-out 2.3s both}
+      .li6{animation:lineIn 0.4s ease-out 2.8s both}
+      .li7{animation:lineIn 0.4s ease-out 3.3s both}
+      .li8{animation:lineIn 0.4s ease-out 3.8s both}
+      .li9{animation:lineIn 0.4s ease-out 4.3s both}
+      .pb{animation:progbar 1.5s ease-out 0.3s both}
+      .pb2{animation:progbar 1.5s ease-out 0.8s both}
+      .pb3{animation:progbar 1.5s ease-out 1.3s both}
+      .pb4{animation:progbar 1.5s ease-out 1.8s both}
+      .pb5{animation:progbar 1.5s ease-out 2.3s both}
+      .pb6{animation:progbar 1.5s ease-out 2.8s both}
+    </style>
+  </defs>
+
+  <rect width="1200" height="240" fill="#02020c" rx="8"/>
+  <rect x="1" y="1" width="1198" height="238" rx="8" fill="none" stroke="#00ff88" stroke-width="0.5" opacity="0.12"/>
+  <rect class="sc" width="1200" height="1" fill="#00ff88" opacity="0.04"/>
+  <rect class="fk" width="1200" height="240" fill="#000" opacity="0.01" pointer-events="none"/>
+
+  <!-- Terminal title bar -->
+  <rect x="30" y="12" width="1140" height="30" rx="6" fill="#04041a"/>
+  <circle cx="50" cy="27" r="5" fill="#ff003c" opacity="0.7"/>
+  <circle cx="68" cy="27" r="5" fill="#ff9900" opacity="0.7"/>
+  <circle cx="86" cy="27" r="5" fill="#00ff88" opacity="0.7"/>
+  <text x="600" y="31" font-family="monospace" font-size="9" fill="#00ff88" text-anchor="middle" opacity="0.4">SHADOWBEAST OS — BOOT SEQUENCE</text>
+
+  <!-- Boot log lines with staggered entrance -->
+  <g transform="translate(45, 62)" font-family="monospace">
+    <text class="li1" x="0" y="0" font-size="10" fill="#555">[ 0.000000] SHADOWBEAST OS v4.2 — xenial kernel booting...</text>
+    
+    <text class="li2" x="0" y="22" font-size="10" fill="#888">[ 0.213400] Initializing security modules</text>
+    <rect class="pb" x="340" y="13" width="200" height="6" rx="3" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.3"/>
+    <rect class="pb" x="340" y="13" width="180" height="6" rx="3" fill="#00ff88" opacity="0.6"/>
+    
+    <text class="li3" x="0" y="44" font-size="10" fill="#888">[ 0.524100] Mounting defense perimeter /dev/secure</text>
+    <rect class="pb2" x="340" y="35" width="200" height="6" rx="3" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.3"/>
+    <rect class="pb2" x="340" y="35" width="195" height="6" rx="3" fill="#00ff88" opacity="0.6"/>
+    
+    <text class="li4" x="0" y="66" font-size="10" fill="#888">[ 0.891200] Loading AI core (ollama::mistral)</text>
+    <rect class="pb3" x="340" y="57" width="200" height="6" rx="3" fill="#0a0a1e" stroke="#9d00ff" stroke-width="0.3"/>
+    <rect class="pb3" x="340" y="57" width="160" height="6" rx="3" fill="#9d00ff" opacity="0.6"/>
+    
+    <text class="li5" x="0" y="88" font-size="10" fill="#888">[ 1.240500] Whisper STT engine online</text>
+    <rect class="pb4" x="340" y="79" width="200" height="6" rx="3" fill="#0a0a1e" stroke="#00ffff" stroke-width="0.3"/>
+    <rect class="pb4" x="340" y="79" width="200" height="6" rx="3" fill="#00ffff" opacity="0.6"/>
+    
+    <text class="li6" x="0" y="110" font-size="10" fill="#888">[ 1.612300] Synchronizing shadow network nodes</text>
+    <rect class="pb5" x="340" y="101" width="200" height="6" rx="3" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.3"/>
+    <rect class="pb5" x="340" y="101" width="150" height="6" rx="3" fill="#00ff88" opacity="0.6"/>
+    
+    <text class="li7" x="0" y="132" font-size="10" fill="#00ff88">[ 2.041100] ✓ All 49 arsenal weapons verified</text>
+    <text class="li8" x="0" y="154" font-size="10" fill="#00ff88">[ 2.412400] ✓ Threat level: LOW — posture: STRONG</text>
+    <text class="li9" x="0" y="176" font-size="10" fill="#00ffff">[ 2.803700] ✓ SHADOW NETWORK ONLINE — ALIEN ACCESS GRANTED</text>
+    
+    <text x="0" y="205" font-size="11" fill="#00ffff">shadow@beast</text>
+    <text x="115" y="205" font-size="11" fill="#555">:~$</text>
+    <text x="140" y="205" font-size="11" fill="#fff" class="blk">▊</text>
+  </g>
+</svg>
