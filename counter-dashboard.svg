@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" width="100%" height="auto">
+  <defs><filter id="g"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style><![CDATA[
+      @keyframes p1{0%,100%{filter:drop-shadow(0 0 4px)}50%{filter:drop-shadow(0 0 14px)}}
+      @keyframes br{0%,100%{opacity:0.3}50%{opacity:0.7}}@keyframes scan{0%{transform:translateX(-1200px)}100%{transform:translateX(1200px)}}
+      @keyframes flick{0%,100%{opacity:0.96}2%{opacity:0.2}4%{opacity:0.96}}@keyframes grow{0%{height:0}100%{height:var(--h)}}
+      .p1{animation:p1 2s ease-in-out infinite}.br{animation:br 4s ease-in-out infinite}
+      .sc{animation:scan 4s linear infinite}.fk{animation:flick 7s infinite}
+      .g1{--h:30px;animation:grow 1.5s ease-out 0.2s both}.g2{--h:160px;animation:grow 1.5s ease-out 0.4s both}
+      .g3{--h:120px;animation:grow 1.5s ease-out 0.6s both}.g4{--h:80px;animation:grow 1.5s ease-out 0.8s both}
+      .g5{--h:200px;animation:grow 1.5s ease-out 1.0s both}
+    ]]></style>
+  </defs>
+  <rect width="1200" height="260" fill="#02020c" rx="8"/>
+  <rect x="1" y="1" width="1198" height="258" rx="8" fill="none" stroke="#00ff88" stroke-width="0.5" opacity="0.12"/>
+  <rect class="sc" width="1200" height="1" fill="#00ff88" opacity="0.04"/>
+  <rect class="fk" width="1200" height="260" fill="#000" opacity="0.01" pointer-events="none"/>
+  <text x="600" y="26" font-family="monospace" font-size="15" fill="#00ff88" text-anchor="middle" letter-spacing="2" opacity="0.7">OPERATION COUNTERS — REAL-TIME METRICS</text>
+
+  <g transform="translate(60, 55)">
+    <!-- REPOS -->
+    <rect x="0" y="40" width="170" height="0" rx="6" fill="#0a1a0a" stroke="#00ff88" stroke-width="1" class="g2"/>
+    <text x="85" y="100" font-family="monospace" font-size="30" fill="#00ff88" text-anchor="middle" class="p1">5</text>
+    <text x="85" y="125" font-family="monospace" font-size="12" fill="#888" text-anchor="middle">REPOS</text>
+
+    <!-- COMMITS -->
+    <rect x="210" y="80" width="170" height="0" rx="6" fill="#0a0a1a" stroke="#00ffff" stroke-width="1" class="g3"/>
+    <text x="295" y="140" font-family="monospace" font-size="30" fill="#00ffff" text-anchor="middle" class="br">409</text>
+    <text x="295" y="165" font-family="monospace" font-size="12" fill="#888" text-anchor="middle">COMMITS</text>
+
+    <!-- PROFILE COMMITS -->
+    <rect x="420" y="0" width="170" height="0" rx="6" fill="#0a000a" stroke="#ff003c" stroke-width="1" class="g5"/>
+    <text x="505" y="60" font-family="monospace" font-size="30" fill="#ff6666" text-anchor="middle" class="p1">54</text>
+    <text x="505" y="85" font-family="monospace" font-size="12" fill="#888" text-anchor="middle">PROFILE COMMITS</text>
+
+    <!-- STREAK -->
+    <rect x="630" y="120" width="170" height="0" rx="6" fill="#0a0a1a" stroke="#9d00ff" stroke-width="1" class="g4"/>
+    <text x="715" y="180" font-family="monospace" font-size="30" fill="#9d00ff" text-anchor="middle" class="p1">54</text>
+    <text x="715" y="205" font-family="monospace" font-size="12" fill="#888" text-anchor="middle">COMMIT STREAK</text>
+
+    <!-- KB -->
+    <rect x="840" y="170" width="170" height="0" rx="6" fill="#0a1a0a" stroke="#00ff88" stroke-width="1" class="g1"/>
+    <text x="925" y="205" font-family="monospace" font-size="30" fill="#00ff88" text-anchor="middle" class="p1">409</text>
+    <text x="925" y="228" font-family="monospace" font-size="12" fill="#888" text-anchor="middle">KB CODE</text>
+  </g>
+
+  <g transform="translate(60, 225)">
+    <rect x="0" y="0" width="1080" height="28" rx="4" fill="#060618" stroke="#00ff88" stroke-width="0.4" opacity="0.3"/>
+    <text x="15" y="19" font-family="monospace" font-size="13" fill="#555">DATA SOURCE: <tspan fill="#00ff88" class="p1">GITHUB API</tspan> · LAST UPDATED: <tspan fill="#00ffff">AUTO (HOURLY)</tspan></text>
+  </g>
+</svg>
