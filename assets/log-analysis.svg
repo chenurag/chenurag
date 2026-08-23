@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" width="100%" height="auto">
+  <defs><filter id="g"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style><![CDATA[
+      @keyframes fillBar{0%{width:0}100%{width:var(--w)}}
+      @keyframes scroll{0%{transform:translateY(0)}100%{transform:translateY(-300px)}}
+      @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}@keyframes p1{0%,100%{filter:drop-shadow(0 0 4px)}50%{filter:drop-shadow(0 0 14px)}}
+      @keyframes br{0%,100%{opacity:0.3}50%{opacity:0.7}}@keyframes scan{0%{transform:translateX(-1200px)}100%{transform:translateX(1200px)}}
+      .fb1{--w:420px;animation:fillBar 2s ease-out 0.2s both}.fb2{--w:350px;animation:fillBar 2s ease-out 0.4s both}
+      .fb3{--w:280px;animation:fillBar 2s ease-out 0.6s both}.su{animation:scroll 20s linear infinite}
+      .blk{animation:blink 0.8s step-end infinite}.p1{animation:p1 2s ease-in-out infinite}
+      .br{animation:br 4s ease-in-out infinite}.sc{animation:scan 4s linear infinite}
+    ]]></style>
+  </defs>
+  <rect width="1200" height="260" fill="#02020c" rx="8"/>
+  <rect x="1" y="1" width="1198" height="258" rx="8" fill="none" stroke="#00ff88" stroke-width="0.5" opacity="0.12"/>
+  <rect class="sc" width="1200" height="1" fill="#00ff88" opacity="0.04"/>
+  <text x="600" y="26" font-family="monospace" font-size="15" fill="#00ff88" text-anchor="middle" letter-spacing="2" opacity="0.7">SIEM LOG ANALYSIS — REAL-TIME THREAT DETECTION</text>
+
+  <g transform="translate(40, 45)">
+    <text x="0" y="18" font-family="monospace" font-size="15" fill="#00ff88" font-weight="bold">LOGS INGESTED</text>
+    <rect x="160" y="8" width="500" height="14" rx="5" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.3"/>
+    <rect x="160" y="8" width="420" height="14" rx="5" fill="#00ff88" opacity="0.7" class="fb1"/>
+    <text x="680" y="18" font-family="monospace" font-size="14" fill="#00ff88" class="p1">12.4K/day</text>
+  </g>
+  <g transform="translate(40, 80)">
+    <text x="0" y="18" font-family="monospace" font-size="15" fill="#00ffff" font-weight="bold">ALERTS GENERATED</text>
+    <rect x="160" y="8" width="500" height="14" rx="5" fill="#0a0a1e" stroke="#00ffff" stroke-width="0.3"/>
+    <rect x="160" y="8" width="350" height="14" rx="5" fill="#00ffff" opacity="0.6" class="fb2"/>
+    <text x="680" y="18" font-family="monospace" font-size="14" fill="#00ffff" class="br">47/day</text>
+  </g>
+  <g transform="translate(40, 115)">
+    <text x="0" y="18" font-family="monospace" font-size="15" fill="#ff6600" font-weight="bold">FALSE POSITIVES</text>
+    <rect x="160" y="8" width="500" height="14" rx="5" fill="#0a0a1e" stroke="#ff6600" stroke-width="0.3"/>
+    <rect x="160" y="8" width="280" height="14" rx="5" fill="#ff6600" opacity="0.6" class="fb3"/>
+    <text x="680" y="18" font-family="monospace" font-size="14" fill="#ff6600">23/day</text>
+  </g>
+
+  <g transform="translate(40, 140)">
+    <rect x="0" y="0" width="500" height="28" rx="4" fill="#060618" stroke="#00ff88" stroke-width="0.4" opacity="0.3"/>
+    <text x="15" y="19" font-family="monospace" font-size="13" fill="#555">ACCURACY: <tspan fill="#00ff88" class="p1">95.2%</tspan> · AVG RESPONSE: <tspan fill="#00ffff">2.4m</tspan> · TOP RULE: <tspan fill="#ff6600">SQLi Detection</tspan></text>
+  </g>
+
+  <g transform="translate(650, 45)">
+    <rect x="0" y="0" width="510" height="145" rx="6" fill="#040416" stroke="#00ffff" stroke-width="0.5"/>
+    <text x="15" y="22" font-family="monospace" font-size="15" fill="#00ffff" font-weight="bold">LIVE LOG FEED</text>
+    <g clip-path="url(#logClip)"><defs><clipPath id="logClip"><rect x="10" y="30" width="490" height="105"/></clipPath></defs>
+    <g class="su" font-family="monospace" font-size="13">
+      <text x="0" y="20" fill="#00ff88">[OK] Connection from 10.0.0.5:443</text>
+      <text x="0" y="42" fill="#888">[INFO] User auth: chenurag (sudo)</text>
+      <text x="0" y="64" fill="#ff6600">[WARN] Port scan detected — 192.168.1.100</text>
+      <text x="0" y="86" fill="#00ff88">[OK] Wazuh agent heartbeat received</text>
+      <text x="0" y="108" fill="#ff003c">[ALERT] SQLi attempt blocked — /wp-admin</text>
+      <text x="0" y="130" fill="#888">[INFO] Snort rules updated #8473</text>
+      <text x="0" y="152" fill="#00ff88">[OK] Firewall sync complete</text>
+      <text x="0" y="174" fill="#ff6600">[WARN] SSL cert expires in 7 days</text>
+      <text x="0" y="196" fill="#00ff88">[OK] All endpoints healthy</text>
+    </g></g>
+    <circle cx="490" cy="18" r="4" fill="#00ffff" class="blk"/>
+  </g>
+</svg>

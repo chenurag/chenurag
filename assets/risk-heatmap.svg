@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 250" width="100%" height="auto">
+  <defs><filter id="g"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style><![CDATA[
+      @keyframes fillCell{0%{opacity:0;transform:scale(0.9)}100%{opacity:1;transform:scale(1)}}
+      @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}@keyframes p1{0%,100%{filter:drop-shadow(0 0 4px)}50%{filter:drop-shadow(0 0 14px)}}
+      @keyframes br{0%,100%{opacity:0.3}50%{opacity:0.7}}@keyframes scan{0%{transform:translateX(-1200px)}100%{transform:translateX(1200px)}}
+      .fc{animation:fillCell 0.4s ease-out both}.blk{animation:blink 0.8s step-end infinite}
+      .p1{animation:p1 2s ease-in-out infinite}.br{animation:br 4s ease-in-out infinite}.sc{animation:scan 4s linear infinite}
+    ]]></style>
+  </defs>
+  <rect width="1200" height="250" fill="#02020c" rx="8"/>
+  <rect x="1" y="1" width="1198" height="248" rx="8" fill="none" stroke="#00ff88" stroke-width="0.5" opacity="0.12"/>
+  <rect class="sc" width="1200" height="1" fill="#00ff88" opacity="0.04"/>
+  <text x="600" y="26" font-family="monospace" font-size="15" fill="#00ff88" text-anchor="middle" letter-spacing="2" opacity="0.7">RISK ASSESSMENT MATRIX — LIKELIHOOD vs IMPACT</text>
+
+  <g transform="translate(60, 50)">
+    <!-- Column headers -->
+    <text x="0" y="-8" font-family="monospace" font-size="13" fill="#888" text-anchor="middle">RARE</text>
+    <text x="120" y="-8" font-family="monospace" font-size="13" fill="#888" text-anchor="middle">UNLIKELY</text>
+    <text x="240" y="-8" font-family="monospace" font-size="13" fill="#888" text-anchor="middle">POSSIBLE</text>
+    <text x="360" y="-8" font-family="monospace" font-size="13" fill="#888" text-anchor="middle">LIKELY</text>
+    <text x="480" y="-8" font-family="monospace" font-size="13" fill="#888" text-anchor="middle">ALMOST</text>
+    <text x="-50" y="20" font-family="monospace" font-size="13" fill="#888" transform="rotate(-90,-40,12)">CRITICAL</text>
+    <text x="-50" y="80" font-family="monospace" font-size="13" fill="#888" transform="rotate(-90,-40,72)">HIGH</text>
+    <text x="-50" y="140" font-family="monospace" font-size="13" fill="#888" transform="rotate(-90,-40,132)">MEDIUM</text>
+    <text x="-50" y="200" font-family="monospace" font-size="13" fill="#888" transform="rotate(-90,-40,192)">LOW</text>
+
+    <!-- Matrix cells 5x4 -->
+    <rect class="fc" x="0" y="0" width="96" height="42" rx="3" fill="#3a1a0a" opacity="0.6" style="animation-delay:0.1s"/><text x="48" y="26" font-family="monospace" font-size="12" fill="#ff9900" text-anchor="middle">C2</text>
+    <rect class="fc" x="0" y="48" width="96" height="42" rx="3" fill="#3a1a0a" opacity="0.5" style="animation-delay:0.15s"/><text x="48" y="74" font-family="monospace" font-size="12" fill="#ff9900" text-anchor="middle">C1</text>
+    <rect class="fc" x="0" y="96" width="96" height="42" rx="3" fill="#1a1a0a" opacity="0.4" style="animation-delay:0.2s"/><text x="48" y="122" font-family="monospace" font-size="12" fill="#ffd700" text-anchor="middle">B1</text>
+    <rect class="fc" x="0" y="144" width="96" height="42" rx="3" fill="#0a1a0a" opacity="0.3" style="animation-delay:0.25s"/><text x="48" y="170" font-family="monospace" font-size="12" fill="#00ff88" text-anchor="middle">A1</text>
+
+    <rect class="fc" x="102" y="0" width="96" height="42" rx="3" fill="#3a0505" opacity="0.7" style="animation-delay:0.12s"/><text x="150" y="26" font-family="monospace" font-size="12" fill="#ff6666" text-anchor="middle">D2</text>
+    <rect class="fc" x="102" y="48" width="96" height="42" rx="3" fill="#3a1a0a" opacity="0.6" style="animation-delay:0.17s"/><text x="150" y="74" font-family="monospace" font-size="12" fill="#ff9900" text-anchor="middle">C3</text>
+    <rect class="fc" x="102" y="96" width="96" height="42" rx="3" fill="#1a1a0a" opacity="0.5" style="animation-delay:0.22s"/><text x="150" y="122" font-family="monospace" font-size="12" fill="#ffd700" text-anchor="middle">B2</text>
+    <rect class="fc" x="102" y="144" width="96" height="42" rx="3" fill="#0a1a0a" opacity="0.3" style="animation-delay:0.27s"/><text x="150" y="170" font-family="monospace" font-size="12" fill="#00ff88" text-anchor="middle">A2</text>
+
+    <rect class="fc" x="204" y="0" width="96" height="42" rx="3" fill="#3a0505" opacity="0.8" style="animation-delay:0.14s"/><text x="252" y="26" font-family="monospace" font-size="12" fill="#ff6666" text-anchor="middle">E3</text>
+    <rect class="fc" x="204" y="48" width="96" height="42" rx="3" fill="#3a0505" opacity="0.7" style="animation-delay:0.19s"/><text x="252" y="74" font-family="monospace" font-size="12" fill="#ff6666" text-anchor="middle">D3</text>
+    <rect class="fc" x="204" y="96" width="96" height="42" rx="3" fill="#3a1a0a" opacity="0.6" style="animation-delay:0.24s"/><text x="252" y="122" font-family="monospace" font-size="12" fill="#ff9900" text-anchor="middle">C4</text>
+    <rect class="fc" x="204" y="144" width="96" height="42" rx="3" fill="#1a1a0a" opacity="0.4" style="animation-delay:0.29s"/><text x="252" y="170" font-family="monospace" font-size="12" fill="#ffd700" text-anchor="middle">B3</text>
+
+    <rect class="fc" x="306" y="0" width="96" height="42" rx="3" fill="#ff003c" opacity="0.3" style="animation-delay:0.16s"/><text x="354" y="26" font-family="monospace" font-size="12" fill="#ff6666" text-anchor="middle">E4</text>
+    <rect class="fc" x="306" y="48" width="96" height="42" rx="3" fill="#3a0505" opacity="0.8" style="animation-delay:0.21s"/><text x="354" y="74" font-family="monospace" font-size="12" fill="#ff6666" text-anchor="middle">D4</text>
+    <rect class="fc" x="306" y="96" width="96" height="42" rx="3" fill="#3a1a0a" opacity="0.7" style="animation-delay:0.26s"/><text x="354" y="122" font-family="monospace" font-size="12" fill="#ff9900" text-anchor="middle">C5</text>
+    <rect class="fc" x="306" y="144" width="96" height="42" rx="3" fill="#1a1a0a" opacity="0.5" style="animation-delay:0.31s"/><text x="354" y="170" font-family="monospace" font-size="12" fill="#ffd700" text-anchor="middle">B4</text>
+
+    <rect class="fc" x="408" y="0" width="96" height="42" rx="3" fill="#ff003c" opacity="0.4" style="animation-delay:0.18s"/><text x="456" y="26" font-family="monospace" font-size="12" fill="#ff6666" text-anchor="middle">E5</text>
+    <rect class="fc" x="408" y="48" width="96" height="42" rx="3" fill="#ff003c" opacity="0.3" style="animation-delay:0.23s"/><text x="456" y="74" font-family="monospace" font-size="12" fill="#ff6666" text-anchor="middle">D5</text>
+    <rect class="fc" x="408" y="96" width="96" height="42" rx="3" fill="#3a0505" opacity="0.7" style="animation-delay:0.28s"/><text x="456" y="122" font-family="monospace" font-size="12" fill="#ff6666" text-anchor="middle">C4</text>
+    <rect class="fc" x="408" y="144" width="96" height="42" rx="3" fill="#3a1a0a" opacity="0.6" style="animation-delay:0.33s"/><text x="456" y="170" font-family="monospace" font-size="12" fill="#ff9900" text-anchor="middle">B5</text>
+  </g>
+
+  <g transform="translate(620, 50)">
+    <rect x="0" y="0" width="540" height="65" rx="6" fill="#040416" stroke="#00ff88" stroke-width="0.5"/>
+    <text x="15" y="22" font-family="monospace" font-size="15" fill="#00ff88" font-weight="bold">RISK SCORE</text>
+    <text x="15" y="50" font-family="monospace" font-size="16" fill="#ff6600" class="p1">MODERATE (42/100)</text>
+    <circle cx="520" cy="18" r="4" fill="#00ff88" class="blk"/>
+  </g>
+  <g transform="translate(620, 130)">
+    <rect x="0" y="0" width="540" height="65" rx="6" fill="#040416" stroke="#00ffff" stroke-width="0.5"/>
+    <text x="15" y="22" font-family="monospace" font-size="15" fill="#00ffff" font-weight="bold">TOP RISK ITEM</text>
+    <text x="15" y="48" font-family="monospace" font-size="14" fill="#888">E5 — DoS Attack on Web Server</text>
+    <text x="15" y="62" font-family="monospace" font-size="12" fill="#ff6666">Mitigation: Rate Limiting + WAF</text>
+    <circle cx="520" cy="18" r="4" fill="#00ffff" class="blk"/>
+  </g>
+  <g transform="translate(620, 210)">
+    <rect x="0" y="0" width="540" height="28" rx="4" fill="#060618" stroke="#00ff88" stroke-width="0.4" opacity="0.3"/>
+    <text x="15" y="19" font-family="monospace" font-size="13" fill="#555">Legend: <tspan fill="#ff6666">CRITICAL</tspan> · <tspan fill="#ff9900">HIGH</tspan> · <tspan fill="#ffd700">MEDIUM</tspan> · <tspan fill="#00ff88">LOW</tspan></text>
+  </g>
+</svg>

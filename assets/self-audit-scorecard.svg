@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 250" width="100%" height="auto">
+  <defs><filter id="g"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style><![CDATA[
+      @keyframes loadRing{0%{stroke-dashoffset:754}100%{stroke-dashoffset:0}}
+      @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}@keyframes p1{0%,100%{filter:drop-shadow(0 0 4px)}50%{filter:drop-shadow(0 0 14px)}}
+      @keyframes br{0%,100%{opacity:0.3}50%{opacity:0.7}}@keyframes scan{0%{transform:translateX(-1200px)}100%{transform:translateX(1200px)}}
+      @keyframes flick{0%,100%{opacity:0.96}2%{opacity:0.2}4%{opacity:0.96}}
+      .lr{stroke-dasharray:754;stroke-dashoffset:754;animation:loadRing 3s ease-out 0.3s forwards;transform:rotate(-90);transform-origin:60px 60px}
+      .blk{animation:blink 0.8s step-end infinite}.p1{animation:p1 2s ease-in-out infinite}
+      .br{animation:br 4s ease-in-out infinite}.sc{animation:scan 4s linear infinite}.fk{animation:flick 7s infinite}
+    ]]></style>
+  </defs>
+  <rect width="1200" height="250" fill="#02020c" rx="8"/>
+  <rect x="1" y="1" width="1198" height="248" rx="8" fill="none" stroke="#00ff88" stroke-width="0.5" opacity="0.12"/>
+  <rect class="sc" width="1200" height="1" fill="#00ff88" opacity="0.04"/>
+  <rect class="fk" width="1200" height="250" fill="#000" opacity="0.01" pointer-events="none"/>
+  <text x="600" y="26" font-family="monospace" font-size="15" fill="#00ff88" text-anchor="middle" letter-spacing="2" opacity="0.7">SELF-AUDIT SCORECARD — PERSONAL PERFORMANCE REVIEW</text>
+
+  <g transform="translate(100, 160)">
+    <circle cx="0" cy="0" r="30" fill="none" stroke="#112" stroke-width="10"/>
+    <circle cx="0" cy="0" r="30" fill="none" stroke="#00ff88" stroke-width="10" stroke-linecap="round" class="lr"/>
+    <text x="0" y="5" font-family="monospace" font-size="15" fill="#00ff88" text-anchor="middle" font-weight="bold" class="p1">72</text>
+    <text x="0" y="50" font-family="monospace" font-size="13" fill="#888" text-anchor="middle">OVERALL</text>
+  </g>
+
+  <g transform="translate(240, 55)">
+    <text x="0" y="16" font-family="monospace" font-size="14" fill="#888">TECHNICAL SKILLS</text>
+    <rect x="180" y="6" width="350" height="14" rx="5" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.3"/>
+    <rect x="180" y="6" width="280" height="14" rx="5" fill="#00ff88" opacity="0.7"><animate attributeName="width" values="0;280" dur="2s" fill="freeze"/></rect>
+    <text x="550" y="16" font-family="monospace" font-size="14" fill="#00ff88" class="p1">80%</text>
+
+    <text x="0" y="42" font-family="monospace" font-size="14" fill="#888">CONTRIBUTION</text>
+    <rect x="180" y="32" width="350" height="14" rx="5" fill="#0a0a1e" stroke="#00ffff" stroke-width="0.3"/>
+    <rect x="180" y="32" width="245" height="14" rx="5" fill="#00ffff" opacity="0.6"><animate attributeName="width" values="0;245" dur="2s" fill="freeze"/></rect>
+    <text x="550" y="42" font-family="monospace" font-size="14" fill="#00ffff" class="br">70%</text>
+
+    <text x="0" y="68" font-family="monospace" font-size="14" fill="#888">CONSISTENCY</text>
+    <rect x="180" y="58" width="350" height="14" rx="5" fill="#0a0a1e" stroke="#ff6600" stroke-width="0.3"/>
+    <rect x="180" y="58" width="210" height="14" rx="5" fill="#ff6600" opacity="0.6"><animate attributeName="width" values="0;210" dur="2s" fill="freeze"/></rect>
+    <text x="550" y="68" font-family="monospace" font-size="14" fill="#ff6600">60%</text>
+
+    <text x="0" y="94" font-family="monospace" font-size="14" fill="#888">PROJECT COMPLETION</text>
+    <rect x="180" y="84" width="350" height="14" rx="5" fill="#0a0a1e" stroke="#9d00ff" stroke-width="0.3"/>
+    <rect x="180" y="84" width="175" height="14" rx="5" fill="#9d00ff" opacity="0.6"><animate attributeName="width" values="0;175" dur="2s" fill="freeze"/></rect>
+    <text x="550" y="94" font-family="monospace" font-size="14" fill="#9d00ff">50%</text>
+  </g>
+
+  <g transform="translate(680, 55)">
+    <rect x="0" y="0" width="480" height="70" rx="6" fill="#040416" stroke="#00ff88" stroke-width="0.5"/>
+    <text x="15" y="22" font-family="monospace" font-size="15" fill="#00ff88" font-weight="bold">THIS WEEK</text>
+    <text x="15" y="46" font-family="monospace" font-size="14" fill="#888">STREAK: <tspan fill="#00ff88" class="p1">44 days</tspan></text>
+    <text x="200" y="46" font-family="monospace" font-size="14" fill="#888">NEW REPOS: <tspan fill="#00ffff">3</tspan></text>
+    <text x="350" y="46" font-family="monospace" font-size="14" fill="#888">STARS: <tspan fill="#ffd700">+2</tspan></text>
+    <circle cx="460" cy="18" r="4" fill="#00ff88" class="blk"/>
+  </g>
+  <g transform="translate(680, 140)">
+    <rect x="0" y="0" width="480" height="55" rx="6" fill="#040416" stroke="#00ffff" stroke-width="0.5"/>
+    <text x="15" y="22" font-family="monospace" font-size="14" fill="#00ffff" font-weight="bold">LAST WEAK SPOT</text>
+    <text x="15" y="44" font-family="monospace" font-size="14" fill="#888">Project Completion — improve by starting sprints</text>
+    <circle cx="460" cy="18" r="4" fill="#00ffff" class="blk"/>
+  </g>
+  <g transform="translate(680, 210)">
+    <rect x="0" y="0" width="480" height="28" rx="4" fill="#060618" stroke="#00ff88" stroke-width="0.4" opacity="0.3"/>
+    <text x="15" y="19" font-family="monospace" font-size="13" fill="#555">TARGET: <tspan fill="#00ff88">80/100</tspan> · DIFF: <tspan fill="#00ffff">+8</tspan></text>
+  </g>
+</svg>

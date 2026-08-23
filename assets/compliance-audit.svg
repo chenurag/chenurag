@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 250" width="100%" height="auto">
+  <defs><filter id="g"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style><![CDATA[
+      @keyframes fillBar{0%{width:0}100%{width:var(--w)}}
+      @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}@keyframes p1{0%,100%{filter:drop-shadow(0 0 4px)}50%{filter:drop-shadow(0 0 14px)}}
+      @keyframes br{0%,100%{opacity:0.3}50%{opacity:0.7}}@keyframes scan{0%{transform:translateX(-1200px)}100%{transform:translateX(1200px)}}
+      @keyframes flick{0%,100%{opacity:0.96}2%{opacity:0.2}4%{opacity:0.96}}
+      .fb1{--w:420px;animation:fillBar 2s ease-out 0.2s both}.fb2{--w:360px;animation:fillBar 2s ease-out 0.4s both}
+      .fb3{--w:300px;animation:fillBar 2s ease-out 0.6s both}.fb4{--w:240px;animation:fillBar 2s ease-out 0.8s both}
+      .fb5{--w:180px;animation:fillBar 2s ease-out 1s both}
+      .blk{animation:blink 0.8s step-end infinite}.p1{animation:p1 2s ease-in-out infinite}
+      .br{animation:br 4s ease-in-out infinite}.sc{animation:scan 4s linear infinite}.fk{animation:flick 7s infinite}
+    ]]></style>
+  </defs>
+  <rect width="1200" height="250" fill="#02020c" rx="8"/>
+  <rect x="1" y="1" width="1198" height="248" rx="8" fill="none" stroke="#00ff88" stroke-width="0.5" opacity="0.12"/>
+  <rect class="sc" width="1200" height="1" fill="#00ff88" opacity="0.04"/>
+  <rect class="fk" width="1200" height="250" fill="#000" opacity="0.01" pointer-events="none"/>
+  <text x="600" y="26" font-family="monospace" font-size="15" fill="#00ff88" text-anchor="middle" letter-spacing="2" opacity="0.7">NETWORK POLICY COMPLIANCE — STANDARDS AUDIT</text>
+
+  <g transform="translate(60, 55)">
+    <text x="0" y="18" font-family="monospace" font-size="15" fill="#00ff88" font-weight="bold">NIST CSF</text>
+    <rect x="160" y="8" width="500" height="16" rx="5" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.3"/>
+    <rect x="160" y="8" width="420" height="16" rx="5" fill="#00ff88" opacity="0.7" class="fb1"/>
+    <text x="680" y="18" font-family="monospace" font-size="14" fill="#00ff88" class="p1">84%</text>
+  </g>
+  <g transform="translate(60, 90)">
+    <text x="0" y="18" font-family="monospace" font-size="15" fill="#00ffff" font-weight="bold">ISO 27001</text>
+    <rect x="160" y="8" width="500" height="16" rx="5" fill="#0a0a1e" stroke="#00ffff" stroke-width="0.3"/>
+    <rect x="160" y="8" width="360" height="16" rx="5" fill="#00ffff" opacity="0.6" class="fb2"/>
+    <text x="680" y="18" font-family="monospace" font-size="14" fill="#00ffff" class="br">72%</text>
+  </g>
+  <g transform="translate(60, 125)">
+    <text x="0" y="18" font-family="monospace" font-size="15" fill="#ff6600" font-weight="bold">OWASP TOP 10</text>
+    <rect x="160" y="8" width="500" height="16" rx="5" fill="#0a0a1e" stroke="#ff6600" stroke-width="0.3"/>
+    <rect x="160" y="8" width="300" height="16" rx="5" fill="#ff6600" opacity="0.6" class="fb3"/>
+    <text x="680" y="18" font-family="monospace" font-size="14" fill="#ff6600">60%</text>
+  </g>
+  <g transform="translate(60, 160)">
+    <text x="0" y="18" font-family="monospace" font-size="15" fill="#9d00ff" font-weight="bold">GDPR</text>
+    <rect x="160" y="8" width="500" height="16" rx="5" fill="#0a0a1e" stroke="#9d00ff" stroke-width="0.3"/>
+    <rect x="160" y="8" width="240" height="16" rx="5" fill="#9d00ff" opacity="0.6" class="fb4"/>
+    <text x="680" y="18" font-family="monospace" font-size="14" fill="#9d00ff">48%</text>
+  </g>
+  <g transform="translate(60, 195)">
+    <text x="0" y="18" font-family="monospace" font-size="15" fill="#ff003c" font-weight="bold">PCI DSS</text>
+    <rect x="160" y="8" width="500" height="16" rx="5" fill="#0a0a1e" stroke="#ff003c" stroke-width="0.3"/>
+    <rect x="160" y="8" width="180" height="16" rx="5" fill="#ff003c" opacity="0.5" class="fb5"/>
+    <text x="680" y="18" font-family="monospace" font-size="14" fill="#ff003c">36%</text>
+  </g>
+
+  <g transform="translate(740, 55)">
+    <rect x="0" y="0" width="420" height="65" rx="6" fill="#040416" stroke="#00ff88" stroke-width="0.5"/>
+    <text x="15" y="22" font-family="monospace" font-size="15" fill="#00ff88" font-weight="bold">COMPLIANCE SCORE</text>
+    <text x="15" y="48" font-family="monospace" font-size="15" fill="#00ff88" class="p1">OVERALL: 60%</text>
+    <circle cx="400" cy="18" r="4" fill="#00ff88" class="blk"/>
+  </g>
+  <g transform="translate(740, 135)">
+    <rect x="0" y="0" width="420" height="55" rx="6" fill="#040416" stroke="#00ffff" stroke-width="0.5"/>
+    <text x="15" y="22" font-family="monospace" font-size="14" fill="#00ffff" font-weight="bold">HIGHEST</text>
+    <text x="15" y="44" font-family="monospace" font-size="14" fill="#888">NIST CSF — 84% (IN PROGRESS)</text>
+    <circle cx="400" cy="18" r="4" fill="#00ffff" class="blk"/>
+  </g>
+  <g transform="translate(740, 205)">
+    <rect x="0" y="0" width="420" height="32" rx="4" fill="#060618" stroke="#00ff88" stroke-width="0.4" opacity="0.3"/>
+    <text x="15" y="22" font-family="monospace" font-size="13" fill="#555">NEXT AUDIT: <tspan fill="#00ff88">Q4 2026</tspan> · GAP: <tspan fill="#ff6600">40% TO TARGET</tspan></text>
+  </g>
+</svg>

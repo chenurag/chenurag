@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" width="100%" height="auto">
+  <defs><filter id="g"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style><![CDATA[
+      @keyframes fillBar{0%{width:0}100%{width:var(--w)}}
+      @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}@keyframes p1{0%,100%{filter:drop-shadow(0 0 4px)}50%{filter:drop-shadow(0 0 14px)}}
+      @keyframes br{0%,100%{opacity:0.3}50%{opacity:0.7}}@keyframes scan{0%{transform:translateX(-1200px)}100%{transform:translateX(1200px)}}
+      @keyframes flick{0%,100%{opacity:0.96}2%{opacity:0.2}4%{opacity:0.96}}
+      .fb1{--w:280px;animation:fillBar 2s ease-out 0.2s both}.fb2{--w:220px;animation:fillBar 2s ease-out 0.4s both}
+      .fb3{--w:160px;animation:fillBar 2s ease-out 0.6s both}.fb4{--w:100px;animation:fillBar 2s ease-out 0.8s both}
+      .blk{animation:blink 0.8s step-end infinite}.p1{animation:p1 2s ease-in-out infinite}
+      .br{animation:br 4s ease-in-out infinite}.sc{animation:scan 4s linear infinite}.fk{animation:flick 7s infinite}
+    ]]></style>
+  </defs>
+  <rect width="1200" height="260" fill="#02020c" rx="8"/>
+  <rect x="1" y="1" width="1198" height="258" rx="8" fill="none" stroke="#00ff88" stroke-width="0.5" opacity="0.12"/>
+  <rect class="sc" width="1200" height="1" fill="#00ff88" opacity="0.04"/>
+  <rect class="fk" width="1200" height="260" fill="#000" opacity="0.01" pointer-events="none"/>
+  <text x="600" y="26" font-family="monospace" font-size="15" fill="#00ff88" text-anchor="middle" letter-spacing="2" opacity="0.7">DIGITAL FORENSICS — CASE INVESTIGATION TIMELINE</text>
+
+  <g transform="translate(80, 110)">
+    <line x1="0" y1="0" x2="1040" y2="0" stroke="#00ff88" stroke-width="0.5" opacity="0.15"/>
+    <line x1="0" y1="0" x2="1040" y2="0" stroke="#00ff88" stroke-width="2" stroke-dasharray="8 12" class="p1"/>
+
+    <g transform="translate(60,0)"><circle cx="0" cy="0" r="6" fill="#ff003c" class="p1"/><circle cx="0" cy="0" r="6" fill="none" stroke="#ff003c" class="p1"/>
+      <rect x="-60" y="14" width="140" height="38" rx="5" fill="#0a000a" stroke="#ff003c" stroke-width="0.8"/><text x="10" y="28" font-family="monospace" font-size="13" fill="#ff6666">ACQUISITION</text><text x="10" y="46" font-family="monospace" font-size="12" fill="#888">HDD Image</text></g>
+    <g transform="translate(260,0)"><circle cx="0" cy="0" r="6" fill="#ff6600" class="p1"/><circle cx="0" cy="0" r="6" fill="none" stroke="#ff6600"/>
+      <rect x="-60" y="14" width="140" height="38" rx="5" fill="#0a0a1e" stroke="#ff6600" stroke-width="0.8"/><text x="10" y="28" font-family="monospace" font-size="13" fill="#ff9900">ANALYSIS</text><text x="10" y="46" font-family="monospace" font-size="12" fill="#888">Volatility</text></g>
+    <g transform="translate(480,0)"><circle cx="0" cy="0" r="6" fill="#ffd700" class="p1"/><circle cx="0" cy="0" r="6" fill="none" stroke="#ffd700"/>
+      <rect x="-60" y="14" width="140" height="38" rx="5" fill="#0a0a1e" stroke="#ffd700" stroke-width="0.8"/><text x="10" y="28" font-family="monospace" font-size="13" fill="#ffd700">RECOVERY</text><text x="10" y="46" font-family="monospace" font-size="12" fill="#888">Autopsy</text></g>
+    <g transform="translate(700,0)"><circle cx="0" cy="0" r="6" fill="#00ff88" class="p1"/><circle cx="0" cy="0" r="6" fill="none" stroke="#00ff88"/>
+      <rect x="-60" y="14" width="140" height="38" rx="5" fill="#0a1a0a" stroke="#00ff88" stroke-width="0.8"/><text x="10" y="28" font-family="monospace" font-size="13" fill="#00ff88">DOCUMENT</text><text x="10" y="46" font-family="monospace" font-size="12" fill="#888">Report</text></g>
+    <g transform="translate(920,0)"><circle cx="0" cy="0" r="7" fill="#00ffff" class="p1"/><circle cx="0" cy="0" r="7" fill="none" stroke="#00ffff"/>
+      <rect x="-60" y="14" width="140" height="38" rx="5" fill="#0a0a1a" stroke="#00ffff" stroke-width="0.8"/><text x="10" y="28" font-family="monospace" font-size="13" fill="#00ffff">PRESENT</text><text x="10" y="46" font-family="monospace" font-size="12" fill="#888">Court</text></g>
+  </g>
+
+  <g transform="translate(60, 195)">
+    <rect x="0" y="0" width="360" height="40" rx="6" fill="#040416" stroke="#00ff88" stroke-width="0.5"/>
+    <text x="15" y="26" font-family="monospace" font-size="14" fill="#888">CASES HANDLED: <tspan fill="#00ff88" class="p1">8</tspan></text>
+    <circle cx="340" cy="18" r="4" fill="#00ff88" class="blk"/>
+  </g>
+  <g transform="translate(450, 195)">
+    <rect x="0" y="0" width="360" height="40" rx="6" fill="#040416" stroke="#00ffff" stroke-width="0.5"/>
+    <text x="15" y="26" font-family="monospace" font-size="14" fill="#888">EVIDENCE ANALYZED: <tspan fill="#00ffff" class="br">2.4TB</tspan></text>
+    <circle cx="340" cy="18" r="4" fill="#00ffff" class="blk"/>
+  </g>
+  <g transform="translate(840, 195)">
+    <rect x="0" y="0" width="300" height="40" rx="6" fill="#040416" stroke="#ff6600" stroke-width="0.5"/>
+    <text x="15" y="26" font-family="monospace" font-size="14" fill="#888">TOOLS: <tspan fill="#ff6600">7</tspan></text>
+    <circle cx="280" cy="18" r="4" fill="#ff6600" class="blk"/>
+  </g>
+</svg>
