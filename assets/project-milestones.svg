@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 230" width="100%" height="auto">
+  <defs><filter id="g"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style><![CDATA[
+      @keyframes fillBar{0%{width:0}100%{width:var(--w)}}
+      @keyframes nodePulse{0%,100%{r:5;opacity:0.6}50%{r:8;opacity:1}}
+      @keyframes glowRing{0%{r:5;opacity:0.5}100%{r:25;opacity:0}}
+      @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}@keyframes pulse{0%,100%{filter:drop-shadow(0 0 4px)}50%{filter:drop-shadow(0 0 14px)}}
+      @keyframes breathe{0%,100%{opacity:0.3}50%{opacity:0.7}}@keyframes scan{0%{transform:translateX(-1200px)}100%{transform:translateX(1200px)}}
+      @keyframes flick{0%,100%{opacity:0.96}2%{opacity:0.2}4%{opacity:0.96}}
+      .fb1{--w:360px;animation:fillBar 2s ease-out 0.2s both}.fb2{--w:280px;animation:fillBar 2s ease-out 0.4s both}
+      .fb3{--w:200px;animation:fillBar 2s ease-out 0.6s both}.fb4{--w:120px;animation:fillBar 2s ease-out 0.8s both}
+      .np{animation:nodePulse 2s ease-in-out infinite;transform-origin:0 0}.gr{animation:glowRing 2.5s ease-out infinite;transform-origin:0 0}
+      .blk{animation:blink 0.8s step-end infinite}.p1{animation:pulse 2s ease-in-out infinite}
+      .br{animation:breathe 4s ease-in-out infinite}.sc{animation:scan 4s linear infinite}.fk{animation:flick 7s infinite}
+    ]]></style>
+  </defs>
+  <rect width="1200" height="230" fill="#02020c" rx="8"/>
+  <rect x="1" y="1" width="1198" height="228" rx="8" fill="none" stroke="#00ff88" stroke-width="0.5" opacity="0.12"/>
+  <rect class="sc" width="1200" height="1" fill="#00ff88" opacity="0.04"/>
+  <rect class="fk" width="1200" height="230" fill="#000" opacity="0.01" pointer-events="none"/>
+  <text x="600" y="26" font-family="monospace" font-size="15" fill="#00ff88" text-anchor="middle" letter-spacing="2" opacity="0.7">PROJECT MILESTONES — KEY ACHIEVEMENT TIMELINE</text>
+
+  <g transform="translate(50, 110)">
+    <line x1="0" y1="0" x2="1100" y2="0" stroke="#00ff88" stroke-width="2" stroke-dasharray="10 14" class="p1"/>
+
+    <g transform="translate(80, 0)">
+      <circle cx="0" cy="0" r="5" fill="#00ff88" class="np" filter="url(#g)"/><circle cx="0" cy="0" r="5" fill="none" stroke="#00ff88" class="gr"/>
+      <rect x="-60" y="16" width="140" height="36" rx="5" fill="#0a1a0a" stroke="#00ff88" stroke-width="0.8"/>
+      <text x="10" y="40" font-family="monospace" font-size="14" fill="#00ff88">V1.0 — INIT</text>
+    </g>
+    <g transform="translate(250, 0)">
+      <circle cx="0" cy="0" r="5" fill="#00ffff" class="np" filter="url(#g)"/><circle cx="0" cy="0" r="5" fill="none" stroke="#00ffff" class="gr"/>
+      <rect x="-60" y="16" width="140" height="36" rx="5" fill="#0a0a1a" stroke="#00ffff" stroke-width="0.8"/>
+      <text x="10" y="40" font-family="monospace" font-size="14" fill="#00ffff">V2.0 — NEXUS</text>
+    </g>
+    <g transform="translate(440, 0)">
+      <circle cx="0" cy="0" r="5" fill="#ff003c" class="np" filter="url(#g)"/><circle cx="0" cy="0" r="5" fill="none" stroke="#ff003c" class="gr"/>
+      <rect x="-60" y="16" width="140" height="36" rx="5" fill="#0a000a" stroke="#ff003c" stroke-width="0.8"/>
+      <text x="10" y="40" font-family="monospace" font-size="14" fill="#ff6666">V3.0 — GOD</text>
+    </g>
+    <g transform="translate(620, 0)">
+      <circle cx="0" cy="0" r="5" fill="#9d00ff" class="np" filter="url(#g)"/><circle cx="0" cy="0" r="5" fill="none" stroke="#9d00ff" class="gr"/>
+      <rect x="-60" y="16" width="140" height="36" rx="5" fill="#0a0a1a" stroke="#9d00ff" stroke-width="0.8"/>
+      <text x="10" y="40" font-family="monospace" font-size="14" fill="#9d00ff">V4.0 — GOD 2</text>
+    </g>
+    <g transform="translate(810, 0)">
+      <circle cx="0" cy="0" r="6" fill="#00ff88" class="np" filter="url(#g)"/><circle cx="0" cy="0" r="6" fill="none" stroke="#00ff88" class="gr"/>
+      <rect x="-70" y="16" width="160" height="36" rx="5" fill="#0a1a0a" stroke="#00ff88" stroke-width="1.2"/>
+      <text x="10" y="40" font-family="monospace" font-size="14" fill="#00ff88" class="p1">V4.7 — LATEST</text>
+    </g>
+  </g>
+
+  <g transform="translate(50, 175)">
+    <rect x="0" y="0" width="360" height="40" rx="6" fill="#040416" stroke="#00ff88" stroke-width="0.5"/>
+    <text x="15" y="26" font-family="monospace" font-size="14" fill="#888">MILESTONES: <tspan fill="#00ff88" class="p1">5 REACHED</tspan></text>
+    <circle cx="340" cy="18" r="4" fill="#00ff88" class="blk"/>
+  </g>
+  <g transform="translate(430, 175)">
+    <rect x="0" y="0" width="360" height="40" rx="6" fill="#040416" stroke="#00ffff" stroke-width="0.5"/>
+    <text x="15" y="26" font-family="monospace" font-size="14" fill="#888">NEXT: <tspan fill="#00ffff" class="br">V5.0 — ULTIMATE</tspan></text>
+    <circle cx="340" cy="18" r="4" fill="#00ffff" class="blk"/>
+  </g>
+  <g transform="translate(810, 175)">
+    <rect x="0" y="0" width="340" height="40" rx="6" fill="#040416" stroke="#9d00ff" stroke-width="0.5"/>
+    <text x="15" y="26" font-family="monospace" font-size="14" fill="#888">STREAK: <tspan fill="#9d00ff">44 COMMITS TODAY</tspan></text>
+    <circle cx="320" cy="18" r="4" fill="#9d00ff" class="blk"/>
+  </g>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 250" width="100%" height="auto">
+  <defs><filter id="g"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style><![CDATA[
+      @keyframes scroll{0%{transform:translateY(0)}100%{transform:translateY(-350px)}}
+      @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}@keyframes pulse{0%,100%{filter:drop-shadow(0 0 4px)}50%{filter:drop-shadow(0 0 14px)}}
+      @keyframes breathe{0%,100%{opacity:0.3}50%{opacity:0.7}}@keyframes scan{0%{transform:translateX(-1200px)}100%{transform:translateX(1200px)}}
+      @keyframes flick{0%,100%{opacity:0.96}2%{opacity:0.2}4%{opacity:0.96}}
+      .su{animation:scroll 25s linear infinite}.blk{animation:blink 0.8s step-end infinite}
+      .p1{animation:pulse 2s ease-in-out infinite}.br{animation:breathe 4s ease-in-out infinite}
+      .sc{animation:scan 4s linear infinite}.fk{animation:flick 7s infinite}
+    ]]></style>
+  </defs>
+  <rect width="1200" height="250" fill="#02020c" rx="8"/>
+  <rect x="1" y="1" width="1198" height="248" rx="8" fill="none" stroke="#00ff88" stroke-width="0.5" opacity="0.12"/>
+  <rect class="sc" width="1200" height="1" fill="#00ff88" opacity="0.04"/>
+  <rect class="fk" width="1200" height="250" fill="#000" opacity="0.01" pointer-events="none"/>
+  <text x="600" y="26" font-family="monospace" font-size="15" fill="#00ff88" text-anchor="middle" letter-spacing="2" opacity="0.7">SECURITY AUDIT TRAIL — SYSTEM LOG</text>
+  <rect x="0" y="0" width="70" height="250" rx="8" fill="#04041a"/>
+  <circle cx="15" cy="18" r="5" fill="#00ff88" class="p1" filter="url(#g)"/>
+  <text x="8" y="42" font-family="monospace" font-size="14" fill="#00ff88" class="blk">LIVE</text>
+  <text x="8" y="62" font-family="monospace" font-size="13" fill="#555">AUDIT</text>
+  <text x="8" y="82" font-family="monospace" font-size="13" fill="#555">TRAIL</text>
+  <g clip-path="url(#auditClip)">
+    <defs><clipPath id="auditClip"><rect x="70" y="5" width="1130" height="240"/></clipPath></defs>
+    <g class="su" font-family="monospace" font-size="14">
+      <text x="85" y="30" fill="#00ff88">[2026-08-23 14:32:01] AUDIT: User login — chenurag (sudo)</text>
+      <text x="85" y="55" fill="#888">[2026-08-23 14:30:00] INFO: System health check passed</text>
+      <text x="85" y="80" fill="#00ffff">[2026-08-23 14:28:00] NOTICE: README v4.7 deployed</text>
+      <text x="85" y="105" fill="#ff6600">[2026-08-23 14:15:00] WARN: Disk usage /var at 78%</text>
+      <text x="85" y="130" fill="#00ff88">[2026-08-23 14:00:00] AUDIT: Firewall rules synced OK</text>
+      <text x="85" y="155" fill="#ff003c">[2026-08-23 13:45:00] ALERT: Failed SSH from 45.33.32.156</text>
+      <text x="85" y="180" fill="#00ff88">[2026-08-23 13:30:00] AUDIT: Wazuh agent heartbeat received</text>
+      <text x="85" y="205" fill="#888">[2026-08-23 13:15:00] INFO: Cron job — log rotation complete</text>
+      <text x="85" y="230" fill="#ff6600">[2026-08-23 13:00:00] WARN: SSL cert shadowlab.local expires in 14d</text>
+      <text x="85" y="255" fill="#00ff88">[2026-08-23 12:45:00] AUDIT: Fail2ban banned 3 IPs</text>
+      <text x="85" y="280" fill="#888">[2026-08-23 12:30:00] INFO: Snort rules updated #8472</text>
+      <text x="85" y="305" fill="#00ffff">[2026-08-23 12:15:00] NOTICE: Lab VM snapshot created</text>
+    </g>
+  </g>
+</svg>

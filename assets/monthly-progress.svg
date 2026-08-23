@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" width="100%" height="auto">
+  <defs><filter id="g"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style><![CDATA[
+      @keyframes grow{0%{height:0}100%{height:var(--h)}}
+      @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}@keyframes pulse{0%,100%{filter:drop-shadow(0 0 4px)}50%{filter:drop-shadow(0 0 14px)}}
+      @keyframes breathe{0%,100%{opacity:0.3}50%{opacity:0.7}}@keyframes scan{0%{transform:translateX(-1200px)}100%{transform:translateX(1200px)}}
+      @keyframes flick{0%,100%{opacity:0.96}2%{opacity:0.2}4%{opacity:0.96}}
+      .g1{--h:30px;animation:grow 1.5s ease-out 0.1s both}.g2{--h:50px;animation:grow 1.5s ease-out 0.2s both}
+      .g3{--h:70px;animation:grow 1.5s ease-out 0.3s both}.g4{--h:90px;animation:grow 1.5s ease-out 0.4s both}
+      .g5{--h:110px;animation:grow 1.5s ease-out 0.5s both}.g6{--h:60px;animation:grow 1.5s ease-out 0.6s both}
+      .g7{--h:130px;animation:grow 1.5s ease-out 0.7s both}.g8{--h:80px;animation:grow 1.5s ease-out 0.8s both}
+      .g9{--h:150px;animation:grow 1.5s ease-out 0.9s both}.g10{--h:40px;animation:grow 1.5s ease-out 1.0s both}
+      .g11{--h:100px;animation:grow 1.5s ease-out 1.1s both}.g12{--h:120px;animation:grow 1.5s ease-out 1.2s both}
+      .blk{animation:blink 0.8s step-end infinite}.p1{animation:pulse 2s ease-in-out infinite}
+      .br{animation:breathe 4s ease-in-out infinite}.sc{animation:scan 4s linear infinite}.fk{animation:flick 7s infinite}
+    ]]></style>
+  </defs>
+  <rect width="1200" height="240" fill="#02020c" rx="8"/>
+  <rect x="1" y="1" width="1198" height="238" rx="8" fill="none" stroke="#00ff88" stroke-width="0.5" opacity="0.12"/>
+  <rect class="sc" width="1200" height="1" fill="#00ff88" opacity="0.04"/>
+  <rect class="fk" width="1200" height="240" fill="#000" opacity="0.01" pointer-events="none"/>
+  <text x="600" y="26" font-family="monospace" font-size="15" fill="#00ff88" text-anchor="middle" letter-spacing="2" opacity="0.7">MONTHLY PROGRESS — COMMITS PER MONTH (12-MONTH VIEW)</text>
+
+  <g transform="translate(80, 90)">
+    <line x1="0" y1="130" x2="1050" y2="130" stroke="#00ff88" stroke-width="0.5" opacity="0.2"/>
+    <rect x="15" y="130" width="60" height="0" rx="4" fill="#0a5a30" class="g1"/>
+    <rect x="95" y="130" width="60" height="0" rx="4" fill="#0a5a30" class="g2"/>
+    <rect x="175" y="130" width="60" height="0" rx="4" fill="#00aa44" class="g3"/>
+    <rect x="255" y="130" width="60" height="0" rx="4" fill="#00aa44" class="g4"/>
+    <rect x="335" y="130" width="60" height="0" rx="4" fill="#00dd66" class="g5"/>
+    <rect x="415" y="130" width="60" height="0" rx="4" fill="#0a5a30" class="g6"/>
+    <rect x="495" y="130" width="60" height="0" rx="4" fill="#00dd66" class="g7"/>
+    <rect x="575" y="130" width="60" height="0" rx="4" fill="#00aa44" class="g8"/>
+    <rect x="655" y="130" width="60" height="0" rx="4" fill="#00ff88" class="g9"/>
+    <rect x="735" y="130" width="60" height="0" rx="4" fill="#0a5a30" class="g10"/>
+    <rect x="815" y="130" width="60" height="0" rx="4" fill="#00aa44" class="g11"/>
+    <rect x="895" y="130" width="60" height="0" rx="4" fill="#00ff88" class="g12"/>
+    
+    <text x="45" y="150" font-family="monospace" font-size="11" fill="#888" text-anchor="middle">J</text><text x="125" y="150" font-family="monospace" font-size="11" fill="#888" text-anchor="middle">F</text>
+    <text x="205" y="150" font-family="monospace" font-size="11" fill="#888" text-anchor="middle">M</text><text x="285" y="150" font-family="monospace" font-size="11" fill="#888" text-anchor="middle">A</text>
+    <text x="365" y="150" font-family="monospace" font-size="11" fill="#888" text-anchor="middle">M</text><text x="445" y="150" font-family="monospace" font-size="11" fill="#888" text-anchor="middle">J</text>
+    <text x="525" y="150" font-family="monospace" font-size="11" fill="#888" text-anchor="middle">J</text><text x="605" y="150" font-family="monospace" font-size="11" fill="#888" text-anchor="middle">A</text>
+    <text x="685" y="150" font-family="monospace" font-size="11" fill="#888" text-anchor="middle">S</text><text x="765" y="150" font-family="monospace" font-size="11" fill="#888" text-anchor="middle">O</text>
+    <text x="845" y="150" font-family="monospace" font-size="11" fill="#888" text-anchor="middle">N</text><text x="925" y="150" font-family="monospace" font-size="11" fill="#888" text-anchor="middle">D</text>
+  </g>
+
+  <g transform="translate(40, 200)">
+    <rect x="0" y="0" width="1120" height="30" rx="4" fill="#060618" stroke="#00ff88" stroke-width="0.4" opacity="0.3"/>
+    <text x="15" y="20" font-family="monospace" font-size="13" fill="#555">TOTAL COMMITS (12M): <tspan fill="#00ff88" class="p1">847</tspan></text>
+    <text x="350" y="20" font-family="monospace" font-size="13" fill="#555">PEAK MONTH: <tspan fill="#00ffff">SEPTEMBER</tspan></text>
+    <text x="700" y="20" font-family="monospace" font-size="13" fill="#555">AVG MONTHLY: <tspan fill="#00ff88">71</tspan></text>
+  </g>
+</svg>

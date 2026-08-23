@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 230" width="100%" height="auto">
+  <defs><filter id="g"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style><![CDATA[
+      @keyframes drawLine{0%{stroke-dashoffset:600}100%{stroke-dashoffset:0}}
+      @keyframes dotBlip{0%{opacity:0;r:2}50%{opacity:1;r:4}100%{opacity:0;r:2}}
+      @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}@keyframes pulse{0%,100%{filter:drop-shadow(0 0 4px)}50%{filter:drop-shadow(0 0 14px)}}
+      @keyframes breathe{0%,100%{opacity:0.3}50%{opacity:0.7}}@keyframes scan{0%{transform:translateX(-1200px)}100%{transform:translateX(1200px)}}
+      @keyframes flick{0%,100%{opacity:0.96}2%{opacity:0.2}4%{opacity:0.96}}
+      .dl{stroke-dasharray:600;stroke-dashoffset:600;animation:drawLine 2.5s ease-out 0.3s both}
+      .dp{animation:dotBlip 2s ease-in-out infinite}
+      .blk{animation:blink 0.8s step-end infinite}.p1{animation:pulse 2s ease-in-out infinite}
+      .br{animation:breathe 4s ease-in-out infinite}.sc{animation:scan 4s linear infinite}.fk{animation:flick 7s infinite}
+    ]]></style>
+  </defs>
+  <rect width="1200" height="230" fill="#02020c" rx="8"/>
+  <rect x="1" y="1" width="1198" height="228" rx="8" fill="none" stroke="#00ff88" stroke-width="0.5" opacity="0.12"/>
+  <rect class="sc" width="1200" height="1" fill="#00ff88" opacity="0.04"/>
+  <rect class="fk" width="1200" height="230" fill="#000" opacity="0.01" pointer-events="none"/>
+  <text x="600" y="26" font-family="monospace" font-size="15" fill="#00ff88" text-anchor="middle" letter-spacing="2" opacity="0.7">NETWORK LATENCY — PING TEST RESULTS</text>
+
+  <g transform="translate(60, 60)">
+    <line x1="0" y1="140" x2="1080" y2="140" stroke="#00ff88" stroke-width="0.3" opacity="0.15"/>
+    <line x1="0" y1="100" x2="1080" y2="100" stroke="#00ff88" stroke-width="0.15" opacity="0.08"/>
+    <line x1="0" y1="60" x2="1080" y2="60" stroke="#00ff88" stroke-width="0.15" opacity="0.08"/>
+    <line x1="0" y1="20" x2="1080" y2="20" stroke="#00ff88" stroke-width="0.15" opacity="0.08"/>
+    
+    <polyline points="0,110 20,105 40,95 60,80 80,70 100,75 120,55 140,60 160,45 180,50 200,30 220,35 240,25 260,40 280,50 300,35 320,45 340,30 360,20 380,25 400,35 420,20 440,30 460,15 480,20 500,25 520,15 540,10 560,30 580,20 600,15 620,25 640,10 660,20 680,15 700,10 720,5 740,15 760,10 780,5 800,20 820,10 840,5 860,15 880,10 900,5 920,10 940,5 960,15 980,10 1000,5 1020,10 1040,5 1060,15 1080,10"
+          fill="none" stroke="#00ff88" stroke-width="2" class="dl"/>
+    <polyline points="0,110 20,105 40,95 60,80 80,70 100,75 120,55 140,60 160,45 180,50 200,30 220,35 240,25 260,40 280,50 300,35 320,45 340,30 360,20 380,25 400,35 420,20 440,30 460,15 480,20 500,25 520,15 540,10 560,30 580,20 600,15 620,25 640,10 660,20 680,15 700,10 720,5 740,15 760,10 780,5 800,20 820,10 840,5 860,15 880,10 900,5 920,10 940,5 960,15 980,10 1000,5 1020,10 1040,5 1060,15 1080,10"
+          fill="none" stroke="#00ffff" stroke-width="1" class="dl" opacity="0.4"/>
+    
+    <circle cx="1080" cy="10" r="4" fill="#00ff88" class="p1" filter="url(#g)"/>
+  </g>
+
+  <g transform="translate(60, 185)">
+    <text x="0" y="16" font-family="monospace" font-size="13" fill="#888">AVG LATENCY: <tspan fill="#00ff88" class="p1">24ms</tspan></text>
+    <text x="250" y="16" font-family="monospace" font-size="13" fill="#888">MIN: <tspan fill="#00ffff">5ms</tspan></text>
+    <text x="400" y="16" font-family="monospace" font-size="13" fill="#888">MAX: <tspan fill="#ff6600">110ms</tspan></text>
+    <text x="550" y="16" font-family="monospace" font-size="13" fill="#888">PACKETS LOST: <tspan fill="#00ff88">0%</tspan></text>
+    <text x="750" y="16" font-family="monospace" font-size="13" fill="#888">TARGET: <tspan fill="#00ffff">8.8.8.8</tspan></text>
+    <circle cx="1060" cy="12" r="4" fill="#00ff88" class="blk"/>
+  </g>
+</svg>

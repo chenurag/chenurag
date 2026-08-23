@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 230" width="100%" height="auto">
+  <defs><filter id="g"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style><![CDATA[
+      @keyframes fillBar{0%{width:0}100%{width:var(--w)}}
+      @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}@keyframes pulse{0%,100%{filter:drop-shadow(0 0 4px)}50%{filter:drop-shadow(0 0 14px)}}
+      @keyframes breathe{0%,100%{opacity:0.3}50%{opacity:0.7}}@keyframes scan{0%{transform:translateX(-1200px)}100%{transform:translateX(1200px)}}
+      @keyframes flick{0%,100%{opacity:0.96}2%{opacity:0.2}4%{opacity:0.96}}
+      .fb1{--w:60px;animation:fillBar 2s ease-out 0.2s both}.fb2{--w:90px;animation:fillBar 2s ease-out 0.3s both}
+      .fb3{--w:120px;animation:fillBar 2s ease-out 0.4s both}.fb4{--w:150px;animation:fillBar 2s ease-out 0.5s both}
+      .fb5{--w:90px;animation:fillBar 2s ease-out 0.6s both}.fb6{--w:130px;animation:fillBar 2s ease-out 0.7s both}
+      .fb7{--w:160px;animation:fillBar 2s ease-out 0.8s both}.blk{animation:blink 0.8s step-end infinite}
+      .p1{animation:pulse 2s ease-in-out infinite}.br{animation:breathe 4s ease-in-out infinite}
+      .sc{animation:scan 4s linear infinite}.fk{animation:flick 7s infinite}
+    ]]></style>
+  </defs>
+  <rect width="1200" height="230" fill="#02020c" rx="8"/>
+  <rect x="1" y="1" width="1198" height="228" rx="8" fill="none" stroke="#00ff88" stroke-width="0.5" opacity="0.12"/>
+  <rect class="sc" width="1200" height="1" fill="#00ff88" opacity="0.04"/>
+  <rect class="fk" width="1200" height="230" fill="#000" opacity="0.01" pointer-events="none"/>
+  <text x="600" y="26" font-family="monospace" font-size="15" fill="#00ff88" text-anchor="middle" letter-spacing="2" opacity="0.7">WEEKLY STUDY HOURS — LEARNING DISTRIBUTION</text>
+
+  <g transform="translate(80, 50)">
+    <line x1="0" y1="160" x2="700" y2="160" stroke="#00ff88" stroke-width="0.5" opacity="0.2"/>
+    <rect x="20" y="100" width="60" height="60" rx="4" fill="#00ff88" opacity="0.7" class="fb1"/>
+    <rect x="100" y="70" width="60" height="90" rx="4" fill="#00ffff" opacity="0.6" class="fb2"/>
+    <rect x="180" y="40" width="60" height="120" rx="4" fill="#ff6600" opacity="0.6" class="fb3"/>
+    <rect x="260" y="10" width="60" height="150" rx="4" fill="#ff003c" opacity="0.6" class="fb4"/>
+    <rect x="340" y="70" width="60" height="90" rx="4" fill="#9d00ff" opacity="0.6" class="fb5"/>
+    <rect x="420" y="30" width="60" height="130" rx="4" fill="#00ff88" opacity="0.7" class="fb6"/>
+    <rect x="500" y="0" width="60" height="160" rx="4" fill="#00ffff" opacity="0.7" class="fb7"/>
+    <text x="50" y="180" font-family="monospace" font-size="12" fill="#888" text-anchor="middle">M</text><text x="130" y="180" font-family="monospace" font-size="12" fill="#888" text-anchor="middle">T</text>
+    <text x="210" y="180" font-family="monospace" font-size="12" fill="#888" text-anchor="middle">W</text><text x="290" y="180" font-family="monospace" font-size="12" fill="#888" text-anchor="middle">T</text>
+    <text x="370" y="180" font-family="monospace" font-size="12" fill="#888" text-anchor="middle">F</text><text x="450" y="180" font-family="monospace" font-size="12" fill="#888" text-anchor="middle">S</text>
+    <text x="530" y="180" font-family="monospace" font-size="12" fill="#888" text-anchor="middle">S</text>
+  </g>
+
+  <g transform="translate(780, 50)">
+    <rect x="0" y="0" width="380" height="55" rx="6" fill="#040416" stroke="#00ff88" stroke-width="0.5"/>
+    <text x="15" y="22" font-family="monospace" font-size="15" fill="#00ff88" font-weight="bold">TOTAL STUDY HOURS/WEEK</text>
+    <text x="15" y="48" font-family="monospace" font-size="15" fill="#00ffff" class="p1">
+      <tspan><animate attributeName="values" values="0;5;10;15;20;25;30;35" dur="3s" fill="freeze"/>35</tspan> hrs
+    </text>
+    <circle cx="360" cy="18" r="4" fill="#00ff88" class="blk"/>
+  </g>
+  <g transform="translate(780, 120)">
+    <rect x="0" y="0" width="380" height="55" rx="6" fill="#040416" stroke="#00ffff" stroke-width="0.5"/>
+    <text x="15" y="22" font-family="monospace" font-size="15" fill="#00ffff" font-weight="bold">MOST PRODUCTIVE DAY</text>
+    <text x="15" y="48" font-family="monospace" font-size="15" fill="#00ff88" class="br">SUNDAY — 8.5 hours</text>
+    <circle cx="360" cy="18" r="4" fill="#00ffff" class="blk"/>
+  </g>
+  <g transform="translate(780, 190)">
+    <rect x="0" y="0" width="380" height="28" rx="4" fill="#060618" stroke="#00ff88" stroke-width="0.4" opacity="0.3"/>
+    <text x="15" y="19" font-family="monospace" font-size="13" fill="#555">STREAK: <tspan fill="#00ff88" class="p1">21 DAYS</tspan></text>
+  </g>
+</svg>
