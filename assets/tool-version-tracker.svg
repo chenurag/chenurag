@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" width="100%" height="auto">
+  <defs><filter id="g"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style><![CDATA[
+      @keyframes fillBar{0%{width:0}100%{width:var(--w)}}
+      @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}@keyframes pulse{0%,100%{filter:drop-shadow(0 0 3px)}50%{filter:drop-shadow(0 0 12px)}}
+      @keyframes breathe{0%,100%{opacity:0.4}50%{opacity:0.8}}@keyframes scan{0%{transform:translateX(-1200px)}100%{transform:translateX(1200px)}}
+      @keyframes flick{0%,100%{opacity:0.96}2%{opacity:0.2}4%{opacity:0.96}}
+      .fb1{--w:320px;animation:fillBar 2s ease-out 0.2s both}.fb2{--w:260px;animation:fillBar 2s ease-out 0.4s both}
+      .fb3{--w:200px;animation:fillBar 2s ease-out 0.6s both}.fb4{--w:150px;animation:fillBar 2s ease-out 0.8s both}
+      .fb5{--w:90px;animation:fillBar 2s ease-out 1s both}.blk{animation:blink 0.8s step-end infinite}
+      .p1{animation:pulse 2s ease-in-out infinite}.br{animation:breathe 4s ease-in-out infinite}
+      .sc{animation:scan 4s linear infinite}.fk{animation:flick 7s infinite}
+    ]]></style>
+  </defs>
+  <rect width="1200" height="200" fill="#02020c" rx="8"/>
+  <rect x="1" y="1" width="1198" height="198" rx="8" fill="none" stroke="#00ff88" stroke-width="0.5" opacity="0.12"/>
+  <rect class="sc" width="1200" height="1" fill="#00ff88" opacity="0.04"/>
+  <rect class="fk" width="1200" height="200" fill="#000" opacity="0.01" pointer-events="none"/>
+  <text x="600" y="22" font-family="monospace" font-size="10" fill="#00ff88" text-anchor="middle" letter-spacing="2" opacity="0.6">TOOL VERSION TRACKER — SOFTWARE INVENTORY</text>
+
+  <g transform="translate(40, 45)" font-family="monospace">
+    <text x="0" y="16" font-size="10" fill="#00ff88" font-weight="bold">Nmap</text><text x="80" y="16" font-size="8" fill="#888">7.95</text>
+    <rect x="130" y="6" width="350" height="12" rx="4" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.3"/>
+    <rect x="130" y="6" width="0" height="12" rx="4" fill="#00ff88" opacity="0.7" class="fb1"/>
+    <text x="500" y="16" font-size="9" fill="#00ff88" class="p1">CURRENT</text>
+    <circle cx="530" cy="11" r="3" fill="#00ff88" class="blk"/>
+
+    <text x="0" y="40" font-size="10" fill="#00ffff" font-weight="bold">Metasploit</text><text x="80" y="40" font-size="8" fill="#888">6.4.3</text>
+    <rect x="130" y="30" width="350" height="12" rx="4" fill="#0a0a1e" stroke="#00ffff" stroke-width="0.3"/>
+    <rect x="130" y="30" width="0" height="12" rx="4" fill="#00ffff" opacity="0.7" class="fb2"/>
+    <text x="500" y="40" font-size="9" fill="#00ffff" class="br">UPDATE AVAIL</text>
+
+    <text x="0" y="64" font-size="10" fill="#ff6600" font-weight="bold">Burp Suite</text><text x="80" y="64" font-size="8" fill="#888">2026.5</text>
+    <rect x="130" y="54" width="350" height="12" rx="4" fill="#0a0a1e" stroke="#ff6600" stroke-width="0.3"/>
+    <rect x="130" y="54" width="0" height="12" rx="4" fill="#ff6600" opacity="0.7" class="fb3"/>
+    <text x="500" y="64" font-size="9" fill="#ff6600">CURRENT</text>
+
+    <text x="0" y="88" font-size="10" fill="#9d00ff" font-weight="bold">Wazuh</text><text x="80" y="88" font-size="8" fill="#888">4.9.0</text>
+    <rect x="130" y="78" width="350" height="12" rx="4" fill="#0a0a1e" stroke="#9d00ff" stroke-width="0.3"/>
+    <rect x="130" y="78" width="0" height="12" rx="4" fill="#9d00ff" opacity="0.7" class="fb4"/>
+    <text x="500" y="88" font-size="9" fill="#9d00ff">CURRENT</text>
+
+    <text x="0" y="112" font-size="10" fill="#ff003c" font-weight="bold">Docker</text><text x="80" y="112" font-size="8" fill="#888">27.6</text>
+    <rect x="130" y="102" width="350" height="12" rx="4" fill="#0a0a1e" stroke="#ff003c" stroke-width="0.3"/>
+    <rect x="130" y="102" width="0" height="12" rx="4" fill="#ff003c" opacity="0.7" class="fb5"/>
+    <text x="500" y="112" font-size="9" fill="#ff003c">UPDATE</text>
+  </g>
+
+  <g transform="translate(620, 45)">
+    <rect x="0" y="0" width="550" height="80" rx="6" fill="#040416" stroke="#00ff88" stroke-width="0.5"/>
+    <text x="15" y="22" font-family="monospace" font-size="10" fill="#00ff88" font-weight="bold">SOFTWARE HEALTH</text>
+    <text x="15" y="42" font-family="monospace" font-size="9" fill="#888">TRACKED TOOLS: <tspan fill="#00ff88">15</tspan></text>
+    <text x="15" y="58" font-family="monospace" font-size="9" fill="#888">UP TO DATE: <tspan fill="#00ff88">13 (87%)</tspan></text>
+    <text x="15" y="74" font-family="monospace" font-size="9" fill="#888">UPDATES NEEDED: <tspan fill="#ff6600">2</tspan></text>
+    <circle cx="530" cy="15" r="3" fill="#00ff88" class="blk"/>
+  </g>
+
+  <g transform="translate(620, 140)">
+    <rect x="0" y="0" width="550" height="40" rx="6" fill="#040416" stroke="#00ff88" stroke-width="0.4"/>
+    <text x="15" y="25" font-family="monospace" font-size="9" fill="#555">NEXT UPDATE CHECK: <tspan fill="#00ffff" class="br">AUTOMATIC</tspan> · LAST: <tspan fill="#00ff88">TODAY 02:00</tspan></text>
+  </g>
+</svg>

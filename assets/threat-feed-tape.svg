@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" width="100%" height="auto">
+  <defs><filter id="g"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style><![CDATA[
+      @keyframes scrollUp{0%{transform:translateY(0)}100%{transform:translateY(-300px)}}
+      @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
+      @keyframes pulse{0%,100%{filter:drop-shadow(0 0 3px)}50%{filter:drop-shadow(0 0 12px)}}
+      @keyframes breathe{0%,100%{opacity:0.3}50%{opacity:0.7}}
+      @keyframes scan{0%{transform:translateX(-1200px)}100%{transform:translateX(1200px)}}
+      @keyframes flick{0%,100%{opacity:0.96}2%{opacity:0.2}4%{opacity:0.96}}
+      .su{animation:scrollUp 20s linear infinite}.blk{animation:blink 0.8s step-end infinite}
+      .p1{animation:pulse 2s ease-in-out infinite}.br{animation:breathe 4s ease-in-out infinite}
+      .sc{animation:scan 4s linear infinite}.fk{animation:flick 7s infinite}
+    ]]></style>
+  </defs>
+  <rect width="1200" height="220" fill="#02020c" rx="8"/>
+  <rect x="1" y="1" width="1198" height="218" rx="8" fill="none" stroke="#00ff88" stroke-width="0.5" opacity="0.12"/>
+  <rect class="sc" width="1200" height="1" fill="#00ff88" opacity="0.04"/>
+  <rect class="fk" width="1200" height="220" fill="#000" opacity="0.01" pointer-events="none"/>
+  <text x="600" y="22" font-family="monospace" font-size="10" fill="#00ff88" text-anchor="middle" letter-spacing="2" opacity="0.6">THREAT INTELLIGENCE FEED — LIVE TAPE</text>
+
+  <rect x="0" y="0" width="80" height="220" rx="8" fill="#04041a"/>
+  <circle cx="15" cy="18" r="4" fill="#ff003c" class="blk" filter="url(#g)"/>
+  <text x="10" y="38" font-family="monospace" font-size="8" fill="#ff6666" font-weight="bold" class="blk">LIVE</text>
+  <text x="8" y="56" font-family="monospace" font-size="8" fill="#555">THREAT</text>
+  <text x="8" y="72" font-family="monospace" font-size="8" fill="#555">FEED</text>
+
+  <g clip-path="url(#tc)">
+    <defs><clipPath id="tc"><rect x="80" y="5" width="1120" height="210"/></clipPath></defs>
+    <g class="su" font-family="monospace" font-size="10">
+      <text x="95" y="25" fill="#00ff88">[INFO] System scan complete — 0 threats found</text>
+      <text x="95" y="45" fill="#888">[INFO] IDS signature update #8472 applied</text>
+      <text x="95" y="65" fill="#ff6600">[WARN] Unusual outbound traffic detected — 1.2.3.4:443</text>
+      <text x="95" y="85" fill="#00ff88">[INFO] Port scan from 10.0.0.1 blocked by firewall</text>
+      <text x="95" y="105" fill="#ff003c">[ALERT] Failed SSH login attempt — 203.0.113.5</text>
+      <text x="95" y="125" fill="#888">[INFO] Cron job: nightly log rotation completed</text>
+      <text x="95" y="145" fill="#00ff88">[INFO] Wazuh agent heartbeat received — all endpoints OK</text>
+      <text x="95" y="165" fill="#ff6600">[WARN] SSL certificate for lab.shadow.local expires in 14d</text>
+      <text x="95" y="185" fill="#00ff88">[INFO] Snort rule set updated — 47 new signatures</text>
+      <text x="95" y="205" fill="#888">[INFO] Fail2ban banned 3 IPs in last hour</text>
+      <text x="95" y="225" fill="#00ffff">[NOTICE] Shadow network sync completed — 6 nodes online</text>
+      <text x="95" y="245" fill="#ff003c">[ALERT] SQL injection attempt blocked on webapp</text>
+      <text x="95" y="265" fill="#888">[INFO] RKHunter scan clean — no rootkits found</text>
+      <text x="95" y="285" fill="#00ff88">[INFO] All lab VMs healthy — no alerts pending</text>
+      <text x="95" y="305" fill="#ff6600">[WARN] Disk usage on /var/log at 82%</text>
+    </g>
+  </g>
+</svg>
