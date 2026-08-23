@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" width="100%" height="auto">
+  <defs>
+    <filter id="g"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      @keyframes grow{0%{height:0}100%{height:var(--h)}}
+      @keyframes pulse{0%,100%{opacity:0.5;filter:drop-shadow(0 0 4px)}50%{opacity:1;filter:drop-shadow(0 0 14px)}}
+      @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
+      @keyframes breathe{0%,100%{opacity:0.4}50%{opacity:0.8}}
+      @keyframes scan{0%{transform:translateX(-1200px)}100%{transform:translateX(1200px)}}
+      @keyframes flick{0%,100%{opacity:0.96}2%{opacity:0.2}4%{opacity:0.96}}
+      @keyframes wave{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+      
+      .g1{--h:60px;animation:grow 1.5s ease-out 0.2s both}
+      .g2{--h:100px;animation:grow 1.5s ease-out 0.3s both}
+      .g3{--h:75px;animation:grow 1.5s ease-out 0.4s both}
+      .g4{--h:130px;animation:grow 1.5s ease-out 0.5s both}
+      .g5{--h:45px;animation:grow 1.5s ease-out 0.6s both}
+      .g6{--h:90px;animation:grow 1.5s ease-out 0.7s both}
+      .g7{--h:110px;animation:grow 1.5s ease-out 0.8s both}
+      .g8{--h:35px;animation:grow 1.5s ease-out 0.9s both}
+      .p1{animation:pulse 2s ease-in-out infinite}
+      .blk{animation:blink 0.8s step-end infinite}
+      .br{animation:breathe 4s ease-in-out infinite}
+      .sc{animation:scan 4s linear infinite}
+      .fk{animation:flick 7s infinite}
+      .wv{animation:wave 3s ease-in-out infinite}
+    </style>
+  </defs>
+
+  <rect width="1200" height="200" fill="#02020c" rx="8"/>
+  <rect x="1" y="1" width="1198" height="198" rx="8" fill="none" stroke="#00ff88" stroke-width="0.5" opacity="0.12"/>
+  <rect class="sc" width="1200" height="1" fill="#00ff88" opacity="0.04"/>
+  <rect class="fk" width="1200" height="200" fill="#000" opacity="0.01" pointer-events="none"/>
+
+  <text x="600" y="22" font-family="monospace" font-size="10" fill="#00ff88" text-anchor="middle" letter-spacing="2" opacity="0.6">📊 WEEKLY COMMIT FREQUENCY — 8-WEEK TREND</text>
+
+  <!-- Bar chart -->
+  <g transform="translate(120, 60)">
+    <!-- Grid lines -->
+    <g stroke="#00ff88" stroke-width="0.15" opacity="0.08">
+      <line x1="0" y1="0" x2="960" y2="0"/>
+      <line x1="0" y1="30" x2="960" y2="30"/>
+      <line x1="0" y1="60" x2="960" y2="60"/>
+      <line x1="0" y1="90" x2="960" y2="90"/>
+      <line x1="0" y1="120" x2="960" y2="120"/>
+    </g>
+    
+    <!-- Baseline -->
+    <line x1="0" y1="120" x2="960" y2="120" stroke="#00ff88" stroke-width="0.5" opacity="0.3"/>
+
+    <!-- Bars (grow from bottom) -->
+    <g>
+      <!-- W1: 25 commits -->
+      <rect x="40" y="120" width="60" height="0" rx="3" fill="#0a4a28" class="g1"/>
+      <rect x="40" y="120" width="60" height="0" rx="3" fill="#00ff88" opacity="0.3" class="g1" style="animation-name:grow1a"/>
+      <text x="70" y="135" font-family="monospace" font-size="8" fill="#888" text-anchor="middle">W1</text>
+      <text x="70" y="112" font-family="monospace" font-size="8" fill="#00ff88" text-anchor="middle">25</text>
+
+      <!-- W2: 45 commits -->
+      <rect x="160" y="120" width="60" height="0" rx="3" fill="#00ff88" opacity="0.8" class="g2"/>
+      <text x="190" y="135" font-family="monospace" font-size="8" fill="#888" text-anchor="middle">W2</text>
+      <text x="190" y="112" font-family="monospace" font-size="8" fill="#00ff88" text-anchor="middle">45</text>
+
+      <!-- W3: 30 commits -->
+      <rect x="280" y="120" width="60" height="0" rx="3" fill="#00aa44" class="g3"/>
+      <text x="310" y="135" font-family="monospace" font-size="8" fill="#888" text-anchor="middle">W3</text>
+      <text x="310" y="112" font-family="monospace" font-size="8" fill="#00ff88" text-anchor="middle">30</text>
+
+      <!-- W4: 58 commits -->
+      <rect x="400" y="120" width="60" height="0" rx="3" fill="#00dd66" class="g4"/>
+      <text x="430" y="135" font-family="monospace" font-size="8" fill="#888" text-anchor="middle">W4</text>
+      <text x="430" y="112" font-family="monospace" font-size="8" fill="#00ff88" text-anchor="middle">58</text>
+
+      <!-- W5: 18 commits -->
+      <rect x="520" y="120" width="60" height="0" rx="3" fill="#0a5a30" class="g5"/>
+      <text x="550" y="135" font-family="monospace" font-size="8" fill="#888" text-anchor="middle">W5</text>
+      <text x="550" y="112" font-family="monospace" font-size="8" fill="#00ff88" text-anchor="middle">18</text>
+
+      <!-- W6: 40 commits -->
+      <rect x="640" y="120" width="60" height="0" rx="3" fill="#00bb55" class="g6"/>
+      <text x="670" y="135" font-family="monospace" font-size="8" fill="#888" text-anchor="middle">W6</text>
+      <text x="670" y="112" font-family="monospace" font-size="8" fill="#00ff88" text-anchor="middle">40</text>
+
+      <!-- W7: 50 commits -->
+      <rect x="760" y="120" width="60" height="0" rx="3" fill="#00ee77" class="g7"/>
+      <text x="790" y="135" font-family="monospace" font-size="8" fill="#888" text-anchor="middle">W7</text>
+      <text x="790" y="112" font-family="monospace" font-size="8" fill="#00ff88" text-anchor="middle">50</text>
+
+      <!-- W8: 15 commits (current week, pulsing) -->
+      <rect x="880" y="120" width="60" height="0" rx="3" fill="#00ff88" class="g8 p1"/>
+      <text x="910" y="135" font-family="monospace" font-size="8" fill="#888" text-anchor="middle">W8</text>
+      <text x="910" y="112" font-family="monospace" font-size="8" fill="#00ff88" class="blk">15</text>
+    </g>
+  </g>
+
+  <!-- Stats -->
+  <g transform="translate(120, 155)">
+    <text x="0" y="14" font-family="monospace" font-size="9" fill="#555">AVG COMMITS/WEEK: <tspan fill="#00ff88" class="br">35</tspan></text>
+    <text x="260" y="14" font-family="monospace" font-size="9" fill="#555">PEAK WEEK: <tspan fill="#00ffff">W4 · 58</tspan></text>
+    <text x="500" y="14" font-family="monospace" font-size="9" fill="#555">TREND: <tspan fill="#00ff88">▲ UP 40%</tspan></text>
+    <text x="700" y="14" font-family="monospace" font-size="9" fill="#555">TOTAL (8W): <tspan fill="#00ff88" class="p1">281</tspan></text>
+    <circle cx="930" cy="10" r="3" fill="#00ff88" class="blk"/>
+  </g>
+</svg>

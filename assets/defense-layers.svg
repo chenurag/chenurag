@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" width="100%" height="auto">
+  <defs>
+    <filter id="g"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      @keyframes fillLayer1{0%{width:0}100%{width:100%}}
+      @keyframes fillLayer2{0%{width:0}100%{width:90%}}
+      @keyframes fillLayer3{0%{width:0}100%{width:75%}}
+      @keyframes fillLayer4{0%{width:0}100%{width:60%}}
+      @keyframes fillLayer5{0%{width:0}100%{width:40%}}
+      @keyframes pulse{0%,100%{opacity:0.5;filter:drop-shadow(0 0 4px)}50%{opacity:1;filter:drop-shadow(0 0 14px)}}
+      @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
+      @keyframes breathe{0%,100%{opacity:0.4}50%{opacity:0.8}}
+      @keyframes scan{0%{transform:translateX(-1200px)}100%{transform:translateX(1200px)}}
+      @keyframes flick{0%,100%{opacity:0.96}2%{opacity:0.2}4%{opacity:0.96}}
+      
+      .fl1{animation:fillLayer1 2s ease-out 0.2s both}
+      .fl2{animation:fillLayer2 2s ease-out 0.4s both}
+      .fl3{animation:fillLayer3 2s ease-out 0.6s both}
+      .fl4{animation:fillLayer4 2s ease-out 0.8s both}
+      .fl5{animation:fillLayer5 2s ease-out 1.0s both}
+      .p1{animation:pulse 2s ease-in-out infinite}
+      .blk{animation:blink 0.8s step-end infinite}
+      .br{animation:breathe 4s ease-in-out infinite}
+      .sc{animation:scan 4s linear infinite}
+      .fk{animation:flick 7s infinite}
+    </style>
+  </defs>
+
+  <rect width="1200" height="220" fill="#02020c" rx="8"/>
+  <rect x="1" y="1" width="1198" height="218" rx="8" fill="none" stroke="#00ff88" stroke-width="0.5" opacity="0.12"/>
+  <rect class="sc" width="1200" height="1" fill="#00ff88" opacity="0.04"/>
+  <rect class="fk" width="1200" height="220" fill="#000" opacity="0.01" pointer-events="none"/>
+
+  <text x="600" y="22" font-family="monospace" font-size="10" fill="#00ff88" text-anchor="middle" letter-spacing="2" opacity="0.6">🧅 DEFENSE IN DEPTH — LAYERED SECURITY STACK</text>
+
+  <!-- Defense layers diagram -->
+  <g transform="translate(50, 40)">
+    <!-- Layer 1: External Firewall -->
+    <rect x="0" y="0" width="1000" height="28" rx="4" fill="#ff003c" fill-opacity="0.08" stroke="#ff003c" stroke-width="0.5"/>
+    <rect x="0" y="0" width="0" height="28" rx="4" fill="#ff003c" fill-opacity="0.15" class="fl1"/>
+    <circle cx="18" cy="14" r="5" fill="#ff003c" class="p1" filter="url(#g)"/>
+    <text x="32" y="18" font-family="monospace" font-size="10" fill="#ff6666" font-weight="bold">🔥 EDGE FIREWALL</text>
+    <text x="250" y="18" font-family="monospace" font-size="9" fill="#888">DROP ALL — ALLOW ESTABLISHED · RULES: 47 ACTIVE</text>
+    <circle cx="970" cy="14" r="3" fill="#ff003c" class="blk"/>
+
+    <!-- Layer 2: IDS/IPS -->
+    <rect x="20" y="34" width="960" height="28" rx="4" fill="#ff6600" fill-opacity="0.06" stroke="#ff6600" stroke-width="0.5"/>
+    <rect x="20" y="34" width="0" height="28" rx="4" fill="#ff6600" fill-opacity="0.12" class="fl2"/>
+    <circle cx="38" cy="48" r="5" fill="#ff6600" class="p1"/>
+    <text x="52" y="52" font-family="monospace" font-size="10" fill="#ff9900" font-weight="bold">📡 IDS / IPS</text>
+    <text x="250" y="52" font-family="monospace" font-size="9" fill="#888">SNORT · SURICATA · SIGNATURE-BASED DETECTION</text>
+    <circle cx="950" cy="48" r="3" fill="#ff6600" class="blk"/>
+
+    <!-- Layer 3: SIEM -->
+    <rect x="40" y="68" width="920" height="28" rx="4" fill="#ffd700" fill-opacity="0.06" stroke="#ffd700" stroke-width="0.5"/>
+    <rect x="40" y="68" width="0" height="28" rx="4" fill="#ffd700" fill-opacity="0.12" class="fl3"/>
+    <circle cx="58" cy="82" r="5" fill="#ffd700" class="p1"/>
+    <text x="72" y="86" font-family="monospace" font-size="10" fill="#ffd700" font-weight="bold">📊 SIEM MONITORING</text>
+    <text x="250" y="86" font-family="monospace" font-size="9" fill="#888">WAZUH · LOG AGGREGATION · REAL-TIME ALERTING</text>
+    <circle cx="930" cy="82" r="3" fill="#ffd700" class="blk"/>
+
+    <!-- Layer 4: Endpoint Security -->
+    <rect x="60" y="102" width="880" height="28" rx="4" fill="#00ffff" fill-opacity="0.06" stroke="#00ffff" stroke-width="0.5"/>
+    <rect x="60" y="102" width="0" height="28" rx="4" fill="#00ffff" fill-opacity="0.1" class="fl4"/>
+    <circle cx="78" cy="116" r="5" fill="#00ffff" class="p1"/>
+    <text x="92" y="120" font-family="monospace" font-size="10" fill="#00ffff" font-weight="bold">💻 ENDPOINT SECURITY</text>
+    <text x="250" y="120" font-family="monospace" font-size="9" fill="#888">OSQUERY · CLAMAV · FILE INTEGRITY MONITORING</text>
+    <circle cx="910" cy="116" r="3" fill="#00ffff" class="blk"/>
+
+    <!-- Layer 5: AI Core -->
+    <rect x="80" y="136" width="840" height="28" rx="4" fill="#9d00ff" fill-opacity="0.06" stroke="#9d00ff" stroke-width="0.5"/>
+    <rect x="80" y="136" width="0" height="28" rx="4" fill="#9d00ff" fill-opacity="0.1" class="fl5"/>
+    <circle cx="98" cy="150" r="5" fill="#9d00ff" class="p1"/>
+    <text x="112" y="154" font-family="monospace" font-size="10" fill="#9d00ff" font-weight="bold">🤖 AI CORE — SHADOWASSISTANT</text>
+    <text x="250" y="154" font-family="monospace" font-size="9" fill="#888">LOCAL LLM · ANOMALY DETECTION · AUTOMATED RESPONSE</text>
+    <circle cx="890" cy="150" r="3" fill="#9d00ff" class="blk"/>
+  </g>
+
+  <!-- Center core label -->
+  <g transform="translate(600, 185)">
+    <circle cx="0" cy="0" r="12" fill="#00ff88" class="p1" filter="url(#g)"/>
+    <text x="0" y="4" font-family="monospace" font-size="8" fill="#000" text-anchor="middle" font-weight="bold">⚡</text>
+    <text x="25" y="5" font-family="monospace" font-size="10" fill="#00ff88" font-weight="bold">SECURE DATA · SHADOW NETWORK</text>
+    <circle cx="100" cy="0" r="3" fill="#00ff88" class="blk"/>
+  </g>
+</svg>

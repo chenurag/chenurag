@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" width="100%" height="auto">
+  <defs>
+    <filter id="g"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      @keyframes fillH{0%{width:0}100%{width:var(--w)}}
+      @keyframes pulse{0%,100%{opacity:0.5;filter:drop-shadow(0 0 4px)}50%{opacity:1;filter:drop-shadow(0 0 14px)}}
+      @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
+      @keyframes breathe{0%,100%{opacity:0.4}50%{opacity:0.8}}
+      @keyframes scan{0%{transform:translateX(-1200px)}100%{transform:translateX(1200px)}}
+      @keyframes flick{0%,100%{opacity:0.96}2%{opacity:0.2}4%{opacity:0.96}}
+      
+      .fh1{--w:520px;animation:fillH 2s ease-out 0.2s both}
+      .fh2{--w:380px;animation:fillH 2s ease-out 0.4s both}
+      .fh3{--w:300px;animation:fillH 2s ease-out 0.6s both}
+      .fh4{--w:240px;animation:fillH 2s ease-out 0.8s both}
+      .fh5{--w:160px;animation:fillH 2s ease-out 1.0s both}
+      .p1{animation:pulse 2s ease-in-out infinite}
+      .blk{animation:blink 0.8s step-end infinite}
+      .br{animation:breathe 4s ease-in-out infinite}
+      .sc{animation:scan 4s linear infinite}
+      .fk{animation:flick 7s infinite}
+    </style>
+  </defs>
+
+  <rect width="1200" height="200" fill="#02020c" rx="8"/>
+  <rect x="1" y="1" width="1198" height="198" rx="8" fill="none" stroke="#00ff88" stroke-width="0.5" opacity="0.12"/>
+  <rect class="sc" width="1200" height="1" fill="#00ff88" opacity="0.04"/>
+  <rect class="fk" width="1200" height="200" fill="#000" opacity="0.01" pointer-events="none"/>
+
+  <text x="600" y="22" font-family="monospace" font-size="10" fill="#00ff88" text-anchor="middle" letter-spacing="2" opacity="0.6">🗂️ CODE DISTRIBUTION — LANGUAGE BREAKDOWN</text>
+
+  <!-- Language bars -->
+  <g transform="translate(40, 45)" font-family="monospace">
+    <!-- Python 52% -->
+    <text x="0" y="20" font-size="10" fill="#00ff88" font-weight="bold">Python</text>
+    <rect x="80" y="10" width="520" height="14" rx="4" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.3"/>
+    <rect x="80" y="10" width="0" height="14" rx="4" fill="#3776AB" class="fh1"/>
+    <text x="620" y="21" font-size="10" fill="#00ff88" class="p1">52%</text>
+
+    <!-- Bash 38% -->
+    <text x="0" y="50" font-size="10" fill="#00ffff" font-weight="bold">Bash</text>
+    <rect x="80" y="40" width="520" height="14" rx="4" fill="#0a0a1e" stroke="#00ffff" stroke-width="0.3"/>
+    <rect x="80" y="40" width="0" height="14" rx="4" fill="#4EAA25" class="fh2"/>
+    <text x="620" y="51" font-size="10" fill="#00ffff" class="br">38%</text>
+
+    <!-- JavaScript 30% -->
+    <text x="0" y="80" font-size="10" fill="#ffd700" font-weight="bold">JavaScript</text>
+    <rect x="80" y="70" width="520" height="14" rx="4" fill="#0a0a1e" stroke="#ffd700" stroke-width="0.3"/>
+    <rect x="80" y="70" width="0" height="14" rx="4" fill="#F7DF1E" class="fh3"/>
+    <text x="620" y="81" font-size="10" fill="#ffd700">30%</text>
+
+    <!-- C/C++ 24% -->
+    <text x="0" y="110" font-size="10" fill="#ff6600" font-weight="bold">C / C++</text>
+    <rect x="80" y="100" width="520" height="14" rx="4" fill="#0a0a1e" stroke="#ff6600" stroke-width="0.3"/>
+    <rect x="80" y="100" width="0" height="14" rx="4" fill="#00599C" class="fh4"/>
+    <text x="620" y="111" font-size="10" fill="#ff6600">24%</text>
+
+    <!-- HTML/CSS 16% -->
+    <text x="0" y="140" font-size="10" fill="#9d00ff" font-weight="bold">HTML/CSS</text>
+    <rect x="80" y="130" width="520" height="14" rx="4" fill="#0a0a1e" stroke="#9d00ff" stroke-width="0.3"/>
+    <rect x="80" y="130" width="0" height="14" rx="4" fill="#E34F26" class="fh5"/>
+    <text x="620" y="141" font-size="10" fill="#9d00ff">16%</text>
+  </g>
+
+  <!-- Donut chart -->
+  <g transform="translate(850, 100)">
+    <circle cx="0" cy="0" r="55" fill="none" stroke="#112" stroke-width="16"/>
+    <!-- Segments -->
+    <circle cx="0" cy="0" r="55" fill="none" stroke="#3776AB" stroke-width="16" stroke-dasharray="180 345" stroke-dashoffset="0" transform="rotate(-90)">
+      <animate attributeName="stroke-dasharray" values="0 345;180 345" dur="2s" fill="freeze"/>
+    </circle>
+    <circle cx="0" cy="0" r="55" fill="none" stroke="#4EAA25" stroke-width="16" stroke-dasharray="131 345" stroke-dashoffset="-180" transform="rotate(-90)">
+      <animate attributeName="stroke-dasharray" values="0 345;131 345" dur="2s" fill="freeze"/>
+    </circle>
+    <circle cx="0" cy="0" r="55" fill="none" stroke="#F7DF1E" stroke-width="16" stroke-dasharray="104 345" stroke-dashoffset="-311" transform="rotate(-90)">
+      <animate attributeName="stroke-dasharray" values="0 345;104 345" dur="2s" fill="freeze"/>
+    </circle>
+    <text x="0" y="6" font-family="monospace" font-size="16" fill="#00ff88" text-anchor="middle" font-weight="bold" class="p1">160%</text>
+    <text x="0" y="85" font-family="monospace" font-size="9" fill="#888" text-anchor="middle">TOTAL LANGUAGES</text>
+    <circle cx="55" cy="-55" r="4" fill="#00ff88" class="blk"/>
+  </g>
+</svg>

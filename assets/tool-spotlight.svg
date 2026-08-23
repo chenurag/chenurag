@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 180" width="100%" height="auto">
+  <defs>
+    <filter id="g"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      @keyframes fadeRotate1{0%,20%{opacity:1}25%,95%{opacity:0}100%{opacity:0}}
+      @keyframes fadeRotate2{0%,20%{opacity:0}25%,45%{opacity:1}50%,95%{opacity:0}100%{opacity:0}}
+      @keyframes fadeRotate3{0%,45%{opacity:0}50%,70%{opacity:1}75%,95%{opacity:0}100%{opacity:0}}
+      @keyframes fadeRotate4{0%,70%{opacity:0}75%,100%{opacity:1}}
+      @keyframes pulse{0%,100%{opacity:0.5;filter:drop-shadow(0 0 6px #00ff88)}50%{opacity:1;filter:drop-shadow(0 0 20px #00ff88)}}
+      @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
+      @keyframes breathe{0%,100%{opacity:0.4}50%{opacity:0.8}}
+      @keyframes scan{0%{transform:translateX(-1200px)}100%{transform:translateX(1200px)}}
+      @keyframes flick{0%,100%{opacity:0.96}2%{opacity:0.2}4%{opacity:0.96}}@keyframes orbit{0%{transform:rotate(0deg) translateX(130px) rotate(0deg)}100%{transform:rotate(360deg) translateX(130px) rotate(-360deg)}}
+      
+      .fr1{animation:fadeRotate1 16s infinite}
+      .fr2{animation:fadeRotate2 16s infinite}
+      .fr3{animation:fadeRotate3 16s infinite}
+      .fr4{animation:fadeRotate4 16s infinite}
+      .p1{animation:pulse 2s ease-in-out infinite}
+      .blk{animation:blink 0.8s step-end infinite}
+      .br{animation:breathe 4s ease-in-out infinite}
+      .sc{animation:scan 4s linear infinite}
+      .fk{animation:flick 7s infinite}
+      .ob{animation:orbit 8s linear infinite}
+    </style>
+  </defs>
+
+  <rect width="1200" height="180" fill="#02020c" rx="8"/>
+  <rect x="1" y="1" width="1198" height="178" rx="8" fill="none" stroke="#00ff88" stroke-width="0.5" opacity="0.12"/>
+  <rect class="sc" width="1200" height="1" fill="#00ff88" opacity="0.04"/>
+  <rect class="fk" width="1200" height="180" fill="#000" opacity="0.01" pointer-events="none"/>
+
+  <text x="600" y="22" font-family="monospace" font-size="10" fill="#00ff88" text-anchor="middle" letter-spacing="2" opacity="0.6">🔧 TOOL SPOTLIGHT — WEAPON OF THE DAY</text>
+
+  <!-- Tool cards rotating -->
+  <!-- Tool 1: Nmap -->
+  <g class="fr1" transform="translate(300, 90)">
+    <rect x="0" y="-45" width="600" height="90" rx="8" fill="#040416" stroke="#00ffff" stroke-width="1"/>
+    <text x="30" y="-18" font-family="monospace" font-size="24" fill="#00ffff" font-weight="bold" filter="url(#g)">NMAP</text>
+    <text x="180" y="-14" font-family="monospace" font-size="10" fill="#888">NETWORK SCANNER</text>
+    <text x="30" y="10" font-family="monospace" font-size="9" fill="#aaa">"The network discovery tool — map hosts, ports, services, and vulnerabilities.</text>
+    <text x="30" y="26" font-family="monospace" font-size="9" fill="#aaa">Your first move in every engagement."</text>
+    <text x="30" y="38" font-family="monospace" font-size="9" fill="#00ffff">CATEGORY: RECON · RATING: ★★★★★</text>
+    <circle cx="580" cy="-30" r="6" fill="#00ffff" class="p1" filter="url(#g)"/>
+  </g>
+
+  <!-- Tool 2: Wireshark -->
+  <g class="fr2" transform="translate(300, 90)">
+    <rect x="0" y="-45" width="600" height="90" rx="8" fill="#040416" stroke="#00ff88" stroke-width="1"/>
+    <text x="30" y="-18" font-family="monospace" font-size="24" fill="#00ff88" font-weight="bold" filter="url(#g)">WIRESHARK</text>
+    <text x="240" y="-14" font-family="monospace" font-size="10" fill="#888">PACKET ANALYZER</text>
+    <text x="30" y="10" font-family="monospace" font-size="9" fill="#aaa">"See every packet on the wire. Understand every conversation.</text>
+    <text x="30" y="26" font-family="monospace" font-size="9" fill="#aaa">The truth is in the traffic."</text>
+    <text x="30" y="38" font-family="monospace" font-size="9" fill="#00ff88">CATEGORY: ANALYSIS · RATING: ★★★★★</text>
+    <circle cx="580" cy="-30" r="6" fill="#00ff88" class="p1" filter="url(#g)"/>
+  </g>
+
+  <!-- Tool 3: Metasploit -->
+  <g class="fr3" transform="translate(300, 90)">
+    <rect x="0" y="-45" width="600" height="90" rx="8" fill="#040416" stroke="#ff003c" stroke-width="1"/>
+    <text x="30" y="-18" font-family="monospace" font-size="24" fill="#ff6666" font-weight="bold" filter="url(#g)">METASPLOIT</text>
+    <text x="280" y="-14" font-family="monospace" font-size="10" fill="#888">EXPLOITATION FRAMEWORK</text>
+    <text x="30" y="10" font-family="monospace" font-size="9" fill="#aaa">"From reconnaissance to foothold — the complete exploitation</text>
+    <text x="30" y="26" font-family="monospace" font-size="9" fill="#aaa">arsenal in one framework."</text>
+    <text x="30" y="38" font-family="monospace" font-size="9" fill="#ff6666">CATEGORY: EXPLOITATION · RATING: ★★★★★</text>
+    <circle cx="580" cy="-30" r="6" fill="#ff003c" class="p1" filter="url(#g)"/>
+  </g>
+
+  <!-- Tool 4: Burp Suite -->
+  <g class="fr4" transform="translate(300, 90)">
+    <rect x="0" y="-45" width="600" height="90" rx="8" fill="#040416" stroke="#ff6600" stroke-width="1"/>
+    <text x="30" y="-18" font-family="monospace" font-size="24" fill="#ff9900" font-weight="bold" filter="url(#g)">BURP SUITE</text>
+    <text x="240" y="-14" font-family="monospace" font-size="10" fill="#888">WEB SECURITY TESTER</text>
+    <text x="30" y="10" font-family="monospace" font-size="9" fill="#aaa">"Intercept, modify, fuzz, and exploit web traffic. The web</text>
+    <text x="30" y="26" font-family="monospace" font-size="9" fill="#aaa">app tester's daily driver."</text>
+    <text x="30" y="38" font-family="monospace" font-size="9" fill="#ff9900">CATEGORY: WEB APP · RATING: ★★★★★</text>
+    <circle cx="580" cy="-30" r="6" fill="#ff6600" class="p1" filter="url(#g)"/>
+  </g>
+
+  <!-- Rotating dots -->
+  <g transform="translate(600, 152)">
+    <circle cx="-30" cy="0" r="4" fill="#00ffff" class="p1"/>
+    <circle cx="-10" cy="0" r="4" fill="#00ff88" class="blk" style="animation-delay:4s"/>
+    <circle cx="10" cy="0" r="4" fill="#ff003c" class="blk" style="animation-delay:8s"/>
+    <circle cx="30" cy="0" r="4" fill="#ff6600" class="blk" style="animation-delay:12s"/>
+  </g>
+
+  <!-- Orbiting satellite -->
+  <g transform="translate(75, 90)">
+    <circle cx="0" cy="0" r="45" fill="none" stroke="#00ff88" stroke-width="0.3" opacity="0.15"/>
+    <circle cx="0" cy="0" r="3" fill="#00ff88" class="ob" filter="url(#g)"/>
+  </g>
+  <g transform="translate(1125, 90)">
+    <circle cx="0" cy="0" r="45" fill="none" stroke="#00ffff" stroke-width="0.3" opacity="0.15"/>
+    <circle cx="0" cy="0" r="3" fill="#00ffff" class="ob" filter="url(#g)"/>
+  </g>
+</svg>

@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" width="100%" height="auto">
+  <defs>
+    <filter id="g"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      @keyframes sweep{0%{stroke-dashoffset:600}100%{stroke-dashoffset:0}}
+      @keyframes pulse{0%,100%{opacity:0.5;filter:drop-shadow(0 0 4px)}50%{opacity:1;filter:drop-shadow(0 0 14px)}}
+      @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
+      @keyframes breathe{0%,100%{opacity:0.4}50%{opacity:0.8}}
+      @keyframes scan{0%{transform:translateX(-1200px)}100%{transform:translateX(1200px)}}
+      @keyframes flick{0%,100%{opacity:0.96}2%{opacity:0.2}4%{opacity:0.96}}@keyframes flash{0%,100%{opacity:0}50%{opacity:0.6}}
+      
+      .sw{stroke-dasharray:600;stroke-dashoffset:600;animation:sweep 3s ease-out 0.3s both}
+      .p1{animation:pulse 2s ease-in-out infinite}
+      .blk{animation:blink 0.8s step-end infinite}
+      .br{animation:breathe 4s ease-in-out infinite}
+      .sc{animation:scan 4s linear infinite}
+      .fk{animation:flick 7s infinite}
+      .fl{animation:flash 1.5s ease-in-out infinite}
+    </style>
+  </defs>
+
+  <rect width="1200" height="240" fill="#02020c" rx="8"/>
+  <rect x="1" y="1" width="1198" height="238" rx="8" fill="none" stroke="#00ff88" stroke-width="0.5" opacity="0.12"/>
+  <rect class="sc" width="1200" height="1" fill="#00ff88" opacity="0.04"/>
+  <rect class="fk" width="1200" height="240" fill="#000" opacity="0.01" pointer-events="none"/>
+
+  <text x="600" y="22" font-family="monospace" font-size="10" fill="#00ff88" text-anchor="middle" letter-spacing="2" opacity="0.6">🌍 GLOBAL THREAT MAP — ANIMATED ATTACK VISUALIZATION</text>
+
+  <!-- World map simplified -->
+  <g transform="translate(30, 35)">
+    <!-- Continents (simplified) -->
+    <path d="M100,60 L180,50 L200,70 L190,90 L150,100 L120,85 Z" fill="#0a1a0a" stroke="#00ff88" stroke-width="0.4" opacity="0.3"/>
+    <path d="M220,40 L280,35 L300,50 L290,65 L250,70 L230,55 Z" fill="#0a1a0a" stroke="#00ff88" stroke-width="0.4" opacity="0.3"/>
+    <path d="M200,75 L250,80 L260,100 L230,115 L200,105 L190,90 Z" fill="#0a1a0a" stroke="#00ff88" stroke-width="0.4" opacity="0.3"/>
+    <path d="M400,60 L650,45 L700,70 L690,110 L600,130 L450,120 L380,100 Z" fill="#0a1a0a" stroke="#00ff88" stroke-width="0.4" opacity="0.3"/>
+    <path d="M650,80 L720,75 L730,100 L710,115 L660,105 Z" fill="#0a1a0a" stroke="#00ff88" stroke-width="0.4" opacity="0.3"/>
+    <path d="M120,130 L160,125 L180,140 L170,155 L140,160 L110,150 Z" fill="#0a1a0a" stroke="#00ff88" stroke-width="0.4" opacity="0.3"/>
+    <path d="M720,130 L780,125 L810,145 L790,165 L730,160 L710,145 Z" fill="#0a1a0a" stroke="#00ff88" stroke-width="0.4" opacity="0.3"/>
+
+    <!-- Attack arcs (animated drawing) -->
+    <!-- US → Sri Lanka -->
+    <path d="M150,55 Q350,20 450,120" fill="none" stroke="#ff003c" stroke-width="1.2" class="sw" opacity="0.5"/>
+    <circle cx="0" cy="0" r="3" fill="#ff003c" class="fl"><animate attributeName="cx" values="150;450" dur="3s" repeatCount="indefinite"/><animate attributeName="cy" values="55;120" dur="3s" repeatCount="indefinite"/></circle>
+    
+    <!-- China → Sri Lanka -->
+    <path d="M300,40 Q400,70 450,120" fill="none" stroke="#ff6600" stroke-width="1" class="sw" opacity="0.4"/>
+    <circle cx="0" cy="0" r="2.5" fill="#ff6600"><animate attributeName="cx" values="300;450" dur="2.5s" repeatCount="indefinite"/><animate attributeName="cy" values="40;120" dur="2.5s" repeatCount="indefinite"/></circle>
+    
+    <!-- Russia → Sri Lanka -->
+    <path d="M320,25 Q400,50 450,120" fill="none" stroke="#ff003c" stroke-width="0.8" class="sw" opacity="0.3"/>
+    <circle cx="0" cy="0" r="2" fill="#ff003c"><animate attributeName="cx" values="320;450" dur="4s" repeatCount="indefinite"/><animate attributeName="cy" values="25;120" dur="4s" repeatCount="indefinite"/></circle>
+    
+    <!-- Europe → Sri Lanka -->
+    <path d="M250,50 Q350,70 450,120" fill="none" stroke="#ff6600" stroke-width="1" class="sw" opacity="0.35"/>
+    <circle cx="0" cy="0" r="2.5" fill="#ff6600"><animate attributeName="cx" values="250;450" dur="3.5s" repeatCount="indefinite"/><animate attributeName="cy" values="50;120" dur="3.5s" repeatCount="indefinite"/></circle>
+
+    <!-- AU → Sri Lanka -->
+    <path d="M500,180 Q480,150 450,120" fill="none" stroke="#ffd700" stroke-width="0.8" class="sw" opacity="0.3"/>
+    <circle cx="0" cy="0" r="2" fill="#ffd700"><animate attributeName="cx" values="500;450" dur="2.8s" repeatCount="indefinite"/><animate attributeName="cy" values="180;120" dur="2.8s" repeatCount="indefinite"/></circle>
+
+    <!-- Sri Lanka hotspot -->
+    <circle cx="450" cy="120" r="10" fill="#ff003c" class="p1" filter="url(#g)"/>
+    <circle cx="450" cy="120" r="20" fill="none" stroke="#ff003c" class="fl" stroke-width="1"/>
+    <circle cx="450" cy="120" r="35" fill="none" stroke="#ff003c" class="fl" stroke-width="0.5" style="animation-delay:0.5s"/>
+
+    <!-- Source labels -->
+    <text x="150" y="45" font-family="monospace" font-size="7" fill="#ff003c" text-anchor="middle">US</text>
+    <text x="300" y="30" font-family="monospace" font-size="7" fill="#ff6600" text-anchor="middle">CN</text>
+    <text x="320" y="15" font-family="monospace" font-size="7" fill="#ff003c" text-anchor="middle">RU</text>
+    <text x="250" y="40" font-family="monospace" font-size="7" fill="#ff6600" text-anchor="middle">EU</text>
+    <text x="500" y="190" font-family="monospace" font-size="7" fill="#ffd700" text-anchor="middle">AU</text>
+    <text x="455" y="145" font-family="monospace" font-size="8" fill="#00ff88" class="br">LK · HOME</text>
+  </g>
+
+  <!-- Threat meter -->
+  <g transform="translate(700, 40)">
+    <rect x="0" y="0" width="460" height="60" rx="6" fill="#040416" stroke="#00ff88" stroke-width="0.5"/>
+    <text x="20" y="22" font-family="monospace" font-size="10" fill="#888">GLOBAL THREAT INDEX</text>
+    <rect x="20" y="32" width="350" height="12" rx="4" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.3"/>
+    <rect x="20" y="32" width="75" height="12" rx="4" fill="#ff003c" opacity="0.8" class="p1"/>
+    <text x="390" y="42" font-family="monospace" font-size="10" fill="#ff003c" class="p1">LOW</text>
+    <circle cx="440" cy="15" r="4" fill="#00ff88" class="blk"/>
+  </g>
+
+  <!-- Stats cards -->
+  <g transform="translate(700, 115)">
+    <rect x="0" y="0" width="220" height="50" rx="6" fill="#040416" stroke="#ff003c" stroke-width="0.5"/>
+    <circle cx="15" cy="15" r="4" fill="#ff003c" class="blk"/>
+    <text x="26" y="20" font-family="monospace" font-size="9" fill="#888">INCOMING THREATS</text>
+    <text x="20" y="40" font-family="monospace" font-size="14" fill="#ff003c" class="p1">
+      <tspan><animate attributeName="values" values="0;100;200;300;400;500" dur="3s" fill="freeze"/>500</tspan>/day
+    </text>
+  </g>
+
+  <g transform="translate(940, 115)">
+    <rect x="0" y="0" width="220" height="50" rx="6" fill="#040416" stroke="#00ff88" stroke-width="0.5"/>
+    <circle cx="15" cy="15" r="4" fill="#00ff88" class="blk"/>
+    <text x="26" y="20" font-family="monospace" font-size="9" fill="#888">BLOCKED</text>
+    <text x="20" y="40" font-family="monospace" font-size="14" fill="#00ff88" class="br">99.8%</text>
+  </g>
+
+  <g transform="translate(700, 180)">
+    <rect x="0" y="0" width="460" height="40" rx="6" fill="#040416" stroke="#00ff88" stroke-width="0.4"/>
+    <text x="20" y="25" font-family="monospace" font-size="9" fill="#555">DEFENSE STATUS: <tspan fill="#00ff88" class="p1">● ACTIVE</tspan> · FIREWALL: <tspan fill="#00ffff">HARDENED</tspan> · IDS: <tspan fill="#00ff88">ENGAGED</tspan></text>
+  </g>
+</svg>
