@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 230" width="100%" height="auto">
+  <defs><filter id="g"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style><![CDATA[
+      @keyframes glow{0%,100%{opacity:0.4;filter:drop-shadow(0 0 4px)}50%{opacity:1;filter:drop-shadow(0 0 14px)}}
+      @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}@keyframes p1{0%,100%{filter:drop-shadow(0 0 4px)}50%{filter:drop-shadow(0 0 14px)}}
+      @keyframes br{0%,100%{opacity:0.3}50%{opacity:0.7}}@keyframes scan{0%{transform:translateX(-1200px)}100%{transform:translateX(1200px)}}
+      @keyframes flick{0%,100%{opacity:0.96}2%{opacity:0.2}4%{opacity:0.96}}
+      .gl{animation:glow 2s ease-in-out infinite}.blk{animation:blink 0.8s step-end infinite}
+      .p1{animation:p1 2s ease-in-out infinite}.br{animation:br 4s ease-in-out infinite}
+      .sc{animation:scan 4s linear infinite}.fk{animation:flick 7s infinite}
+    ]]></style>
+  </defs>
+  <rect width="1200" height="230" fill="#02020c" rx="8"/>
+  <rect x="1" y="1" width="1198" height="228" rx="8" fill="none" stroke="#00ff88" stroke-width="0.5" opacity="0.12"/>
+  <rect class="sc" width="1200" height="1" fill="#00ff88" opacity="0.04"/>
+  <rect class="fk" width="1200" height="230" fill="#000" opacity="0.01" pointer-events="none"/>
+  <text x="600" y="26" font-family="monospace" font-size="16" fill="#00ff88" text-anchor="middle" letter-spacing="2" opacity="0.7">THREAT MODELLING — STRIDE / DREAD FRAMEWORK</text>
+
+  <g transform="translate(60, 55)">
+    <text x="0" y="16" font-family="monospace" font-size="14" fill="#ff003c" class="p1">S</text><text x="20" y="16" font-family="monospace" font-size="14" fill="#888">poofing</text>
+    <rect x="120" y="6" width="300" height="14" rx="5" fill="#0a0a1e" stroke="#ff003c" stroke-width="0.3"/>
+    <rect x="120" y="6" width="210" height="14" rx="5" fill="#ff003c" opacity="0.6" class="p1"><animate attributeName="width" values="0;210" dur="2s" fill="freeze"/></rect>
+    <text x="440" y="16" font-family="monospace" font-size="14" fill="#ff003c">MEDIUM</text>
+  </g>
+  <g transform="translate(60, 85)">
+    <text x="0" y="16" font-family="monospace" font-size="14" fill="#ff6600" class="p1">T</text><text x="20" y="16" font-family="monospace" font-size="14" fill="#888">ampering</text>
+    <rect x="120" y="6" width="300" height="14" rx="5" fill="#0a0a1e" stroke="#ff6600" stroke-width="0.3"/>
+    <rect x="120" y="6" width="135" height="14" rx="5" fill="#ff6600" opacity="0.6"><animate attributeName="width" values="0;135" dur="2s" fill="freeze"/></rect>
+    <text x="440" y="16" font-family="monospace" font-size="14" fill="#ff6600">LOW</text>
+  </g>
+  <g transform="translate(60, 115)">
+    <text x="0" y="16" font-family="monospace" font-size="14" fill="#00ffff" class="p1">R</text><text x="20" y="16" font-family="monospace" font-size="14" fill="#888">epudiation</text>
+    <rect x="120" y="6" width="300" height="14" rx="5" fill="#0a0a1e" stroke="#00ffff" stroke-width="0.3"/>
+    <rect x="120" y="6" width="90" height="14" rx="5" fill="#00ffff" opacity="0.5"><animate attributeName="width" values="0;90" dur="2s" fill="freeze"/></rect>
+    <text x="440" y="16" font-family="monospace" font-size="14" fill="#00ffff">LOW</text>
+  </g>
+  <g transform="translate(60, 145)">
+    <text x="0" y="16" font-family="monospace" font-size="14" fill="#ffd700" class="p1">I</text><text x="20" y="16" font-family="monospace" font-size="14" fill="#888">nfo Disclosure</text>
+    <rect x="120" y="6" width="300" height="14" rx="5" fill="#0a0a1e" stroke="#ffd700" stroke-width="0.3"/>
+    <rect x="120" y="6" width="180" height="14" rx="5" fill="#ffd700" opacity="0.6"><animate attributeName="width" values="0;180" dur="2s" fill="freeze"/></rect>
+    <text x="440" y="16" font-family="monospace" font-size="14" fill="#ffd700">LOW-MED</text>
+  </g>
+  <g transform="translate(60, 175)">
+    <text x="0" y="16" font-family="monospace" font-size="14" fill="#ff003c" class="p1">D</text><text x="20" y="16" font-family="monospace" font-size="14" fill="#888">enial of Service</text>
+    <rect x="120" y="6" width="300" height="14" rx="5" fill="#0a0a1e" stroke="#ff003c" stroke-width="0.3"/>
+    <rect x="120" y="6" width="255" height="14" rx="5" fill="#ff003c" opacity="0.6" class="p1"><animate attributeName="width" values="0;255" dur="2s" fill="freeze"/></rect>
+    <text x="440" y="16" font-family="monospace" font-size="14" fill="#ff003c">MED-HIGH</text>
+  </g>
+  <g transform="translate(60, 205)">
+    <text x="0" y="16" font-family="monospace" font-size="14" fill="#9d00ff" class="p1">E</text><text x="20" y="16" font-family="monospace" font-size="14" fill="#888">levation of Priv</text>
+    <rect x="120" y="6" width="300" height="14" rx="5" fill="#0a0a1e" stroke="#9d00ff" stroke-width="0.3"/>
+    <rect x="120" y="6" width="150" height="14" rx="5" fill="#9d00ff" opacity="0.5"><animate attributeName="width" values="0;150" dur="2s" fill="freeze"/></rect>
+    <text x="440" y="16" font-family="monospace" font-size="14" fill="#9d00ff">LOW</text>
+  </g>
+
+  <g transform="translate(620, 55)">
+    <rect x="0" y="0" width="540" height="70" rx="6" fill="#040416" stroke="#00ff88" stroke-width="0.8"/>
+    <text x="15" y="22" font-family="monospace" font-size="15" fill="#00ff88" font-weight="bold">THREAT MODEL SUMMARY</text>
+    <text x="15" y="48" font-family="monospace" font-size="14" fill="#888">OVERALL DREAD SCORE: <tspan fill="#ff6600" class="p1">32/50</tspan></text>
+    <text x="350" y="48" font-family="monospace" font-size="14" fill="#888">RISK LEVEL: <tspan fill="#ff6600">MODERATE</tspan></text>
+    <circle cx="520" cy="18" r="4" fill="#00ff88" class="blk"/>
+  </g>
+  <g transform="translate(620, 140)">
+    <rect x="0" y="0" width="540" height="55" rx="6" fill="#040416" stroke="#00ffff" stroke-width="0.5"/>
+    <text x="15" y="22" font-family="monospace" font-size="14" fill="#00ffff" font-weight="bold">TOP THREAT</text>
+    <text x="15" y="44" font-family="monospace" font-size="14" fill="#888">Denial of Service — Mitigations in place: Rate Limiting + WAF</text>
+    <circle cx="520" cy="18" r="4" fill="#00ffff" class="blk"/>
+  </g>
+  <g transform="translate(620, 210)">
+    <rect x="0" y="0" width="540" height="28" rx="4" fill="#060618" stroke="#00ff88" stroke-width="0.4" opacity="0.3"/>
+    <text x="15" y="19" font-family="monospace" font-size="13" fill="#555">LAST REVIEW: <tspan fill="#00ff88">2026-08-23</tspan> · NEXT: <tspan fill="#00ffff">2026-09-23</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" width="100%" height="auto">
+  <defs><filter id="g"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style><![CDATA[
+      @keyframes p1{0%,100%{opacity:0.5;filter:drop-shadow(0 0 4px)}50%{opacity:1;filter:drop-shadow(0 0 14px)}}
+      @keyframes p2{0%,100%{opacity:0.3}50%{opacity:0.9}}
+      @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}@keyframes breathe{0%,100%{opacity:0.4}50%{opacity:0.8}}
+      @keyframes scan{0%{transform:translateX(-1200px)}100%{transform:translateX(1200px)}}
+      @keyframes flick{0%,100%{opacity:0.96}2%{opacity:0.2}4%{opacity:0.96}}
+      @keyframes grow{0%{height:0}100%{height:var(--h)}}@keyframes flow{0%{stroke-dashoffset:200}100%{stroke-dashoffset:0}}
+      .p1{animation:p1 2s ease-in-out infinite}.p2{animation:p2 3s ease-in-out infinite}
+      .blk{animation:blink 0.8s step-end infinite}.br{animation:breathe 4s ease-in-out infinite}
+      .sc{animation:scan 4s linear infinite}.fk{animation:flick 7s infinite}
+      .g1{--h:70px;animation:grow 1.5s ease-out 0.2s both}.g2{--h:100px;animation:grow 1.5s ease-out 0.4s both}
+      .g3{--h:130px;animation:grow 1.5s ease-out 0.6s both}.g4{--h:50px;animation:grow 1.5s ease-out 0.8s both}
+      .fl{stroke-dasharray:200;stroke-dashoffset:200;animation:flow 2s linear infinite}
+    ]]></style>
+  </defs>
+  <rect width="1200" height="260" fill="#02020c" rx="8"/>
+  <rect x="1" y="1" width="1198" height="258" rx="8" fill="none" stroke="#00ff88" stroke-width="0.5" opacity="0.12"/>
+  <rect class="sc" width="1200" height="1" fill="#00ff88" opacity="0.04"/>
+  <rect class="fk" width="1200" height="260" fill="#000" opacity="0.01" pointer-events="none"/>
+  <text x="600" y="26" font-family="monospace" font-size="16" fill="#00ff88" text-anchor="middle" letter-spacing="2" opacity="0.7">WEB SURFACE MAPPING — ATTACK SURFACE ANALYSIS</text>
+
+  <g transform="translate(100, 150)">
+    <rect x="0" y="70" width="180" height="0" rx="4" fill="#00ff88" opacity="0.7" class="g1"/>
+    <text x="90" y="104" font-family="monospace" font-size="14" fill="#00ff88" text-anchor="middle">SURFACE</text>
+    <text x="90" y="122" font-family="monospace" font-size="12" fill="#888" text-anchor="middle">12 domains</text>
+  </g>
+  <g transform="translate(320, 150)">
+    <rect x="0" y="40" width="180" height="0" rx="4" fill="#00ffff" opacity="0.6" class="g2"/>
+    <text x="90" y="74" font-family="monospace" font-size="14" fill="#00ffff" text-anchor="middle">DEEP WEB</text>
+    <text x="90" y="92" font-family="monospace" font-size="12" fill="#888" text-anchor="middle">8 services</text>
+  </g>
+  <g transform="translate(540, 150)">
+    <rect x="0" y="10" width="180" height="0" rx="4" fill="#ff003c" opacity="0.6" class="g3"/>
+    <text x="90" y="44" font-family="monospace" font-size="14" fill="#ff6666" text-anchor="middle">DARK WEB</text>
+    <text x="90" y="62" font-family="monospace" font-size="12" fill="#888" text-anchor="middle">3 monitored</text>
+  </g>
+  <g transform="translate(760, 150)">
+    <rect x="0" y="90" width="180" height="0" rx="4" fill="#9d00ff" opacity="0.6" class="g4"/>
+    <text x="90" y="124" font-family="monospace" font-size="14" fill="#9d00ff" text-anchor="middle">INTEL</text>
+    <text x="90" y="142" font-family="monospace" font-size="12" fill="#888" text-anchor="middle">5 feeds</text>
+  </g>
+
+  <g transform="translate(80, 50)">
+    <line x1="0" y1="0" x2="1000" y2="0" stroke="#00ff88" stroke-width="0.5" opacity="0.1"/>
+    <text x="0" y="16" font-family="monospace" font-size="14" fill="#888">ATTACK SURFACE SCORE:</text>
+    <rect x="240" y="6" width="400" height="14" rx="5" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.3"/>
+    <rect x="240" y="6" width="320" height="14" rx="5" fill="#ff6600" opacity="0.7"><animate attributeName="width" values="0;320" dur="2s" fill="freeze"/></rect>
+    <text x="660" y="16" font-family="monospace" font-size="14" fill="#ff6600" class="p1">MODERATE (320/500)</text>
+  </g>
+
+  <g transform="translate(80, 220)">
+    <rect x="0" y="0" width="1040" height="28" rx="4" fill="#060618" stroke="#00ff88" stroke-width="0.4" opacity="0.3"/>
+    <text x="15" y="19" font-family="monospace" font-size="13" fill="#555">LAST SCAN: <tspan fill="#00ff88">TODAY 06:00</tspan> · EXPOSED PORTS: <tspan fill="#00ffff">3</tspan> · UNPATCHED: <tspan fill="#ff6600">2</tspan> · STATUS: <tspan fill="#00ff88" class="blk">MONITORING</tspan></text>
+  </g>
+</svg>

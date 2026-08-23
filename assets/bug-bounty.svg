@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" width="100%" height="auto">
+  <defs><filter id="g"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style><![CDATA[
+      @keyframes countUp{from{opacity:0}to{opacity:1}}
+      @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}@keyframes p1{0%,100%{filter:drop-shadow(0 0 4px)}50%{filter:drop-shadow(0 0 14px)}}
+      @keyframes br{0%,100%{opacity:0.3}50%{opacity:0.7}}@keyframes scan{0%{transform:translateX(-1200px)}100%{transform:translateX(1200px)}}
+      @keyframes flick{0%,100%{opacity:0.96}2%{opacity:0.2}4%{opacity:0.96}}@keyframes fill{0%{width:0}100%{width:var(--w)}}
+      .blk{animation:blink 0.8s step-end infinite}.p1{animation:p1 2s ease-in-out infinite}
+      .br{animation:br 4s ease-in-out infinite}.sc{animation:scan 4s linear infinite}.fk{animation:flick 7s infinite}
+      .fl1{--w:360px;animation:fill 2s ease-out 0.2s both}.fl2{--w:280px;animation:fill 2s ease-out 0.4s both}
+      .fl3{--w:200px;animation:fill 2s ease-out 0.6s both}.fl4{--w:120px;animation:fill 2s ease-out 0.8s both}
+    ]]></style>
+  </defs>
+  <rect width="1200" height="240" fill="#02020c" rx="8"/>
+  <rect x="1" y="1" width="1198" height="238" rx="8" fill="none" stroke="#00ff88" stroke-width="0.5" opacity="0.12"/>
+  <rect class="sc" width="1200" height="1" fill="#00ff88" opacity="0.04"/>
+  <rect class="fk" width="1200" height="240" fill="#000" opacity="0.01" pointer-events="none"/>
+  <text x="600" y="26" font-family="monospace" font-size="16" fill="#00ff88" text-anchor="middle" letter-spacing="2" opacity="0.7">BUG BOUNTY PROGRESS — HUNTING MILESTONES</text>
+
+  <g transform="translate(100, 160)">
+    <circle cx="0" cy="0" r="8" fill="#ff003c" class="p1"/><circle cx="0" cy="0" r="8" fill="none" stroke="#ff003c" class="p1"/>
+    <text x="0" y="28" font-family="monospace" font-size="12" fill="#888" text-anchor="middle">REGISTERED</text>
+    <line x1="20" y1="0" x2="80" y2="0" stroke="#ff003c" stroke-width="1.5" stroke-dasharray="6 4"/>
+  </g>
+  <g transform="translate(280, 160)">
+    <circle cx="0" cy="0" r="8" fill="#ff6600" class="p1"/><circle cx="0" cy="0" r="8" fill="none" stroke="#ff6600"/>
+    <text x="0" y="28" font-family="monospace" font-size="12" fill="#888" text-anchor="middle">SCOUTING</text>
+    <line x1="20" y1="0" x2="80" y2="0" stroke="#ff6600" stroke-width="1.5" stroke-dasharray="6 4"/>
+  </g>
+  <g transform="translate(460, 160)">
+    <circle cx="0" cy="0" r="8" fill="#ffd700" class="p1"/><circle cx="0" cy="0" r="8" fill="none" stroke="#ffd700"/>
+    <text x="0" y="28" font-family="monospace" font-size="12" fill="#888" text-anchor="middle">REPORTING</text>
+    <line x1="20" y1="0" x2="80" y2="0" stroke="#ffd700" stroke-width="1.5" stroke-dasharray="6 4"/>
+  </g>
+  <g transform="translate(640, 160)">
+    <circle cx="0" cy="0" r="8" fill="#00ff88" class="p1"/><circle cx="0" cy="0" r="8" fill="none" stroke="#00ff88"/>
+    <text x="0" y="28" font-family="monospace" font-size="12" fill="#888" text-anchor="middle">VALIDATED</text>
+    <line x1="20" y1="0" x2="80" y2="0" stroke="#00ff88" stroke-width="1.5" stroke-dasharray="6 4"/>
+  </g>
+  <g transform="translate(820, 160)">
+    <circle cx="0" cy="0" r="8" fill="#9d00ff" class="p1"/><circle cx="0" cy="0" r="8" fill="none" stroke="#9d00ff"/>
+    <text x="0" y="28" font-family="monospace" font-size="12" fill="#888" text-anchor="middle">PAID OUT</text>
+  </g>
+
+  <g transform="translate(60, 45)">
+    <rect x="0" y="0" width="340" height="65" rx="6" fill="#040416" stroke="#00ff88" stroke-width="0.8"/>
+    <text x="15" y="22" font-family="monospace" font-size="15" fill="#00ff88" font-weight="bold">BOUNTIES EARNED</text>
+    <text x="15" y="52" font-family="monospace" font-size="18" fill="#00ff88" class="p1">
+      <tspan><animate attributeName="values" values="0;100;200;300;400;500;750" dur="3s" fill="freeze"/>750</tspan> USD
+    </text>
+    <circle cx="320" cy="18" r="4" fill="#00ff88" class="blk"/>
+  </g>
+  <g transform="translate(430, 45)">
+    <rect x="0" y="0" width="340" height="65" rx="6" fill="#040416" stroke="#00ffff" stroke-width="0.8"/>
+    <text x="15" y="22" font-family="monospace" font-size="15" fill="#00ffff" font-weight="bold">SUBMISSIONS</text>
+    <text x="15" y="52" font-family="monospace" font-size="18" fill="#00ffff" class="br">
+      <tspan><animate attributeName="values" values="0;5;10;15;20;25;35" dur="3s" fill="freeze"/>35</tspan>
+    </text>
+    <circle cx="320" cy="18" r="4" fill="#00ffff" class="blk"/>
+  </g>
+  <g transform="translate(800, 45)">
+    <rect x="0" y="0" width="350" height="65" rx="6" fill="#040416" stroke="#ff6600" stroke-width="0.8"/>
+    <text x="15" y="22" font-family="monospace" font-size="15" fill="#ff6600" font-weight="bold">ACCEPTANCE RATE</text>
+    <text x="15" y="52" font-family="monospace" font-size="18" fill="#ff6600" class="p1">72%</text>
+    <circle cx="330" cy="18" r="4" fill="#ff6600" class="blk"/>
+  </g>
+
+  <g transform="translate(60, 128)">
+    <text x="0" y="16" font-family="monospace" font-size="14" fill="#888">TOP PLATFORM:</text>
+    <text x="160" y="16" font-family="monospace" font-size="14" fill="#00ffff">HackerOne</text>
+    <text x="400" y="16" font-family="monospace" font-size="14" fill="#888">SPECIALTY:</text>
+    <text x="520" y="16" font-family="monospace" font-size="14" fill="#00ff88">Web App SQLi</text>
+    <text x="740" y="16" font-family="monospace" font-size="14" fill="#888">RANK:</text>
+    <text x="810" y="16" font-family="monospace" font-size="14" fill="#ff6600" class="p1">TOP 15%</text>
+  </g>
+</svg>

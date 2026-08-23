@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="100%" height="auto">
+  <defs><filter id="g"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style><![CDATA[
+      @keyframes grow{0%{height:0}100%{height:var(--h)}}
+      @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}@keyframes p1{0%,100%{filter:drop-shadow(0 0 4px)}50%{filter:drop-shadow(0 0 14px)}}
+      @keyframes br{0%,100%{opacity:0.3}50%{opacity:0.7}}@keyframes scan{0%{transform:translateX(-1200px)}100%{transform:translateX(1200px)}}
+      @keyframes flick{0%,100%{opacity:0.96}2%{opacity:0.2}4%{opacity:0.96}}
+      .g1{--h:35px;animation:grow 1.5s ease-out 0.2s both}.g2{--h:55px;animation:grow 1.5s ease-out 0.4s both}
+      .g3{--h:75px;animation:grow 1.5s ease-out 0.6s both}.g4{--h:95px;animation:grow 1.5s ease-out 0.8s both}
+      .g5{--h:115px;animation:grow 1.5s ease-out 1s both}
+      .blk{animation:blink 0.8s step-end infinite}.p1{animation:p1 2s ease-in-out infinite}
+      .br{animation:br 4s ease-in-out infinite}.sc{animation:scan 4s linear infinite}.fk{animation:flick 7s infinite}
+    ]]></style>
+  </defs>
+  <rect width="1200" height="280" fill="#02020c" rx="8"/>
+  <rect x="1" y="1" width="1198" height="278" rx="8" fill="none" stroke="#00ff88" stroke-width="0.5" opacity="0.12"/>
+  <rect class="sc" width="1200" height="1" fill="#00ff88" opacity="0.04"/>
+  <rect class="fk" width="1200" height="280" fill="#000" opacity="0.01" pointer-events="none"/>
+  <text x="600" y="26" font-family="monospace" font-size="16" fill="#00ff88" text-anchor="middle" letter-spacing="2" opacity="0.7">INCIDENT RESPONSE PLAYBOOK — KILL CHAIN FRAMEWORK</text>
+
+  <g transform="translate(60, 60)">
+    <rect x="0" y="0" width="140" height="60" rx="6" fill="#0a0a1e" stroke="#00ffff" stroke-width="0.8" class="p1"/>
+    <text x="70" y="24" font-family="monospace" font-size="14" fill="#00ffff" text-anchor="middle" font-weight="bold">DETECT</text>
+    <text x="70" y="46" font-family="monospace" font-size="12" fill="#888" text-anchor="middle">Wazuh · Snort</text>
+    <line x1="145" y1="30" x2="165" y2="30" stroke="#00ffff" stroke-width="1.5" stroke-dasharray="6 4" class="p1"/>
+
+    <rect x="175" y="0" width="140" height="60" rx="6" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.8"/>
+    <text x="245" y="24" font-family="monospace" font-size="14" fill="#00ff88" text-anchor="middle" font-weight="bold">ANALYZE</text>
+    <text x="245" y="46" font-family="monospace" font-size="12" fill="#888" text-anchor="middle">Logs · SIEM</text>
+    <line x1="320" y1="30" x2="340" y2="30" stroke="#00ff88" stroke-width="1.5" stroke-dasharray="6 4"/>
+
+    <rect x="350" y="0" width="140" height="60" rx="6" fill="#0a0a1e" stroke="#ff6600" stroke-width="0.8"/>
+    <text x="420" y="24" font-family="monospace" font-size="14" fill="#ff9900" text-anchor="middle" font-weight="bold">CONTAIN</text>
+    <text x="420" y="46" font-family="monospace" font-size="12" fill="#888" text-anchor="middle">Isolate · Block</text>
+    <line x1="495" y1="30" x2="515" y2="30" stroke="#ff6600" stroke-width="1.5" stroke-dasharray="6 4"/>
+
+    <rect x="525" y="0" width="140" height="60" rx="6" fill="#0a0a1e" stroke="#ff003c" stroke-width="0.8"/>
+    <text x="595" y="24" font-family="monospace" font-size="14" fill="#ff6666" text-anchor="middle" font-weight="bold">ERADICATE</text>
+    <text x="595" y="46" font-family="monospace" font-size="12" fill="#888" text-anchor="middle">Patch · Clean</text>
+    <line x1="670" y1="30" x2="690" y2="30" stroke="#ff003c" stroke-width="1.5" stroke-dasharray="6 4"/>
+
+    <rect x="700" y="0" width="140" height="60" rx="6" fill="#0a0a1e" stroke="#9d00ff" stroke-width="0.8"/>
+    <text x="770" y="24" font-family="monospace" font-size="14" fill="#9d00ff" text-anchor="middle" font-weight="bold">RECOVER</text>
+    <text x="770" y="46" font-family="monospace" font-size="12" fill="#888" text-anchor="middle">Restore · Verify</text>
+    <line x1="845" y1="30" x2="865" y2="30" stroke="#9d00ff" stroke-width="1.5" stroke-dasharray="6 4"/>
+
+    <rect x="875" y="0" width="140" height="60" rx="6" fill="#0a1a0a" stroke="#00ff88" stroke-width="1.2" class="p1"/>
+    <text x="945" y="24" font-family="monospace" font-size="14" fill="#00ff88" text-anchor="middle" font-weight="bold">LEARN</text>
+    <text x="945" y="46" font-family="monospace" font-size="12" fill="#888" text-anchor="middle">Post-mortem</text>
+  </g>
+
+  <g transform="translate(60, 145)">
+    <text x="0" y="16" font-family="monospace" font-size="14" fill="#00ff88" font-weight="bold">INCIDENT READINESS</text>
+    <rect x="0" y="26" width="500" height="14" rx="5" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.3"/>
+    <rect x="0" y="26" width="380" height="14" rx="5" fill="#00ff88" opacity="0.7"><animate attributeName="width" values="0;380" dur="2s" fill="freeze"/></rect>
+    <text x="520" y="38" font-family="monospace" font-size="14" fill="#00ff88" class="p1">76%</text>
+  </g>
+
+  <g transform="translate(620, 145)">
+    <text x="0" y="16" font-family="monospace" font-size="14" fill="#888">DRILLS COMPLETED:</text>
+    <text x="200" y="16" font-family="monospace" font-size="14" fill="#00ffff" class="p1">
+      <tspan><animate attributeName="values" values="0;2;4;6;8;12" dur="3s" fill="freeze"/>12</tspan>
+    </text>
+    <text x="250" y="16" font-family="monospace" font-size="14" fill="#888">AVG RESPONSE: <tspan fill="#00ff88">4.2m</tspan></text>
+  </g>
+
+  <g transform="translate(60, 205)">
+    <rect x="0" y="0" width="500" height="30" rx="6" fill="#0a1a0a" stroke="#00ff88" stroke-width="0.8"/>
+    <circle cx="18" cy="15" r="4" fill="#00ff88" class="blk"/>
+    <text x="30" y="20" font-family="monospace" font-size="14" fill="#00ff88">LAST INCIDENT: <tspan fill="#888">SQL Injection Attempt — Blocked (2h ago)</tspan></text>
+  </g>
+  <g transform="translate(580, 205)">
+    <rect x="0" y="0" width="560" height="30" rx="6" fill="#0a000a" stroke="#ff003c" stroke-width="0.8"/>
+    <circle cx="18" cy="15" r="4" fill="#ff003c" class="blk"/>
+    <text x="30" y="20" font-family="monospace" font-size="14" fill="#ff6666">NEXT DRILL: <tspan fill="#888">Ransomware Simulation — 3 Days</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" width="100%" height="auto">
+  <defs><filter id="g"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style><![CDATA[
+      @keyframes growBar{0%{width:0}100%{width:var(--w)}}
+      @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}@keyframes p1{0%,100%{filter:drop-shadow(0 0 4px)}50%{filter:drop-shadow(0 0 14px)}}
+      @keyframes br{0%,100%{opacity:0.3}50%{opacity:0.7}}@keyframes scan{0%{transform:translateX(-1200px)}100%{transform:translateX(1200px)}}
+      @keyframes flick{0%,100%{opacity:0.96}2%{opacity:0.2}4%{opacity:0.96}}
+      .gb1{--w:420px;animation:growBar 2s ease-out 0.2s both}.gb2{--w:360px;animation:growBar 2s ease-out 0.4s both}
+      .gb3{--w:300px;animation:growBar 2s ease-out 0.6s both}.gb4{--w:240px;animation:growBar 2s ease-out 0.8s both}
+      .gb5{--w:180px;animation:growBar 2s ease-out 1s both}.gb6{--w:120px;animation:growBar 2s ease-out 1.2s both}
+      .blk{animation:blink 0.8s step-end infinite}.p1{animation:p1 2s ease-in-out infinite}
+      .br{animation:br 4s ease-in-out infinite}.sc{animation:scan 4s linear infinite}.fk{animation:flick 7s infinite}
+    ]]></style>
+  </defs>
+  <rect width="1200" height="260" fill="#02020c" rx="8"/>
+  <rect x="1" y="1" width="1198" height="258" rx="8" fill="none" stroke="#00ff88" stroke-width="0.5" opacity="0.12"/>
+  <rect class="sc" width="1200" height="1" fill="#00ff88" opacity="0.04"/>
+  <rect class="fk" width="1200" height="260" fill="#000" opacity="0.01" pointer-events="none"/>
+  <text x="600" y="26" font-family="monospace" font-size="16" fill="#00ff88" text-anchor="middle" letter-spacing="2" opacity="0.7">OPERATING SYSTEM HARDENING — SECURITY BASELINE</text>
+
+  <g transform="translate(60, 55)">
+    <text x="0" y="18" font-family="monospace" font-size="15" fill="#00ff88" font-weight="bold">✅ Firewall (iptables)</text>
+    <rect x="280" y="8" width="500" height="16" rx="5" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.3"/>
+    <rect x="280" y="8" width="420" height="16" rx="5" fill="#00ff88" opacity="0.7" class="gb1"/>
+    <text x="800" y="18" font-family="monospace" font-size="14" fill="#00ff88" class="p1">84%</text>
+  </g>
+  <g transform="translate(60, 90)">
+    <text x="0" y="18" font-family="monospace" font-size="15" fill="#00ffff" font-weight="bold">✅ SSH Hardening</text>
+    <rect x="280" y="8" width="500" height="16" rx="5" fill="#0a0a1e" stroke="#00ffff" stroke-width="0.3"/>
+    <rect x="280" y="8" width="360" height="16" rx="5" fill="#00ffff" opacity="0.6" class="gb2"/>
+    <text x="800" y="18" font-family="monospace" font-size="14" fill="#00ffff" class="br">72%</text>
+  </g>
+  <g transform="translate(60, 125)">
+    <text x="0" y="18" font-family="monospace" font-size="15" fill="#ff6600" font-weight="bold">✅ AppArmor/SELinux</text>
+    <rect x="280" y="8" width="500" height="16" rx="5" fill="#0a0a1e" stroke="#ff6600" stroke-width="0.3"/>
+    <rect x="280" y="8" width="300" height="16" rx="5" fill="#ff6600" opacity="0.6" class="gb3"/>
+    <text x="800" y="18" font-family="monospace" font-size="14" fill="#ff6600">60%</text>
+  </g>
+  <g transform="translate(60, 160)">
+    <text x="0" y="18" font-family="monospace" font-size="15" fill="#9d00ff" font-weight="bold">✅ Audit Logging</text>
+    <rect x="280" y="8" width="500" height="16" rx="5" fill="#0a0a1e" stroke="#9d00ff" stroke-width="0.3"/>
+    <rect x="280" y="8" width="240" height="16" rx="5" fill="#9d00ff" opacity="0.6" class="gb4"/>
+    <text x="800" y="18" font-family="monospace" font-size="14" fill="#9d00ff">48%</text>
+  </g>
+  <g transform="translate(60, 195)">
+    <text x="0" y="18" font-family="monospace" font-size="15" fill="#ff003c" font-weight="bold">✅ Cron Monitoring</text>
+    <rect x="280" y="8" width="500" height="16" rx="5" fill="#0a0a1e" stroke="#ff003c" stroke-width="0.3"/>
+    <rect x="280" y="8" width="180" height="16" rx="5" fill="#ff003c" opacity="0.6" class="gb5"/>
+    <text x="800" y="18" font-family="monospace" font-size="14" fill="#ff003c">36%</text>
+  </g>
+  <g transform="translate(60, 230)">
+    <text x="0" y="18" font-family="monospace" font-size="15" fill="#00ff88" font-weight="bold">✅ File Integrity</text>
+    <rect x="280" y="8" width="500" height="16" rx="5" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.3"/>
+    <rect x="280" y="8" width="120" height="16" rx="5" fill="#00ff88" opacity="0.5" class="gb6"/>
+    <text x="800" y="18" font-family="monospace" font-size="14" fill="#00ff88">24%</text>
+  </g>
+</svg>

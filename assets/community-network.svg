@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" width="100%" height="auto">
+  <defs><filter id="g"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style><![CDATA[
+      @keyframes orbit1{0%{transform:rotate(0deg) translateX(75px) rotate(0deg)}100%{transform:rotate(360deg) translateX(75px) rotate(-360deg)}}
+      @keyframes orbit2{0%{transform:rotate(120deg) translateX(65px) rotate(-120deg)}100%{transform:rotate(480deg) translateX(65px) rotate(-480deg)}}
+      @keyframes orbit3{0%{transform:rotate(240deg) translateX(85px) rotate(-240deg)}100%{transform:rotate(600deg) translateX(85px) rotate(-600deg)}}
+      @keyframes pulse{0%,100%{opacity:0.5;filter:drop-shadow(0 0 4px)}50%{opacity:1;filter:drop-shadow(0 0 14px)}}
+      @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}@keyframes breathe{0%,100%{opacity:0.3}50%{opacity:0.7}}
+      @keyframes scan{0%{transform:translateX(-1200px)}100%{transform:translateX(1200px)}}
+      @keyframes flick{0%,100%{opacity:0.96}2%{opacity:0.2}4%{opacity:0.96}}
+      .o1{animation:orbit1 7s linear infinite}.o2{animation:orbit2 9s linear infinite}.o3{animation:orbit3 11s linear infinite}
+      .p1{animation:pulse 2s ease-in-out infinite}.blk{animation:blink 0.8s step-end infinite}
+      .br{animation:breathe 4s ease-in-out infinite}.sc{animation:scan 4s linear infinite}.fk{animation:flick 7s infinite}
+    ]]></style>
+  </defs>
+  <rect width="1200" height="260" fill="#02020c" rx="8"/>
+  <rect x="1" y="1" width="1198" height="258" rx="8" fill="none" stroke="#00ff88" stroke-width="0.5" opacity="0.12"/>
+  <rect class="sc" width="1200" height="1" fill="#00ff88" opacity="0.04"/>
+  <rect class="fk" width="1200" height="260" fill="#000" opacity="0.01" pointer-events="none"/>
+  <text x="600" y="26" font-family="monospace" font-size="16" fill="#00ff88" text-anchor="middle" letter-spacing="2" opacity="0.7">COMMUNITY NETWORK — CONNECTED NODES</text>
+
+  <g transform="translate(600, 135)">
+    <circle cx="0" cy="0" r="40" fill="#0a1a0a" stroke="#00ff88" stroke-width="2.5" class="p1" filter="url(#g)"/>
+    <text x="0" y="6" font-family="monospace" font-size="16" fill="#00ff88" text-anchor="middle" class="p1">👽</text>
+    <circle cx="0" cy="0" r="50" fill="none" stroke="#00ff88" stroke-width="0.5" opacity="0.25"/>
+    <circle cx="0" cy="0" r="70" fill="none" stroke="#00ffff" stroke-width="0.3" opacity="0.15"/>
+
+    <circle cx="0" cy="0" r="3" fill="#00ff88" class="o1" filter="url(#g)"/>
+    <circle cx="0" cy="0" r="2.5" fill="#00ffff" class="o2"/>
+    <circle cx="0" cy="0" r="2" fill="#ff003c" class="o3"/>
+
+    <a href="https://github.com/Chenura"><g transform="translate(-100,-70)"><rect x="-50" y="-22" width="100" height="44" rx="6" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.8"/><text x="0" y="0" font-family="monospace" font-size="14" fill="#00ff88" text-anchor="middle" class="p1">◉ GITHUB</text><text x="0" y="16" font-family="monospace" font-size="11" fill="#888" text-anchor="middle">Chenura</text><circle cx="40" cy="-10" r="3" fill="#00ff88" class="blk"/></g></a>
+    <a href="https://www.youtube.com/@sbchenu"><g transform="translate(130,-80)"><rect x="-50" y="-22" width="100" height="44" rx="6" fill="#0a000a" stroke="#ff003c" stroke-width="0.8"/><text x="0" y="0" font-family="monospace" font-size="14" fill="#ff6666" text-anchor="middle" class="p1">▶ YOUTUBE</text><text x="0" y="16" font-family="monospace" font-size="11" fill="#888" text-anchor="middle">@sbchenu</text><circle cx="40" cy="-10" r="3" fill="#ff003c" class="blk"/></g></a>
+    <a href="https://www.linkedin.com/"><g transform="translate(-130,70)"><rect x="-50" y="-22" width="100" height="44" rx="6" fill="#0a0a1e" stroke="#00ffff" stroke-width="0.8"/><text x="0" y="0" font-family="monospace" font-size="14" fill="#00ffff" text-anchor="middle" class="p1">◆ LINKEDIN</text><text x="0" y="16" font-family="monospace" font-size="11" fill="#888" text-anchor="middle">Connect</text><circle cx="40" cy="-10" r="3" fill="#00ffff" class="blk"/></g></a>
+    <a href="https://chenura.github.io/"><g transform="translate(120,60)"><rect x="-50" y="-22" width="100" height="44" rx="6" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.8"/><text x="0" y="0" font-family="monospace" font-size="14" fill="#00ff88" text-anchor="middle" class="p1">◈ WEB</text><text x="0" y="16" font-family="monospace" font-size="11" fill="#888" text-anchor="middle">Portfolio</text><circle cx="40" cy="-10" r="3" fill="#00ff88" class="blk"/></g></a>
+  </g>
+
+  <g transform="translate(60, 200)">
+    <rect x="0" y="0" width="500" height="36" rx="4" fill="#060618" stroke="#00ff88" stroke-width="0.4" opacity="0.3"/>
+    <text x="15" y="23" font-family="monospace" font-size="14" fill="#555">NODES: <tspan fill="#00ff88" class="p1">4 ACTIVE</tspan></text>
+    <text x="200" y="23" font-family="monospace" font-size="14" fill="#555">NETWORK: <tspan fill="#00ffff">MESH</tspan></text>
+    <text x="400" y="23" font-family="monospace" font-size="14" fill="#555">SIGNAL: <tspan fill="#00ff88" class="blk">FULL</tspan></text>
+  </g>
+</svg>
