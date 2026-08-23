@@ -399,14 +399,7 @@
 </picture>
 <br>
 
-> 🚀 **v7.0 — 80 animated SVGs. Zero copy-paste buttons.**
 
-[![Repos](https://img.shields.io/badge/Repos-18-00ff88?style=flat&logo=github&labelColor=0a0a1e)](https://github.com/chenurag?tab=repositories)
-[![Streak](https://img.shields.io/badge/Streak-47d-00ffff?style=flat&logo=github&labelColor=0a0a1e)](https://git.io/streak-stats)
-[![Trophies](https://img.shields.io/badge/Trophies-11-ff6600?style=flat&logo=github&labelColor=0a0a1e)](https://github.com/chenurag)
-
-[![Visitors](https://komarev.com/ghpvc/?username=chenurag&label=Visitors&color=0a0a1e&style=flat)](https://github.com/chenurag)
-[![Followers](https://img.shields.io/github/followers/chenurag?label=Followers&color=0a0a1e&style=flat)](https://github.com/chenurag)
 
 ---
 
