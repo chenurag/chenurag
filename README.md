@@ -416,7 +416,7 @@
 ╚══════════════════════════════════════════════════════════════════╝
 ```
 
-[![GitHub Snake](https://github.com/chenurag/chenurag/raw/output/github-contribution-grid-snake-dark.svg)](https://github.com/Chenura)
+[![GitHub Snake](https://raw.githubusercontent.com/chenurag/chenurag/output/github-contribution-grid-snake-dark.svg)](https://github.com/Chenura)
 
 [![GitHub Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=chenurag&show_icons=true&count_private=true&hide_border=true&bg_color=02020c&title_color=00ff88&icon_color=00ffff&text_color=aaa&include_all_commits=false)](https://github.com/chenurag)
 [![GitHub Streak](https://streak-stats.demolab.com/?user=chenurag&hide_border=true&background=02020c&stroke=00ff88&ring=00ff88&fire=ff003c&currStreakLabel=00ffff&sideNums=888&sideLabels=555&dates=555)](https://git.io/streak-stats)
