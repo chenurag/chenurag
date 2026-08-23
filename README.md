@@ -159,10 +159,6 @@
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/final-transmission.svg"><img src="assets/final-transmission.svg" alt="Final Transmission" width="100%"></picture>
 <br>
 
-[GITHUB STATS SECTION - SNAKE, STATS, STREAK, LANGUAGES, GRAPH, TROPHIES]
-
-[SESSION LOG COLLAPSIBLE]
-
 > 🚀 **v7.0 — 80 total animated SVGs. Zero copy-paste buttons.**
 
 <p align="center">
@@ -191,17 +187,17 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=chenurag&amp;show_icons=true&amp;count_private=true&amp;hide_border=true&amp;bg_color=02020c&amp;title_color=00ff88&amp;icon_color=00ffff&amp;text_color=aaa&amp;include_all_commits=false" alt="GitHub Stats" width="49%">
-  <img src="https://streak-stats.demolab.com/?user=chenurag&amp;hide_border=true&amp;background=02020c&amp;stroke=00ff88&amp;ring=00ff88&amp;fire=ff003c&amp;currStreakLabel=00ffff&amp;sideNums=888&amp;sideLabels=555&amp;dates=555" alt="GitHub Streak" width="49%">
+  <img src="https://github-readme-stats.vercel.app/api?username=chenurag&show_icons=true&count_private=true&hide_border=true&bg_color=02020c&title_color=00ff88&icon_color=00ffff&text_color=aaa&include_all_commits=false" alt="GitHub Stats" width="49%">
+  <img src="https://streak-stats.demolab.com/?user=chenurag&hide_border=true&background=02020c&stroke=00ff88&ring=00ff88&fire=ff003c&currStreakLabel=00ffff&sideNums=888&sideLabels=555&dates=555" alt="GitHub Streak" width="49%">
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=chenurag&amp;layout=compact&amp;hide_border=true&amp;bg_color=02020c&amp;title_color=00ff88&amp;text_color=aaa" alt="Top Languages" width="49%">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=chenurag&amp;bg_color=02020c&amp;color=00ff88&amp;line=00ffff&amp;point=00ff88&amp;hide_border=true" alt="Activity Graph" width="49%">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=chenurag&layout=compact&hide_border=true&bg_color=02020c&title_color=00ff88&text_color=aaa" alt="Top Languages" width="49%">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=chenurag&bg_color=02020c&color=00ff88&line=00ffff&point=00ff88&hide_border=true" alt="Activity Graph" width="49%">
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=chenurag&amp;theme=matrix&amp;no-frame=false&amp;no-bg=false&amp;margin-w=6&amp;column=7&amp;title=Stars,Followers,Commits,PR,Issues,Repos,MultiLanguage" alt="Trophies" width="100%">
+  <img src="https://github-profile-trophy.vercel.app/?username=chenurag&theme=matrix&no-frame=false&no-bg=false&margin-w=6&column=7&title=Stars,Followers,Commits,PR,Issues,Repos,MultiLanguage" alt="Trophies" width="100%">
 </p>
 
 <br>
@@ -230,6 +226,6 @@
 <br>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=chenurag&amp;label=Visitors&amp;color=0a0a1e&amp;style=flat" alt="visitors">
-  <img src="https://img.shields.io/github/followers/chenurag?label=Followers&amp;color=0a0a1e&amp;style=flat" alt="followers">
+  <img src="https://komarev.com/ghpvc/?username=chenurag&label=Visitors&color=0a0a1e&style=flat" alt="visitors">
+  <img src="https://img.shields.io/github/followers/chenurag?label=Followers&color=0a0a1e&style=flat" alt="followers">
 </p>
