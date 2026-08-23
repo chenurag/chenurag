@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 180" width="100%" height="auto">
+  <defs>
+    <filter id="g"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      @keyframes p1{0%,100%{opacity:0.5;filter:drop-shadow(0 0 4px #00ff88)}50%{opacity:1;filter:drop-shadow(0 0 15px #00ff88)}}
+      @keyframes p2{0%,100%{opacity:0.3}50%{opacity:0.9}}
+      @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
+      @keyframes breathe{0%,100%{opacity:0.4}50%{opacity:0.8}}
+      @keyframes scan{0%{transform:translateX(-1200px)}100%{transform:translateX(1200px)}}
+      @keyframes flick{0%,100%{opacity:0.96}2%{opacity:0.2}4%{opacity:0.96}8%{opacity:0.5}10%{opacity:0.96}}
+      @keyframes blip{0%{transform:translateX(0);opacity:0}15%{opacity:1}85%{opacity:1}100%{transform:translateX(1100px);opacity:0}}
+      @keyframes orbit1{0%{transform:rotate(0deg) translateX(120px) rotate(0deg)}100%{transform:rotate(360deg) translateX(120px) rotate(-360deg)}}
+      @keyframes orbit2{0%{transform:rotate(180deg) translateX(120px) rotate(-180deg)}100%{transform:rotate(540deg) translateX(120px) rotate(-540deg)}}
+      
+      .p1{animation:p1 2s ease-in-out infinite}
+      .p2{animation:p2 3s ease-in-out infinite}
+      .blk{animation:blink 0.8s step-end infinite}
+      .br{animation:breathe 4s ease-in-out infinite}
+      .sc{animation:scan 4s linear infinite}
+      .fk{animation:flick 7s infinite}
+      .bp{animation:blip 3s linear infinite}
+      .o1{animation:orbit1 8s linear infinite}
+      .o2{animation:orbit2 10s linear infinite}
+    </style>
+  </defs>
+
+  <rect width="1200" height="180" fill="#03030e" rx="8"/>
+  <rect x="1" y="1" width="1198" height="178" rx="8" fill="none" stroke="#00ff88" stroke-width="0.5" opacity="0.1"/>
+  <rect class="sc" width="1200" height="1" fill="#00ff88" opacity="0.04"/>
+  <rect class="fk" width="1200" height="180" fill="#000" opacity="0.01" pointer-events="none"/>
+
+  <text x="600" y="24" font-family="monospace" font-size="10" fill="#00ff88" text-anchor="middle" letter-spacing="2" opacity="0.6">🐍 CONTRIBUTION SNAKE — ACTIVITY FEED</text>
+
+  <!-- Orbiting particles around the section -->
+  <g transform="translate(1100, 90)">
+    <circle cx="0" cy="0" r="25" fill="none" stroke="#00ff88" stroke-width="0.3" opacity="0.15"/>
+    <circle cx="0" cy="0" r="2.5" fill="#00ff88" class="o1" filter="url(#g)"/>
+    <circle cx="0" cy="0" r="2" fill="#00ffff" class="o2"/>
+  </g>
+  <g transform="translate(100, 90)">
+    <circle cx="0" cy="0" r="25" fill="none" stroke="#00ffff" stroke-width="0.3" opacity="0.15"/>
+    <circle cx="0" cy="0" r="2.5" fill="#00ffff" class="o1" filter="url(#g)"/>
+    <circle cx="0" cy="0" r="2" fill="#00ff88" class="o2"/>
+  </g>
+
+  <!-- Status bar above snake -->
+  <g transform="translate(30, 42)">
+    <rect x="0" y="0" width="1140" height="36" rx="5" fill="#060618" stroke="#00ff88" stroke-width="0.5" opacity="0.3"/>
+    <circle cx="18" cy="18" r="4" fill="#00ff88" class="p1" filter="url(#g)"/>
+    <text x="30" y="22" font-family="monospace" font-size="9" fill="#00ff88" class="br">SNAKE PROTOCOL :: ACTIVE</text>
+    <text x="300" y="22" font-family="monospace" font-size="9" fill="#555">CONSUMING CONTRIBUTIONS...</text>
+    <text x="600" y="22" font-family="monospace" font-size="9" fill="#555" class="br">TRACKING: <tspan fill="#00ffff">GITHUB ACTIVITY</tspan></text>
+    <circle cx="1100" cy="18" r="3" fill="#00ffff" class="blk"/>
+    <text x="1110" y="22" font-family="monospace" font-size="9" fill="#00ffff" class="br">LIVE</text>
+  </g>
+
+  <!-- Data flow line -->
+  <line x1="30" y1="95" x2="1170" y2="95" stroke="#00ff88" stroke-width="0.5" opacity="0.15"/>
+  <circle cx="0" cy="95" r="2.5" fill="#00ff88" class="bp"/>
+
+  <!-- Bottom bar -->
+  <g transform="translate(30, 110)">
+    <rect x="0" y="0" width="1140" height="36" rx="5" fill="#060618" stroke="#00ff88" stroke-width="0.5" opacity="0.2"/>
+    <text x="20" y="22" font-family="monospace" font-size="9" fill="#555">LAST SYNC: <tspan fill="#00ff88">JUST NOW</tspan></text>
+    <text x="300" y="22" font-family="monospace" font-size="9" fill="#555">GRID: <tspan fill="#00ffff">53 WEEKS × 7 DAYS</tspan></text>
+    <text x="600" y="22" font-family="monospace" font-size="9" fill="#555">CONTRIBUTIONS TODAY: <tspan fill="#00ff88" class="blk">●</tspan></text>
+    <text x="1000" y="22" font-family="monospace" font-size="9" fill="#555" class="br">AUTO-REFRESH: <tspan fill="#00ff88">24h</tspan></text>
+  </g>
+</svg>

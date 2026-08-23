@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" width="100%" height="auto">
+  <defs>
+    <filter id="g"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      @keyframes p1{0%,100%{opacity:0.5;filter:drop-shadow(0 0 4px)}50%{opacity:1;filter:drop-shadow(0 0 15px)}}
+      @keyframes p2{0%,100%{opacity:0.3}50%{opacity:0.9}}
+      @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
+      @keyframes breathe{0%,100%{opacity:0.4}50%{opacity:0.8}}
+      @keyframes scan{0%{transform:translateX(-1200px)}100%{transform:translateX(1200px)}}
+      @keyframes flick{0%,100%{opacity:0.96}2%{opacity:0.2}4%{opacity:0.96}8%{opacity:0.5}10%{opacity:0.96}}
+      @keyframes dash1{0%{stroke-dashoffset:400}100%{stroke-dashoffset:0}}
+      @keyframes blip{0%{transform:translateX(0);opacity:0}15%{opacity:1}85%{opacity:1}100%{transform:translateX(160px);opacity:0}}
+      
+      .p1{animation:p1 2s ease-in-out infinite}
+      .p2{animation:p2 3s ease-in-out infinite}
+      .blk{animation:blink 0.8s step-end infinite}
+      .br{animation:breathe 4s ease-in-out infinite}
+      .sc{animation:scan 4s linear infinite}
+      .fk{animation:flick 7s infinite}
+      .d1{stroke-dasharray:400;stroke-dashoffset:400;animation:dash1 1.5s ease-out 0.3s both}
+      .b1{animation:blip 2s linear infinite}
+      .b2{animation:blip 2s linear 0.5s infinite}
+    </style>
+  </defs>
+
+  <rect width="1200" height="220" fill="#03030e" rx="8"/>
+  <rect x="1" y="1" width="1198" height="218" rx="8" fill="none" stroke="#00ff88" stroke-width="0.5" opacity="0.1"/>
+  <rect class="sc" width="1200" height="1" fill="#00ff88" opacity="0.04"/>
+  <rect class="fk" width="1200" height="220" fill="#000" opacity="0.01" pointer-events="none"/>
+
+  <text x="600" y="25" font-family="monospace" font-size="10" fill="#00ff88" text-anchor="middle" letter-spacing="2" opacity="0.6">🧠 SHADOWASSISTANT — AUTONOMOUS AI CORE PIPELINE</text>
+
+  <!-- Pipeline nodes -->
+  <g transform="translate(25, 55)">
+    <!-- VOICE -->
+    <rect x="0" y="0" width="150" height="52" rx="6" fill="#0a0a1e" stroke="#00ffff" stroke-width="0.8"/>
+    <circle cx="15" cy="26" r="4" fill="#00ffff" class="p1" filter="url(#g)"/>
+    <text x="28" y="24" font-family="monospace" font-size="10" fill="#00ffff" font-weight="bold">🎤 VOICE</text>
+    <text x="28" y="40" font-family="monospace" font-size="7" fill="#666">INPUT</text>
+
+    <!-- connector -->
+    <line x1="157" y1="26" x2="187" y2="26" stroke="#00ffff" stroke-width="1.5" class="d1"/>
+    <circle cx="172" cy="26" r="3" fill="#00ffff" class="b1"/>
+
+    <!-- WHISPER -->
+    <rect x="195" y="0" width="150" height="52" rx="6" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.8"/>
+    <circle cx="210" cy="26" r="4" fill="#00ff88" class="p2"/>
+    <text x="223" y="24" font-family="monospace" font-size="10" fill="#00ff88" font-weight="bold">🎙️ WHISPER</text>
+    <text x="223" y="40" font-family="monospace" font-size="7" fill="#666">STT ENGINE</text>
+
+    <line x1="352" y1="26" x2="382" y2="26" stroke="#00ff88" stroke-width="1.5" class="d1"/>
+    <circle cx="367" cy="26" r="3" fill="#00ff88" class="b2"/>
+
+    <!-- OLLAMA -->
+    <rect x="390" y="0" width="150" height="52" rx="6" fill="#0a0a1e" stroke="#9d00ff" stroke-width="0.8"/>
+    <circle cx="405" cy="26" r="4" fill="#9d00ff" class="p1" filter="url(#g)"/>
+    <text x="418" y="24" font-family="monospace" font-size="10" fill="#9d00ff" font-weight="bold">🤖 OLLAMA</text>
+    <text x="418" y="40" font-family="monospace" font-size="7" fill="#666">LLM CORE</text>
+
+    <line x1="547" y1="26" x2="577" y2="26" stroke="#9d00ff" stroke-width="1.5" class="d1"/>
+    <circle cx="562" cy="26" r="3" fill="#9d00ff" class="b1"/>
+
+    <!-- COMMAND ENGINE -->
+    <rect x="585" y="0" width="160" height="52" rx="6" fill="#0a0a1e" stroke="#ff003c" stroke-width="0.8"/>
+    <circle cx="600" cy="26" r="4" fill="#ff003c" class="p2"/>
+    <text x="613" y="24" font-family="monospace" font-size="10" fill="#ff6666" font-weight="bold">⚡ COMMAND</text>
+    <text x="613" y="40" font-family="monospace" font-size="7" fill="#666">ENGINE</text>
+
+    <line x1="752" y1="26" x2="782" y2="26" stroke="#ff003c" stroke-width="1.5" class="d1"/>
+    <circle cx="767" cy="26" r="3" fill="#ff003c" class="b2"/>
+
+    <!-- SYSTEM -->
+    <rect x="790" y="0" width="150" height="52" rx="6" fill="#0a0a1e" stroke="#00ffff" stroke-width="0.8"/>
+    <circle cx="805" cy="26" r="4" fill="#00ffff" class="p1" filter="url(#g)"/>
+    <text x="818" y="24" font-family="monospace" font-size="10" fill="#00ffff" font-weight="bold">💻 SYSTEM</text>
+    <text x="818" y="40" font-family="monospace" font-size="7" fill="#666">RESPONSE</text>
+
+    <line x1="947" y1="26" x2="977" y2="26" stroke="#00ffff" stroke-width="1.5" class="d1"/>
+    <circle cx="962" cy="26" r="3" fill="#00ffff" class="b1"/>
+
+    <!-- FEEDBACK LOOP -->
+    <rect x="985" y="0" width="170" height="52" rx="6" fill="#0a1a0a" stroke="#00ff88" stroke-width="1.2"/>
+    <circle cx="1000" cy="26" r="5" fill="#00ff88" class="p1" filter="url(#g)"/>
+    <text x="1013" y="24" font-family="monospace" font-size="10" fill="#00ff88" font-weight="bold">🔄 FEEDBACK</text>
+    <text x="1013" y="40" font-family="monospace" font-size="7" fill="#888">LOOP</text>
+  </g>
+
+  <!-- Feedback return path (below) -->
+  <path d="M1050,107 L1050,140 L60,140 L60,107" fill="none" stroke="#00ff88" stroke-width="0.8" stroke-dasharray="5 6" class="p2"/>
+  <circle cx="1050" cy="120" r="2.5" fill="#00ff88" class="blk"/>
+  <circle cx="60" cy="120" r="2.5" fill="#00ff88" class="blk"/>
+
+  <!-- Stack badges -->
+  <g transform="translate(25, 160)">
+    <rect x="0" y="0" width="70" height="20" rx="3" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.4"/><text x="35" y="13" font-family="monospace" font-size="8" fill="#00ff88" text-anchor="middle">Python</text>
+    <rect x="78" y="0" width="70" height="20" rx="3" fill="#0a0a1e" stroke="#00ffff" stroke-width="0.4"/><text x="113" y="13" font-family="monospace" font-size="8" fill="#00ffff" text-anchor="middle">Whisper</text>
+    <rect x="156" y="0" width="70" height="20" rx="3" fill="#0a0a1e" stroke="#9d00ff" stroke-width="0.4"/><text x="191" y="13" font-family="monospace" font-size="8" fill="#9d00ff" text-anchor="middle">Ollama</text>
+    <rect x="234" y="0" width="90" height="20" rx="3" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.4"/><text x="279" y="13" font-family="monospace" font-size="8" fill="#00ff88" text-anchor="middle">LangChain</text>
+    <rect x="332" y="0" width="90" height="20" rx="3" fill="#0a0a1e" stroke="#00ffff" stroke-width="0.4"/><text x="377" y="13" font-family="monospace" font-size="8" fill="#00ffff" text-anchor="middle">Bash/Custom</text>
+    <rect x="430" y="0" width="70" height="20" rx="3" fill="#0a0a1e" stroke="#ff6600" stroke-width="0.4"/><text x="465" y="13" font-family="monospace" font-size="8" fill="#ff6600" text-anchor="middle">RAG</text>
+    <text x="650" y="13" font-family="monospace" font-size="9" fill="#666" class="br">STATUS: <tspan fill="#00ff88" class="blk">● DEPLOYED v0.4</tspan></text>
+  </g>
+</svg>

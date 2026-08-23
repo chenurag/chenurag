@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 140" width="100%" height="auto">
+  <defs>
+    <filter id="g"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      @keyframes p1{0%,100%{opacity:0.5;filter:drop-shadow(0 0 4px #00ff88)}50%{opacity:1;filter:drop-shadow(0 0 15px #00ff88)}}
+      @keyframes p2{0%,100%{opacity:0.3}50%{opacity:0.9}}
+      @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
+      @keyframes breathe{0%,100%{opacity:0.4}50%{opacity:0.8}}
+      @keyframes scan{0%{transform:translateX(-1200px)}100%{transform:translateX(1200px)}}
+      @keyframes flick{0%,100%{opacity:0.96}2%{opacity:0.2}4%{opacity:0.96}8%{opacity:0.5}10%{opacity:0.96}}
+      
+      .p1{animation:p1 2s ease-in-out infinite}
+      .p2{animation:p2 3s ease-in-out infinite}
+      .blk{animation:blink 0.8s step-end infinite}
+      .br{animation:breathe 4s ease-in-out infinite}
+      .sc{animation:scan 4.5s linear infinite}
+      .fk{animation:flick 7s infinite}
+    </style>
+  </defs>
+
+  <rect width="1200" height="140" fill="#03030e" rx="8"/>
+  <rect x="1" y="1" width="1198" height="138" rx="8" fill="none" stroke="#00ff88" stroke-width="0.5" opacity="0.1"/>
+  <rect class="sc" width="1200" height="1" fill="#00ff88" opacity="0.04"/>
+  <rect class="fk" width="1200" height="140" fill="#000" opacity="0.01" pointer-events="none"/>
+
+  <text x="600" y="24" font-family="monospace" font-size="10" fill="#00ff88" text-anchor="middle" letter-spacing="2" opacity="0.6">📊 GITHUB COMMAND CENTER — PERFORMANCE METRICS</text>
+
+  <!-- Animated frame for stats -->
+  <g transform="translate(20, 40)">
+    <!-- Corner brackets (animated opacity) -->
+    <g stroke="#00ff88" stroke-width="2" fill="none" opacity="0.4">
+      <path d="M0,0 L25,0 L25,0" class="p1"/>
+      <path d="M0,0 L0,25" class="p1"/>
+      <path d="M1160,0 L1135,0" class="p2"/>
+      <path d="M1160,0 L1160,25" class="p2"/>
+      <path d="M0,90 L25,90" class="p2"/>
+      <path d="M0,90 L0,65" class="p2"/>
+      <path d="M1160,90 L1135,90" class="p1"/>
+      <path d="M1160,90 L1160,65" class="p1"/>
+    </g>
+    
+    <!-- Top and bottom glow lines -->
+    <line x1="30" y1="0" x2="1130" y2="0" stroke="#00ff88" stroke-width="0.5" opacity="0.2" class="br"/>
+    <line x1="30" y1="90" x2="1130" y2="90" stroke="#00ff88" stroke-width="0.5" opacity="0.2" class="br"/>
+
+    <!-- Pulsing "live" indicator -->
+    <circle cx="35" cy="20" r="4" fill="#00ff88" class="p1" filter="url(#g)"/>
+    <text x="45" y="24" font-family="monospace" font-size="9" fill="#00ff88" class="br">LIVE</text>
+    
+    <!-- Right side status -->
+    <text x="1060" y="24" font-family="monospace" font-size="9" fill="#555" class="br">SYNC: <tspan fill="#00ffff" class="blk">●</tspan> REALTIME</text>
+    
+    <!-- Bottom stats strip -->
+    <text x="35" y="75" font-family="monospace" font-size="9" fill="#555">REPOS: <tspan fill="#00ff88">04</tspan></text>
+    <text x="235" y="75" font-family="monospace" font-size="9" fill="#555">COMMITS: <tspan fill="#00ffff">34</tspan></text>
+    <text x="435" y="75" font-family="monospace" font-size="9" fill="#555">FOLLOWERS: <tspan fill="#00ff88" class="br">0</tspan></text>
+    <text x="635" y="75" font-family="monospace" font-size="9" fill="#555">STARS: <tspan fill="#00ffff" class="br">0</tspan></text>
+    <text x="835" y="75" font-family="monospace" font-size="9" fill="#555">LAST ACTIVITY: <tspan fill="#00ff88" class="blk">● TODAY</tspan></text>
+  </g>
+</svg>

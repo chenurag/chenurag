@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" width="100%" height="auto">
+  <defs>
+    <filter id="g"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      @keyframes p1{0%,100%{opacity:0.5;filter:drop-shadow(0 0 4px)}50%{opacity:1;filter:drop-shadow(0 0 15px)}}
+      @keyframes p2{0%,100%{opacity:0.3}50%{opacity:0.9}}
+      @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
+      @keyframes breathe{0%,100%{opacity:0.4}50%{opacity:0.8}}
+      @keyframes scan{0%{transform:translateX(-1200px)}100%{transform:translateX(1200px)}}
+      @keyframes flick{0%,100%{opacity:0.96}2%{opacity:0.2}4%{opacity:0.96}8%{opacity:0.5}10%{opacity:0.96}}
+      @keyframes ring{0%{r:8;opacity:0.5}100%{r:45;opacity:0}}
+      @keyframes orbit1{0%{transform:rotate(0deg) translateX(60px) rotate(0deg)}100%{transform:rotate(360deg) translateX(60px) rotate(-360deg)}}
+      @keyframes orbit2{0%{transform:rotate(120deg) translateX(60px) rotate(-120deg)}100%{transform:rotate(480deg) translateX(60px) rotate(-480deg)}}
+      @keyframes orbit3{0%{transform:rotate(240deg) translateX(60px) rotate(-240deg)}100%{transform:rotate(600deg) translateX(60px) rotate(-600deg)}}
+      @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+      
+      .p1{animation:p1 2s ease-in-out infinite}
+      .p2{animation:p2 3s ease-in-out infinite}
+      .blk{animation:blink 0.8s step-end infinite}
+      .br{animation:breathe 4s ease-in-out infinite}
+      .sc{animation:scan 4s linear infinite}
+      .fk{animation:flick 7s infinite}
+      .rg{animation:ring 2.5s ease-out infinite}
+      .o1{animation:orbit1 7s linear infinite}
+      .o2{animation:orbit2 9s linear infinite}
+      .o3{animation:orbit3 11s linear infinite}
+      .bb{animation:bob 3s ease-in-out infinite}
+    </style>
+  </defs>
+
+  <rect width="1200" height="220" fill="#03030e" rx="8"/>
+  <rect x="1" y="1" width="1198" height="218" rx="8" fill="none" stroke="#00ff88" stroke-width="0.5" opacity="0.1"/>
+  <rect class="sc" width="1200" height="1" fill="#00ff88" opacity="0.04"/>
+  <rect class="fk" width="1200" height="220" fill="#000" opacity="0.01" pointer-events="none"/>
+
+  <text x="600" y="24" font-family="monospace" font-size="10" fill="#00ff88" text-anchor="middle" letter-spacing="2" opacity="0.6">🌐 ACCESS THE SHADOW NETWORK — SECURE GATEWAY</text>
+
+  <!-- Central gateway core -->
+  <g transform="translate(600, 115)">
+    <!-- Pulsing rings -->
+    <circle cx="0" cy="0" r="8" fill="none" stroke="#00ff88" class="rg" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="8" fill="none" stroke="#00ffff" class="rg" style="animation-delay:1s" stroke-width="1"/>
+    
+    <!-- Orbiting satellites -->
+    <circle cx="0" cy="0" r="3" fill="#00ff88" class="o1" filter="url(#g)"/>
+    <circle cx="0" cy="0" r="2.5" fill="#00ffff" class="o2"/>
+    <circle cx="0" cy="0" r="2" fill="#ff003c" class="o3"/>
+    
+    <!-- Core symbol -->
+    <g class="bb">
+      <circle cx="0" cy="0" r="35" fill="#0a1a0a" stroke="#00ff88" stroke-width="1.2" class="p1"/>
+      <text x="0" y="6" font-family="monospace" font-size="18" fill="#00ff88" text-anchor="middle" class="p1">👽</text>
+    </g>
+  </g>
+
+  <!-- Link chips around core -->
+  <g transform="translate(30, 55)">
+    <rect x="0" y="0" width="280" height="36" rx="5" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.8"/>
+    <circle cx="14" cy="18" r="4" fill="#00ff88" class="p1" filter="url(#g)"/>
+    <text x="26" y="16" font-family="monospace" font-size="9" fill="#00ff88" font-weight="bold">◉ GITHUB</text>
+    <text x="26" y="30" font-family="monospace" font-size="7" fill="#666">Explore my code</text>
+    <text x="270" y="22" font-family="monospace" font-size="8" fill="#00ff88" class="blk">↗</text>
+  </g>
+  <g transform="translate(30, 105)">
+    <rect x="0" y="0" width="280" height="36" rx="5" fill="#0a0a1e" stroke="#00ffff" stroke-width="0.8"/>
+    <circle cx="14" cy="18" r="4" fill="#00ffff" class="p2"/>
+    <text x="26" y="16" font-family="monospace" font-size="9" fill="#00ffff" font-weight="bold">◆ LINKEDIN</text>
+    <text x="26" y="30" font-family="monospace" font-size="7" fill="#666">Connect with me</text>
+    <text x="270" y="22" font-family="monospace" font-size="8" fill="#00ffff" class="blk">↗</text>
+  </g>
+  <g transform="translate(30, 155)">
+    <rect x="0" y="0" width="280" height="36" rx="5" fill="#0a0a1e" stroke="#ff003c" stroke-width="0.8"/>
+    <circle cx="14" cy="18" r="4" fill="#ff003c" class="p1" filter="url(#g)"/>
+    <text x="26" y="16" font-family="monospace" font-size="9" fill="#ff6666" font-weight="bold">▶ SHADOWBEAST</text>
+    <text x="26" y="30" font-family="monospace" font-size="7" fill="#666">Watch the channel</text>
+    <text x="270" y="22" font-family="monospace" font-size="8" fill="#ff6666" class="blk">↗</text>
+  </g>
+
+  <g transform="translate(890, 55)">
+    <rect x="0" y="0" width="280" height="36" rx="5" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.8"/>
+    <circle cx="14" cy="18" r="4" fill="#00ff88" class="p2"/>
+    <text x="26" y="16" font-family="monospace" font-size="9" fill="#00ff88" font-weight="bold">◈ PORTFOLIO</text>
+    <text x="26" y="30" font-family="monospace" font-size="7" fill="#666">Visit my website</text>
+    <text x="270" y="22" font-family="monospace" font-size="8" fill="#00ff88" class="blk">↗</text>
+  </g>
+
+  <!-- Connection lines from core to chips -->
+  <g opacity="0.3">
+    <line x1="310" y1="73" x2="560" y2="105" stroke="#00ff88" stroke-width="0.8" class="p2"/>
+    <line x1="310" y1="123" x2="560" y2="115" stroke="#00ffff" stroke-width="0.8" class="p2"/>
+    <line x1="310" y1="173" x2="560" y2="125" stroke="#ff003c" stroke-width="0.8" class="p2"/>
+    <line x1="890" y1="73" x2="645" y2="105" stroke="#00ff88" stroke-width="0.8" class="p2"/>
+  </g>
+</svg>

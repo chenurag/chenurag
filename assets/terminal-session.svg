@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 460" width="100%" height="auto">
+  <defs>
+    <filter id="g"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      @keyframes p1{0%,100%{opacity:0.5;filter:drop-shadow(0 0 3px #00ff88)}50%{opacity:1;filter:drop-shadow(0 0 12px #00ff88)}}
+      @keyframes p2{0%,100%{opacity:0.3}50%{opacity:0.9}}
+      @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
+      @keyframes blink2{0%,100%{opacity:1}50%{opacity:0}}
+      @keyframes breathe{0%,100%{opacity:0.4}50%{opacity:0.8}}
+      @keyframes scan{0%{transform:translateX(-1200px)}100%{transform:translateX(1200px)}}
+      @keyframes flick{0%,100%{opacity:0.96}2%{opacity:0.15}4%{opacity:0.96}7%{opacity:0.5}9%{opacity:0.96}}
+      @keyframes typeWriter{0%{width:0}100%{width:100%}}
+      @keyframes cursor{0%,100%{opacity:1}50%{opacity:0}}
+      @keyframes glitch{0%,100%{transform:translate(0)}3%{transform:translate(-2px,1px)}6%{transform:translate(2px,-1px)}9%{transform:translate(0)}}
+      
+      .p1{animation:p1 2s ease-in-out infinite}
+      .p2{animation:p2 3s ease-in-out infinite}
+      .blk{animation:blink 0.8s step-end infinite}
+      .blk2{animation:blink2 1.2s step-end 0.5s infinite}
+      .br{animation:breathe 4s ease-in-out infinite}
+      .sc{animation:scan 5s linear infinite}
+      .fk{animation:flick 8s infinite}
+      .gl{animation:glitch 0.4s ease-in-out 5s infinite}
+      .ty{overflow:hidden;white-space:nowrap;width:0;display:inline-block}
+      .ty1{animation:typeWriter 2s steps(40) 0.3s both}
+      .ty2{animation:typeWriter 2s steps(40) 1.3s both}
+      .ty3{animation:typeWriter 2s steps(40) 2.3s both}
+      .ty4{animation:typeWriter 2s steps(40) 3.3s both}
+      .ty5{animation:typeWriter 2s steps(40) 4.3s both}
+    </style>
+  </defs>
+
+  <rect width="1200" height="460" fill="#03030e" rx="8"/>
+  <rect x="1" y="1" width="1198" height="458" rx="8" fill="none" stroke="#00ff88" stroke-width="0.5" opacity="0.1"/>
+  <rect class="sc" width="1200" height="1" fill="#00ff88" opacity="0.04"/>
+  <rect class="fk" width="1200" height="460" fill="#000" opacity="0.01" pointer-events="none"/>
+
+  <!-- Terminal window frame -->
+  <rect x="35" y="15" width="1130" height="50" rx="6" fill="#04041a"/>
+  <circle cx="55" cy="40" r="6" fill="#ff003c" opacity="0.7"/>
+  <circle cx="75" cy="40" r="6" fill="#ff9900" opacity="0.7"/>
+  <circle cx="95" cy="40" r="6" fill="#00ff88" opacity="0.7"/>
+  <text x="600" y="44" font-family="monospace" font-size="10" fill="#00ff88" text-anchor="middle" opacity="0.4">shadow@beast:~/SYSTEM$  █</text>
+
+  <!-- Scrollable terminal output -->
+  <g transform="translate(50, 80)">
+    <text x="0" y="0" font-family="monospace" font-size="11" fill="#00ffff">shadow@beast</text>
+    <text x="130" y="0" font-family="monospace" font-size="11" fill="#555">:~$</text>
+    <text x="160" y="0" font-family="monospace" font-size="11" fill="#fff">./shadowbeast --identify --verbose</text>
+
+    <text x="0" y="28" font-family="monospace" font-size="11" fill="#00ff88">╔══════════════════════════════════════════════════════════╗</text>
+    <text x="0" y="46" font-family="monospace" font-size="11" fill="#00ff88">║  SHADOWBEAST — SYSTEM IDENTIFICATION                    ║</text>
+    <text x="0" y="64" font-family="monospace" font-size="11" fill="#00ff88">╠══════════════════════════════════════════════════════════╣</text>
+    <text x="0" y="82" font-family="monospace" font-size="11" fill="#aaa">║  OPERATOR:   Chenura Gajanayake</text>
+    <text x="0" y="100" font-family="monospace" font-size="11" fill="#aaa">║  ALIAS:      ShadowBeast</text>
+    <text x="0" y="118" font-family="monospace" font-size="11" fill="#aaa">║  SECTOR:     Cybersecurity Engineering</text>
+    <text x="0" y="136" font-family="monospace" font-size="11" fill="#aaa">║  LOCATION:   Sri Lanka</text>
+    <text x="0" y="154" font-family="monospace" font-size="11" fill="#00ff88">║  STATUS:     ● ONLINE — FULLY OPERATIONAL</text>
+    <text x="0" y="172" font-family="monospace" font-size="11" fill="#00ff88">╚══════════════════════════════════════════════════════════╝</text>
+
+    <text x="0" y="200" font-family="monospace" font-size="11" fill="#00ff88">  [+] Loading security modules <tspan fill="#888">..........</tspan> <tspan fill="#fff">100%</tspan></text>
+    <text x="0" y="220" font-family="monospace" font-size="11" fill="#00ff88">  [+] Establishing perimeters <tspan fill="#888">..........</tspan> <tspan fill="#fff">100%</tspan></text>
+    <text x="0" y="240" font-family="monospace" font-size="11" fill="#00ff88">  [+] Initializing AI core <tspan fill="#888">...........</tspan> <tspan fill="#fff">OPERATIONAL</tspan></text>
+    <text x="0" y="260" font-family="monospace" font-size="11" fill="#00ff88">  [+] Synchronizing shadow network <tspan fill="#888">....</tspan> <tspan fill="#fff">ACTIVE</tspan></text>
+    <text x="0" y="280" font-family="monospace" font-size="11" fill="#00ff88">  [+] 49 weapons in arsenal <tspan fill="#888">........</tspan> <tspan fill="#fff">NOMINAL</tspan></text>
+
+    <text x="0" y="310" font-family="monospace" font-size="11" fill="#00ffff">shadow@beast</text>
+    <text x="130" y="310" font-family="monospace" font-size="11" fill="#555">:~$</text>
+    <text x="160" y="310" font-family="monospace" font-size="11" fill="#fff">cat /etc/shadowbeast/manifest.os</text>
+
+    <text x="0" y="338" font-family="monospace" font-size="11" fill="#aaa">MISSION:  Secure the digital galaxy</text>
+    <text x="0" y="358" font-family="monospace" font-size="11" fill="#aaa">APPROACH: Understand → Reverse → Rebuild → Automate</text>
+    <text x="0" y="378" font-family="monospace" font-size="11" fill="#00ff88">CREED:    "Learn the system. Break assumptions. Build defense."</text>
+
+    <!-- Blinking cursor -->
+    <text x="0" y="410" font-family="monospace" font-size="11" fill="#00ffff">shadow@beast</text>
+    <text x="130" y="410" font-family="monospace" font-size="11" fill="#555">:~$</text>
+    <text x="160" y="410" font-family="monospace" font-size="11" fill="#00ff88" class="blk">▊</text>
+  </g>
+</svg>
