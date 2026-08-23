@@ -161,7 +161,7 @@
   </g>
 
   <!-- MATRIX RAIN -->
-  <g font-family="monospace" font-size="8" opacity="0.1">
+  <g font-family="monospace" font-size="14" opacity="0.1">
     <text fill="#00ff88"><animate attributeName="y" values="-60;1000" dur="6s" repeatCount="indefinite"/>1 0 1 1</text>
     <text x="40" fill="#00ffff"><animate attributeName="y" values="-120;1000" dur="8s" repeatCount="indefinite"/>0 1 0 1</text>
     <text x="80" fill="#00ff88"><animate attributeName="y" values="-200;1000" dur="11s" repeatCount="indefinite"/>1 1 0 0</text>
@@ -182,7 +182,7 @@
   <!-- LEFT PANEL: DUAL RADAR -->
   <g transform="translate(30, 50)">
     <rect x="0" y="0" width="340" height="370" rx="6" fill="#030316" stroke="#00ff88" stroke-width="0.7" opacity="0.5"/>
-    <text x="170" y="20" font-family="monospace" font-size="9" fill="#00ff88" text-anchor="middle" letter-spacing="2" opacity="0.6">SECTOR SCAN :: DUAL RADAR</text>
+    <text x="170" y="20" font-family="monospace" font-size="15" fill="#00ff88" text-anchor="middle" letter-spacing="2" opacity="0.6">SECTOR SCAN :: DUAL RADAR</text>
     <circle cx="170" cy="175" r="85" fill="url(#rdbg)" stroke="#00ff88" stroke-width="0.5" opacity="0.2"/>
     <circle cx="170" cy="175" r="65" stroke="#00ff88" stroke-width="0.3" opacity="0.12"/>
     <circle cx="170" cy="175" r="45" stroke="#00ff88" stroke-width="0.3" opacity="0.12"/>
@@ -202,57 +202,57 @@
     </g>
     <circle cx="170" cy="175" r="5" fill="none" stroke="#00ff88" class="re1" stroke-width="1"/>
     <circle cx="170" cy="175" r="5" fill="none" stroke="#00ffff" class="re2" stroke-width="0.5"/>
-    <text x="168" y="275" font-family="monospace" font-size="6" fill="#00ff88" text-anchor="middle" opacity="0.25">0</text>
-    <text x="262" y="178" font-family="monospace" font-size="6" fill="#00ff88" text-anchor="middle" opacity="0.25">90</text>
-    <text x="168" y="85" font-family="monospace" font-size="6" fill="#00ff88" text-anchor="middle" opacity="0.25">180</text>
-    <text x="78" y="178" font-family="monospace" font-size="6" fill="#00ff88" text-anchor="middle" opacity="0.25">270</text>
-    <text x="15" y="310" font-family="monospace" font-size="7" fill="#666">TARGETS: <tspan fill="#00ff88">07</tspan></text>
-    <text x="15" y="328" font-family="monospace" font-size="7" fill="#666">RANGE: <tspan fill="#00ffff">47.2m</tspan></text>
-    <text x="15" y="346" font-family="monospace" font-size="7" fill="#666">SIGNAL: <tspan fill="#00ff88">97%</tspan></text>
-    <text x="180" y="310" font-family="monospace" font-size="7" fill="#666">SCAN: <tspan fill="#00ff88">360rpm</tspan></text>
-    <text x="180" y="328" font-family="monospace" font-size="7" fill="#666">BAND: <tspan fill="#00ffff">5.8GHz</tspan></text>
-    <text x="180" y="346" font-family="monospace" font-size="7" fill="#666">MODE: <tspan fill="#00ff88" class="blk">SWEEP</tspan></text>
+    <text x="168" y="275" font-family="monospace" font-size="15" fill="#00ff88" text-anchor="middle" opacity="0.25">0</text>
+    <text x="262" y="178" font-family="monospace" font-size="15" fill="#00ff88" text-anchor="middle" opacity="0.25">90</text>
+    <text x="168" y="85" font-family="monospace" font-size="15" fill="#00ff88" text-anchor="middle" opacity="0.25">180</text>
+    <text x="78" y="178" font-family="monospace" font-size="15" fill="#00ff88" text-anchor="middle" opacity="0.25">270</text>
+    <text x="15" y="310" font-family="monospace" font-size="14" fill="#666">TARGETS: <tspan fill="#00ff88">07</tspan></text>
+    <text x="15" y="328" font-family="monospace" font-size="14" fill="#666">RANGE: <tspan fill="#00ffff">47.2m</tspan></text>
+    <text x="15" y="346" font-family="monospace" font-size="14" fill="#666">SIGNAL: <tspan fill="#00ff88">97%</tspan></text>
+    <text x="180" y="310" font-family="monospace" font-size="14" fill="#666">SCAN: <tspan fill="#00ff88">360rpm</tspan></text>
+    <text x="180" y="328" font-family="monospace" font-size="14" fill="#666">BAND: <tspan fill="#00ffff">5.8GHz</tspan></text>
+    <text x="180" y="346" font-family="monospace" font-size="14" fill="#666">MODE: <tspan fill="#00ff88" class="blk">SWEEP</tspan></text>
     <line x1="330" y1="200" x2="370" y2="200" stroke="#00ff88" stroke-width="1" class="ds1" opacity="0.4"/>
   </g>
 
   <!-- RIGHT PANEL: SYSTEM MONITOR + AUDIO VIZ -->
   <g transform="translate(1030, 50)">
     <rect x="0" y="0" width="340" height="370" rx="6" fill="#030316" stroke="#00ff88" stroke-width="0.7" opacity="0.5"/>
-    <text x="170" y="20" font-family="monospace" font-size="9" fill="#00ff88" text-anchor="middle" letter-spacing="2" opacity="0.6">TELEMETRY :: PERFORMANCE</text>
+    <text x="170" y="20" font-family="monospace" font-size="15" fill="#00ff88" text-anchor="middle" letter-spacing="2" opacity="0.6">TELEMETRY :: PERFORMANCE</text>
     
-    <text x="15" y="55" font-family="monospace" font-size="9" fill="#00ffff">CPU</text>
+    <text x="15" y="55" font-family="monospace" font-size="15" fill="#00ffff">CPU</text>
     <rect x="80" y="45" width="200" height="10" rx="3" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.4" opacity="0.3"/>
     <rect class="p1" x="80" y="45" width="150" height="10" rx="3" fill="#00ff88" opacity="0.7"><animate attributeName="width" values="120;155;100;170;90;140;120" dur="3s" repeatCount="indefinite"/></rect>
-    <text x="290" y="54" font-family="monospace" font-size="9" fill="#00ff88" text-anchor="end">68%</text>
+    <text x="290" y="54" font-family="monospace" font-size="15" fill="#00ff88" text-anchor="end">68%</text>
 
-    <text x="15" y="75" font-family="monospace" font-size="9" fill="#00ffff">MEM</text>
+    <text x="15" y="75" font-family="monospace" font-size="15" fill="#00ffff">MEM</text>
     <rect x="80" y="65" width="200" height="10" rx="3" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.4" opacity="0.3"/>
     <rect class="p2" x="80" y="65" width="180" height="10" rx="3" fill="#00ffff" opacity="0.6"><animate attributeName="width" values="180;140;190;120;170;180" dur="4s" repeatCount="indefinite"/></rect>
-    <text x="290" y="74" font-family="monospace" font-size="9" fill="#00ffff" text-anchor="end">82%</text>
+    <text x="290" y="74" font-family="monospace" font-size="15" fill="#00ffff" text-anchor="end">82%</text>
 
-    <text x="15" y="95" font-family="monospace" font-size="9" fill="#00ffff">NET</text>
+    <text x="15" y="95" font-family="monospace" font-size="15" fill="#00ffff">NET</text>
     <rect x="80" y="85" width="200" height="10" rx="3" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.4" opacity="0.3"/>
     <rect class="p7" x="80" y="85" width="90" height="10" rx="3" fill="#ff6600" opacity="0.7"><animate attributeName="width" values="90;130;60;150;40;110;90" dur="2.5s" repeatCount="indefinite"/></rect>
-    <text x="290" y="94" font-family="monospace" font-size="9" fill="#ff6600" text-anchor="end">42%</text>
+    <text x="290" y="94" font-family="monospace" font-size="15" fill="#ff6600" text-anchor="end">42%</text>
 
-    <text x="15" y="115" font-family="monospace" font-size="9" fill="#00ffff">SYS</text>
+    <text x="15" y="115" font-family="monospace" font-size="15" fill="#00ffff">SYS</text>
     <rect x="80" y="105" width="200" height="10" rx="3" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.4" opacity="0.3"/>
     <rect x="80" y="105" width="55" height="10" rx="3" fill="#00ff88" opacity="0.4"><animate attributeName="width" values="55;70;40;60;55" dur="5s" repeatCount="indefinite"/></rect>
-    <text x="290" y="114" font-family="monospace" font-size="9" fill="#00ff88" text-anchor="end">24%</text>
+    <text x="290" y="114" font-family="monospace" font-size="15" fill="#00ff88" text-anchor="end">24%</text>
 
-    <text x="15" y="142" font-family="monospace" font-size="8" fill="#555">UPTIME</text><text x="170" y="142" font-family="monospace" font-size="8" fill="#00ff88">47d 13h 22m</text>
-    <text x="15" y="157" font-family="monospace" font-size="8" fill="#555">THREADS</text><text x="170" y="157" font-family="monospace" font-size="8" fill="#00ff88">47</text>
-    <text x="15" y="172" font-family="monospace" font-size="8" fill="#555">PROCESSES</text><text x="170" y="172" font-family="monospace" font-size="8" fill="#00ff88">384</text>
-    <text x="15" y="187" font-family="monospace" font-size="8" fill="#555">LOAD AVG</text><text x="170" y="187" font-family="monospace" font-size="8" fill="#ff003c">0.89 0.72 0.54</text>
-    <text x="15" y="202" font-family="monospace" font-size="8" fill="#555">TEMP</text><text x="170" y="202" font-family="monospace" font-size="8" fill="#ff6600">62C</text>
-    <text x="15" y="217" font-family="monospace" font-size="8" fill="#555">NET I/O</text><text x="170" y="217" font-family="monospace" font-size="8" fill="#00ffff">UP 2.4K  DN 8.1K</text>
+    <text x="15" y="142" font-family="monospace" font-size="14" fill="#555">UPTIME</text><text x="170" y="142" font-family="monospace" font-size="14" fill="#00ff88">47d 13h 22m</text>
+    <text x="15" y="157" font-family="monospace" font-size="14" fill="#555">THREADS</text><text x="170" y="157" font-family="monospace" font-size="14" fill="#00ff88">47</text>
+    <text x="15" y="172" font-family="monospace" font-size="14" fill="#555">PROCESSES</text><text x="170" y="172" font-family="monospace" font-size="14" fill="#00ff88">384</text>
+    <text x="15" y="187" font-family="monospace" font-size="14" fill="#555">LOAD AVG</text><text x="170" y="187" font-family="monospace" font-size="14" fill="#ff003c">0.89 0.72 0.54</text>
+    <text x="15" y="202" font-family="monospace" font-size="14" fill="#555">TEMP</text><text x="170" y="202" font-family="monospace" font-size="14" fill="#ff6600">62C</text>
+    <text x="15" y="217" font-family="monospace" font-size="14" fill="#555">NET I/O</text><text x="170" y="217" font-family="monospace" font-size="14" fill="#00ffff">UP 2.4K  DN 8.1K</text>
 
     <rect x="15" y="262" width="145" height="22" rx="4" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.5" opacity="0.4"/>
-    <circle cx="26" cy="273" r="3" fill="#00ff88" class="p1"/><text x="36" y="277" font-family="monospace" font-size="8" fill="#00ff88">CORE :: OPERATIONAL</text>
+    <circle cx="26" cy="273" r="3" fill="#00ff88" class="p1"/><text x="36" y="277" font-family="monospace" font-size="14" fill="#00ff88">CORE :: OPERATIONAL</text>
     <rect x="170" y="262" width="155" height="22" rx="4" fill="#0a0a1e" stroke="#00ffff" stroke-width="0.5" opacity="0.4"/>
-    <circle cx="181" cy="273" r="3" fill="#00ffff" class="blk"/><text x="191" y="277" font-family="monospace" font-size="8" fill="#00ffff">NET :: TRANSMITTING</text>
+    <circle cx="181" cy="273" r="3" fill="#00ffff" class="blk"/><text x="191" y="277" font-family="monospace" font-size="14" fill="#00ffff">NET :: TRANSMITTING</text>
 
-    <text x="170" y="318" font-family="monospace" font-size="9" fill="#00ff88" text-anchor="middle" opacity="0.4">SIGNAL SPECTRUM</text>
+    <text x="170" y="318" font-family="monospace" font-size="15" fill="#00ff88" text-anchor="middle" opacity="0.4">SIGNAL SPECTRUM</text>
     <g transform="translate(15, 328)">
       <rect x="0" y="0" width="8" class="bar-c" fill="#00ff88" opacity="0.7"/>
       <rect x="14" y="0" width="8" class="bar-d" fill="#00ffff" opacity="0.6"/>
@@ -320,10 +320,10 @@
         fill="#00ffff" text-anchor="middle" letter-spacing="16" opacity="0.4" class="gl2 gl3">SHADOWBEAST</text>
 
   <rect x="350" y="505" width="700" height="1.5" fill="url(#beam)" opacity="0.5" class="p3"/>
-  <text x="700" y="535" font-family="monospace" font-size="14" fill="#00ffff" text-anchor="middle" letter-spacing="8" class="br1">
+  <text x="700" y="535" font-family="monospace" font-size="16" fill="#00ffff" text-anchor="middle" letter-spacing="8" class="br1">
     CYBERSECURITY ENGINEER  /  SOC ANALYST  /  ETHICAL HACKER
   </text>
-  <text x="700" y="565" font-family="monospace" font-size="11" fill="#00ff88" text-anchor="middle" letter-spacing="3" opacity="0.5" class="br1">
+  <text x="700" y="565" font-family="monospace" font-size="15" fill="#00ff88" text-anchor="middle" letter-spacing="3" opacity="0.5" class="br1">
     LEARN THE SYSTEM / BREAK THE ASSUMPTIONS / BUILD THE DEFENSE
   </text>
 
@@ -342,29 +342,29 @@
     <circle cx="22" cy="15" r="5" fill="#ff003c" opacity="0.5"/>
     <circle cx="40" cy="15" r="5" fill="#ff9900" opacity="0.5"/>
     <circle cx="58" cy="15" r="5" fill="#00ff88" opacity="0.5"/>
-    <text x="640" y="19" font-family="monospace" font-size="9" fill="#00ff88" text-anchor="middle" opacity="0.35">shadow@beast:~/SYSTEM$</text>
+    <text x="640" y="19" font-family="monospace" font-size="15" fill="#00ff88" text-anchor="middle" opacity="0.35">shadow@beast:~/SYSTEM$</text>
     
     <g class="scroll-t">
-      <text x="25" y="60" font-family="monospace" font-size="11" fill="#00ffff">shadow@beast</text><text x="130" y="60" font-family="monospace" font-size="11" fill="#666">:~$</text><text x="160" y="60" font-family="monospace" font-size="11" fill="#fff">./shadowbeast --full-diag</text>
-      <text x="25" y="82" font-family="monospace" font-size="11" fill="#00ff88">  [+] Loading security modules...</text>
-      <text x="25" y="100" font-family="monospace" font-size="11" fill="#00ff88">  [+] Loading defense perimeters...</text>
-      <text x="25" y="118" font-family="monospace" font-size="11" fill="#00ff88">  [+] Activating AI core...</text>
-      <text x="25" y="136" font-family="monospace" font-size="11" fill="#00ff88">  [+] Syncing shadow network...</text>
-      <text x="25" y="154" font-family="monospace" font-size="11" fill="#00ff88">  [+] Running diagnostic...</text>
-      <text x="25" y="172" font-family="monospace" font-size="11" fill="#00ff88">  [+] All systems nominal.</text>
-      <text x="25" y="196" font-family="monospace" font-size="11" fill="#666">  [+] Cyber defense ...... STRONG</text>
-      <text x="25" y="214" font-family="monospace" font-size="11" fill="#666">  [+] Network security ... HARDENED</text>
-      <text x="25" y="232" font-family="monospace" font-size="11" fill="#666">  [+] AI operations ....... OPERATIONAL</text>
-      <text x="25" y="250" font-family="monospace" font-size="11" fill="#666">  [+] Shadow protocol ..... ACTIVE</text>
-      <text x="25" y="268" font-family="monospace" font-size="11" fill="#666">  [+] Alien access ........ GRANTED</text>
-      <text x="25" y="292" font-family="monospace" font-size="11" fill="#00ff88">  [+] All systems nominal. Ready.</text>
-      <text x="25" y="316" font-family="monospace" font-size="11" fill="#00ffff">shadow@beast</text><text x="130" y="316" font-family="monospace" font-size="11" fill="#666">:~$</text>
+      <text x="25" y="60" font-family="monospace" font-size="15" fill="#00ffff">shadow@beast</text><text x="130" y="60" font-family="monospace" font-size="15" fill="#666">:~$</text><text x="160" y="60" font-family="monospace" font-size="15" fill="#fff">./shadowbeast --full-diag</text>
+      <text x="25" y="82" font-family="monospace" font-size="15" fill="#00ff88">  [+] Loading security modules...</text>
+      <text x="25" y="100" font-family="monospace" font-size="15" fill="#00ff88">  [+] Loading defense perimeters...</text>
+      <text x="25" y="118" font-family="monospace" font-size="15" fill="#00ff88">  [+] Activating AI core...</text>
+      <text x="25" y="136" font-family="monospace" font-size="15" fill="#00ff88">  [+] Syncing shadow network...</text>
+      <text x="25" y="154" font-family="monospace" font-size="15" fill="#00ff88">  [+] Running diagnostic...</text>
+      <text x="25" y="172" font-family="monospace" font-size="15" fill="#00ff88">  [+] All systems nominal.</text>
+      <text x="25" y="196" font-family="monospace" font-size="15" fill="#666">  [+] Cyber defense ...... STRONG</text>
+      <text x="25" y="214" font-family="monospace" font-size="15" fill="#666">  [+] Network security ... HARDENED</text>
+      <text x="25" y="232" font-family="monospace" font-size="15" fill="#666">  [+] AI operations ....... OPERATIONAL</text>
+      <text x="25" y="250" font-family="monospace" font-size="15" fill="#666">  [+] Shadow protocol ..... ACTIVE</text>
+      <text x="25" y="268" font-family="monospace" font-size="15" fill="#666">  [+] Alien access ........ GRANTED</text>
+      <text x="25" y="292" font-family="monospace" font-size="15" fill="#00ff88">  [+] All systems nominal. Ready.</text>
+      <text x="25" y="316" font-family="monospace" font-size="15" fill="#00ffff">shadow@beast</text><text x="130" y="316" font-family="monospace" font-size="15" fill="#666">:~$</text>
     </g>
   </g>
 
-  <text x="45" y="980" font-family="monospace" font-size="8" fill="#00ff88" opacity="0.25">NEXUS v4.6</text>
-  <text x="1300" y="980" font-family="monospace" font-size="8" fill="#00ff88" opacity="0.25">UPTIME: 47d 13h 22m</text>
-  <text x="700" y="980" font-family="monospace" font-size="8" fill="#00ff88" opacity="0.15" text-anchor="middle">SELECT * FROM knowledge WHERE domain = cybersecurity</text>
+  <text x="45" y="980" font-family="monospace" font-size="14" fill="#00ff88" opacity="0.25">NEXUS v4.6</text>
+  <text x="1300" y="980" font-family="monospace" font-size="14" fill="#00ff88" opacity="0.25">UPTIME: 47d 13h 22m</text>
+  <text x="700" y="980" font-family="monospace" font-size="14" fill="#00ff88" opacity="0.15" text-anchor="middle">SELECT * FROM knowledge WHERE domain = cybersecurity</text>
 
   <rect width="1400" height="1000" fill="#000" opacity="0.015" class="fk1" pointer-events="none"/>
   <rect x="0" y="998" width="1400" height="2" fill="#00ff88" opacity="0.2"/>

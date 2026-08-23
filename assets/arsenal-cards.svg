@@ -34,7 +34,7 @@
   <rect class="sc" width="1200" height="1" fill="#00ff88" opacity="0.04"/>
   <rect class="fk" width="1200" height="580" fill="#000" opacity="0.01" pointer-events="none"/>
 
-  <text x="600" y="28" font-family="monospace" font-size="11" fill="#00ff88" text-anchor="middle" letter-spacing="2" opacity="0.7">☠️ CYBERSECURITY ARSENAL — WEAPONS &amp; COUNTERMEASURES</text>
+  <text x="600" y="28" font-family="monospace" font-size="15" fill="#00ff88" text-anchor="middle" letter-spacing="2" opacity="0.7">☠️ CYBERSECURITY ARSENAL — WEAPONS &amp; COUNTERMEASURES</text>
   <line x1="20" y1="35" x2="1180" y2="35" stroke="#00ff88" stroke-width="0.3" opacity="0.1"/>
 
   <!-- RECONNAISSANCE COLUMN -->
@@ -42,26 +42,26 @@
     <rect x="0" y="0" width="275" height="520" rx="6" fill="#040416" stroke="#00ffff" stroke-width="0.8" class="p3"/>
     <rect x="0" y="0" width="275" height="30" rx="6" fill="#0a0a2e"/>
     <rect x="0" y="24" width="275" height="6" fill="#040416"/>
-    <text x="138" y="20" font-family="monospace" font-size="11" fill="#00ffff" text-anchor="middle" font-weight="bold" class="p2">🔍 RECONNAISSANCE</text>
+    <text x="138" y="20" font-family="monospace" font-size="15" fill="#00ffff" text-anchor="middle" font-weight="bold" class="p2">🔍 RECONNAISSANCE</text>
     
     <!-- Cards -->
-    <g transform="translate(10, 42)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#00ffff" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="9" fill="#00ffff">Nmap</text><circle cx="240" cy="11" r="3" fill="#00ffff" class="p2"/></g>
-    <g transform="translate(10, 70)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#00ffff" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="9" fill="#00ffff">Masscan</text><circle cx="240" cy="11" r="3" fill="#00ffff" class="blk"/></g>
-    <g transform="translate(10, 98)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#00ffff" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="9" fill="#00ffff">Recon-ng</text><circle cx="240" cy="11" r="3" fill="#00ffff" class="p2"/></g>
-    <g transform="translate(10, 126)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#00ffff" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="9" fill="#00ffff">theHarvester</text><circle cx="240" cy="11" r="3" fill="#00ffff" class="p2"/></g>
-    <g transform="translate(10, 154)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#00ffff" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="9" fill="#00ffff">Shodan</text><circle cx="240" cy="11" r="3" fill="#00ffff" class="blk"/></g>
-    <g transform="translate(10, 182)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#00ffff" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="9" fill="#00ffff">Amass</text><circle cx="240" cy="11" r="3" fill="#00ffff" class="p2"/></g>
-    <g transform="translate(10, 210)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#00ffff" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="9" fill="#00ffff">Sublist3r</text><circle cx="240" cy="11" r="3" fill="#00ffff" class="p2"/></g>
-    <g transform="translate(10, 238)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#00ffff" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="9" fill="#00ffff">Maltego</text><circle cx="240" cy="11" r="3" fill="#00ffff" class="blk"/></g>
-    <g transform="translate(10, 266)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#00ffff" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="9" fill="#00ffff">SpiderFoot</text><circle cx="240" cy="11" r="3" fill="#00ffff" class="p2"/></g>
-    <g transform="translate(10, 294)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#00ffff" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="9" fill="#00ffff">DNSRecon</text><circle cx="240" cy="11" r="3" fill="#00ffff" class="blk"/></g>
-    <g transform="translate(10, 322)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#00ffff" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="9" fill="#00ffff">WhatWeb</text><circle cx="240" cy="11" r="3" fill="#00ffff" class="p2"/></g>
-    <g transform="translate(10, 350)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#00ffff" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="9" fill="#00ffff">FFUF</text><circle cx="240" cy="11" r="3" fill="#00ffff" class="blk"/></g>
-    <g transform="translate(10, 378)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#00ffff" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="9" fill="#00ffff">Gobuster</text><circle cx="240" cy="11" r="3" fill="#00ffff" class="p2"/></g>
+    <g transform="translate(10, 42)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#00ffff" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="15" fill="#00ffff">Nmap</text><circle cx="240" cy="11" r="3" fill="#00ffff" class="p2"/></g>
+    <g transform="translate(10, 70)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#00ffff" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="15" fill="#00ffff">Masscan</text><circle cx="240" cy="11" r="3" fill="#00ffff" class="blk"/></g>
+    <g transform="translate(10, 98)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#00ffff" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="15" fill="#00ffff">Recon-ng</text><circle cx="240" cy="11" r="3" fill="#00ffff" class="p2"/></g>
+    <g transform="translate(10, 126)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#00ffff" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="15" fill="#00ffff">theHarvester</text><circle cx="240" cy="11" r="3" fill="#00ffff" class="p2"/></g>
+    <g transform="translate(10, 154)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#00ffff" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="15" fill="#00ffff">Shodan</text><circle cx="240" cy="11" r="3" fill="#00ffff" class="blk"/></g>
+    <g transform="translate(10, 182)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#00ffff" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="15" fill="#00ffff">Amass</text><circle cx="240" cy="11" r="3" fill="#00ffff" class="p2"/></g>
+    <g transform="translate(10, 210)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#00ffff" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="15" fill="#00ffff">Sublist3r</text><circle cx="240" cy="11" r="3" fill="#00ffff" class="p2"/></g>
+    <g transform="translate(10, 238)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#00ffff" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="15" fill="#00ffff">Maltego</text><circle cx="240" cy="11" r="3" fill="#00ffff" class="blk"/></g>
+    <g transform="translate(10, 266)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#00ffff" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="15" fill="#00ffff">SpiderFoot</text><circle cx="240" cy="11" r="3" fill="#00ffff" class="p2"/></g>
+    <g transform="translate(10, 294)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#00ffff" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="15" fill="#00ffff">DNSRecon</text><circle cx="240" cy="11" r="3" fill="#00ffff" class="blk"/></g>
+    <g transform="translate(10, 322)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#00ffff" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="15" fill="#00ffff">WhatWeb</text><circle cx="240" cy="11" r="3" fill="#00ffff" class="p2"/></g>
+    <g transform="translate(10, 350)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#00ffff" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="15" fill="#00ffff">FFUF</text><circle cx="240" cy="11" r="3" fill="#00ffff" class="blk"/></g>
+    <g transform="translate(10, 378)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#00ffff" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="15" fill="#00ffff">Gobuster</text><circle cx="240" cy="11" r="3" fill="#00ffff" class="p2"/></g>
     
     <!-- Scan line pulse at bottom -->
     <rect x="10" y="410" width="255" height="1" fill="#00ffff" opacity="0.1" class="blk"/>
-    <text x="138" y="440" font-family="monospace" font-size="8" fill="#00ffff" text-anchor="middle" opacity="0.3" class="br">13 ACTIVE SENSORS</text>
+    <text x="138" y="440" font-family="monospace" font-size="14" fill="#00ffff" text-anchor="middle" opacity="0.3" class="br">13 ACTIVE SENSORS</text>
   </g>
 
   <!-- EXPLOITATION COLUMN -->
@@ -69,23 +69,23 @@
     <rect x="0" y="0" width="275" height="520" rx="6" fill="#040416" stroke="#ff003c" stroke-width="0.8" class="p3"/>
     <rect x="0" y="0" width="275" height="30" rx="6" fill="#1a0008"/>
     <rect x="0" y="24" width="275" height="6" fill="#040416"/>
-    <text x="138" y="20" font-family="monospace" font-size="11" fill="#ff003c" text-anchor="middle" font-weight="bold" class="p1">☠️ EXPLOITATION</text>
+    <text x="138" y="20" font-family="monospace" font-size="15" fill="#ff003c" text-anchor="middle" font-weight="bold" class="p1">☠️ EXPLOITATION</text>
 
-    <g transform="translate(10, 42)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#ff003c" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="9" fill="#ff6666">Metasploit Framework</text><circle cx="240" cy="11" r="3" fill="#ff003c" class="p1"/></g>
-    <g transform="translate(10, 70)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#ff003c" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="9" fill="#ff6666">Empire / Covenant</text><circle cx="240" cy="11" r="3" fill="#ff003c" class="blk"/></g>
-    <g transform="translate(10, 98)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#ff003c" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="9" fill="#ff6666">Cobalt Strike</text><circle cx="240" cy="11" r="3" fill="#ff003c" class="p2"/></g>
-    <g transform="translate(10, 126)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#ff003c" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="9" fill="#ff6666">Hydra</text><circle cx="240" cy="11" r="3" fill="#ff003c" class="p1"/></g>
-    <g transform="translate(10, 154)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#ff003c" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="9" fill="#ff6666">John the Ripper</text><circle cx="240" cy="11" r="3" fill="#ff003c" class="blk"/></g>
-    <g transform="translate(10, 182)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#ff003c" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="9" fill="#ff6666">Hashcat</text><circle cx="240" cy="11" r="3" fill="#ff003c" class="p2"/></g>
-    <g transform="translate(10, 210)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#ff003c" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="9" fill="#ff6666">SQLMap</text><circle cx="240" cy="11" r="3" fill="#ff003c" class="p1"/></g>
-    <g transform="translate(10, 238)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#ff003c" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="9" fill="#ff6666">Searchsploit</text><circle cx="240" cy="11" r="3" fill="#ff003c" class="blk"/></g>
-    <g transform="translate(10, 266)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#ff003c" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="9" fill="#ff6666">BetterCAP</text><circle cx="240" cy="11" r="3" fill="#ff003c" class="p2"/></g>
-    <g transform="translate(10, 294)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#ff003c" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="9" fill="#ff6666">Responder</text><circle cx="240" cy="11" r="3" fill="#ff003c" class="blk"/></g>
-    <g transform="translate(10, 322)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#ff003c" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="9" fill="#ff6666">Gobuster</text><circle cx="240" cy="11" r="3" fill="#ff003c" class="p1"/></g>
-    <g transform="translate(10, 350)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#ff003c" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="9" fill="#ff6666">Burp Intruder</text><circle cx="240" cy="11" r="3" fill="#ff003c" class="blk"/></g>
+    <g transform="translate(10, 42)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#ff003c" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="15" fill="#ff6666">Metasploit Framework</text><circle cx="240" cy="11" r="3" fill="#ff003c" class="p1"/></g>
+    <g transform="translate(10, 70)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#ff003c" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="15" fill="#ff6666">Empire / Covenant</text><circle cx="240" cy="11" r="3" fill="#ff003c" class="blk"/></g>
+    <g transform="translate(10, 98)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#ff003c" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="15" fill="#ff6666">Cobalt Strike</text><circle cx="240" cy="11" r="3" fill="#ff003c" class="p2"/></g>
+    <g transform="translate(10, 126)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#ff003c" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="15" fill="#ff6666">Hydra</text><circle cx="240" cy="11" r="3" fill="#ff003c" class="p1"/></g>
+    <g transform="translate(10, 154)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#ff003c" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="15" fill="#ff6666">John the Ripper</text><circle cx="240" cy="11" r="3" fill="#ff003c" class="blk"/></g>
+    <g transform="translate(10, 182)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#ff003c" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="15" fill="#ff6666">Hashcat</text><circle cx="240" cy="11" r="3" fill="#ff003c" class="p2"/></g>
+    <g transform="translate(10, 210)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#ff003c" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="15" fill="#ff6666">SQLMap</text><circle cx="240" cy="11" r="3" fill="#ff003c" class="p1"/></g>
+    <g transform="translate(10, 238)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#ff003c" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="15" fill="#ff6666">Searchsploit</text><circle cx="240" cy="11" r="3" fill="#ff003c" class="blk"/></g>
+    <g transform="translate(10, 266)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#ff003c" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="15" fill="#ff6666">BetterCAP</text><circle cx="240" cy="11" r="3" fill="#ff003c" class="p2"/></g>
+    <g transform="translate(10, 294)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#ff003c" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="15" fill="#ff6666">Responder</text><circle cx="240" cy="11" r="3" fill="#ff003c" class="blk"/></g>
+    <g transform="translate(10, 322)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#ff003c" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="15" fill="#ff6666">Gobuster</text><circle cx="240" cy="11" r="3" fill="#ff003c" class="p1"/></g>
+    <g transform="translate(10, 350)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#ff003c" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="15" fill="#ff6666">Burp Intruder</text><circle cx="240" cy="11" r="3" fill="#ff003c" class="blk"/></g>
     
     <rect x="10" y="410" width="255" height="1" fill="#ff003c" opacity="0.1" class="blk"/>
-    <text x="138" y="440" font-family="monospace" font-size="8" fill="#ff6666" text-anchor="middle" opacity="0.3" class="br">12 EXPLOIT ENGINES</text>
+    <text x="138" y="440" font-family="monospace" font-size="14" fill="#ff6666" text-anchor="middle" opacity="0.3" class="br">12 EXPLOIT ENGINES</text>
   </g>
 
   <!-- DEFENSE COLUMN -->
@@ -93,23 +93,23 @@
     <rect x="0" y="0" width="275" height="520" rx="6" fill="#040416" stroke="#00ff88" stroke-width="0.8" class="p3"/>
     <rect x="0" y="0" width="275" height="30" rx="6" fill="#0a1a0a"/>
     <rect x="0" y="24" width="275" height="6" fill="#040416"/>
-    <text x="138" y="20" font-family="monospace" font-size="11" fill="#00ff88" text-anchor="middle" font-weight="bold" class="p1">🛡️ DEFENSE</text>
+    <text x="138" y="20" font-family="monospace" font-size="15" fill="#00ff88" text-anchor="middle" font-weight="bold" class="p1">🛡️ DEFENSE</text>
 
-    <g transform="translate(10, 42)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="9" fill="#00ff88">Snort IDS</text><circle cx="240" cy="11" r="3" fill="#00ff88" class="p1"/></g>
-    <g transform="translate(10, 70)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="9" fill="#00ff88">Suricata IPS</text><circle cx="240" cy="11" r="3" fill="#00ff88" class="p2"/></g>
-    <g transform="translate(10, 98)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="9" fill="#00ff88">Wazuh SIEM</text><circle cx="240" cy="11" r="3" fill="#00ff88" class="blk"/></g>
-    <g transform="translate(10, 126)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="9" fill="#00ff88">Osquery</text><circle cx="240" cy="11" r="3" fill="#00ff88" class="p1"/></g>
-    <g transform="translate(10, 154)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="9" fill="#00ff88">Wazuh FIM</text><circle cx="240" cy="11" r="3" fill="#00ff88" class="p2"/></g>
-    <g transform="translate(10, 182)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="9" fill="#00ff88">Fail2ban</text><circle cx="240" cy="11" r="3" fill="#00ff88" class="blk"/></g>
-    <g transform="translate(10, 210)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="9" fill="#00ff88">RKHunter</text><circle cx="240" cy="11" r="3" fill="#00ff88" class="p1"/></g>
-    <g transform="translate(10, 238)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="9" fill="#00ff88">Lynis</text><circle cx="240" cy="11" r="3" fill="#00ff88" class="p2"/></g>
-    <g transform="translate(10, 266)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="9" fill="#00ff88">AppArmor / SELinux</text><circle cx="240" cy="11" r="3" fill="#00ff88" class="blk"/></g>
-    <g transform="translate(10, 294)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="9" fill="#00ff88">ClamAV</text><circle cx="240" cy="11" r="3" fill="#00ff88" class="p1"/></g>
-    <g transform="translate(10, 322)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="9" fill="#00ff88">AIDE</text><circle cx="240" cy="11" r="3" fill="#00ff88" class="p2"/></g>
-    <g transform="translate(10, 350)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="9" fill="#00ff88">Tripwire</text><circle cx="240" cy="11" r="3" fill="#00ff88" class="blk"/></g>
+    <g transform="translate(10, 42)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="15" fill="#00ff88">Snort IDS</text><circle cx="240" cy="11" r="3" fill="#00ff88" class="p1"/></g>
+    <g transform="translate(10, 70)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="15" fill="#00ff88">Suricata IPS</text><circle cx="240" cy="11" r="3" fill="#00ff88" class="p2"/></g>
+    <g transform="translate(10, 98)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="15" fill="#00ff88">Wazuh SIEM</text><circle cx="240" cy="11" r="3" fill="#00ff88" class="blk"/></g>
+    <g transform="translate(10, 126)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="15" fill="#00ff88">Osquery</text><circle cx="240" cy="11" r="3" fill="#00ff88" class="p1"/></g>
+    <g transform="translate(10, 154)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="15" fill="#00ff88">Wazuh FIM</text><circle cx="240" cy="11" r="3" fill="#00ff88" class="p2"/></g>
+    <g transform="translate(10, 182)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="15" fill="#00ff88">Fail2ban</text><circle cx="240" cy="11" r="3" fill="#00ff88" class="blk"/></g>
+    <g transform="translate(10, 210)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="15" fill="#00ff88">RKHunter</text><circle cx="240" cy="11" r="3" fill="#00ff88" class="p1"/></g>
+    <g transform="translate(10, 238)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="15" fill="#00ff88">Lynis</text><circle cx="240" cy="11" r="3" fill="#00ff88" class="p2"/></g>
+    <g transform="translate(10, 266)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="15" fill="#00ff88">AppArmor / SELinux</text><circle cx="240" cy="11" r="3" fill="#00ff88" class="blk"/></g>
+    <g transform="translate(10, 294)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="15" fill="#00ff88">ClamAV</text><circle cx="240" cy="11" r="3" fill="#00ff88" class="p1"/></g>
+    <g transform="translate(10, 322)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="15" fill="#00ff88">AIDE</text><circle cx="240" cy="11" r="3" fill="#00ff88" class="p2"/></g>
+    <g transform="translate(10, 350)"><rect x="0" y="0" width="255" height="22" rx="3" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="15" fill="#00ff88">Tripwire</text><circle cx="240" cy="11" r="3" fill="#00ff88" class="blk"/></g>
     
     <rect x="10" y="410" width="255" height="1" fill="#00ff88" opacity="0.1" class="blk"/>
-    <text x="138" y="440" font-family="monospace" font-size="8" fill="#00ff88" text-anchor="middle" opacity="0.3" class="br">12 DEFENSE LAYERS</text>
+    <text x="138" y="440" font-family="monospace" font-size="14" fill="#00ff88" text-anchor="middle" opacity="0.3" class="br">12 DEFENSE LAYERS</text>
   </g>
 
   <!-- ANALYSIS COLUMN -->
@@ -117,29 +117,29 @@
     <rect x="0" y="0" width="290" height="520" rx="6" fill="#040416" stroke="#9d00ff" stroke-width="0.8" class="p3"/>
     <rect x="0" y="0" width="290" height="30" rx="6" fill="#10001a"/>
     <rect x="0" y="24" width="290" height="6" fill="#040416"/>
-    <text x="145" y="20" font-family="monospace" font-size="11" fill="#9d00ff" text-anchor="middle" font-weight="bold" class="p2">🔬 ANALYSIS</text>
+    <text x="145" y="20" font-family="monospace" font-size="15" fill="#9d00ff" text-anchor="middle" font-weight="bold" class="p2">🔬 ANALYSIS</text>
 
-    <g transform="translate(10, 42)"><rect x="0" y="0" width="270" height="22" rx="3" fill="#0a0a1e" stroke="#9d00ff" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="9" fill="#9d00ff">Wireshark</text><circle cx="255" cy="11" r="3" fill="#9d00ff" class="p1"/></g>
-    <g transform="translate(10, 70)"><rect x="0" y="0" width="270" height="22" rx="3" fill="#0a0a1e" stroke="#9d00ff" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="9" fill="#9d00ff">Tcpdump</text><circle cx="255" cy="11" r="3" fill="#9d00ff" class="p2"/></g>
-    <g transform="translate(10, 98)"><rect x="0" y="0" width="270" height="22" rx="3" fill="#0a0a1e" stroke="#9d00ff" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="9" fill="#9d00ff">Burp Suite Professional</text><circle cx="255" cy="11" r="3" fill="#9d00ff" class="blk"/></g>
-    <g transform="translate(10, 126)"><rect x="0" y="0" width="270" height="22" rx="3" fill="#0a0a1e" stroke="#9d00ff" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="9" fill="#9d00ff">OWASP ZAP</text><circle cx="255" cy="11" r="3" fill="#9d00ff" class="p1"/></g>
-    <g transform="translate(10, 154)"><rect x="0" y="0" width="270" height="22" rx="3" fill="#0a0a1e" stroke="#9d00ff" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="9" fill="#9d00ff">Autopsy</text><circle cx="255" cy="11" r="3" fill="#9d00ff" class="p2"/></g>
-    <g transform="translate(10, 182)"><rect x="0" y="0" width="270" height="22" rx="3" fill="#0a0a1e" stroke="#9d00ff" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="9" fill="#9d00ff">Volatility</text><circle cx="255" cy="11" r="3" fill="#9d00ff" class="blk"/></g>
-    <g transform="translate(10, 210)"><rect x="0" y="0" width="270" height="22" rx="3" fill="#0a0a1e" stroke="#9d00ff" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="9" fill="#9d00ff">Binwalk</text><circle cx="255" cy="11" r="3" fill="#9d00ff" class="p1"/></g>
-    <g transform="translate(10, 238)"><rect x="0" y="0" width="270" height="22" rx="3" fill="#0a0a1e" stroke="#9d00ff" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="9" fill="#9d00ff">Steghide</text><circle cx="255" cy="11" r="3" fill="#9d00ff" class="p2"/></g>
-    <g transform="translate(10, 266)"><rect x="0" y="0" width="270" height="22" rx="3" fill="#0a0a1e" stroke="#9d00ff" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="9" fill="#9d00ff">Foremost</text><circle cx="255" cy="11" r="3" fill="#9d00ff" class="blk"/></g>
-    <g transform="translate(10, 294)"><rect x="0" y="0" width="270" height="22" rx="3" fill="#0a0a1e" stroke="#9d00ff" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="9" fill="#9d00ff">Bulk Extractor</text><circle cx="255" cy="11" r="3" fill="#9d00ff" class="p1"/></g>
-    <g transform="translate(10, 322)"><rect x="0" y="0" width="270" height="22" rx="3" fill="#0a0a1e" stroke="#9d00ff" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="9" fill="#9d00ff">YARA</text><circle cx="255" cy="11" r="3" fill="#9d00ff" class="p2"/></g>
-    <g transform="translate(10, 350)"><rect x="0" y="0" width="270" height="22" rx="3" fill="#0a0a1e" stroke="#9d00ff" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="9" fill="#9d00ff">PE-Bear / CFF Explorer</text><circle cx="255" cy="11" r="3" fill="#9d00ff" class="blk"/></g>
+    <g transform="translate(10, 42)"><rect x="0" y="0" width="270" height="22" rx="3" fill="#0a0a1e" stroke="#9d00ff" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="15" fill="#9d00ff">Wireshark</text><circle cx="255" cy="11" r="3" fill="#9d00ff" class="p1"/></g>
+    <g transform="translate(10, 70)"><rect x="0" y="0" width="270" height="22" rx="3" fill="#0a0a1e" stroke="#9d00ff" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="15" fill="#9d00ff">Tcpdump</text><circle cx="255" cy="11" r="3" fill="#9d00ff" class="p2"/></g>
+    <g transform="translate(10, 98)"><rect x="0" y="0" width="270" height="22" rx="3" fill="#0a0a1e" stroke="#9d00ff" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="15" fill="#9d00ff">Burp Suite Professional</text><circle cx="255" cy="11" r="3" fill="#9d00ff" class="blk"/></g>
+    <g transform="translate(10, 126)"><rect x="0" y="0" width="270" height="22" rx="3" fill="#0a0a1e" stroke="#9d00ff" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="15" fill="#9d00ff">OWASP ZAP</text><circle cx="255" cy="11" r="3" fill="#9d00ff" class="p1"/></g>
+    <g transform="translate(10, 154)"><rect x="0" y="0" width="270" height="22" rx="3" fill="#0a0a1e" stroke="#9d00ff" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="15" fill="#9d00ff">Autopsy</text><circle cx="255" cy="11" r="3" fill="#9d00ff" class="p2"/></g>
+    <g transform="translate(10, 182)"><rect x="0" y="0" width="270" height="22" rx="3" fill="#0a0a1e" stroke="#9d00ff" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="15" fill="#9d00ff">Volatility</text><circle cx="255" cy="11" r="3" fill="#9d00ff" class="blk"/></g>
+    <g transform="translate(10, 210)"><rect x="0" y="0" width="270" height="22" rx="3" fill="#0a0a1e" stroke="#9d00ff" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="15" fill="#9d00ff">Binwalk</text><circle cx="255" cy="11" r="3" fill="#9d00ff" class="p1"/></g>
+    <g transform="translate(10, 238)"><rect x="0" y="0" width="270" height="22" rx="3" fill="#0a0a1e" stroke="#9d00ff" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="15" fill="#9d00ff">Steghide</text><circle cx="255" cy="11" r="3" fill="#9d00ff" class="p2"/></g>
+    <g transform="translate(10, 266)"><rect x="0" y="0" width="270" height="22" rx="3" fill="#0a0a1e" stroke="#9d00ff" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="15" fill="#9d00ff">Foremost</text><circle cx="255" cy="11" r="3" fill="#9d00ff" class="blk"/></g>
+    <g transform="translate(10, 294)"><rect x="0" y="0" width="270" height="22" rx="3" fill="#0a0a1e" stroke="#9d00ff" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="15" fill="#9d00ff">Bulk Extractor</text><circle cx="255" cy="11" r="3" fill="#9d00ff" class="p1"/></g>
+    <g transform="translate(10, 322)"><rect x="0" y="0" width="270" height="22" rx="3" fill="#0a0a1e" stroke="#9d00ff" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="15" fill="#9d00ff">YARA</text><circle cx="255" cy="11" r="3" fill="#9d00ff" class="p2"/></g>
+    <g transform="translate(10, 350)"><rect x="0" y="0" width="270" height="22" rx="3" fill="#0a0a1e" stroke="#9d00ff" stroke-width="0.3"/><text x="10" y="14" font-family="monospace" font-size="15" fill="#9d00ff">PE-Bear / CFF Explorer</text><circle cx="255" cy="11" r="3" fill="#9d00ff" class="blk"/></g>
     
     <rect x="10" y="410" width="270" height="1" fill="#9d00ff" opacity="0.1" class="blk"/>
-    <text x="145" y="440" font-family="monospace" font-size="8" fill="#9d00ff" text-anchor="middle" opacity="0.3" class="br">12 ANALYSIS TOOLS</text>
+    <text x="145" y="440" font-family="monospace" font-size="14" fill="#9d00ff" text-anchor="middle" opacity="0.3" class="br">12 ANALYSIS TOOLS</text>
   </g>
 
   <!-- Bottom status bar -->
   <rect x="20" y="540" width="1160" height="28" rx="4" fill="#060618" stroke="#00ff88" stroke-width="0.4" opacity="0.25"/>
-  <text x="35" y="558" font-family="monospace" font-size="8" fill="#555">ARSENAL STATUS: <tspan fill="#00ff88" class="blk">● ONLINE</tspan></text>
-  <text x="350" y="558" font-family="monospace" font-size="8" fill="#555">TOTAL WEAPONS: <tspan fill="#00ff88">49</tspan></text>
-  <text x="650" y="558" font-family="monospace" font-size="8" fill="#555">LAST DEPLOYED: <tspan fill="#00ffff">Nmap · Active Recon</tspan></text>
-  <text x="1050" y="558" font-family="monospace" font-size="8" fill="#555" class="blk">▊ SYSTEM READY</text>
+  <text x="35" y="558" font-family="monospace" font-size="14" fill="#555">ARSENAL STATUS: <tspan fill="#00ff88" class="blk">● ONLINE</tspan></text>
+  <text x="350" y="558" font-family="monospace" font-size="14" fill="#555">TOTAL WEAPONS: <tspan fill="#00ff88">49</tspan></text>
+  <text x="650" y="558" font-family="monospace" font-size="14" fill="#555">LAST DEPLOYED: <tspan fill="#00ffff">Nmap · Active Recon</tspan></text>
+  <text x="1050" y="558" font-family="monospace" font-size="14" fill="#555" class="blk">▊ SYSTEM READY</text>
 </svg>

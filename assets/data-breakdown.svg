@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" width="100%" height="auto">
+  <defs><filter id="g"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style><![CDATA[
+      @keyframes drawLine{0%{stroke-dashoffset:400}100%{stroke-dashoffset:0}}
+      @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}@keyframes pulse{0%,100%{filter:drop-shadow(0 0 4px)}50%{filter:drop-shadow(0 0 14px)}}
+      @keyframes breathe{0%,100%{opacity:0.3}50%{opacity:0.7}}@keyframes scan{0%{transform:translateX(-1200px)}100%{transform:translateX(1200px)}}
+      @keyframes flick{0%,100%{opacity:0.96}2%{opacity:0.2}4%{opacity:0.96}}@keyframes growBar{0%{width:0}100%{width:var(--w)}}
+      .dl{stroke-dasharray:400;stroke-dashoffset:400;animation:drawLine 2s ease-out 0.3s both}
+      .blk{animation:blink 0.8s step-end infinite}.p1{animation:pulse 2s ease-in-out infinite}
+      .br{animation:breathe 4s ease-in-out infinite}.sc{animation:scan 4s linear infinite}.fk{animation:flick 7s infinite}
+      .gb1{--w:360px;animation:growBar 2s ease-out 0.2s both}.gb2{--w:300px;animation:growBar 2s ease-out 0.4s both}
+      .gb3{--w:240px;animation:growBar 2s ease-out 0.6s both}.gb4{--w:180px;animation:growBar 2s ease-out 0.8s both}
+    ]]></style>
+  </defs>
+  <rect width="1200" height="220" fill="#02020c" rx="8"/>
+  <rect x="1" y="1" width="1198" height="218" rx="8" fill="none" stroke="#00ff88" stroke-width="0.5" opacity="0.12"/>
+  <rect class="sc" width="1200" height="1" fill="#00ff88" opacity="0.04"/>
+  <rect class="fk" width="1200" height="220" fill="#000" opacity="0.01" pointer-events="none"/>
+  <text x="600" y="24" font-family="monospace" font-size="14" fill="#00ff88" text-anchor="middle" letter-spacing="2" opacity="0.7">DATA BREAKDOWN — METRICS SUMMARY DASHBOARD</text>
+
+  <g transform="translate(40, 50)">
+    <rect x="0" y="0" width="530" height="70" rx="6" fill="#040416" stroke="#00ff88" stroke-width="0.5"/>
+    <text x="15" y="22" font-family="monospace" font-size="14" fill="#00ff88" font-weight="bold">ACCOUNT AGE</text>
+    <text x="15" y="52" font-family="monospace" font-size="14" fill="#888">Joined Jan 2022 · <tspan fill="#00ffff">4+ years active</tspan></text>
+    <circle cx="510" cy="18" r="4" fill="#00ff88" class="blk"/>
+  </g>
+  <g transform="translate(40, 135)">
+    <rect x="0" y="0" width="530" height="60" rx="6" fill="#040416" stroke="#00ffff" stroke-width="0.5"/>
+    <text x="15" y="24" font-family="monospace" font-size="14" fill="#00ffff" font-weight="bold">AVG COMMITS/DAY</text>
+    <text x="15" y="46" font-family="monospace" font-size="14" fill="#00ff88" class="p1">2.4</text>
+    <text x="100" y="46" font-family="monospace" font-size="14" fill="#888">OVERALL</text>
+    <text x="220" y="46" font-family="monospace" font-size="14" fill="#888">TODAY: <tspan fill="#00ffff" class="br">42</tspan></text>
+    <circle cx="510" cy="18" r="4" fill="#00ffff" class="blk"/>
+  </g>
+
+  <g transform="translate(610, 50)">
+    <rect x="0" y="0" width="550" height="155" rx="6" fill="#040416" stroke="#9d00ff" stroke-width="0.5"/>
+    <text x="15" y="24" font-family="monospace" font-size="14" fill="#9d00ff" font-weight="bold">SKILL PROGRESSION</text>
+    <line x1="15" y1="34" x2="535" y2="34" stroke="#9d00ff" stroke-width="0.3" opacity="0.2"/>
+    
+    <text x="15" y="56" font-family="monospace" font-size="13" fill="#888">Linux</text><rect x="80" y="46" width="400" height="12" rx="4" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.3"/>
+    <rect x="80" y="46" width="360" height="12" rx="4" fill="#00ff88" opacity="0.7" class="gb1"/>
+    <text x="500" y="56" font-family="monospace" font-size="13" fill="#00ff88">90%</text>
+
+    <text x="15" y="80" font-family="monospace" font-size="13" fill="#888">Network</text><rect x="80" y="70" width="400" height="12" rx="4" fill="#0a0a1e" stroke="#00ffff" stroke-width="0.3"/>
+    <rect x="80" y="70" width="300" height="12" rx="4" fill="#00ffff" opacity="0.6" class="gb2"/>
+    <text x="500" y="80" font-family="monospace" font-size="13" fill="#00ffff">75%</text>
+
+    <text x="15" y="104" font-family="monospace" font-size="13" fill="#888">Security</text><rect x="80" y="94" width="400" height="12" rx="4" fill="#0a0a1e" stroke="#ff6600" stroke-width="0.3"/>
+    <rect x="80" y="94" width="240" height="12" rx="4" fill="#ff6600" opacity="0.6" class="gb3"/>
+    <text x="500" y="104" font-family="monospace" font-size="13" fill="#ff6600">60%</text>
+
+    <text x="15" y="128" font-family="monospace" font-size="13" fill="#888">AI/ML</text><rect x="80" y="118" width="400" height="12" rx="4" fill="#0a0a1e" stroke="#9d00ff" stroke-width="0.3"/>
+    <rect x="80" y="118" width="180" height="12" rx="4" fill="#9d00ff" opacity="0.6" class="gb4"/>
+    <text x="500" y="128" font-family="monospace" font-size="13" fill="#9d00ff">45%</text>
+    <circle cx="530" cy="18" r="4" fill="#9d00ff" class="blk"/>
+  </g>
+</svg>

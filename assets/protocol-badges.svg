@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" width="100%" height="auto">
+  <defs><filter id="g"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style><![CDATA[
+      @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}@keyframes pulse{0%,100%{filter:drop-shadow(0 0 4px)}50%{filter:drop-shadow(0 0 14px)}}
+      @keyframes breathe{0%,100%{opacity:0.3}50%{opacity:0.7}}@keyframes scan{0%{transform:translateX(-1200px)}100%{transform:translateX(1200px)}}
+      @keyframes flick{0%,100%{opacity:0.96}2%{opacity:0.2}4%{opacity:0.96}}
+      @keyframes float1{0%,100%{transform:translate(0,0)}50%{transform:translate(-20px,-15px)}}
+      @keyframes float2{0%,100%{transform:translate(0,0)}50%{transform:translate(15px,-20px)}}
+      @keyframes float3{0%,100%{transform:translate(0,0)}50%{transform:translate(-10px,20px)}}
+      @keyframes float4{0%,100%{transform:translate(0,0)}50%{transform:translate(18px,12px)}}
+      @keyframes float5{0%,100%{transform:translate(0,0)}50%{transform:translate(-15px,-10px)}}
+      @keyframes float6{0%,100%{transform:translate(0,0)}50%{transform:translate(12px,-18px)}}
+      .fl1{animation:float1 4s ease-in-out infinite}.fl2{animation:float2 5s ease-in-out 0.5s infinite}
+      .fl3{animation:float3 4.5s ease-in-out 1s infinite}.fl4{animation:float4 5.5s ease-in-out 1.5s infinite}
+      .fl5{animation:float5 4s ease-in-out 0.3s infinite}.fl6{animation:float6 5s ease-in-out 0.8s infinite}
+      .blk{animation:blink 0.8s step-end infinite}.p1{animation:pulse 2s ease-in-out infinite}.br{animation:breathe 4s ease-in-out infinite}.sc{animation:scan 4s linear infinite}.fk{animation:flick 7s infinite}
+    ]]></style>
+  </defs>
+  <rect width="1200" height="200" fill="#02020c" rx="8"/>
+  <rect x="1" y="1" width="1198" height="198" rx="8" fill="none" stroke="#00ff88" stroke-width="0.5" opacity="0.12"/>
+  <rect class="sc" width="1200" height="1" fill="#00ff88" opacity="0.04"/>
+  <rect class="fk" width="1200" height="200" fill="#000" opacity="0.01" pointer-events="none"/>
+  <text x="600" y="24" font-family="monospace" font-size="14" fill="#00ff88" text-anchor="middle" letter-spacing="2" opacity="0.7">PROTOCOL BADGES — OPERATIONAL ACHIEVEMENTS</text>
+
+  <g transform="translate(50, 60)">
+    <rect x="0" y="0" width="160" height="55" rx="8" fill="#0a1a0a" stroke="#00ff88" stroke-width="0.8" class="fl1"/>
+    <text x="80" y="22" font-family="monospace" font-size="15" fill="#00ff88" text-anchor="middle" class="p1">40</text>
+    <text x="80" y="42" font-family="monospace" font-size="11" fill="#888" text-anchor="middle">COMMIT STREAK</text>
+  </g>
+  <g transform="translate(230, 60)">
+    <rect x="0" y="0" width="160" height="55" rx="8" fill="#0a0a1a" stroke="#00ffff" stroke-width="0.8" class="fl2"/>
+    <text x="80" y="22" font-family="monospace" font-size="15" fill="#00ffff" text-anchor="middle" class="p1">50+</text>
+    <text x="80" y="42" font-family="monospace" font-size="11" fill="#888" text-anchor="middle">CVE ANALYZED</text>
+  </g>
+  <g transform="translate(410, 60)">
+    <rect x="0" y="0" width="160" height="55" rx="8" fill="#0a000a" stroke="#ff003c" stroke-width="0.8" class="fl3"/>
+    <text x="80" y="22" font-family="monospace" font-size="15" fill="#ff6666" text-anchor="middle" class="p1">100%</text>
+    <text x="80" y="42" font-family="monospace" font-size="11" fill="#888" text-anchor="middle">UPTIME</text>
+  </g>
+  <g transform="translate(590, 60)">
+    <rect x="0" y="0" width="160" height="55" rx="8" fill="#0a0a1a" stroke="#9d00ff" stroke-width="0.8" class="fl4"/>
+    <text x="80" y="22" font-family="monospace" font-size="15" fill="#9d00ff" text-anchor="middle" class="p1">47d</text>
+    <text x="80" y="42" font-family="monospace" font-size="11" fill="#888" text-anchor="middle">UPTIME</text>
+  </g>
+  <g transform="translate(770, 60)">
+    <rect x="0" y="0" width="160" height="55" rx="8" fill="#0a0a1a" stroke="#ff6600" stroke-width="0.8" class="fl5"/>
+    <text x="80" y="22" font-family="monospace" font-size="15" fill="#ff9900" text-anchor="middle" class="p1">21d</text>
+    <text x="80" y="42" font-family="monospace" font-size="11" fill="#888" text-anchor="middle">BEST STREAK</text>
+  </g>
+  <g transform="translate(950, 60)">
+    <rect x="0" y="0" width="190" height="55" rx="8" fill="#0a1a0a" stroke="#00ff88" stroke-width="1.2" class="fl6"/>
+    <text x="95" y="22" font-family="monospace" font-size="15" fill="#00ff88" text-anchor="middle" class="p1">42</text>
+    <text x="95" y="42" font-family="monospace" font-size="11" fill="#888" text-anchor="middle">SVG ANIMATIONS</text>
+  </g>
+
+  <g transform="translate(50, 145)">
+    <rect x="0" y="0" width="1100" height="36" rx="4" fill="#060618" stroke="#00ff88" stroke-width="0.4" opacity="0.3"/>
+    <text x="15" y="23" font-family="monospace" font-size="12" fill="#555">BADGE PROTOCOL: <tspan fill="#00ff88" class="p1">ALL ACTIVE</tspan></text>
+    <text x="350" y="23" font-family="monospace" font-size="12" fill="#555">LAST UNLOCKED: <tspan fill="#00ffff">42 SVG ANIMATIONS</tspan></text>
+    <text x="750" y="23" font-family="monospace" font-size="12" fill="#555">TIER: <tspan fill="#ff6600">LEGENDARY</tspan></text>
+    <circle cx="1100" cy="17" r="4" fill="#00ff88" class="blk"/>
+  </g>
+</svg>

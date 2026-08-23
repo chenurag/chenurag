@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" width="100%" height="auto">
+  <defs><filter id="g"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style><![CDATA[
+      @keyframes fadeInOut1{0%,20%{opacity:1}25%,95%{opacity:0}100%{opacity:0}}
+      @keyframes fadeInOut2{0%,20%{opacity:0}25%,45%{opacity:1}50%,95%{opacity:0}100%{opacity:0}}
+      @keyframes fadeInOut3{0%,45%{opacity:0}50%,70%{opacity:1}75%,95%{opacity:0}100%{opacity:0}}
+      @keyframes fadeInOut4{0%,70%{opacity:0}75%,100%{opacity:1}}
+      @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}@keyframes pulse{0%,100%{filter:drop-shadow(0 0 4px)}50%{filter:drop-shadow(0 0 14px)}}
+      @keyframes breathe{0%,100%{opacity:0.3}50%{opacity:0.7}}
+      .f1{animation:fadeInOut1 16s infinite}.f2{animation:fadeInOut2 16s infinite}.f3{animation:fadeInOut3 16s infinite}.f4{animation:fadeInOut4 16s infinite}
+      .blk{animation:blink 0.8s step-end infinite}.p1{animation:pulse 2s ease-in-out infinite}.br{animation:breathe 4s ease-in-out infinite}
+    ]]></style>
+  </defs>
+  <rect width="1200" height="220" fill="#02020c" rx="8"/>
+  <rect x="1" y="1" width="1198" height="218" rx="8" fill="none" stroke="#00ff88" stroke-width="0.5" opacity="0.12"/>
+  <text x="600" y="24" font-family="monospace" font-size="14" fill="#00ff88" text-anchor="middle" letter-spacing="2" opacity="0.7">CORE VALUES — OPERATING PRINCIPLES</text>
+
+  <g class="f1" transform="translate(60, 55)">
+    <circle cx="0" cy="0" r="18" fill="#0a1a0a" stroke="#00ff88" stroke-width="2" class="p1"/>
+    <text x="0" y="6" font-family="monospace" font-size="16" fill="#00ff88" text-anchor="middle">1</text>
+    <text x="50" y="8" font-family="monospace" font-size="16" fill="#00ff88">LEARN THE SYSTEM</text>
+    <text x="50" y="32" font-family="monospace" font-size="13" fill="#aaa">Master every layer before attempting defense. Understanding is the first weapon.</text>
+    <text x="50" y="54" font-family="monospace" font-size="12" fill="#888">STATUS: <tspan fill="#00ff88" class="blk">ACTIVE</tspan></text>
+  </g>
+  <g class="f2" transform="translate(60, 55)">
+    <circle cx="0" cy="0" r="18" fill="#0a0a1a" stroke="#00ffff" stroke-width="2" class="p1"/>
+    <text x="0" y="6" font-family="monospace" font-size="16" fill="#00ffff" text-anchor="middle">2</text>
+    <text x="50" y="8" font-family="monospace" font-size="16" fill="#00ffff">BREAK ASSUMPTIONS</text>
+    <text x="50" y="32" font-family="monospace" font-size="13" fill="#aaa">Test every boundary. Attack your own models. Edge cases are vulnerabilities.</text>
+    <text x="50" y="54" font-family="monospace" font-size="12" fill="#888">STATUS: <tspan fill="#00ffff" class="blk">ACTIVE</tspan></text>
+  </g>
+  <g class="f3" transform="translate(60, 55)">
+    <circle cx="0" cy="0" r="18" fill="#0a000a" stroke="#ff003c" stroke-width="2" class="p1"/>
+    <text x="0" y="6" font-family="monospace" font-size="16" fill="#ff6666" text-anchor="middle">3</text>
+    <text x="50" y="8" font-family="monospace" font-size="16" fill="#ff6666">BUILD THE DEFENSE</text>
+    <text x="50" y="32" font-family="monospace" font-size="13" fill="#aaa">Theory without applied practice is philosophy. Build, break, rebuild stronger.</text>
+    <text x="50" y="54" font-family="monospace" font-size="12" fill="#888">STATUS: <tspan fill="#ff6666" class="blk">ACTIVE</tspan></text>
+  </g>
+  <g class="f4" transform="translate(60, 55)">
+    <circle cx="0" cy="0" r="18" fill="#0a0a1a" stroke="#9d00ff" stroke-width="2" class="p1"/>
+    <text x="0" y="6" font-family="monospace" font-size="16" fill="#9d00ff" text-anchor="middle">4</text>
+    <text x="50" y="8" font-family="monospace" font-size="16" fill="#9d00ff">AUTOMATE EVERYTHING</text>
+    <text x="50" y="32" font-family="monospace" font-size="13" fill="#aaa">Humans make mistakes. Scripts iterate flawlessly. Automate or be outpaced.</text>
+    <text x="50" y="54" font-family="monospace" font-size="12" fill="#888">STATUS: <tspan fill="#9d00ff" class="blk">ACTIVE</tspan></text>
+  </g>
+
+  <g transform="translate(60, 155)">
+    <rect x="0" y="0" width="1080" height="40" rx="4" fill="#060618" stroke="#00ff88" stroke-width="0.4" opacity="0.3"/>
+    <text x="15" y="25" font-family="monospace" font-size="13" fill="#555">CORE VALUES ROTATION: <tspan fill="#00ff88" class="br">4 PRINCIPLES</tspan></text>
+    <text x="450" y="25" font-family="monospace" font-size="13" fill="#555">CREED: <tspan fill="#00ffff">SECURE THE DIGITAL GALAXY</tspan></text>
+    <circle cx="1060" cy="19" r="4" fill="#00ff88" class="blk"/>
+  </g>
+</svg>

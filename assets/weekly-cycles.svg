@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 230" width="100%" height="auto">
+  <defs><filter id="g"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style><![CDATA[
+      @keyframes wave1{0%,100%{transform:translateY(0)}25%{transform:translateY(-12px)}50%{transform:translateY(0)}75%{transform:translateY(-8px)}}
+      @keyframes wave2{0%,100%{transform:translateY(0)}25%{transform:translateY(-8px)}50%{transform:translateY(0)}75%{transform:translateY(-14px)}}
+      @keyframes wave3{0%,100%{transform:translateY(0)}25%{transform:translateY(-14px)}50%{transform:translateY(-4px)}75%{transform:translateY(0)}}
+      @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}@keyframes pulse{0%,100%{filter:drop-shadow(0 0 4px)}50%{filter:drop-shadow(0 0 14px)}}
+      @keyframes breathe{0%,100%{opacity:0.3}50%{opacity:0.7}}@keyframes scan{0%{transform:translateX(-1200px)}100%{transform:translateX(1200px)}}
+      .w1{animation:wave1 2s ease-in-out infinite}.w2{animation:wave2 2.3s ease-in-out 0.3s infinite}.w3{animation:wave3 2.6s ease-in-out 0.6s infinite}
+      .blk{animation:blink 0.8s step-end infinite}.p1{animation:pulse 2s ease-in-out infinite}.br{animation:breathe 4s ease-in-out infinite}.sc{animation:scan 4s linear infinite}
+    ]]></style>
+  </defs>
+  <rect width="1200" height="230" fill="#02020c" rx="8"/>
+  <rect x="1" y="1" width="1198" height="228" rx="8" fill="none" stroke="#00ff88" stroke-width="0.5" opacity="0.12"/>
+  <rect class="sc" width="1200" height="1" fill="#00ff88" opacity="0.04"/>
+  <text x="600" y="24" font-family="monospace" font-size="14" fill="#00ff88" text-anchor="middle" letter-spacing="2" opacity="0.7">WEEKLY CYCLES — ENERGY &amp; PRODUCTIVITY TRACKER</text>
+
+  <g transform="translate(60, 140)">
+    <g class="w1"><rect x="0" y="0" width="60" height="40" rx="4" fill="#00ff88" opacity="0.6"/><text x="30" y="25" font-family="monospace" font-size="13" fill="#000" text-anchor="middle">MON</text></g>
+    <g class="w2"><rect x="80" y="0" width="60" height="52" rx="4" fill="#00ffff" opacity="0.6"/><text x="110" y="25" font-family="monospace" font-size="13" fill="#000" text-anchor="middle">TUE</text></g>
+    <g class="w3"><rect x="160" y="0" width="60" height="68" rx="4" fill="#00ff88" opacity="0.7"/><text x="190" y="25" font-family="monospace" font-size="13" fill="#000" text-anchor="middle">WED</text></g>
+    <g class="w1"><rect x="240" y="0" width="60" height="75" rx="4" fill="#00ffff" opacity="0.7"/><text x="270" y="25" font-family="monospace" font-size="13" fill="#000" text-anchor="middle">THU</text></g>
+    <g class="w2"><rect x="320" y="0" width="60" height="85" rx="4" fill="#ff6600" opacity="0.7"/><text x="350" y="25" font-family="monospace" font-size="13" fill="#000" text-anchor="middle">FRI</text></g>
+    <g class="w3"><rect x="400" y="0" width="60" height="55" rx="4" fill="#9d00ff" opacity="0.6"/><text x="430" y="25" font-family="monospace" font-size="13" fill="#000" text-anchor="middle">SAT</text></g>
+    <g class="w1"><rect x="480" y="0" width="60" height="65" rx="4" fill="#00ff88" opacity="0.6"/><text x="510" y="25" font-family="monospace" font-size="13" fill="#000" text-anchor="middle">SUN</text></g>
+    <line x1="0" y1="90" x2="550" y2="90" stroke="#00ff88" stroke-width="0.5" opacity="0.2"/>
+  </g>
+
+  <g transform="translate(620, 42)">
+    <rect x="0" y="0" width="550" height="65" rx="6" fill="#040416" stroke="#00ff88" stroke-width="0.5"/>
+    <text x="15" y="24" font-family="monospace" font-size="13" fill="#00ff88" font-weight="bold">MOST PRODUCTIVE DAY</text>
+    <text x="15" y="48" font-family="monospace" font-size="14" fill="#00ffff" class="p1">FRIDAY — PEAK AT 22:00 IST</text>
+    <circle cx="530" cy="18" r="4" fill="#00ff88" class="blk"/>
+  </g>
+  <g transform="translate(620, 122)">
+    <rect x="0" y="0" width="550" height="65" rx="6" fill="#040416" stroke="#00ffff" stroke-width="0.5"/>
+    <text x="15" y="24" font-family="monospace" font-size="13" fill="#00ffff" font-weight="bold">FOCUS METER</text>
+    <rect x="15" y="38" width="380" height="12" rx="4" fill="#0a0a1e" stroke="#00ff88" stroke-width="0.3"/>
+    <rect x="15" y="38" width="310" height="12" rx="4" fill="url(#g)" opacity="0.7"><animate attributeName="width" values="0;310" dur="2s" fill="freeze"/></rect>
+    <text x="410" y="49" font-family="monospace" font-size="14" fill="#00ff88" class="p1">82%</text>
+    <circle cx="530" cy="18" r="4" fill="#00ffff" class="blk"/>
+  </g>
+</svg>

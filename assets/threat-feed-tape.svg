@@ -16,17 +16,17 @@
   <rect x="1" y="1" width="1198" height="218" rx="8" fill="none" stroke="#00ff88" stroke-width="0.5" opacity="0.12"/>
   <rect class="sc" width="1200" height="1" fill="#00ff88" opacity="0.04"/>
   <rect class="fk" width="1200" height="220" fill="#000" opacity="0.01" pointer-events="none"/>
-  <text x="600" y="22" font-family="monospace" font-size="10" fill="#00ff88" text-anchor="middle" letter-spacing="2" opacity="0.6">THREAT INTELLIGENCE FEED — LIVE TAPE</text>
+  <text x="600" y="22" font-family="monospace" font-size="14" fill="#00ff88" text-anchor="middle" letter-spacing="2" opacity="0.6">THREAT INTELLIGENCE FEED — LIVE TAPE</text>
 
   <rect x="0" y="0" width="80" height="220" rx="8" fill="#04041a"/>
   <circle cx="15" cy="18" r="4" fill="#ff003c" class="blk" filter="url(#g)"/>
-  <text x="10" y="38" font-family="monospace" font-size="8" fill="#ff6666" font-weight="bold" class="blk">LIVE</text>
-  <text x="8" y="56" font-family="monospace" font-size="8" fill="#555">THREAT</text>
-  <text x="8" y="72" font-family="monospace" font-size="8" fill="#555">FEED</text>
+  <text x="10" y="38" font-family="monospace" font-size="14" fill="#ff6666" font-weight="bold" class="blk">LIVE</text>
+  <text x="8" y="56" font-family="monospace" font-size="14" fill="#555">THREAT</text>
+  <text x="8" y="72" font-family="monospace" font-size="14" fill="#555">FEED</text>
 
   <g clip-path="url(#tc)">
     <defs><clipPath id="tc"><rect x="80" y="5" width="1120" height="210"/></clipPath></defs>
-    <g class="su" font-family="monospace" font-size="10">
+    <g class="su" font-family="monospace" font-size="12">
       <text x="95" y="25" fill="#00ff88">[INFO] System scan complete — 0 threats found</text>
       <text x="95" y="45" fill="#888">[INFO] IDS signature update #8472 applied</text>
       <text x="95" y="65" fill="#ff6600">[WARN] Unusual outbound traffic detected — 1.2.3.4:443</text>

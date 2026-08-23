@@ -27,21 +27,21 @@
   <rect class="sc" width="1200" height="1" fill="#00ff88" opacity="0.04"/>
   <rect class="fk" width="1200" height="260" fill="#000" opacity="0.01" pointer-events="none"/>
 
-  <text x="600" y="24" font-family="monospace" font-size="10" fill="#00ff88" text-anchor="middle" letter-spacing="2" opacity="0.6">📈 ACTIVITY GRID — 26 WEEKS OF OPERATIONS</text>
+  <text x="600" y="24" font-family="monospace" font-size="14" fill="#00ff88" text-anchor="middle" letter-spacing="2" opacity="0.6">📈 ACTIVITY GRID — 26 WEEKS OF OPERATIONS</text>
 
   <g transform="translate(60, 42)">
-    <text x="0" y="-4" font-family="monospace" font-size="7" fill="#444">JAN</text>
-    <text x="140" y="-4" font-family="monospace" font-size="7" fill="#444">FEB</text>
-    <text x="280" y="-4" font-family="monospace" font-size="7" fill="#444">MAR</text>
-    <text x="420" y="-4" font-family="monospace" font-size="7" fill="#444">APR</text>
-    <text x="560" y="-4" font-family="monospace" font-size="7" fill="#444">MAY</text>
-    <text x="700" y="-4" font-family="monospace" font-size="7" fill="#444">JUN</text>
-    <text x="840" y="-4" font-family="monospace" font-size="7" fill="#444">JUL</text>
-    <text x="980" y="-4" font-family="monospace" font-size="7" fill="#444">AUG</text>
-    <text x="-14" y="10" font-family="monospace" font-size="7" fill="#444" text-anchor="end">Mon</text>
-    <text x="-14" y="38" font-family="monospace" font-size="7" fill="#444" text-anchor="end">Wed</text>
-    <text x="-14" y="66" font-family="monospace" font-size="7" fill="#444" text-anchor="end">Fri</text>
-    <text x="-14" y="94" font-family="monospace" font-size="7" fill="#444" text-anchor="end">Sun</text>
+    <text x="0" y="-4" font-family="monospace" font-size="14" fill="#444">JAN</text>
+    <text x="140" y="-4" font-family="monospace" font-size="14" fill="#444">FEB</text>
+    <text x="280" y="-4" font-family="monospace" font-size="14" fill="#444">MAR</text>
+    <text x="420" y="-4" font-family="monospace" font-size="14" fill="#444">APR</text>
+    <text x="560" y="-4" font-family="monospace" font-size="14" fill="#444">MAY</text>
+    <text x="700" y="-4" font-family="monospace" font-size="14" fill="#444">JUN</text>
+    <text x="840" y="-4" font-family="monospace" font-size="14" fill="#444">JUL</text>
+    <text x="980" y="-4" font-family="monospace" font-size="14" fill="#444">AUG</text>
+    <text x="-14" y="10" font-family="monospace" font-size="14" fill="#444" text-anchor="end">Mon</text>
+    <text x="-14" y="38" font-family="monospace" font-size="14" fill="#444" text-anchor="end">Wed</text>
+    <text x="-14" y="66" font-family="monospace" font-size="14" fill="#444" text-anchor="end">Fri</text>
+    <text x="-14" y="94" font-family="monospace" font-size="14" fill="#444" text-anchor="end">Sun</text>
 
 <rect class="c1" x="0" y="0" width="10" height="10" rx="2" fill="#0d1117"/>
 <rect class="c2" x="14" y="0" width="10" height="10" rx="2" fill="#0a3a1e"/>
@@ -228,7 +228,7 @@
 
     <!-- Legend -->
     <g transform="translate(0, 128)">
-      <text x="0" y="0" font-family="monospace" font-size="8" fill="#555">LESS</text>
+      <text x="0" y="0" font-family="monospace" font-size="14" fill="#555">LESS</text>
       <rect x="40" y="-8" width="10" height="10" rx="2" fill="#0d1117"/>
       <rect x="55" y="-8" width="10" height="10" rx="2" fill="#0a3a1e"/>
       <rect x="70" y="-8" width="10" height="10" rx="2" fill="#0a4a28"/>
@@ -236,17 +236,17 @@
       <rect x="100" y="-8" width="10" height="10" rx="2" fill="#00aa44"/>
       <rect x="115" y="-8" width="10" height="10" rx="2" fill="#00dd66"/>
       <rect x="130" y="-8" width="10" height="10" rx="2" fill="#00ff88"/>
-      <text x="145" y="0" font-family="monospace" font-size="8" fill="#555">MORE</text>
-      <text x="220" y="0" font-family="monospace" font-size="8" fill="#00ff88" class="p1">● TODAY: ACTIVE</text>
+      <text x="145" y="0" font-family="monospace" font-size="14" fill="#555">MORE</text>
+      <text x="220" y="0" font-family="monospace" font-size="14" fill="#00ff88" class="p1">● TODAY: ACTIVE</text>
     </g>
   </g>
 
   <g transform="translate(30, 215)">
     <rect x="0" y="0" width="1140" height="30" rx="4" fill="#060618" stroke="#00ff88" stroke-width="0.4" opacity="0.3"/>
-    <text x="15" y="19" font-family="monospace" font-size="9" fill="#555">TOTAL CONTRIBUTIONS: <tspan fill="#00ff88" class="br">1,247</tspan></text>
-    <text x="300" y="19" font-family="monospace" font-size="9" fill="#555">LONGEST STREAK: <tspan fill="#00ffff">21 days</tspan></text>
-    <text x="550" y="19" font-family="monospace" font-size="9" fill="#555">CURRENT STREAK: <tspan fill="#00ff88" class="p1">● 7 days</tspan></text>
-    <text x="800" y="19" font-family="monospace" font-size="9" fill="#555">LAST SYNC: <tspan fill="#00ffff">TODAY</tspan></text>
+    <text x="15" y="19" font-family="monospace" font-size="15" fill="#555">TOTAL CONTRIBUTIONS: <tspan fill="#00ff88" class="br">1,247</tspan></text>
+    <text x="300" y="19" font-family="monospace" font-size="15" fill="#555">LONGEST STREAK: <tspan fill="#00ffff">21 days</tspan></text>
+    <text x="550" y="19" font-family="monospace" font-size="15" fill="#555">CURRENT STREAK: <tspan fill="#00ff88" class="p1">● 7 days</tspan></text>
+    <text x="800" y="19" font-family="monospace" font-size="15" fill="#555">LAST SYNC: <tspan fill="#00ffff">TODAY</tspan></text>
     <circle cx="1105" cy="14" r="3" fill="#00ff88" class="blk"/>
   </g>
 </svg>

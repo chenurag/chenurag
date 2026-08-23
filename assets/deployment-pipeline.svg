@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" width="100%" height="auto">
+  <defs><filter id="g"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style><![CDATA[
+      @keyframes blip{0%{transform:translateX(0);opacity:0}10%{opacity:1}90%{opacity:1}100%{transform:translateX(160px);opacity:0}}
+      @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}@keyframes pulse{0%,100%{filter:drop-shadow(0 0 4px)}50%{filter:drop-shadow(0 0 14px)}}
+      @keyframes breathe{0%,100%{opacity:0.3}50%{opacity:0.7}}@keyframes scan{0%{transform:translateX(-1200px)}100%{transform:translateX(1200px)}}
+      @keyframes flick{0%,100%{opacity:0.96}2%{opacity:0.2}4%{opacity:0.96}}@keyframes drawLine{0%{stroke-dashoffset:200}100%{stroke-dashoffset:0}}
+      .bp{animation:blip 2s linear infinite}.bp2{animation:blip 2.5s linear 0.5s infinite}.bp3{animation:blip 3s linear 1s infinite}
+      .dl{stroke-dasharray:200;stroke-dashoffset:200;animation:drawLine 2s ease-out 0.3s both}
+      .blk{animation:blink 0.8s step-end infinite}.p1{animation:pulse 2s ease-in-out infinite}
+      .br{animation:breathe 4s ease-in-out infinite}.sc{animation:scan 4s linear infinite}.fk{animation:flick 7s infinite}
+    ]]></style>
+  </defs>
+  <rect width="1200" height="220" fill="#02020c" rx="8"/>
+  <rect x="1" y="1" width="1198" height="218" rx="8" fill="none" stroke="#00ff88" stroke-width="0.5" opacity="0.12"/>
+  <rect class="sc" width="1200" height="1" fill="#00ff88" opacity="0.04"/>
+  <rect class="fk" width="1200" height="220" fill="#000" opacity="0.01" pointer-events="none"/>
+  <text x="600" y="24" font-family="monospace" font-size="14" fill="#00ff88" text-anchor="middle" letter-spacing="2" opacity="0.7">DEPLOYMENT PIPELINE — CI/CD STATUS DASHBOARD</text>
+
+  <g transform="translate(50, 55)">
+    <rect x="0" y="0" width="180" height="50" rx="6" fill="#0a1a0a" stroke="#00ff88" stroke-width="0.8"/>
+    <circle cx="20" cy="25" r="5" fill="#00ff88" class="p1"/>
+    <text x="35" y="22" font-family="monospace" font-size="14" fill="#00ff88" font-weight="bold">BUILD</text>
+    <text x="35" y="40" font-family="monospace" font-size="13" fill="#888">PASSED</text>
+    <line x1="185" y1="25" x2="205" y2="25" stroke="#00ff88" stroke-width="1.5" class="dl"/>
+    <circle cx="195" cy="25" r="4" fill="#00ff88" class="bp"/>
+  </g>
+  <g transform="translate(220, 55)">
+    <rect x="0" y="0" width="180" height="50" rx="6" fill="#0a0a1a" stroke="#00ffff" stroke-width="0.8"/>
+    <circle cx="20" cy="25" r="5" fill="#00ffff" class="blk"/>
+    <text x="35" y="22" font-family="monospace" font-size="14" fill="#00ffff" font-weight="bold">TEST</text>
+    <text x="35" y="40" font-family="monospace" font-size="13" fill="#888">PASSED</text>
+    <line x1="185" y1="25" x2="205" y2="25" stroke="#00ffff" stroke-width="1.5" class="dl"/>
+    <circle cx="195" cy="25" r="4" fill="#00ffff" class="bp2"/>
+  </g>
+  <g transform="translate(390, 55)">
+    <rect x="0" y="0" width="180" height="50" rx="6" fill="#0a0a1a" stroke="#9d00ff" stroke-width="0.8"/>
+    <circle cx="20" cy="25" r="5" fill="#9d00ff" class="p1"/>
+    <text x="35" y="22" font-family="monospace" font-size="14" fill="#9d00ff" font-weight="bold">DEPLOY</text>
+    <text x="35" y="40" font-family="monospace" font-size="13" fill="#888">COMPLETE</text>
+    <line x1="185" y1="25" x2="205" y2="25" stroke="#9d00ff" stroke-width="1.5" class="dl"/>
+    <circle cx="195" cy="25" r="4" fill="#9d00ff" class="bp3"/>
+  </g>
+  <g transform="translate(560, 55)">
+    <rect x="0" y="0" width="180" height="50" rx="6" fill="#0a1a0a" stroke="#00ff88" stroke-width="1.2"/>
+    <circle cx="20" cy="25" r="5" fill="#00ff88" class="p1"/>
+    <text x="35" y="22" font-family="monospace" font-size="14" fill="#00ff88" font-weight="bold">MONITOR</text>
+    <text x="35" y="40" font-family="monospace" font-size="13" fill="#888">ACTIVE</text>
+    <line x1="185" y1="25" x2="205" y2="25" stroke="#00ff88" stroke-width="1.5" class="dl"/>
+    <circle cx="195" cy="25" r="4" fill="#00ff88" class="bp"/>
+  </g>
+
+  <g transform="translate(50, 125)">
+    <rect x="0" y="0" width="350" height="55" rx="6" fill="#040416" stroke="#00ff88" stroke-width="0.5"/>
+    <text x="15" y="22" font-family="monospace" font-size="14" fill="#00ff88" font-weight="bold">LAST DEPLOYMENT</text>
+    <text x="15" y="42" font-family="monospace" font-size="14" fill="#888">v4.6 · 2 min ago · <tspan fill="#00ff88" class="p1">SUCCESS</tspan></text>
+    <circle cx="330" cy="18" r="4" fill="#00ff88" class="blk"/>
+  </g>
+  <g transform="translate(420, 125)">
+    <rect x="0" y="0" width="350" height="55" rx="6" fill="#040416" stroke="#00ffff" stroke-width="0.5"/>
+    <text x="15" y="22" font-family="monospace" font-size="14" fill="#00ffff" font-weight="bold">PIPELINE HEALTH</text>
+    <text x="15" y="42" font-family="monospace" font-size="14" fill="#888">UPTIME: <tspan fill="#00ff88">99.9%</tspan> · FAILURES: <tspan fill="#ff003c">0</tspan></text>
+    <circle cx="330" cy="18" r="4" fill="#00ffff" class="blk"/>
+  </g>
+  <g transform="translate(790, 125)">
+    <rect x="0" y="0" width="360" height="55" rx="6" fill="#040416" stroke="#9d00ff" stroke-width="0.5"/>
+    <text x="15" y="22" font-family="monospace" font-size="14" fill="#9d00ff" font-weight="bold">AUTO-DEPLOY</text>
+    <text x="15" y="42" font-family="monospace" font-size="14" fill="#888">Git Push → Auto Deploy → <tspan fill="#00ff88">ENABLED</tspan></text>
+    <circle cx="340" cy="18" r="4" fill="#9d00ff" class="blk"/>
+  </g>
+</svg>

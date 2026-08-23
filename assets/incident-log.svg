@@ -22,13 +22,13 @@
   <rect class="fk" width="1200" height="220" fill="#000" opacity="0.01" pointer-events="none"/>
 
   <rect x="0" y="0" width="80" height="220" rx="8" fill="#04041a"/>
-  <text x="12" y="22" font-family="monospace" font-size="8" fill="#ff003c" class="blk">● LIVE</text>
-  <text x="12" y="40" font-family="monospace" font-size="8" fill="#555">EVENT</text>
-  <text x="12" y="55" font-family="monospace" font-size="8" fill="#555">LOG</text>
+  <text x="12" y="22" font-family="monospace" font-size="14" fill="#ff003c" class="blk">● LIVE</text>
+  <text x="12" y="40" font-family="monospace" font-size="14" fill="#555">EVENT</text>
+  <text x="12" y="55" font-family="monospace" font-size="14" fill="#555">LOG</text>
 
   <g clip-path="url(#logClip)">
     <defs><clipPath id="logClip"><rect x="80" y="5" width="1120" height="210"/></clipPath></defs>
-    <g class="su" font-family="monospace" font-size="10">
+    <g class="su" font-family="monospace" font-size="12">
       <text x="95" y="22" fill="#888">[2026-08-23 14:32] SYSTEM PROFILE UPDATED ✓</text>
       <text x="95" y="40" fill="#888">[2026-08-23 14:31] SKILL MATRIX RECALIBRATED ✓</text>
       <text x="95" y="58" fill="#888">[2026-08-23 14:30] ARSENAL VERIFIED: 49 TOOLS ONLINE ✓</text>

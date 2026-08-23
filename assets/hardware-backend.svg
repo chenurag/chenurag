@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" width="100%" height="auto">
+  <defs><filter id="g"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style><![CDATA[
+      @keyframes fillBar{0%{width:0}100%{width:var(--w)}}
+      @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}@keyframes pulse{0%,100%{filter:drop-shadow(0 0 4px)}50%{filter:drop-shadow(0 0 14px)}}
+      @keyframes breathe{0%,100%{opacity:0.3}50%{opacity:0.7}}@keyframes scan{0%{transform:translateX(-1200px)}100%{transform:translateX(1200px)}}
+      @keyframes flick{0%,100%{opacity:0.96}2%{opacity:0.2}4%{opacity:0.96}}
+      .fb1{--w:320px;animation:fillBar 2s ease-out 0.2s both}.fb2{--w:260px;animation:fillBar 2s ease-out 0.4s both}
+      .fb3{--w:200px;animation:fillBar 2s ease-out 0.6s both}.fb4{--w:140px;animation:fillBar 2s ease-out 0.8s both}
+      .blk{animation:blink 0.8s step-end infinite}.p1{animation:pulse 2s ease-in-out infinite}
+      .br{animation:breathe 4s ease-in-out infinite}.sc{animation:scan 4s linear infinite}.fk{animation:flick 7s infinite}
+    ]]></style>
+  </defs>
+  <rect width="1200" height="220" fill="#02020c" rx="8"/>
+  <rect x="1" y="1" width="1198" height="218" rx="8" fill="none" stroke="#00ff88" stroke-width="0.5" opacity="0.12"/>
+  <rect class="sc" width="1200" height="1" fill="#00ff88" opacity="0.04"/>
+  <rect class="fk" width="1200" height="220" fill="#000" opacity="0.01" pointer-events="none"/>
+  <text x="600" y="24" font-family="monospace" font-size="14" fill="#00ff88" text-anchor="middle" letter-spacing="2" opacity="0.7">HARDWARE BACKEND — SYSTEM SPECIFICATIONS</text>
+
+  <g transform="translate(40, 50)">
+    <rect x="0" y="0" width="1120" height="35" rx="6" fill="#040416" stroke="#00ff88" stroke-width="0.5"/>
+    <text x="15" y="23" font-family="monospace" font-size="14" fill="#00ff88" font-weight="bold" class="p1">HOST SYSTEM</text>
+    <text x="180" y="23" font-family="monospace" font-size="14" fill="#888">Intel i7-12700H · 16GB DDR4 · NVIDIA RTX 3050 · 512GB NVMe</text>
+    <circle cx="1090" cy="17" r="4" fill="#00ff88" class="blk"/>
+  </g>
+  <g transform="translate(40, 95)">
+    <rect x="0" y="0" width="1120" height="35" rx="6" fill="#040416" stroke="#00ffff" stroke-width="0.5"/>
+    <text x="15" y="23" font-family="monospace" font-size="14" fill="#00ffff" font-weight="bold">VIRTUAL LAB</text>
+    <text x="180" y="23" font-family="monospace" font-size="14" fill="#888">VirtualBox · Proxmox VE · 8 VMs · Kali · Ubuntu · Metasploitable</text>
+    <circle cx="1090" cy="17" r="4" fill="#00ffff" class="blk"/>
+  </g>
+  <g transform="translate(40, 140)">
+    <rect x="0" y="0" width="1120" height="35" rx="6" fill="#040416" stroke="#9d00ff" stroke-width="0.5"/>
+    <text x="15" y="23" font-family="monospace" font-size="14" fill="#9d00ff" font-weight="bold">NETWORK RIG</text>
+    <text x="180" y="23" font-family="monospace" font-size="14" fill="#888">Dual Router Setup · pfSense · OpenVPN · Pi-Hole · VLAN Segmentation</text>
+    <circle cx="1090" cy="17" r="4" fill="#9d00ff" class="blk"/>
+  </g>
+  <g transform="translate(40, 185)">
+    <rect x="0" y="0" width="1120" height="28" rx="4" fill="#060618" stroke="#00ff88" stroke-width="0.4" opacity="0.3"/>
+    <text x="15" y="18" font-family="monospace" font-size="13" fill="#555">HARDWARE STATUS: <tspan fill="#00ff88" class="p1">ALL OPERATIONAL</tspan></text>
+    <text x="500" y="18" font-family="monospace" font-size="13" fill="#555">LAB ACCESS: <tspan fill="#00ffff" class="br">REMOTE ENABLED</tspan></text>
+  </g>
+</svg>
