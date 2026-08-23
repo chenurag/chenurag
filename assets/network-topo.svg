@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 460" width="100%" height="auto">
+  <defs>
+    <filter id="glow-pulse">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="line-up" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#00ff88" stop-opacity="0"/><stop offset="80%" stop-color="#00ff88" stop-opacity="0.4"/><stop offset="100%" stop-color="#00ff88" stop-opacity="0.8"/>
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#00ff88"/>
+    </marker>
+    <style>
+      @keyframes glow-pulse { 0%, 100% { filter: drop-shadow(0 0 4px rgba(0,255,136,0.5)); } 50% { filter: drop-shadow(0 0 10px rgba(0,255,136,0.9)); } }
+      @keyframes pulse { 0%, 100% { opacity: 0.4; } 50% { opacity: 1; } }
+      @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+      @keyframes flow-up { 0% { stroke-dashoffset: 40; } 100% { stroke-dashoffset: 0; } }
+      @keyframes flow-down { 0% { stroke-dashoffset: 0; } 100% { stroke-dashoffset: 40; } }
+      @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+      .node-glow { animation: glow-pulse 3s ease-in-out infinite; }
+      .node-pulse { animation: pulse 2s ease-in-out infinite; }
+      .blink-dot { animation: blink 1s step-end infinite; }
+      .packet-up { stroke-dasharray: 8 12; animation: flow-up 0.8s linear infinite; }
+      .packet-down { stroke-dasharray: 8 12; animation: flow-down 0.8s linear infinite; }
+    </style>
+  </defs>
+
+  <rect width="700" height="460" fill="#04040e" rx="8"/>
+  <rect x="2" y="2" width="696" height="456" rx="8" fill="none" stroke="#00ff88" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- Title -->
+  <text x="350" y="30" font-family="monospace" font-size="12" fill="#00ff88" text-anchor="middle" letter-spacing="3" opacity="0.7">⚡ SHADOW LAB :: NETWORK TOPOLOGY</text>
+  <line x1="30" y1="38" x2="670" y2="38" stroke="#00ff88" stroke-width="0.5" opacity="0.15"/>
+
+  <!-- Internet cloud -->
+  <g transform="translate(350, 65)">
+    <path d="M-30,15 Q-50,0 -30,-15 L30,-15 Q50,0 30,15 Z" fill="#0a0a1e" stroke="#00ffff" stroke-width="1.2" opacity="0.7"/>
+    <text x="0" y="4" font-family="monospace" font-size="10" fill="#00ffff" text-anchor="middle" class="node-pulse">INTERNET</text>
+  </g>
+
+  <!-- Connections: Internet → Firewall -->
+  <line x1="350" y1="85" x2="350" y2="125" stroke="#00ff88" stroke-width="1" class="packet-down" marker-end="url(#arrow)"/>
+
+  <!-- Firewall -->
+  <g transform="translate(350, 140)">
+    <rect x="-45" y="-20" width="90" height="40" rx="4" fill="#1a0000" stroke="#ff003c" stroke-width="1.5"/>
+    <rect x="-45" y="-20" width="90" height="40" rx="4" fill="none" class="node-glow"/>
+    <text x="0" y="-5" font-family="monospace" font-size="9" fill="#ff003c" text-anchor="middle" font-weight="bold">FIREWALL</text>
+    <text x="0" y="8" font-family="monospace" font-size="7" fill="#ff6666" text-anchor="middle">▣ RULES: 47</text>
+    <text x="0" y="16" font-family="monospace" font-size="6" fill="#ff003c" text-anchor="middle" opacity="0.5">TCP/443 OPEN  TCP/80 OPEN</text>
+  </g>
+
+  <!-- Firewall → Router -->
+  <line x1="350" y1="160" x2="350" y2="200" stroke="#00ff88" stroke-width="1" class="packet-down"/>
+
+  <!-- Router -->
+  <g transform="translate(350, 215)">
+    <rect x="-50" y="-18" width="100" height="36" rx="4" fill="#0a0a1e" stroke="#00ffff" stroke-width="1.2"/>
+    <circle cx="-15" cy="0" r="8" fill="#0a0a1e" stroke="#00ffff" stroke-width="1"/>
+    <text x="-15" y="3" font-family="monospace" font-size="7" fill="#00ffff" text-anchor="middle">▶</text>
+    <text x="10" y="-3" font-family="monospace" font-size="9" fill="#00ffff" text-anchor="middle">ROUTER</text>
+    <text x="10" y="9" font-family="monospace" font-size="7" fill="#00ffff" text-anchor="middle" opacity="0.5">192.168.1.1</text>
+  </g>
+
+  <!-- Router → Switch -->
+  <line x1="350" y1="233" x2="350" y2="268" stroke="#00ff88" stroke-width="1" class="packet-down"/>
+
+  <!-- Switch -->
+  <g transform="translate(350, 283)">
+    <rect x="-55" y="-18" width="110" height="36" rx="4" fill="#0a0a1e" stroke="#00ff88" stroke-width="1" opacity="0.8"/>
+    <rect x="-48" y="-12" width="96" height="24" rx="2" fill="#00ff88" opacity="0.05"/>
+    <circle cx="-30" cy="0" r="3" fill="#00ff88" class="node-pulse"/>
+    <circle cx="-20" cy="0" r="3" fill="#00ff88" class="node-pulse"/>
+    <circle cx="-10" cy="0" r="3" fill="#00ff88" class="node-pulse"/>
+    <circle cx="0" cy="0" r="3" fill="#00ff88" class="node-pulse"/>
+    <circle cx="10" cy="0" r="3" fill="#00ff88" class="node-pulse"/>
+    <circle cx="20" cy="0" r="3" fill="#00ff88" class="node-pulse"/>
+    <circle cx="30" cy="0" r="3" fill="#00ff88" class="node-pulse"/>
+    <text x="0" y="-24" font-family="monospace" font-size="9" fill="#00ff88" text-anchor="middle">SWITCH</text>
+  </g>
+
+  <!-- Switch → 3 branches -->
+  <line x1="350" y1="301" x2="350" y2="345" stroke="#00ff88" stroke-width="0.8" class="packet-down"/>
+  <line x1="350" y1="301" x2="160" y2="345" stroke="#00ff88" stroke-width="0.8" class="packet-up"/>
+  <line x1="350" y1="301" x2="540" y2="345" stroke="#00ff88" stroke-width="0.8" class="packet-up"/>
+  <line x1="160" y1="301" x2="160" y2="345" stroke="#00ff88" stroke-width="0.5" opacity="0.2"/>
+  <line x1="540" y1="301" x2="540" y2="345" stroke="#00ff88" stroke-width="0.5" opacity="0.2"/>
+
+  <!-- Server node -->
+  <g transform="translate(350, 370)">
+    <rect x="-50" y="-30" width="100" height="60" rx="6" fill="#0a1a0a" stroke="#00ff88" stroke-width="1.5"/>
+    <rect x="-40" y="-22" width="80" height="18" rx="2" fill="#00ff88" opacity="0.08"/>
+    <line x1="-40" y1="-13" x2="40" y2="-13" stroke="#00ff88" stroke-width="0.3" opacity="0.3"/>
+    <rect x="-25" y="-18" width="18" height="12" rx="2" fill="#00ff88" opacity="0.3"/>
+    <text x="-25" y="-10" font-family="monospace" font-size="6" fill="#000" text-anchor="middle" font-weight="bold">⬡</text>
+    <text x="0" y="-5" font-family="monospace" font-size="10" fill="#00ff88" text-anchor="middle">SERVER</text>
+    <text x="0" y="8" font-family="monospace" font-size="7" fill="#00ff88" text-anchor="middle" opacity="0.6">LINUX · NGINX</text>
+    <text x="0" y="18" font-family="monospace" font-size="7" fill="#00ff88" text-anchor="middle" opacity="0.4">SSH · HTTP · DNS</text>
+    <circle cx="40" cy="-18" r="3" fill="#00ff88" class="node-pulse"/>
+  </g>
+
+  <!-- Workstation node -->
+  <g transform="translate(160, 370)">
+    <rect x="-45" y="-22" width="90" height="44" rx="6" fill="#0a0a1e" stroke="#00ffff" stroke-width="1.2"/>
+    <rect x="28" y="-18" width="24" height="16" rx="3" fill="#0a0a1e" stroke="#00ffff" stroke-width="0.5"/>
+    <rect x="32" y="-15" width="16" height="10" rx="2" fill="#00ffff" opacity="0.15"/>
+    <text x="-5" y="-5" font-family="monospace" font-size="9" fill="#00ffff" text-anchor="middle">PC</text>
+    <text x="-5" y="8" font-family="monospace" font-size="7" fill="#00ffff" text-anchor="middle" opacity="0.6">KALI · DEV</text>
+    <circle cx="-40" cy="-12" r="3" fill="#00ffff" class="blink-dot"/>
+  </g>
+
+  <!-- Lab VM node -->
+  <g transform="translate(540, 370)">
+    <rect x="-45" y="-22" width="90" height="44" rx="6" fill="#0a000a" stroke="#9d00ff" stroke-width="1.2"/>
+    <text x="-5" y="-5" font-family="monospace" font-size="9" fill="#9d00ff" text-anchor="middle">LAB VM</text>
+    <text x="-5" y="8" font-family="monospace" font-size="7" fill="#9d00ff" text-anchor="middle" opacity="0.6">METASPLOITABLE</text>
+    <circle cx="40" cy="-12" r="3" fill="#9d00ff" class="blink-dot"/>
+  </g>
+
+  <!-- Monitoring station -->
+  <g transform="translate(350, 440)">
+    <rect x="-55" y="-50" width="110" height="16" rx="3" fill="#0a0a0a" stroke="#ff6600" stroke-width="0.5" opacity="0.5"/>
+    <text x="0" y="-39" font-family="monospace" font-size="8" fill="#ff6600" text-anchor="middle" opacity="0.7">MONITORING · SIEM · SOC</text>
+    <circle cx="-40" cy="-42" r="2" fill="#ff6600" class="blink-dot"/>
+  </g>
+
+  <line x1="350" y1="400" x2="350" y2="440" stroke="#ff6600" stroke-width="0.5" stroke-dasharray="3 3" opacity="0.4"/>
+
+  <!-- Legend -->
+  <rect x="560" y="55" width="120" height="100" rx="4" fill="#080818" stroke="#00ff88" stroke-width="0.5" opacity="0.4"/>
+  <text x="620" y="72" font-family="monospace" font-size="8" fill="#00ff88" text-anchor="middle" opacity="0.6">LEGEND</text>
+  <line x1="570" y1="85" x2="600" y2="85" stroke="#ff003c" stroke-width="1.5"/>
+  <text x="605" y="88" font-family="monospace" font-size="7" fill="#666">Firewall</text>
+  <line x1="570" y1="100" x2="600" y2="100" stroke="#00ffff" stroke-width="1.2"/>
+  <text x="605" y="103" font-family="monospace" font-size="7" fill="#666">Router</text>
+  <line x1="570" y1="115" x2="600" y2="115" stroke="#00ff88" stroke-width="1"/>
+  <text x="605" y="118" font-family="monospace" font-size="7" fill="#666">Switch</text>
+  <line x1="570" y1="130" x2="600" y2="130" stroke="#9d00ff" stroke-width="1"/>
+  <text x="605" y="133" font-family="monospace" font-size="7" fill="#666">VM</text>
+  <line x1="570" y1="145" x2="585" y2="145" stroke="#00ff88" stroke-width="0.5" stroke-dasharray="4 4"/>
+  <text x="590" y="147" font-family="monospace" font-size="6" fill="#666">Packet flow</text>
+</svg>
