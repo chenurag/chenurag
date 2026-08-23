@@ -399,65 +399,40 @@
 </picture>
 <br>
 
-
 > 🚀 **v7.0 — 80 animated SVGs. Zero copy-paste buttons.**
 
-<p align="center">
-  <a href="https://github.com/chenurag?tab=repositories"><img src="https://img.shields.io/badge/Repos-18-00ff88?style=flat&logo=github&labelColor=0a0a1e"></a>
-  <a href="https://git.io/streak-stats"><img src="https://img.shields.io/badge/Streak-47d-00ffff?style=flat&logo=github&labelColor=0a0a1e"></a>
-  <a href="https://github.com/chenurag"><img src="https://img.shields.io/badge/Trophies-11-ff6600?style=flat&logo=github&labelColor=0a0a1e"></a>
-</p>
+[![Repos](https://img.shields.io/badge/Repos-18-00ff88?style=flat&logo=github&labelColor=0a0a1e)](https://github.com/chenurag?tab=repositories)
+[![Streak](https://img.shields.io/badge/Streak-47d-00ffff?style=flat&logo=github&labelColor=0a0a1e)](https://git.io/streak-stats)
+[![Trophies](https://img.shields.io/badge/Trophies-11-ff6600?style=flat&logo=github&labelColor=0a0a1e)](https://github.com/chenurag)
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=chenurag&label=Visitors&color=0a0a1e&style=flat">
-  <img src="https://img.shields.io/github/followers/chenurag?label=Followers&color=0a0a1e&style=flat">
-</p>
+[![Visitors](https://komarev.com/ghpvc/?username=chenurag&label=Visitors&color=0a0a1e&style=flat)](https://github.com/chenurag)
+[![Followers](https://img.shields.io/github/followers/chenurag?label=Followers&color=0a0a1e&style=flat)](https://github.com/chenurag)
 
-<br>
+---
 
-<pre>
+```
 ╔══════════════════════════════════════════════════════════════════╗
 ║                    GITHUB OPERATIONS                            ║
 ╚══════════════════════════════════════════════════════════════════╝
-</pre>
+```
 
-<br>
+[![GitHub Snake](https://github.com/platinum-org/github-snake-svg/raw/output/github-contribution-grid-snake-dark.svg)](https://github.com/Chenura)
 
-<p align="center">
-  <a href="https://github.com/Chenura"><img src="https://github.com/platinum-org/github-snake-svg/raw/output/github-contribution-grid-snake-dark.svg" alt="GitHub Snake"></a>
-</p>
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=chenurag&show_icons=true&count_private=true&hide_border=true&bg_color=02020c&title_color=00ff88&icon_color=00ffff&text_color=aaa&include_all_commits=false)](https://github.com/chenurag)
+[![GitHub Streak](https://streak-stats.demolab.com/?user=chenurag&hide_border=true&background=02020c&stroke=00ff88&ring=00ff88&fire=ff003c&currStreakLabel=00ffff&sideNums=888&sideLabels=555&dates=555)](https://git.io/streak-stats)
 
-<p align="center">
-  <a href="https://github.com/chenurag">
-    <img src="https://github-readme-stats.vercel.app/api?username=chenurag&show_icons=true&count_private=true&hide_border=true&bg_color=02020c&title_color=00ff88&icon_color=00ffff&text_color=aaa" width="49%">
-  </a>
-  <a href="https://git.io/streak-stats">
-    <img src="https://streak-stats.demolab.com/?user=chenurag&hide_border=true&background=02020c&stroke=00ff88&ring=00ff88&fire=ff003c&currStreakLabel=00ffff&sideNums=888&sideLabels=555&dates=555" width="49%">
-  </a>
-</p>
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=chenurag&layout=compact&hide_border=true&bg_color=02020c&title_color=00ff88&text_color=aaa)](https://github.com/chenurag)
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=chenurag&bg_color=02020c&color=00ff88&line=00ffff&point=00ff88&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
-<p align="center">
-  <a href="https://github.com/chenurag">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=chenurag&layout=compact&hide_border=true&bg_color=02020c&title_color=00ff88&text_color=aaa" width="49%">
-  </a>
-  <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=chenurag&bg_color=02020c&color=00ff88&line=00ffff&point=00ff88&hide_border=true" width="49%">
-  </a>
-</p>
+[![Trophies](https://github-profile-trophy.vercel.app/?username=chenurag&theme=matrix&no-frame=false&no-bg=false&margin-w=6&column=7&title=Stars,Followers,Commits,PR,Issues,Repos,MultiLanguage)](https://github.com/ryo-ma/github-profile-trophy)
 
-<p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=chenurag&theme=matrix&no-frame=false&no-bg=false&margin-w=6&column=7&title=Stars,Followers,Commits,PR,Issues,Repos,MultiLanguage" width="100%">
-  </a>
-</p>
-
-<br>
+---
 
 <details>
 <summary><b>📜 SESSION TRANSCRIPT ARCHIVE</b></summary>
 <br>
 
-<pre>
+```
 ┌──────────────────────────────────────────┐
 │ SESSION LOG — v7.0 DEPLOYMENT            │
 ├──────────────────────────────────────────┤
@@ -470,13 +445,9 @@
 │                                          │
 │ STATUS: 🚀 FULLY DEPLOYED                │
 └──────────────────────────────────────────┘
-</pre>
+```
 
 </details>
 
-<br>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=chenurag&label=Visitors&color=0a0a1e&style=flat">
-  <img src="https://img.shields.io/github/followers/chenurag?label=Followers&color=0a0a1e&style=flat">
-</p>
+[![Visitors](https://komarev.com/ghpvc/?username=chenurag&label=Visitors&color=0a0a1e&style=flat)](https://github.com/chenurag)
+[![Followers](https://img.shields.io/github/followers/chenurag?label=Followers&color=0a0a1e&style=flat)](https://github.com/chenurag)
