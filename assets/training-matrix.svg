@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 180" width="100%" height="auto">
+  <defs>
+    <filter id="g"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style><![CDATA[
+      @keyframes p{0%,100%{filter:drop-shadow(0 0 3px #9d00ff)}50%{filter:drop-shadow(0 0 10px #9d00ff)}}
+      @keyframes sc{0%{transform:translateX(-1200px)}100%{transform:translateX(1200px)}}
+      @keyframes fk{0%,100%{opacity:0.96}2%{opacity:0.2}4%{opacity:0.96}}
+      @keyframes br{0%,100%{opacity:0.3}50%{opacity:0.7}}
+      .p{animation:p 2s ease-in-out infinite}
+      .sc{animation:sc 4s linear infinite}
+      .fk{animation:fk 7s infinite}
+      .br{animation:br 4s ease-in-out infinite}
+    ]]></style>
+  </defs>
+  <rect width="1200" height="180" fill="#02020c" rx="6"/>
+  <rect x="1" y="1" width="1198" height="178" rx="6" fill="none" stroke="#9d00ff" stroke-width="0.4" opacity="0.1"/>
+  <rect class="sc" width="1200" height="1" fill="#9d00ff" opacity="0.04"/>
+  <rect class="fk" width="1200" height="180" fill="#000" opacity="0.01" pointer-events="none"/>
+  <text x="600" y="20" font-family="monospace" font-size="12" fill="#9d00ff" text-anchor="middle" letter-spacing="2" opacity="0.7">TRAINING COMPLETION MATRIX</text>
+  <g transform="translate(15, 30)">
+    <rect x="0" y="0" width="170" height="52" rx="4" fill="#0a0a1e" stroke="#9d00ff" stroke-width="0.3" opacity="0.4"/>
+    <rect x="5" y="36" width="150" height="10" rx="3" fill="#050510"/>
+    <rect x="5" y="36" width="130.5" height="10" rx="3" fill="#9d00ff" opacity="0.6">
+      <animate attributeName="width" from="0" to="130.5" dur="1s" begin="0.2s" fill="freeze"/>
+    </rect>
+    <text x="85" y="22" font-family="monospace" font-size="11" fill="#9d00ff" text-anchor="middle" opacity="0.9">Linux</text>
+    <text x="85" y="48" font-family="monospace" font-size="10" fill="#888" text-anchor="middle">90%</text>
+  </g>  <g transform="translate(195, 30)">
+    <rect x="0" y="0" width="170" height="52" rx="4" fill="#0a0a1e" stroke="#9d00ff" stroke-width="0.3" opacity="0.4"/>
+    <rect x="5" y="36" width="150" height="10" rx="3" fill="#050510"/>
+    <rect x="5" y="36" width="118.89999999999999" height="10" rx="3" fill="#9d00ff" opacity="0.6">
+      <animate attributeName="width" from="0" to="118.89999999999999" dur="1s" begin="0.30000000000000004s" fill="freeze"/>
+    </rect>
+    <text x="85" y="22" font-family="monospace" font-size="11" fill="#9d00ff" text-anchor="middle" opacity="0.9">Python</text>
+    <text x="85" y="48" font-family="monospace" font-size="10" fill="#888" text-anchor="middle">82%</text>
+  </g>  <g transform="translate(375, 30)">
+    <rect x="0" y="0" width="170" height="52" rx="4" fill="#0a0a1e" stroke="#9d00ff" stroke-width="0.3" opacity="0.4"/>
+    <rect x="5" y="36" width="150" height="10" rx="3" fill="#050510"/>
+    <rect x="5" y="36" width="127.6" height="10" rx="3" fill="#9d00ff" opacity="0.6">
+      <animate attributeName="width" from="0" to="127.6" dur="1s" begin="0.4s" fill="freeze"/>
+    </rect>
+    <text x="85" y="22" font-family="monospace" font-size="11" fill="#9d00ff" text-anchor="middle" opacity="0.9">Networking</text>
+    <text x="85" y="48" font-family="monospace" font-size="10" fill="#888" text-anchor="middle">88%</text>
+  </g>  <g transform="translate(555, 30)">
+    <rect x="0" y="0" width="170" height="52" rx="4" fill="#0a0a1e" stroke="#9d00ff" stroke-width="0.3" opacity="0.4"/>
+    <rect x="5" y="36" width="150" height="10" rx="3" fill="#050510"/>
+    <rect x="5" y="36" width="108.75" height="10" rx="3" fill="#9d00ff" opacity="0.6">
+      <animate attributeName="width" from="0" to="108.75" dur="1s" begin="0.5s" fill="freeze"/>
+    </rect>
+    <text x="85" y="22" font-family="monospace" font-size="11" fill="#9d00ff" text-anchor="middle" opacity="0.9">Hacking</text>
+    <text x="85" y="48" font-family="monospace" font-size="10" fill="#888" text-anchor="middle">75%</text>
+  </g>  <g transform="translate(735, 30)">
+    <rect x="0" y="0" width="170" height="52" rx="4" fill="#0a0a1e" stroke="#9d00ff" stroke-width="0.3" opacity="0.4"/>
+    <rect x="5" y="36" width="150" height="10" rx="3" fill="#050510"/>
+    <rect x="5" y="36" width="101.5" height="10" rx="3" fill="#9d00ff" opacity="0.6">
+      <animate attributeName="width" from="0" to="101.5" dur="1s" begin="0.6000000000000001s" fill="freeze"/>
+    </rect>
+    <text x="85" y="22" font-family="monospace" font-size="11" fill="#9d00ff" text-anchor="middle" opacity="0.9">Forensics</text>
+    <text x="85" y="48" font-family="monospace" font-size="10" fill="#888" text-anchor="middle">70%</text>
+  </g>  <g transform="translate(915, 30)">
+    <rect x="0" y="0" width="170" height="52" rx="4" fill="#0a0a1e" stroke="#9d00ff" stroke-width="0.3" opacity="0.4"/>
+    <rect x="5" y="36" width="150" height="10" rx="3" fill="#050510"/>
+    <rect x="5" y="36" width="79.75" height="10" rx="3" fill="#9d00ff" opacity="0.6">
+      <animate attributeName="width" from="0" to="79.75" dur="1s" begin="0.7s" fill="freeze"/>
+    </rect>
+    <text x="85" y="22" font-family="monospace" font-size="11" fill="#9d00ff" text-anchor="middle" opacity="0.9">Cloud</text>
+    <text x="85" y="48" font-family="monospace" font-size="10" fill="#888" text-anchor="middle">55%</text>
+  </g></svg>

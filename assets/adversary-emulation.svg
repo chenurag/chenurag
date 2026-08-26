@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" width="100%" height="auto">
+  <defs>
+    <filter id="g"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style><![CDATA[
+      @keyframes p{0%,100%{filter:drop-shadow(0 0 3px #ff003c)}50%{filter:drop-shadow(0 0 10px #ff003c)}}
+      @keyframes sc{0%{transform:translateX(-1200px)}100%{transform:translateX(1200px)}}
+      @keyframes fk{0%,100%{opacity:0.96}2%{opacity:0.2}4%{opacity:0.96}}
+      @keyframes br{0%,100%{opacity:0.3}50%{opacity:0.7}}
+      .p{animation:p 2s ease-in-out infinite}
+      .sc{animation:sc 4s linear infinite}
+      .fk{animation:fk 7s infinite}
+      .br{animation:br 4s ease-in-out infinite}
+    ]]></style>
+  </defs>
+  <rect width="1200" height="220" fill="#02020c" rx="6"/>
+  <rect x="1" y="1" width="1198" height="218" rx="6" fill="none" stroke="#ff003c" stroke-width="0.4" opacity="0.1"/>
+  <rect class="sc" width="1200" height="1" fill="#ff003c" opacity="0.04"/>
+  <rect class="fk" width="1200" height="220" fill="#000" opacity="0.01" pointer-events="none"/>
+  <text x="600" y="20" font-family="monospace" font-size="12" fill="#ff003c" text-anchor="middle" letter-spacing="2" opacity="0.7">ADVERSARY EMULATION</text>
+  <g transform="translate(15, 30)">
+    <rect x="0" y="0" width="270" height="30" rx="3" fill="#08081a" stroke="#ff003c" stroke-width="0.5" opacity="0.675"/>
+    <text x="10" y="20" font-family="monospace" font-size="11" fill="#ff003c">APT29</text>
+    <rect x="175" y="7" width="75" height="16" rx="2" fill="#ff003c" opacity="0.5"><animate attributeName="width" from="0" to="75" dur="0.8s" begin="0.3s" fill="freeze"/></rect>
+  </g>  <g transform="translate(300, 30)">
+    <rect x="0" y="0" width="270" height="30" rx="3" fill="#08081a" stroke="#ff003c" stroke-width="0.5" opacity="0.71"/>
+    <text x="10" y="20" font-family="monospace" font-size="11" fill="#ff003c">APT41</text>
+    <rect x="175" y="7" width="82" height="16" rx="2" fill="#ff003c" opacity="0.5"><animate attributeName="width" from="0" to="82" dur="0.8s" begin="0.36s" fill="freeze"/></rect>
+  </g>  <g transform="translate(585, 30)">
+    <rect x="0" y="0" width="270" height="30" rx="3" fill="#08081a" stroke="#ff003c" stroke-width="0.2" opacity="0.6499999999999999"/>
+    <text x="10" y="20" font-family="monospace" font-size="11" fill="#ff003c">FIN7</text>
+    <rect x="175" y="7" width="70" height="16" rx="2" fill="#ff003c" opacity="0.5"><animate attributeName="width" from="0" to="70" dur="0.8s" begin="0.42s" fill="freeze"/></rect>
+  </g>  <g transform="translate(870, 30)">
+    <rect x="0" y="0" width="270" height="30" rx="3" fill="#08081a" stroke="#ff003c" stroke-width="0.5" opacity="0.69"/>
+    <text x="10" y="20" font-family="monospace" font-size="11" fill="#ff003c">Lazarus</text>
+    <rect x="175" y="7" width="78" height="16" rx="2" fill="#ff003c" opacity="0.5"><animate attributeName="width" from="0" to="78" dur="0.8s" begin="0.48s" fill="freeze"/></rect>
+  </g>  <g transform="translate(15, 70)">
+    <rect x="0" y="0" width="270" height="30" rx="3" fill="#08081a" stroke="#ff003c" stroke-width="0.2" opacity="0.625"/>
+    <text x="10" y="20" font-family="monospace" font-size="11" fill="#ff003c">APT33</text>
+    <rect x="175" y="7" width="65" height="16" rx="2" fill="#ff003c" opacity="0.5"><animate attributeName="width" from="0" to="65" dur="0.8s" begin="0.54s" fill="freeze"/></rect>
+  </g>  <g transform="translate(300, 70)">
+    <rect x="0" y="0" width="270" height="30" rx="3" fill="#08081a" stroke="#ff003c" stroke-width="0.2" opacity="0.6"/>
+    <text x="10" y="20" font-family="monospace" font-size="11" fill="#ff003c">TA444</text>
+    <rect x="175" y="7" width="60" height="16" rx="2" fill="#ff003c" opacity="0.5"><animate attributeName="width" from="0" to="60" dur="0.8s" begin="0.6s" fill="freeze"/></rect>
+  </g></svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 190" width="100%" height="auto">
+  <defs>
+    <filter id="g"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style><![CDATA[
+      @keyframes p{0%,100%{filter:drop-shadow(0 0 3px #ff6600)}50%{filter:drop-shadow(0 0 10px #ff6600)}}
+      @keyframes sc{0%{transform:translateX(-1200px)}100%{transform:translateX(1200px)}}
+      @keyframes fk{0%,100%{opacity:0.96}2%{opacity:0.2}4%{opacity:0.96}}
+      @keyframes br{0%,100%{opacity:0.3}50%{opacity:0.7}}
+      .p{animation:p 2s ease-in-out infinite}
+      .sc{animation:sc 4s linear infinite}
+      .fk{animation:fk 7s infinite}
+      .br{animation:br 4s ease-in-out infinite}
+    ]]></style>
+  </defs>
+  <rect width="1200" height="190" fill="#02020c" rx="6"/>
+  <rect x="1" y="1" width="1198" height="188" rx="6" fill="none" stroke="#ff6600" stroke-width="0.4" opacity="0.1"/>
+  <rect class="sc" width="1200" height="1" fill="#ff6600" opacity="0.04"/>
+  <rect class="fk" width="1200" height="190" fill="#000" opacity="0.01" pointer-events="none"/>
+  <text x="600" y="20" font-family="monospace" font-size="12" fill="#ff6600" text-anchor="middle" letter-spacing="2" opacity="0.7">RISK ASSESSMENT METRIX</text>
+  <g transform="translate(15, 30)">
+    <rect x="0" y="0" width="270" height="30" rx="3" fill="#08081a" stroke="#ff6600" stroke-width="0.2" opacity="0.33999999999999997"/>
+    <text x="10" y="20" font-family="monospace" font-size="11" fill="#ff6600">Critical</text>
+    <rect x="175" y="7" width="8" height="16" rx="2" fill="#ff6600" opacity="0.5"><animate attributeName="width" from="0" to="8" dur="0.8s" begin="0.3s" fill="freeze"/></rect>
+  </g>  <g transform="translate(300, 30)">
+    <rect x="0" y="0" width="270" height="30" rx="3" fill="#08081a" stroke="#ff6600" stroke-width="0.2" opacity="0.41"/>
+    <text x="10" y="20" font-family="monospace" font-size="11" fill="#ff6600">High</text>
+    <rect x="175" y="7" width="22" height="16" rx="2" fill="#ff6600" opacity="0.5"><animate attributeName="width" from="0" to="22" dur="0.8s" begin="0.36s" fill="freeze"/></rect>
+  </g>  <g transform="translate(585, 30)">
+    <rect x="0" y="0" width="270" height="30" rx="3" fill="#08081a" stroke="#ff6600" stroke-width="0.2" opacity="0.525"/>
+    <text x="10" y="20" font-family="monospace" font-size="11" fill="#ff6600">Medium</text>
+    <rect x="175" y="7" width="45" height="16" rx="2" fill="#ff6600" opacity="0.5"><animate attributeName="width" from="0" to="45" dur="0.8s" begin="0.42s" fill="freeze"/></rect>
+  </g>  <g transform="translate(870, 30)">
+    <rect x="0" y="0" width="270" height="30" rx="3" fill="#08081a" stroke="#ff6600" stroke-width="0.2" opacity="0.635"/>
+    <text x="10" y="20" font-family="monospace" font-size="11" fill="#ff6600">Low</text>
+    <rect x="175" y="7" width="67" height="16" rx="2" fill="#ff6600" opacity="0.5"><animate attributeName="width" from="0" to="67" dur="0.8s" begin="0.48s" fill="freeze"/></rect>
+  </g>  <g transform="translate(15, 70)">
+    <rect x="0" y="0" width="270" height="30" rx="3" fill="#08081a" stroke="#ff6600" stroke-width="0.2" opacity="0.375"/>
+    <text x="10" y="20" font-family="monospace" font-size="11" fill="#ff6600">Accepted</text>
+    <rect x="175" y="7" width="15" height="16" rx="2" fill="#ff6600" opacity="0.5"><animate attributeName="width" from="0" to="15" dur="0.8s" begin="0.54s" fill="freeze"/></rect>
+  </g></svg>

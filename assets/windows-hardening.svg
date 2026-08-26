@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" width="100%" height="auto">
+  <defs>
+    <filter id="g"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style><![CDATA[
+      @keyframes p{0%,100%{filter:drop-shadow(0 0 3px #00ffff)}50%{filter:drop-shadow(0 0 10px #00ffff)}}
+      @keyframes sc{0%{transform:translateX(-1200px)}100%{transform:translateX(1200px)}}
+      @keyframes fk{0%,100%{opacity:0.96}2%{opacity:0.2}4%{opacity:0.96}}
+      @keyframes br{0%,100%{opacity:0.3}50%{opacity:0.7}}
+      .p{animation:p 2s ease-in-out infinite}
+      .sc{animation:sc 4s linear infinite}
+      .fk{animation:fk 7s infinite}
+      .br{animation:br 4s ease-in-out infinite}
+    ]]></style>
+  </defs>
+  <rect width="1200" height="220" fill="#02020c" rx="6"/>
+  <rect x="1" y="1" width="1198" height="218" rx="6" fill="none" stroke="#00ffff" stroke-width="0.4" opacity="0.1"/>
+  <rect class="sc" width="1200" height="1" fill="#00ffff" opacity="0.04"/>
+  <rect class="fk" width="1200" height="220" fill="#000" opacity="0.01" pointer-events="none"/>
+  <text x="600" y="20" font-family="monospace" font-size="12" fill="#00ffff" text-anchor="middle" letter-spacing="2" opacity="0.7">WINDOWS HARDENING</text>
+  <g transform="translate(30, 35)">
+    <circle cx="45" cy="55" r="26" fill="none" stroke="#151530" stroke-width="5"/>
+    <circle cx="45" cy="55" r="26" fill="none" stroke="#00ffff" stroke-width="5" stroke-dasharray="163.36267999999998" stroke-dashoffset="163.36267999999998">
+      <animate attributeName="stroke-dashoffset" from="163.36267999999998" to="24.504402000000002" dur="1.5s" begin="0.3s" fill="freeze"/>
+    </circle>
+    <text x="45" y="59" font-family="monospace" font-size="13" fill="#00ffff" text-anchor="middle">85%</text>
+    <text x="45" y="90" font-family="monospace" font-size="10" fill="#666" text-anchor="middle">Group Policy</text>
+  </g>  <g transform="translate(200, 35)">
+    <circle cx="45" cy="55" r="26" fill="none" stroke="#151530" stroke-width="5"/>
+    <circle cx="45" cy="55" r="26" fill="none" stroke="#00ffff" stroke-width="5" stroke-dasharray="163.36267999999998" stroke-dashoffset="163.36267999999998">
+      <animate attributeName="stroke-dashoffset" from="163.36267999999998" to="16.336267999999993" dur="1.5s" begin="0.44999999999999996s" fill="freeze"/>
+    </circle>
+    <text x="45" y="59" font-family="monospace" font-size="13" fill="#00ffff" text-anchor="middle">90%</text>
+    <text x="45" y="90" font-family="monospace" font-size="10" fill="#666" text-anchor="middle">Defender</text>
+  </g>  <g transform="translate(370, 35)">
+    <circle cx="45" cy="55" r="26" fill="none" stroke="#151530" stroke-width="5"/>
+    <circle cx="45" cy="55" r="26" fill="none" stroke="#00ffff" stroke-width="5" stroke-dasharray="163.36267999999998" stroke-dashoffset="163.36267999999998">
+      <animate attributeName="stroke-dashoffset" from="163.36267999999998" to="35.93978959999999" dur="1.5s" begin="0.6s" fill="freeze"/>
+    </circle>
+    <text x="45" y="59" font-family="monospace" font-size="13" fill="#00ffff" text-anchor="middle">78%</text>
+    <text x="45" y="90" font-family="monospace" font-size="10" fill="#666" text-anchor="middle">LAPS</text>
+  </g>  <g transform="translate(540, 35)">
+    <circle cx="45" cy="55" r="26" fill="none" stroke="#151530" stroke-width="5"/>
+    <circle cx="45" cy="55" r="26" fill="none" stroke="#00ffff" stroke-width="5" stroke-dasharray="163.36267999999998" stroke-dashoffset="163.36267999999998">
+      <animate attributeName="stroke-dashoffset" from="163.36267999999998" to="29.405282400000004" dur="1.5s" begin="0.75s" fill="freeze"/>
+    </circle>
+    <text x="45" y="59" font-family="monospace" font-size="13" fill="#00ffff" text-anchor="middle">82%</text>
+    <text x="45" y="90" font-family="monospace" font-size="10" fill="#666" text-anchor="middle">BitLocker</text>
+  </g>  <g transform="translate(710, 35)">
+    <circle cx="45" cy="55" r="26" fill="none" stroke="#151530" stroke-width="5"/>
+    <circle cx="45" cy="55" r="26" fill="none" stroke="#00ffff" stroke-width="5" stroke-dasharray="163.36267999999998" stroke-dashoffset="163.36267999999998">
+      <animate attributeName="stroke-dashoffset" from="163.36267999999998" to="40.840669999999996" dur="1.5s" begin="0.8999999999999999s" fill="freeze"/>
+    </circle>
+    <text x="45" y="59" font-family="monospace" font-size="13" fill="#00ffff" text-anchor="middle">75%</text>
+    <text x="45" y="90" font-family="monospace" font-size="10" fill="#666" text-anchor="middle">AppLocker</text>
+  </g></svg>
