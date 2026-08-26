@@ -30,12 +30,12 @@
 
     <!-- PROFILE COMMITS -->
     <rect x="420" y="0" width="170" height="0" rx="6" fill="#0a000a" stroke="#ff003c" stroke-width="1" class="g5"/>
-    <text x="505" y="60" font-family="monospace" font-size="30" fill="#ff6666" text-anchor="middle" class="p1">116</text>
+    <text x="505" y="60" font-family="monospace" font-size="30" fill="#ff6666" text-anchor="middle" class="p1">118</text>
     <text x="505" y="85" font-family="monospace" font-size="12" fill="#888" text-anchor="middle">PROFILE COMMITS</text>
 
     <!-- STREAK -->
     <rect x="630" y="120" width="170" height="0" rx="6" fill="#0a0a1a" stroke="#9d00ff" stroke-width="1" class="g4"/>
-    <text x="715" y="180" font-family="monospace" font-size="30" fill="#9d00ff" text-anchor="middle" class="p1">116</text>
+    <text x="715" y="180" font-family="monospace" font-size="30" fill="#9d00ff" text-anchor="middle" class="p1">118</text>
     <text x="715" y="205" font-family="monospace" font-size="12" fill="#888" text-anchor="middle">COMMIT STREAK</text>
 
     <!-- KB -->
