@@ -2,7 +2,8 @@
   <defs>
     <filter id="g"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
     <linearGradient id="prog" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#00ff88"/><stop offset="50%" stop-color="#00ffff"/><stop offset="100%" stop-color="#00ff88"/></linearGradient>
-    <style>
+    <style><![CDATA[
+
       @keyframes p1{0%,100%{opacity:0.5;filter:drop-shadow(0 0 4px #00ff88)}50%{opacity:1;filter:drop-shadow(0 0 15px #00ff88)}}
       @keyframes p2{0%,100%{opacity:0.3}50%{opacity:0.9}}
       @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
@@ -19,7 +20,8 @@
       .sc{animation:scan 5s linear infinite}
       .fk{animation:flick 7s infinite}
       .fb{animation:fillBar 2s ease-out 0.5s both}
-    </style>
+    
+]]></style>
   </defs>
 
   <rect width="1200" height="160" fill="#03030e" rx="8"/>

@@ -53,7 +53,8 @@
     </radialGradient>
 
     <!-- Animations -->
-    <style>
+    <style><![CDATA[
+
       @keyframes scanDown { 0% { transform: translateY(-520px); } 100% { transform: translateY(520px); } }
       @keyframes scanUp { 0% { transform: translateY(520px); } 100% { transform: translateY(-520px); } }
       @keyframes pulse-glow { 0%, 100% { opacity: 0.6; filter: drop-shadow(0 0 4px #00ff88); } 50% { opacity: 1; filter: drop-shadow(0 0 12px #00ff88); } }
@@ -86,7 +87,8 @@
       .line-anim { stroke-dasharray: 2000; stroke-dashoffset: 2000; animation: line-dash 3s ease-out 0.5s forwards; }
       .flicker { animation: flicker 4s infinite; }
       .scale-in { animation: scale-in 0.8s ease-out 0.3s both; }
-    </style>
+    
+]]></style>
   </defs>
 
   <!-- Background -->

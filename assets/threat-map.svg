@@ -1,7 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" width="100%" height="auto">
   <defs>
     <filter id="g"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-    <style>
+    <style><![CDATA[
+
       @keyframes sweep{0%{stroke-dashoffset:600}100%{stroke-dashoffset:0}}
       @keyframes pulse{0%,100%{opacity:0.5;filter:drop-shadow(0 0 4px)}50%{opacity:1;filter:drop-shadow(0 0 14px)}}
       @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
@@ -16,7 +17,8 @@
       .sc{animation:scan 4s linear infinite}
       .fk{animation:flick 7s infinite}
       .fl{animation:flash 1.5s ease-in-out infinite}
-    </style>
+    
+]]></style>
   </defs>
 
   <rect width="1200" height="240" fill="#02020c" rx="8"/>

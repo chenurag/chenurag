@@ -19,7 +19,8 @@
       <feGaussianBlur stdDeviation="2" result="blur"/>
       <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <style>
+    <style><![CDATA[
+
       @keyframes fill-1 { 0% { stroke-dashoffset: 251.3; } 100% { stroke-dashoffset: 25.1; } }
       @keyframes fill-2 { 0% { stroke-dashoffset: 251.3; } 100% { stroke-dashoffset: 50.3; } }
       @keyframes fill-3 { 0% { stroke-dashoffset: 251.3; } 100% { stroke-dashoffset: 75.4; } }
@@ -38,7 +39,8 @@
       .gauge-4 { stroke: url(#g4); stroke-dasharray: 251.3; stroke-dashoffset: 251.3; animation: fill-4 2s ease-out 0.9s forwards; }
       .gauge-5 { stroke: url(#g5); stroke-dasharray: 251.3; stroke-dashoffset: 251.3; animation: fill-5 2s ease-out 1.1s forwards; }
       .animate { animation: fade 3s ease-in-out infinite; }
-    </style>
+    
+]]></style>
   </defs>
 
   <rect width="960" height="420" fill="#050510" rx="8"/>

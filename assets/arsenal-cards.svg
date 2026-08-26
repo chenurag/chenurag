@@ -5,7 +5,8 @@
     <linearGradient id="exploit" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#ff003c"/><stop offset="100%" stop-color="#990022"/></linearGradient>
     <linearGradient id="defense" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#00ff88"/><stop offset="100%" stop-color="#00aa55"/></linearGradient>
     <linearGradient id="analysis" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#9d00ff"/><stop offset="100%" stop-color="#5500aa"/></linearGradient>
-    <style>
+    <style><![CDATA[
+
       @keyframes p1{0%,100%{opacity:0.5;filter:drop-shadow(0 0 3px)}50%{opacity:1;filter:drop-shadow(0 0 12px)}}
       @keyframes p2{0%,100%{opacity:0.3}50%{opacity:0.9}}
       @keyframes p3{0%,100%{transform:scale(1)}50%{transform:scale(1.03)}}
@@ -26,7 +27,8 @@
       .fk{animation:flick 8s infinite}
       .gl{animation:glitch 0.3s ease-in-out 4s infinite}
       .mt{animation:martian 2s ease-in-out infinite}
-    </style>
+    
+]]></style>
   </defs>
 
   <rect width="1200" height="580" fill="#03030e" rx="8"/>

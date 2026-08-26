@@ -8,7 +8,8 @@
     <linearGradient id="g3" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#ff6600"/><stop offset="100%" stop-color="#ff003c"/></linearGradient>
     <linearGradient id="g4" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#9d00ff"/><stop offset="100%" stop-color="#6600ff"/></linearGradient>
     <linearGradient id="g5" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#ffff00"/><stop offset="100%" stop-color="#ff9900"/></linearGradient>
-    <style>
+    <style><![CDATA[
+
       @keyframes spin-cw { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
       @keyframes spin-ccw { 0% { transform: rotate(360deg); } 100% { transform: rotate(0deg); } }
       @keyframes pulse-1 { 0%, 100% { opacity: 0.5; } 50% { opacity: 1; } }
@@ -49,7 +50,8 @@
       .os1 { animation: orbit-1 6s linear infinite; }
       .os2 { animation: orbit-2 8s linear infinite; }
       .os3 { animation: orbit-3 10s linear infinite; }
-    </style>
+    
+]]></style>
   </defs>
 
   <rect width="1200" height="520" fill="#03030e" rx="8"/>

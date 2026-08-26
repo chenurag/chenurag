@@ -1,6 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" width="100%" height="auto">
   <defs><filter id="g"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-    <style>
+    <style><![CDATA[
+
       @keyframes float{0%,100%{transform:translateY(0) translateX(0)}25%{transform:translateY(-12px) translateX(6px)}50%{transform:translateY(-5px) translateX(-8px)}75%{transform:translateY(-18px) translateX(4px)}}
       @keyframes float2{0%,100%{transform:translateY(0) translateX(0)}33%{transform:translateY(-10px) translateX(-10px)}66%{transform:translateY(-6px) translateX(8px)}}
       @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}@keyframes pulse{0%,100%{filter:drop-shadow(0 0 4px)}50%{filter:drop-shadow(0 0 15px)}}
@@ -11,7 +12,8 @@
       .fl5{animation:float 6.5s ease-in-out 1.5s infinite}.fl6{animation:float2 4.5s ease-in-out 0.3s infinite}
       .blk{animation:blink 0.8s step-end infinite}.p1{animation:pulse 2s ease-in-out infinite}
       .br{animation:breathe 4s ease-in-out infinite}.sc{animation:scan 4s linear infinite}.fk{animation:flick 7s infinite}
-    </style>
+    
+]]></style>
   </defs>
   <rect width="1200" height="220" fill="#02020c" rx="8"/>
   <rect x="1" y="1" width="1198" height="218" rx="8" fill="none" stroke="#00ff88" stroke-width="0.5" opacity="0.12"/>

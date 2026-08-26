@@ -3,7 +3,8 @@
     <filter id="g"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
     <linearGradient id="pg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#00ff88"/><stop offset="100%" stop-color="#00ddaa"/></linearGradient>
     <linearGradient id="redg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#ff003c"/><stop offset="100%" stop-color="#cc0022"/></linearGradient>
-    <style>
+    <style><![CDATA[
+
       @keyframes p1{0%,100%{opacity:0.4;filter:drop-shadow(0 0 3px #00ff88)}50%{opacity:1;filter:drop-shadow(0 0 14px #00ff88)}}
       @keyframes p2{0%,100%{opacity:0.3}50%{opacity:0.9}}
       @keyframes p3{0%,100%{filter:drop-shadow(0 0 4px #00ffff)}50%{filter:drop-shadow(0 0 20px #00ffff)}}
@@ -27,7 +28,8 @@
       .bar3{animation:fill-w 1.5s ease-out 0.6s both}
       .bar4{animation:fill-w 1.5s ease-out 0.8s both}
       .bar5{animation:fill-w 1.5s ease-out 1.0s both}
-    </style>
+    
+]]></style>
   </defs>
 
   <rect width="1200" height="320" fill="#03030e" rx="8"/>
