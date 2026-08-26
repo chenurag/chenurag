@@ -492,6 +492,36 @@
 </picture>
 <br>
 <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/aws-security.svg">
+  <img src="assets/aws-security.svg" alt="aws-security" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/azure-security.svg">
+  <img src="assets/azure-security.svg" alt="azure-security" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/gcp-security.svg">
+  <img src="assets/gcp-security.svg" alt="gcp-security" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/k8s-security.svg">
+  <img src="assets/k8s-security.svg" alt="k8s-security" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/serverless-sec.svg">
+  <img src="assets/serverless-sec.svg" alt="serverless-sec" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/terraform-sec.svg">
+  <img src="assets/terraform-sec.svg" alt="terraform-sec" width="100%">
+</picture>
+<br>
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/crypto-overview.svg">
   <img src="assets/crypto-overview.svg" alt="crypto-overview" width="100%">
 </picture>
@@ -504,6 +534,26 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/steganography-panel.svg">
   <img src="assets/steganography-panel.svg" alt="steganography-panel" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/certificate-mgmt.svg">
+  <img src="assets/certificate-mgmt.svg" alt="certificate-mgmt" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/public-key-infra.svg">
+  <img src="assets/public-key-infra.svg" alt="public-key-infra" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/key-management.svg">
+  <img src="assets/key-management.svg" alt="key-management" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/tls-config.svg">
+  <img src="assets/tls-config.svg" alt="tls-config" width="100%">
 </picture>
 <br>
 <picture>
@@ -527,6 +577,31 @@
 </picture>
 <br>
 <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/soc-metrics.svg">
+  <img src="assets/soc-metrics.svg" alt="soc-metrics" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/tier-1-metrics.svg">
+  <img src="assets/tier-1-metrics.svg" alt="tier-1-metrics" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/tier-2-metrics.svg">
+  <img src="assets/tier-2-metrics.svg" alt="tier-2-metrics" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/tier-3-metrics.svg">
+  <img src="assets/tier-3-metrics.svg" alt="tier-3-metrics" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/shift-handover.svg">
+  <img src="assets/shift-handover.svg" alt="shift-handover" width="100%">
+</picture>
+<br>
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/network-segmentation.svg">
   <img src="assets/network-segmentation.svg" alt="network-segmentation" width="100%">
 </picture>
@@ -539,6 +614,56 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/wireless-security.svg">
   <img src="assets/wireless-security.svg" alt="wireless-security" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/osi-layers.svg">
+  <img src="assets/osi-layers.svg" alt="osi-layers" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/tcpip-stack.svg">
+  <img src="assets/tcpip-stack.svg" alt="tcpip-stack" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/protocol-analysis.svg">
+  <img src="assets/protocol-analysis.svg" alt="protocol-analysis" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/packet-capture.svg">
+  <img src="assets/packet-capture.svg" alt="packet-capture" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/bandwidth-mon.svg">
+  <img src="assets/bandwidth-mon.svg" alt="bandwidth-mon" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dns-security.svg">
+  <img src="assets/dns-security.svg" alt="dns-security" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/vpn-tunnel.svg">
+  <img src="assets/vpn-tunnel.svg" alt="vpn-tunnel" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/load-balancer.svg">
+  <img src="assets/load-balancer.svg" alt="load-balancer" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/cdn-performance.svg">
+  <img src="assets/cdn-performance.svg" alt="cdn-performance" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/nat-traffic.svg">
+  <img src="assets/nat-traffic.svg" alt="nat-traffic" width="100%">
 </picture>
 <br>
 <picture>
@@ -557,6 +682,21 @@
 </picture>
 <br>
 <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/phishing-campaign-mgr.svg">
+  <img src="assets/phishing-campaign-mgr.svg" alt="phishing-campaign-mgr" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/security-training.svg">
+  <img src="assets/security-training.svg" alt="security-training" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/certification-progress.svg">
+  <img src="assets/certification-progress.svg" alt="certification-progress" width="100%">
+</picture>
+<br>
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/risk-assessment-panel.svg">
   <img src="assets/risk-assessment-panel.svg" alt="risk-assessment-panel" width="100%">
 </picture>
@@ -569,6 +709,26 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/disaster-recovery.svg">
   <img src="assets/disaster-recovery.svg" alt="disaster-recovery" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/business-continuity.svg">
+  <img src="assets/business-continuity.svg" alt="business-continuity" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/risk-register.svg">
+  <img src="assets/risk-register.svg" alt="risk-register" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/third-party-risk.svg">
+  <img src="assets/third-party-risk.svg" alt="third-party-risk" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/vendor-assessment.svg">
+  <img src="assets/vendor-assessment.svg" alt="vendor-assessment" width="100%">
 </picture>
 <br>
 <picture>
@@ -587,6 +747,41 @@
 </picture>
 <br>
 <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/grc-dashboard.svg">
+  <img src="assets/grc-dashboard.svg" alt="grc-dashboard" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/gdpr-matrix.svg">
+  <img src="assets/gdpr-matrix.svg" alt="gdpr-matrix" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/pci-dss-controls.svg">
+  <img src="assets/pci-dss-controls.svg" alt="pci-dss-controls" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hipaa-safeguards.svg">
+  <img src="assets/hipaa-safeguards.svg" alt="hipaa-safeguards" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/sox-controls.svg">
+  <img src="assets/sox-controls.svg" alt="sox-controls" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/fedramp-levels.svg">
+  <img src="assets/fedramp-levels.svg" alt="fedramp-levels" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/compliance-mapping.svg">
+  <img src="assets/compliance-mapping.svg" alt="compliance-mapping" width="100%">
+</picture>
+<br>
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/pentest-methodology.svg">
   <img src="assets/pentest-methodology.svg" alt="pentest-methodology" width="100%">
 </picture>
@@ -599,6 +794,376 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/mobile-pentest.svg">
   <img src="assets/mobile-pentest.svg" alt="mobile-pentest" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/owasp-top10.svg">
+  <img src="assets/owasp-top10.svg" alt="owasp-top10" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/sast-coverage.svg">
+  <img src="assets/sast-coverage.svg" alt="sast-coverage" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dast-coverage.svg">
+  <img src="assets/dast-coverage.svg" alt="dast-coverage" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/sca-metrics.svg">
+  <img src="assets/sca-metrics.svg" alt="sca-metrics" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/active-defense.svg">
+  <img src="assets/active-defense.svg" alt="active-defense" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/deception-tech.svg">
+  <img src="assets/deception-tech.svg" alt="deception-tech" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/sandbox-analysis.svg">
+  <img src="assets/sandbox-analysis.svg" alt="sandbox-analysis" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/yara-rules.svg">
+  <img src="assets/yara-rules.svg" alt="yara-rules" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/sigma-rules.svg">
+  <img src="assets/sigma-rules.svg" alt="sigma-rules" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hunt-maturity.svg">
+  <img src="assets/hunt-maturity.svg" alt="hunt-maturity" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hunt-hypothesis.svg">
+  <img src="assets/hunt-hypothesis.svg" alt="hunt-hypothesis" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hunt-sources.svg">
+  <img src="assets/hunt-sources.svg" alt="hunt-sources" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/detection-gaps.svg">
+  <img src="assets/detection-gaps.svg" alt="detection-gaps" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/malware-static.svg">
+  <img src="assets/malware-static.svg" alt="malware-static" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/malware-dynamic.svg">
+  <img src="assets/malware-dynamic.svg" alt="malware-dynamic" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/ransomware-tactics.svg">
+  <img src="assets/ransomware-tactics.svg" alt="ransomware-tactics" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/apt-groups.svg">
+  <img src="assets/apt-groups.svg" alt="apt-groups" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/privileged-access.svg">
+  <img src="assets/privileged-access.svg" alt="privileged-access" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/identity-governance.svg">
+  <img src="assets/identity-governance.svg" alt="identity-governance" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/zero-trust-network.svg">
+  <img src="assets/zero-trust-network.svg" alt="zero-trust-network" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/badge-access.svg">
+  <img src="assets/badge-access.svg" alt="badge-access" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/data-center-sec.svg">
+  <img src="assets/data-center-sec.svg" alt="data-center-sec" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/physical-security.svg">
+  <img src="assets/physical-security.svg" alt="physical-security" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/mobile-threats.svg">
+  <img src="assets/mobile-threats.svg" alt="mobile-threats" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/mdm-compliance.svg">
+  <img src="assets/mdm-compliance.svg" alt="mdm-compliance" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/insurance-coverage.svg">
+  <img src="assets/insurance-coverage.svg" alt="insurance-coverage" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/incident-cost.svg">
+  <img src="assets/incident-cost.svg" alt="incident-cost" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/breach-notification.svg">
+  <img src="assets/breach-notification.svg" alt="breach-notification" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/war-room.svg">
+  <img src="assets/war-room.svg" alt="war-room" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/incident-playbooks.svg">
+  <img src="assets/incident-playbooks.svg" alt="incident-playbooks" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/incident-timeline.svg">
+  <img src="assets/incident-timeline.svg" alt="incident-timeline" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/lessons-learned.svg">
+  <img src="assets/lessons-learned.svg" alt="lessons-learned" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stix-patterns.svg">
+  <img src="assets/stix-patterns.svg" alt="stix-patterns" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/threat-sharing.svg">
+  <img src="assets/threat-sharing.svg" alt="threat-sharing" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/ttps-mapped.svg">
+  <img src="assets/ttps-mapped.svg" alt="ttps-mapped" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/osint-dashboard.svg">
+  <img src="assets/osint-dashboard.svg" alt="osint-dashboard" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/threat-landscape.svg">
+  <img src="assets/threat-landscape.svg" alt="threat-landscape" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/osint-framework.svg">
+  <img src="assets/osint-framework.svg" alt="osint-framework" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/capacity-planning.svg">
+  <img src="assets/capacity-planning.svg" alt="capacity-planning" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/storage-metrics.svg">
+  <img src="assets/storage-metrics.svg" alt="storage-metrics" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/db-security.svg">
+  <img src="assets/db-security.svg" alt="db-security" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/vuln-scanners.svg">
+  <img src="assets/vuln-scanners.svg" alt="vuln-scanners" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/vuln-remediation.svg">
+  <img src="assets/vuln-remediation.svg" alt="vuln-remediation" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/patch-status.svg">
+  <img src="assets/patch-status.svg" alt="patch-status" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/exploit-mitigation.svg">
+  <img src="assets/exploit-mitigation.svg" alt="exploit-mitigation" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/ci-cd-security.svg">
+  <img src="assets/ci-cd-security.svg" alt="ci-cd-security" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/pipeline-metrics.svg">
+  <img src="assets/pipeline-metrics.svg" alt="pipeline-metrics" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/artifact-security.svg">
+  <img src="assets/artifact-security.svg" alt="artifact-security" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/ai-threat-model.svg">
+  <img src="assets/ai-threat-model.svg" alt="ai-threat-model" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/ai-bias-metrics.svg">
+  <img src="assets/ai-bias-metrics.svg" alt="ai-bias-metrics" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/ai-governance.svg">
+  <img src="assets/ai-governance.svg" alt="ai-governance" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/llm-security.svg">
+  <img src="assets/llm-security.svg" alt="llm-security" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/quantum-threats.svg">
+  <img src="assets/quantum-threats.svg" alt="quantum-threats" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/pq-crypto.svg">
+  <img src="assets/pq-crypto.svg" alt="pq-crypto" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/iot-security.svg">
+  <img src="assets/iot-security.svg" alt="iot-security" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/firmware-security.svg">
+  <img src="assets/firmware-security.svg" alt="firmware-security" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/ics-scada.svg">
+  <img src="assets/ics-scada.svg" alt="ics-scada" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/automation-framework.svg">
+  <img src="assets/automation-framework.svg" alt="automation-framework" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/log-collection.svg">
+  <img src="assets/log-collection.svg" alt="log-collection" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/elk-stack.svg">
+  <img src="assets/elk-stack.svg" alt="elk-stack" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/research-workflow.svg">
+  <img src="assets/research-workflow.svg" alt="research-workflow" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/tool-benchmark.svg">
+  <img src="assets/tool-benchmark.svg" alt="tool-benchmark" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/reverse-engineering.svg">
+  <img src="assets/reverse-engineering.svg" alt="reverse-engineering" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/binary-exploitation.svg">
+  <img src="assets/binary-exploitation.svg" alt="binary-exploitation" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/bug-bounty-platforms.svg">
+  <img src="assets/bug-bounty-platforms.svg" alt="bug-bounty-platforms" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/cve-research.svg">
+  <img src="assets/cve-research.svg" alt="cve-research" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/exploit-db.svg">
+  <img src="assets/exploit-db.svg" alt="exploit-db" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/capture-the-flag.svg">
+  <img src="assets/capture-the-flag.svg" alt="capture-the-flag" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/password-cracking.svg">
+  <img src="assets/password-cracking.svg" alt="password-cracking" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/wireless-attacks.svg">
+  <img src="assets/wireless-attacks.svg" alt="wireless-attacks" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/web-application-firewall.svg">
+  <img src="assets/web-application-firewall.svg" alt="web-application-firewall" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/ip-blocklist.svg">
+  <img src="assets/ip-blocklist.svg" alt="ip-blocklist" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/email-security.svg">
+  <img src="assets/email-security.svg" alt="email-security" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/ransomware-readiness.svg">
+  <img src="assets/ransomware-readiness.svg" alt="ransomware-readiness" width="100%">
 </picture>
 <br>
 <picture>
@@ -639,56 +1204,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/docker-hardening.svg">
   <img src="assets/docker-hardening.svg" alt="docker-hardening" width="100%">
-</picture>
-<br>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/osint-dashboard.svg">
-  <img src="assets/osint-dashboard.svg" alt="osint-dashboard" width="100%">
-</picture>
-<br>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/threat-landscape.svg">
-  <img src="assets/threat-landscape.svg" alt="threat-landscape" width="100%">
-</picture>
-<br>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/automation-framework.svg">
-  <img src="assets/automation-framework.svg" alt="automation-framework" width="100%">
-</picture>
-<br>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/log-collection.svg">
-  <img src="assets/log-collection.svg" alt="log-collection" width="100%">
-</picture>
-<br>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/elk-stack.svg">
-  <img src="assets/elk-stack.svg" alt="elk-stack" width="100%">
-</picture>
-<br>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/research-workflow.svg">
-  <img src="assets/research-workflow.svg" alt="research-workflow" width="100%">
-</picture>
-<br>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/tool-benchmark.svg">
-  <img src="assets/tool-benchmark.svg" alt="tool-benchmark" width="100%">
-</picture>
-<br>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/incident-cost.svg">
-  <img src="assets/incident-cost.svg" alt="incident-cost" width="100%">
-</picture>
-<br>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/breach-notification.svg">
-  <img src="assets/breach-notification.svg" alt="breach-notification" width="100%">
-</picture>
-<br>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/war-room.svg">
-  <img src="assets/war-room.svg" alt="war-room" width="100%">
 </picture>
 <br>
 <picture>
@@ -767,6 +1282,11 @@
 </picture>
 <br>
 <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-graph-panel.svg">
+  <img src="assets/activity-graph-panel.svg" alt="activity-graph-panel" width="100%">
+</picture>
+<br>
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/mascot-terminal.svg">
   <img src="assets/mascot-terminal.svg" alt="mascot-terminal" width="100%">
 </picture>
@@ -788,11 +1308,15 @@
 
 [![GitHub Snake](https://raw.githubusercontent.com/chenurag/chenurag/output/github-contribution-grid-snake-dark.svg)](https://github.com/chenurag)
 
-[![GitHub Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=chenurag&show_icons=true&count_private=true&hide_border=true&bg_color=020020c&title_color=00ff88&icon_color=00ffff&text_color=aaa&include_all_commits=false)](https://github.com/chenurag)
-[![GitHub Streak](https://streak-stats.demolab.com/?user=chenurag&hide_border=true&background=020020c&stroke=00ff88&ring=00ff88&fire=ff003c&currStreakLabel=00ffff&sideNums=888&sideLabels=555&dates=555)](https://git.io/streak-stats)
+[![GitHub Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=chenurag&show_icons=true&count_private=true&hide_border=true&bg_color=02020c&title_color=00ff88&icon_color=00ffff&text_color=aaa&include_all_commits=false)](https://github.com/chenurag)
+[![GitHub Streak](https://streak-stats.demolab.com/?user=chenurag&hide_border=true&background=02020c&stroke=00ff88&ring=00ff88&fire=ff003c&currStreakLabel=00ffff&sideNums=888&sideLabels=555&dates=555)](https://git.io/streak-stats)
 
 [![Top Languages](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=chenurag&layout=compact&hide_border=true&bg_color=02020c&title_color=00ff88&text_color=aaa)](https://github.com/chenurag)
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=chenurag&bg_color=02020c&color=00ff88&line=00ffff&point=00ff88&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-graph-panel.svg">
+  <img src="assets/activity-graph-panel.svg" alt="Activity Graph Panel" width="100%">
+</picture>
+<br>
 
 [![Trophies](https://github-profile-trophy-alpha.vercel.app/?username=chenurag&theme=matrix&no-frame=false&no-bg=false&margin-w=6&column=7&title=Stars,Followers,Commits,PR,Issues,Repos,MultiLanguage)](https://github.com/ryo-ma/github-profile-trophy)
 
@@ -804,7 +1328,7 @@
 
 ```
 ┌──────────────────────────────────────────┐
-│ SESSION LOG — v8.0 DEPLOYMENT            │
+│ SESSION LOG — v8.1 DEPLOYMENT            │
 ├──────────────────────────────────────────┤
 │ 2026-08-23  initial commit               │
 │ 2026-08-23  v4.0: 4 SVGs + hero         │
@@ -813,6 +1337,7 @@
 │ 2026-08-23  v6.0: 72 SVGs               │
 │ 2026-08-23  v7.0: 80 SVGs               │
 │ 2026-08-26  v8.0: 154 SVGs              │
+│ 2026-08-26  v8.1: 259 SVGs              │
 │                                          │
 │ STATUS: 🚀 FULLY DEPLOYED                │
 └──────────────────────────────────────────┘

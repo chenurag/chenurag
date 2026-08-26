@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 190" width="100%" height="auto">
+  <defs><style><![CDATA[
+    @keyframes p{0%,100%{filter:drop-shadow(0 0 3px #00ffff)}50%{filter:drop-shadow(0 0 10px #00ffff)}}
+    @keyframes sc{0%{transform:translateX(-1200px)}100%{transform:translateX(1200px)}}
+    @keyframes fk{0%,100%{opacity:0.96}2%{opacity:0.2}4%{opacity:0.96}}
+    .p{animation:p 2s ease-in-out infinite}.sc{animation:sc 4s linear infinite}.fk{animation:fk 7s infinite}
+  ]]></style></defs>
+  <rect width="1200" height="190" fill="#02020c" rx="6"/>
+  <rect x="1" y="1" width="1198" height="188" rx="6" fill="none" stroke="#00ffff" stroke-width="0.4" opacity="0.1"/>
+  <rect class="sc" width="1200" height="1" fill="#00ffff" opacity="0.04"/>
+  <rect class="fk" width="1200" height="190" fill="#000" opacity="0.01" pointer-events="none"/>
+  <text x="600" y="20" font-family="monospace" font-size="12" fill="#00ffff" text-anchor="middle" letter-spacing="2" opacity="0.7">SHIFT HANDOVER LOG</text>  <g transform="translate(15,30)">
+    <rect x="0" y="0" width="270" height="25" rx="3" fill="#08081a" stroke="#00ffff" stroke-width="0.2" opacity="0.37"/>
+    <text x="8" y="17" font-family="monospace" font-size="10" fill="#00ffff">Open Cases</text>
+    <rect x="170" y="5" width="14" height="15" rx="2" fill="#00ffff" opacity="0.5"><animate attributeName="width" from="0" to="14" dur="0.8s" begin="0.3s" fill="freeze"/></rect>
+  </g>  <g transform="translate(300,30)">
+    <rect x="0" y="0" width="270" height="25" rx="3" fill="#08081a" stroke="#00ffff" stroke-width="0.2" opacity="0.41"/>
+    <text x="8" y="17" font-family="monospace" font-size="10" fill="#00ffff">Updates</text>
+    <rect x="170" y="5" width="22" height="15" rx="2" fill="#00ffff" opacity="0.5"><animate attributeName="width" from="0" to="22" dur="0.8s" begin="0.36s" fill="freeze"/></rect>
+  </g>  <g transform="translate(585,30)">
+    <rect x="0" y="0" width="270" height="25" rx="3" fill="#08081a" stroke="#00ffff" stroke-width="0.2" opacity="0.315"/>
+    <text x="8" y="17" font-family="monospace" font-size="10" fill="#00ffff">Critical</text>
+    <rect x="170" y="5" width="3" height="15" rx="2" fill="#00ffff" opacity="0.5"><animate attributeName="width" from="0" to="3" dur="0.8s" begin="0.42s" fill="freeze"/></rect>
+  </g>  <g transform="translate(870,30)">
+    <rect x="0" y="0" width="270" height="25" rx="3" fill="#08081a" stroke="#00ffff" stroke-width="0.2" opacity="0.33999999999999997"/>
+    <text x="8" y="17" font-family="monospace" font-size="10" fill="#00ffff">High Priority</text>
+    <rect x="170" y="5" width="8" height="15" rx="2" fill="#00ffff" opacity="0.5"><animate attributeName="width" from="0" to="8" dur="0.8s" begin="0.48s" fill="freeze"/></rect>
+  </g>  <g transform="translate(15,65)">
+    <rect x="0" y="0" width="270" height="25" rx="3" fill="#08081a" stroke="#00ffff" stroke-width="0.2" opacity="0.36"/>
+    <text x="8" y="17" font-family="monospace" font-size="10" fill="#00ffff">Resolved</text>
+    <rect x="170" y="5" width="12" height="15" rx="2" fill="#00ffff" opacity="0.5"><animate attributeName="width" from="0" to="12" dur="0.8s" begin="0.54s" fill="freeze"/></rect>
+  </g></svg>

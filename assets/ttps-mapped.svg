@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 180" width="100%" height="auto">
+  <defs><style><![CDATA[
+    @keyframes p{0%,100%{filter:drop-shadow(0 0 3px #ff003c)}50%{filter:drop-shadow(0 0 10px #ff003c)}}
+    @keyframes sc{0%{transform:translateX(-1200px)}100%{transform:translateX(1200px)}}
+    @keyframes fk{0%,100%{opacity:0.96}2%{opacity:0.2}4%{opacity:0.96}}
+    .p{animation:p 2s ease-in-out infinite}.sc{animation:sc 4s linear infinite}.fk{animation:fk 7s infinite}
+  ]]></style></defs>
+  <rect width="1200" height="180" fill="#02020c" rx="6"/>
+  <rect x="1" y="1" width="1198" height="178" rx="6" fill="none" stroke="#ff003c" stroke-width="0.4" opacity="0.1"/>
+  <rect class="sc" width="1200" height="1" fill="#ff003c" opacity="0.04"/>
+  <rect class="fk" width="1200" height="180" fill="#000" opacity="0.01" pointer-events="none"/>
+  <text x="600" y="20" font-family="monospace" font-size="12" fill="#ff003c" text-anchor="middle" letter-spacing="2" opacity="0.7">TTP MAPPING COVERAGE</text>  <text x="20" y="30" font-family="monospace" font-size="10" fill="#ff003c" opacity="0"><animate attributeName="opacity" from="0" to="0.8" dur="0.2s" begin="0.2s" fill="freeze"/></text>
+  <text x="20" y="30" font-family="monospace" font-size="10" fill="#ff003c">Initial Access</text>  <text x="20" y="45" font-family="monospace" font-size="10" fill="#ff003c" opacity="0"><animate attributeName="opacity" from="0" to="0.8" dur="0.2s" begin="0.23s" fill="freeze"/></text>
+  <text x="20" y="45" font-family="monospace" font-size="10" fill="#ff003c">Execution</text>  <text x="20" y="60" font-family="monospace" font-size="10" fill="#ff003c" opacity="0"><animate attributeName="opacity" from="0" to="0.8" dur="0.2s" begin="0.26s" fill="freeze"/></text>
+  <text x="20" y="60" font-family="monospace" font-size="10" fill="#ff003c">Persistence</text>  <text x="20" y="75" font-family="monospace" font-size="10" fill="#ff003c" opacity="0"><animate attributeName="opacity" from="0" to="0.8" dur="0.2s" begin="0.29000000000000004s" fill="freeze"/></text>
+  <text x="20" y="75" font-family="monospace" font-size="10" fill="#ff003c">Priv Esc</text>  <text x="20" y="90" font-family="monospace" font-size="10" fill="#ff003c" opacity="0"><animate attributeName="opacity" from="0" to="0.8" dur="0.2s" begin="0.32s" fill="freeze"/></text>
+  <text x="20" y="90" font-family="monospace" font-size="10" fill="#ff003c">Defense Evasion</text></svg>
