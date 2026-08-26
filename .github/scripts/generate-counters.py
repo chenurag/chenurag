@@ -26,17 +26,15 @@ for r in repos:
     total_commits += r_data.get('size', 0)
 
 # Get this repo's commit count from link header
-cmd = ['curl', '-s', '-I', f'https://api.github.com/repos/chenurag/chenurag/commits?per_page=1']
+cmd = ['curl', '-sI', f'https://api.github.com/repos/chenurag/chenurag/commits?per_page=1']
 if TOKEN:
     cmd += ['-H', f'Authorization: Bearer {TOKEN}']
 r = subprocess.run(cmd, capture_output=True, text=True, timeout=15)
 profile_commits = 0
-import re
 m = re.search(r'page=(\d+)>; rel="last"', r.stdout or '')
 if m:
     profile_commits = int(m.group(1))
 else:
-    # Fallback
     profile_commits = total_commits
 
 total_kb = sum(r.get('size', 0) for r in repos)
@@ -95,7 +93,6 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" width="
 </svg>'''
 
 # Validate XML
-import xml.etree.ElementTree as ET
 ET.fromstring(svg)
 print(f'Generated counter-dashboard.svg with real data:')
 print(f'  Repos: {repo_count}')
@@ -104,7 +101,9 @@ print(f'  Profile commits: {profile_commits}')
 print(f'  KB: {total_kb}')
 print(f'  SVG size: {len(svg):,} bytes')
 
-# Write output
-with open('counter-dashboard.svg', 'w') as f:
+# Write output to assets/ for README reference
+outpath = 'assets/counter-dashboard.svg'
+os.makedirs('assets', exist_ok=True)
+with open(outpath, 'w') as f:
     f.write(svg)
-print('Written to counter-dashboard.svg')
+print(f'Written to {outpath}')

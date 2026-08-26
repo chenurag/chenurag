@@ -1,14 +1,13 @@
-name: Update Live Counters
-
+name: Update Live Counters & Streak
 on:
   schedule:
-    - cron: "0 * * * *"  # Every hour
-  workflow_dispatch:      # Manual trigger
+    - cron: "0 * * * *"   # Every hour
+  workflow_dispatch:
   push:
     branches: [main]
 
 jobs:
-  update-counters:
+  update-metrics:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -20,17 +19,24 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Validate XML
-        run: python3 -c "import xml.etree.ElementTree as ET; ET.parse('counter-dashboard.svg'); print('XML valid')"
+      - name: Generate live streak SVG
+        run: python3 .github/scripts/generate-streak.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Commit updated counters
+      - name: Validate XML
+        run: |
+          python3 -c "import xml.etree.ElementTree as ET; ET.parse('assets/counter-dashboard.svg'); print('counter-dashboard: XML valid')"
+          python3 -c "import xml.etree.ElementTree as ET; ET.parse('assets/streak-panel.svg'); print('streak-panel: XML valid')"
+
+      - name: Commit updated SVGs
         run: |
           git config user.name "chenurag"
           git config user.email "97651192+chenurag@users.noreply.github.com"
-          git add counter-dashboard.svg
+          git add assets/counter-dashboard.svg assets/streak-panel.svg
           if git diff --cached --quiet; then
-            echo "No changes — counters up to date"
+            echo "No changes — metrics up to date"
           else
-            git commit -m "⚡ auto-update counters: $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git commit -m "⚡ auto-update counters & streak: $(date -u '+%Y-%m-%d %H:%M UTC')"
             git push
           fi
