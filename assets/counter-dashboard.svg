@@ -25,22 +25,22 @@
 
     <!-- COMMITS -->
     <rect x="210" y="80" width="170" height="0" rx="6" fill="#0a0a1a" stroke="#00ffff" stroke-width="1" class="g3"/>
-    <text x="295" y="140" font-family="monospace" font-size="30" fill="#00ffff" text-anchor="middle" class="br">469</text>
+    <text x="295" y="140" font-family="monospace" font-size="30" fill="#00ffff" text-anchor="middle" class="br">426</text>
     <text x="295" y="165" font-family="monospace" font-size="12" fill="#888" text-anchor="middle">COMMITS</text>
 
     <!-- PROFILE COMMITS -->
     <rect x="420" y="0" width="170" height="0" rx="6" fill="#0a000a" stroke="#ff003c" stroke-width="1" class="g5"/>
-    <text x="505" y="60" font-family="monospace" font-size="30" fill="#ff6666" text-anchor="middle" class="p1">131</text>
+    <text x="505" y="60" font-family="monospace" font-size="30" fill="#ff6666" text-anchor="middle" class="p1">132</text>
     <text x="505" y="85" font-family="monospace" font-size="12" fill="#888" text-anchor="middle">PROFILE COMMITS</text>
 
     <!-- STREAK -->
     <rect x="630" y="120" width="170" height="0" rx="6" fill="#0a0a1a" stroke="#9d00ff" stroke-width="1" class="g4"/>
-    <text x="715" y="180" font-family="monospace" font-size="30" fill="#9d00ff" text-anchor="middle" class="p1">131</text>
+    <text x="715" y="180" font-family="monospace" font-size="30" fill="#9d00ff" text-anchor="middle" class="p1">132</text>
     <text x="715" y="205" font-family="monospace" font-size="12" fill="#888" text-anchor="middle">COMMIT STREAK</text>
 
     <!-- KB -->
     <rect x="840" y="170" width="170" height="0" rx="6" fill="#0a1a0a" stroke="#00ff88" stroke-width="1" class="g1"/>
-    <text x="925" y="205" font-family="monospace" font-size="30" fill="#00ff88" text-anchor="middle" class="p1">469</text>
+    <text x="925" y="205" font-family="monospace" font-size="30" fill="#00ff88" text-anchor="middle" class="p1">426</text>
     <text x="925" y="228" font-family="monospace" font-size="12" fill="#888" text-anchor="middle">KB CODE</text>
   </g>
 
