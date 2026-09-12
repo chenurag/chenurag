@@ -7,6 +7,10 @@
 
 
 <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/github-ch.gif">
+  <img src="assets/github-ch.gif" alt="Coding workspace with CH shirt mark" width="100%">
+</picture>
+<br><picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/ch-as-ravana.svg">
   <img src="assets/ch-as-ravana.svg" alt="CH as Ravana shirt artwork" width="100%">
 </picture>
