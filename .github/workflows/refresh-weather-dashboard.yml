@@ -1,0 +1,24 @@
+name: Refresh weather dashboard
+
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate live dashboard
+        run: python .github/scripts/generate-weather-dashboard.py
+      - name: Commit updated dashboard
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/weather-ops.svg
+          git diff --cached --quiet || git commit -m "Refresh live weather dashboard"
+          git push
