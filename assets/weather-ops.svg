@@ -1,36 +1,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" width="100%" role="img" aria-labelledby="title desc">
-  <title id="title">Weather operations dashboard</title>
-  <desc id="desc">A live-looking weather operations panel with Colombo, Sri Lanka conditions and a five-day forecast.</desc>
+  <title id="title">Dynamic weather operations dashboard</title>
+  <desc id="desc">Live Colombo, Sri Lanka weather refreshed hourly from Open-Meteo.</desc>
   <defs>
     <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#061326"/><stop offset="1" stop-color="#102b4a"/></linearGradient>
     <linearGradient id="line" x1="0" x2="1"><stop stop-color="#53b8ff"/><stop offset="1" stop-color="#7cf6d2"/></linearGradient>
     <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-    <style>
-      .pulse{animation:p 3s ease-in-out infinite}.scan{animation:s 5s linear infinite}
-      @keyframes p{50%{opacity:.45}}@keyframes s{from{transform:translateX(-1200px)}to{transform:translateX(1200px)}}
-    </style>
+    <style>.pulse{animation:p 3s ease-in-out infinite}.scan{animation:s 5s linear infinite}@keyframes p{50%{opacity:.45}}@keyframes s{from{transform:translateX(-1200px)}to{transform:translateX(1200px)}}</style>
   </defs>
-  <rect width="1200" height="240" rx="12" fill="url(#bg)"/>
-  <rect x="1" y="1" width="1198" height="238" rx="12" fill="none" stroke="#53b8ff" opacity=".35"/>
+  <rect width="1200" height="240" rx="12" fill="url(#bg)"/><rect x="1" y="1" width="1198" height="238" rx="12" fill="none" stroke="#53b8ff" opacity=".35"/>
   <rect class="scan" width="1200" height="2" fill="#7cf6d2" opacity=".16"/>
   <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace">
     <text x="38" y="38" fill="#7cf6d2" font-size="13" letter-spacing="3">WEATHER OPERATIONS / LIVE TELEMETRY</text>
-    <circle class="pulse" cx="1154" cy="33" r="6" fill="#7cf6d2" filter="url(#glow)"/>
-    <text x="1170" y="38" fill="#9db6cf" font-size="11" text-anchor="end">ONLINE</text>
+    <circle class="pulse" cx="1154" cy="33" r="6" fill="#7cf6d2" filter="url(#glow)"/><text x="1170" y="38" fill="#9db6cf" font-size="11" text-anchor="end">ONLINE</text>
     <rect x="38" y="63" width="300" height="135" rx="9" fill="#071b31" stroke="#23567a"/>
     <text x="60" y="91" fill="#9db6cf" font-size="12">COLOMBO, LK / 6.93° N</text>
-    <text x="60" y="145" fill="#eaf7ff" font-size="48">28°</text><text x="177" y="141" fill="#7cf6d2" font-size="14">PARTLY CLOUDY</text>
-    <text x="60" y="175" fill="#9db6cf" font-size="12">HUMIDITY 76%   WIND 14 KM/H</text>
-    <g transform="translate(380 70)">
-      <text x="0" y="18" fill="#9db6cf" font-size="12">5-DAY OUTLOOK</text>
-      <g transform="translate(0 35)" fill="none" stroke="url(#line)" stroke-width="2">
-        <path d="M0 60 C50 28 95 56 145 23 S238 40 292 10 S390 45 445 20" opacity=".8"/>
-        <path d="M0 93 C55 72 100 94 145 61 S240 84 292 54 S390 91 445 68" stroke="#4f7899" opacity=".8"/>
-      </g>
-      <g fill="#dff7ff" font-size="12">
-        <text x="0" y="170">SAT 25°</text><text x="92" y="170">SUN 24°</text><text x="184" y="170">MON 22°</text><text x="276" y="170">TUE 26°</text><text x="368" y="170">WED 23°</text>
-      </g>
+    <text x="60" y="145" fill="#eaf7ff" font-size="48">27°</text><text x="177" y="141" fill="#7cf6d2" font-size="14">DRIZZLE</text>
+    <text x="60" y="175" fill="#9db6cf" font-size="12">HUMIDITY 86%   WIND 6 KM/H</text>
+    <g transform="translate(380 70)"><text x="0" y="18" fill="#9db6cf" font-size="12">5-DAY OUTLOOK</text>
+      <g transform="translate(0 35)" fill="none" stroke="url(#line)" stroke-width="2"><path d="M0 60 C50 28 95 56 145 23 S238 40 292 10 S390 45 445 20" opacity=".8"/><path d="M0 93 C55 72 100 94 145 61 S240 84 292 54 S390 91 445 68" stroke="#4f7899" opacity=".8"/></g>
+      <g fill="#dff7ff" font-size="12"><text x="0" y="170">SAT 32°/26°</text><text x="92" y="170">SUN 29°/25°</text><text x="184" y="170">MON 28°/24°</text><text x="276" y="170">TUE 29°/23°</text><text x="368" y="170">WED 27°/24°</text></g>
     </g>
-    <text x="1138" y="218" fill="#527b9b" font-size="10" text-anchor="end">OPEN-METEO // NO API KEY REQUIRED</text>
+    <text x="1138" y="218" fill="#527b9b" font-size="10" text-anchor="end">OPEN-METEO // UPDATED 2026-09-12 16:05 UTC</text>
   </g>
 </svg>
