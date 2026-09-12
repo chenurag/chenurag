@@ -1352,3 +1352,19 @@
 
 [![Visitors](https://komarev.com/ghpvc/?username=chenurag&label=Visitors&color=0a0a1e&style=flat)](https://github.com/chenurag)
 [![Followers](https://img.shields.io/github/followers/chenurag?label=Followers&color=0a0a1e&style=flat)](https://github.com/chenurag)
+## NEW TELEMETRY PANELS
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/weather-ops.svg">
+  <img src="assets/weather-ops.svg" alt="Weather operations dashboard" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/learning-radar.svg">
+  <img src="assets/learning-radar.svg" alt="Learning radar" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/connect-terminal.svg">
+  <img src="assets/connect-terminal.svg" alt="Connection terminal" width="100%">
+</picture>
