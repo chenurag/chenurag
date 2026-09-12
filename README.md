@@ -7,6 +7,10 @@
 
 
 <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/ch-as-ravana.svg">
+  <img src="assets/ch-as-ravana.svg" alt="CH as Ravana shirt artwork" width="100%">
+</picture>
+<br><picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-matrix-v2.svg">
   <img src="assets/hero-matrix-v2.svg" alt="hero-matrix-v2" width="100%">
 </picture>
