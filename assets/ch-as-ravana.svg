@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 330" width="100%" role="img" aria-labelledby="title desc">
+  <title id="title">CH as Ravana</title>
+  <desc id="desc">A stylized back-view character wearing a shirt marked ch as ravana.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#0b1026"/><stop offset=".55" stop-color="#241343"/><stop offset="1" stop-color="#092f46"/></linearGradient>
+    <linearGradient id="shirt" x1="0" x2="1"><stop stop-color="#a51d4b"/><stop offset=".52" stop-color="#ed5b52"/><stop offset="1" stop-color="#792557"/></linearGradient>
+    <linearGradient id="gold" x1="0" x2="1"><stop stop-color="#ffd66d"/><stop offset="1" stop-color="#ff8f5a"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      .float{animation:f 4s ease-in-out infinite}.spark{animation:s 2.8s ease-in-out infinite}
+      @keyframes f{50%{transform:translateY(-5px)}}@keyframes s{50%{opacity:.35}}
+    </style>
+  </defs>
+  <rect width="1200" height="330" rx="16" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="328" rx="16" fill="none" stroke="#ffb85c" opacity=".3"/>
+  <g opacity=".2" fill="none" stroke="#ffb85c">
+    <path d="M50 275C200 80 355 80 505 275M695 275C845 80 1000 80 1150 275"/>
+    <path d="M80 300C260 120 380 120 540 300M660 300C820 120 940 120 1120 300"/>
+  </g>
+  <g class="float">
+    <g fill="url(#gold)" filter="url(#glow)">
+      <circle cx="600" cy="58" r="31"/><circle cx="543" cy="66" r="20"/><circle cx="657" cy="66" r="20"/>
+      <circle cx="494" cy="86" r="14"/><circle cx="706" cy="86" r="14"/>
+    </g>
+    <path d="M548 86Q600 115 652 86L670 132Q600 161 530 132Z" fill="#16162b"/>
+    <path d="M535 128Q600 111 665 128L699 278Q600 316 501 278Z" fill="url(#shirt)" stroke="#ff9c68" stroke-width="2"/>
+    <path d="M535 128L484 159 457 237 495 250 526 194M665 128L716 159 743 237 705 250 674 194" fill="#b93250" stroke="#ff9c68" stroke-width="2"/>
+    <path d="M530 130Q600 158 670 130" fill="none" stroke="#7d1d48" stroke-width="8"/>
+    <path d="M600 156V285" stroke="#ffb565" stroke-width="1" opacity=".3"/>
+    <text x="600" y="214" fill="#fff0b0" font-family="ui-sans-serif, system-ui, sans-serif" font-size="26" font-weight="800" letter-spacing="4" text-anchor="middle">CH AS</text>
+    <text x="600" y="248" fill="#fff0b0" font-family="ui-sans-serif, system-ui, sans-serif" font-size="26" font-weight="800" letter-spacing="3" text-anchor="middle">RAVANA</text>
+    <path d="M552 268Q600 280 648 268" fill="none" stroke="#ffcf72" stroke-width="2" opacity=".8"/>
+  </g>
+  <g class="spark" fill="#ffd66d">
+    <circle cx="334" cy="100" r="3"/><circle cx="868" cy="86" r="3"/><circle cx="270" cy="242" r="2"/><circle cx="930" cy="230" r="2"/>
+  </g>
+  <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace">
+    <text x="52" y="52" fill="#ffd66d" font-size="13" letter-spacing="4">IDENTITY / CREATIVE MODE</text>
+    <text x="1148" y="52" fill="#a8bdd8" font-size="11" text-anchor="end">CUSTOM PROFILE PANEL</text>
+  </g>
+</svg>
