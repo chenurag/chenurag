@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" width="100%" role="img" aria-labelledby="title desc">
   <title id="title">Weather operations dashboard</title>
-  <desc id="desc">A live-looking weather operations panel with Tokyo conditions and a five-day forecast.</desc>
+  <desc id="desc">A live-looking weather operations panel with Colombo, Sri Lanka conditions and a five-day forecast.</desc>
   <defs>
     <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#061326"/><stop offset="1" stop-color="#102b4a"/></linearGradient>
     <linearGradient id="line" x1="0" x2="1"><stop stop-color="#53b8ff"/><stop offset="1" stop-color="#7cf6d2"/></linearGradient>
@@ -18,9 +18,9 @@
     <circle class="pulse" cx="1154" cy="33" r="6" fill="#7cf6d2" filter="url(#glow)"/>
     <text x="1170" y="38" fill="#9db6cf" font-size="11" text-anchor="end">ONLINE</text>
     <rect x="38" y="63" width="300" height="135" rx="9" fill="#071b31" stroke="#23567a"/>
-    <text x="60" y="91" fill="#9db6cf" font-size="12">TOKYO, JP / 35.68° N</text>
-    <text x="60" y="145" fill="#eaf7ff" font-size="48">22°</text><text x="177" y="141" fill="#7cf6d2" font-size="14">PARTLY CLOUDY</text>
-    <text x="60" y="175" fill="#9db6cf" font-size="12">HUMIDITY 68%   WIND 12 KM/H</text>
+    <text x="60" y="91" fill="#9db6cf" font-size="12">COLOMBO, LK / 6.93° N</text>
+    <text x="60" y="145" fill="#eaf7ff" font-size="48">28°</text><text x="177" y="141" fill="#7cf6d2" font-size="14">PARTLY CLOUDY</text>
+    <text x="60" y="175" fill="#9db6cf" font-size="12">HUMIDITY 76%   WIND 14 KM/H</text>
     <g transform="translate(380 70)">
       <text x="0" y="18" fill="#9db6cf" font-size="12">5-DAY OUTLOOK</text>
       <g transform="translate(0 35)" fill="none" stroke="url(#line)" stroke-width="2">
