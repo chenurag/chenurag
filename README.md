@@ -1376,3 +1376,259 @@
   <source media="(prefers-color-scheme: dark)" srcset="assets/connect-terminal.svg">
   <img src="assets/connect-terminal.svg" alt="Connection terminal" width="100%">
 </picture>
+
+
+## ADDITIONAL PROFILE TELEMETRY
+
+<!-- 50 additional SVG panels; existing artwork above is preserved. -->
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/ai-workbench.svg">
+  <img src="assets/ai-workbench.svg" alt="ai workbench profile panel" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/api-gateway.svg">
+  <img src="assets/api-gateway.svg" alt="api gateway profile panel" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/aurora-node.svg">
+  <img src="assets/aurora-node.svg" alt="aurora node profile panel" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/backend-room.svg">
+  <img src="assets/backend-room.svg" alt="backend room profile panel" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/backup-beacon.svg">
+  <img src="assets/backup-beacon.svg" alt="backup beacon profile panel" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/blue-team-brief.svg">
+  <img src="assets/blue-team-brief.svg" alt="blue team brief profile panel" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/build-meter.svg">
+  <img src="assets/build-meter.svg" alt="build meter profile panel" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/ch-identity.svg">
+  <img src="assets/ch-identity.svg" alt="ch identity profile panel" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/cipher-room.svg">
+  <img src="assets/cipher-room.svg" alt="cipher room profile panel" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/cloud-forge.svg">
+  <img src="assets/cloud-forge.svg" alt="cloud forge profile panel" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/coastal-signal.svg">
+  <img src="assets/coastal-signal.svg" alt="coastal signal profile panel" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/commit-pulse.svg">
+  <img src="assets/commit-pulse.svg" alt="commit pulse profile panel" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/container-deck.svg">
+  <img src="assets/container-deck.svg" alt="container deck profile panel" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/database-core.svg">
+  <img src="assets/database-core.svg" alt="database core profile panel" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/data-vault.svg">
+  <img src="assets/data-vault.svg" alt="data vault profile panel" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/design-system.svg">
+  <img src="assets/design-system.svg" alt="design system profile panel" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/docs-lighthouse.svg">
+  <img src="assets/docs-lighthouse.svg" alt="docs lighthouse profile panel" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/edge-compute.svg">
+  <img src="assets/edge-compute.svg" alt="edge compute profile panel" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/firewall-core.svg">
+  <img src="assets/firewall-core.svg" alt="firewall core profile panel" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/focus-mode.svg">
+  <img src="assets/focus-mode.svg" alt="focus mode profile panel" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/frontend-lab.svg">
+  <img src="assets/frontend-lab.svg" alt="frontend lab profile panel" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/identity-matrix.svg">
+  <img src="assets/identity-matrix.svg" alt="identity matrix profile panel" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/incident-room.svg">
+  <img src="assets/incident-room.svg" alt="incident room profile panel" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/island-node.svg">
+  <img src="assets/island-node.svg" alt="island node profile panel" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/linux-console.svg">
+  <img src="assets/linux-console.svg" alt="linux console profile panel" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/midnight-build.svg">
+  <img src="assets/midnight-build.svg" alt="midnight build profile panel" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/ml-pipeline.svg">
+  <img src="assets/ml-pipeline.svg" alt="ml pipeline profile panel" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/monsoon-watch.svg">
+  <img src="assets/monsoon-watch.svg" alt="monsoon watch profile panel" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/night-shift.svg">
+  <img src="assets/night-shift.svg" alt="night shift profile panel" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/observability.svg">
+  <img src="assets/observability.svg" alt="observability profile panel" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/open-source.svg">
+  <img src="assets/open-source.svg" alt="open source profile panel" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/orbit-control.svg">
+  <img src="assets/orbit-control.svg" alt="orbit control profile panel" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/packet-watch.svg">
+  <img src="assets/packet-watch.svg" alt="packet watch profile panel" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/purple-signal.svg">
+  <img src="assets/purple-signal.svg" alt="purple signal profile panel" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/python-lab.svg">
+  <img src="assets/python-lab.svg" alt="python lab profile panel" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/quantum-lab.svg">
+  <img src="assets/quantum-lab.svg" alt="quantum lab profile panel" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/rain-code.svg">
+  <img src="assets/rain-code.svg" alt="rain code profile panel" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/ravana-mode.svg">
+  <img src="assets/ravana-mode.svg" alt="ravana mode profile panel" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/red-team-brief.svg">
+  <img src="assets/red-team-brief.svg" alt="red team brief profile panel" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/release-train.svg">
+  <img src="assets/release-train.svg" alt="release train profile panel" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/research-desk.svg">
+  <img src="assets/research-desk.svg" alt="research desk profile panel" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/secure-shell.svg">
+  <img src="assets/secure-shell.svg" alt="secure shell profile panel" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/ship-it.svg">
+  <img src="assets/ship-it.svg" alt="ship it profile panel" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/signal-grid.svg">
+  <img src="assets/signal-grid.svg" alt="signal grid profile panel" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/skyline-status.svg">
+  <img src="assets/skyline-status.svg" alt="skyline status profile panel" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/sunrise-deploy.svg">
+  <img src="assets/sunrise-deploy.svg" alt="sunrise deploy profile panel" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/terminal-rain.svg">
+  <img src="assets/terminal-rain.svg" alt="terminal rain profile panel" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/threat-radar.svg">
+  <img src="assets/threat-radar.svg" alt="threat radar profile panel" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/tropical-stack.svg">
+  <img src="assets/tropical-stack.svg" alt="tropical stack profile panel" width="100%">
+</picture>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/weather-link.svg">
+  <img src="assets/weather-link.svg" alt="weather link profile panel" width="100%">
+</picture>
+<br>
